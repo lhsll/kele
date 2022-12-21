@@ -1,0 +1,35 @@
+#!name=Apple分流修正
+#!desc=Apple分流  更新：2022-11-29 07:27:50
+[Rule]
+# > 苹果推送服务
+DOMAIN-KEYWORD,push.apple.com,DIRECT
+# > 苹果时间同步
+DOMAIN,time.apple.com,DIRECT
+# > 苹果天气服务
+DOMAIN-KEYWORD,weather-edge.apple.com,DIRECT
+DOMAIN-KEYWORD,weather-adge.apple.com,DIRECT
+# > 苹果内购服务
+DOMAIN-KEYWORD,buy.itunes.apple.com,DIRECT
+# > 苹果icloud
+DOMAIN-KEYWORD,icloud.com,DIRECT
+# > 苹果输入法相关服务
+DOMAIN-KEYWORD,api.smoot.apple.com,DIRECT
+DOMAIN-KEYWORD,api.smoot.apple.cn,DIRECT
+# > 苹果iMessage服务
+DOMAIN,init.ess.apple.com,DIRECT
+# > 苹果其他服务
+DOMAIN-KEYWORD,ssl.apple.com,DIRECT
+DOMAIN-KEYWORD,humb.apple.com,DIRECT
+DOMAIN,smp-device-content.apple.com,DIRECT
+DOMAIN-KEYWORD,api-adservices.apple.com,DIRECT
+DOMAIN-KEYWORD,ls.apple.com,DIRECT
+DOMAIN-KEYWORD,gsa.apple.com,DIRECT
+DOMAIN-KEYWORD,ess.apple.com,DIRECT
+# > QQ空间
+DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com,DIRECT
+# > 路由器后台
+IP-CIDR,192.168.0.1/24,DIRECT,no-resolve
+# > 天翼网关
+IP-CIDR,192.168.1.1/24,DIRECT,no-resolve
+# > 其他分流修正
+DOMAIN-KEYWORD,anti-ad.net,DIRECT

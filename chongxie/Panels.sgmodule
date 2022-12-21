@@ -1,0 +1,18 @@
+#!name=Surge Panels
+#!desc=信息面板 2022-12-10 12:05:03
+
+[Panel]
+节假日倒计时 = script-name=节假日倒计时,update-interval=600
+网络信息 = script-name=网络信息,title=网络信息,content=请刷新,style=info,update-interval=60
+net-info-panel = script-name=net-info-panel, title="网络状态", content="请刷新", style=info
+#流量统计
+TrafficStatistics = script-name=TrafficStatistics,update-interval=1
+functionstatus = script-name=functionstatus, title="Surge Pro", content="请刷新", update-interval=0
+策略面板 = script-name=解锁检测,update-interval=7200
+[Script]
+节假日倒计时 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Timecard.js
+net-info-panel = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Panels/NetInfo/net-info-panel.js
+解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Stream-All.js,script-update-interval=0,argument=title=解锁检测&icon=headphones.circle&color=#FF2121
+#流量统计 点击以切换网络界面
+TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js ,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
+网络信息 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ipcheck.js

@@ -1,0 +1,68 @@
+#!name=bilibiliAD重构版
+#!desc=哔哩哔哩  更新：  2022-12-13 17:48:13
+#!system=ios
+#改写自https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Rewrite/AdBlock/Bilibili.conf
+[Rule]
+DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+
+[URL Rewrite]
+#屏蔽IP请求
+^https?:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
+#屏蔽DefaultWord
+^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default - reject
+# 去除动态中的话题
+#^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject
+^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default url reject
+
+[Map Local]
+#动态中话题
+^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#小卡片广告
+^https://api.bilibili.com/pgc/season/player/cards data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#Material_Ad
+^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#Defaultword
+^https://app.bilibili.com/x/v2/search/defaultwords data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#应用开屏去广告
+#^https://app.bilibili.com/x/v2/splash/show data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#屏蔽广告浮窗
+^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+[Script]
+
+哔哩哔哩4k = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
+
+#BiliBili_开屏预加载 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
+
+BiliBili_我的页面处理@ddgksf2013 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
+
+#合并#BiliBili_哔哩哔哩_Proto去广告@app2smile = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili-proto.js,script-update-interval=-1
+#合并#BiliBili_推荐去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
+标签页处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/Script/bilibili_json.js
+##################分割线#######################
+# 仓库地址 https://github.com/app2smile/rules
+# h2下走grpc.biliapi.net(Surge TF2332以上版本可正常解析) h1时走app.bilibili.com
+
+#以下二选一  注释即可
+#不去除动态中最常访问
+#bili-proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|playurl\.v1\.PlayURL\/PlayView)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili-proto.js,script-update-interval=-1
+
+#去除动态中最常访问
+bili-proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll|playurl\.v1\.PlayURL\/PlayView)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili-proto.js,script-update-interval=-1
+
+bili-json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2),requires-body=1,max-size=0,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili-json.js,script-update-interval=-1
+
+屏蔽首页右上活动 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=0,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/Script/bilibili_json.js
+
+#BiliBili_观影页面去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
+
+BiliBili_热搜发现 = type=http-response,requires-body=1,max-size=0,pattern=^https://app.bilibili.com/x/v2/search/square,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
+
+BiliBili_统一设置的皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
+
+B站皮肤魔改 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/bili_info.js
+
+哔哩哔哩会员限定版 = type=http-request,pattern= ^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili\.\w{3,9}\..+\/(View|Play(URL|View|Conf|erOnline)|MainList|ViewProgress)$,requires-body=0,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/BiLiBiLiBVIPCrack.js
+
+[MITM]
+hostname = %APPEND% app.bilibili.com, api.bilibili.com,api.biliapi.net, grpc.biliapi.net, api.vc.bilibili.com
+#, -broadcast.chat.bilibili.com, grpc.biliapi.net, -*cdn*.biliapi.net, -*tracker*.biliapi.net, api.live.bilibili.com, manga.bilibili.com

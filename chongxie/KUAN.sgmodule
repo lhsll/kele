@@ -1,0 +1,22 @@
+#!name=酷安去广告
+#!desc=其他去广告  更新：2022-12-9 23:46:27
+#!system=ios
+
+
+[Url Rewrite]
+
+^https?://api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk - reject
+
+[Script]
+
+# > kuan@kk pp
+coolapk = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList),requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Script/coolapk.js
+
+[Map Local]
+
+# > kuan@ddgksf2013
+^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+
+[MITM]
+
+hostname = %APPEND% api.coolapk.com, api-access.pangolin-sdk-toutiao.com

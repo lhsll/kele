@@ -1,0 +1,8 @@
+#!name= 京东比价转链
+#!desc= 京东比价   2022-11-15 16:58:42
+#!system=ios
+
+[Script]
+京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jf_Convert.js,use-local-host-item-for-proxy = true,script-update-interval=0
+[MITM]
+hostname = %APPEND% api.m.jd.com,me-api.jd.com,*.jd.com, *.*.jd.com

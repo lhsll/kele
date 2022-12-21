@@ -1,0 +1,12 @@
+#!name=定时脚本
+#!desc=最后更新时间 2022-12-8 08:13:16
+#!system=ios
+
+# 分割线——————————————————————————
+
+[Script]
+# > 美团
+美团签到 = type=cron,cronexp=0 1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
+# > 同步检测
+账号同步 = type=cron,cronexp="0 35 6,14,23 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/ql_sync_box.js,script-update-interval=0
+帐户检测 = type=cron,cronexp="0 36 6,14,23 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_cookie_search.js,script-update-interval=0

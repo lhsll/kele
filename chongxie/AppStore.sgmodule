@@ -1,0 +1,10 @@
+#!name=App Store下载提速
+#!desc=苹果商店  更新：2022-12-12 01:26:43
+#!system=ios
+
+[Rule]
+DOMAIN,iosapps.itunes.apple.com,苹果特殊代理
+DOMAIN,swcdn.apple.com,苹果特殊代理
+DOMAIN,updates-http.cdn-apple.com,苹果特殊代理
+DOMAIN,updates.cdn-apple.com,苹果特殊代理
+DOMAIN,osxapps.itunes.apple.com,苹果特殊代理

@@ -1,0 +1,9 @@
+#!name=屏蔽 iOS 系统更新
+#!desc= iOS 系统更新  更新：2022-11-29 22:46:04
+#!system=ios
+
+[Rule]
+DOMAIN,mesu.apple.com,Reject
+DOMAIN,gdmf.apple.com,Reject
+DOMAIN,updates-http.cdn-apple.com,Reject
+DOMAIN,xp.apple.com,Reject

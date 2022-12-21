@@ -1,0 +1,65 @@
+#!name=会员破解
+#!desc=会员  2022-11-15 16:57:54
+#!system=ios
+
+[Script]
+#>>>>>>>>>>>>>>>>生活类VIP
+# ✅ 酷我音乐(会员共享)[vip至2023-05-07]
+酷我音乐 = type=http-response,pattern=^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ne|\/a\.p|v\d\/api\/(user\/in|pay\/vi)|\w{3}\/v\d\/user\/vi|\w{3}\/spi\/ms|\w{3}\/v\d\/the|\w{3}\/enc\/use) ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Script/kwyy.js
+XX = type=http-response,pattern=^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui) url script-request-header https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/kwyy.js
+# ✅ 一言(need登录)
+一言 = type=http-response,pattern=^https:\/\/app\.yiyan\.art\/yiyan\/ ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/yiyan.js
+# ✅ 西窗烛(need登录)
+西窗烛 = type=http-response,pattern=^https://lchttpapi.xczim.com/* ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/xcz.js
+
+
+
+
+#>>>>>>>>>>>>>>>>新闻类VIP
+# ✅ 财新周刊
+财新周刊 = type=http-response,pattern=^http://ipadcms.caixin.com/tmp/articles/* ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/cxzk.js
+# ✅ 财新(会员共享)[vip至2022-09-06]
+财新(会员共享) = type=http-response,pattern=^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
+
+
+
+
+
+
+
+#>>>>>>>>>>>>>>>>图影类VIP
+# ✅ Fimo(need登录)
+Fimo = type=http-response,pattern=^https://server.yoyiapp.com/fimo-user/user$ ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/fimo.js
+# ✅ 傲软抠图(need登录)
+傲软抠图 = type=http-response,pattern=^https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/apowersoft.js
+# ✅ 美图秀秀(need登录)
+美图秀秀 = type=http-response,pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
+# ✅ 克拉壁纸
+克拉壁纸 = type=http-response,pattern=^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/clarity.js
+# ✅ Picsart
+Picsart = type=http-response,pattern=^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/picsart.js
+# ✅ VSCO|1Blocker
+VSCO = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+1Blocker = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+
+
+
+#>>>>>>>>>>>>>>>>工具类VIP
+# ✅ Notability
+Notability = type=http-response,pattern=^https://notability.com/subscriptions ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/notability.js
+# ✅ 百度网盘(倍速)
+百度网盘(倍速) = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/bdcloud.js
+# ✅ WPS(国区)
+WPS(国区) = type=http-response,pattern=^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+# ✅ Nicegram
+Nicegram = type=http-response,pattern=^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/nicegram_body.js
+# ✅ Appraven(美化)
+Appraven(美化) = type=http-response,pattern=^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/appraven.js
+# ✅ 扫描全能王
+扫描全能王= type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/camscanner.js
+# ✅ 滴答清单
+滴答清单 = type=http-response,pattern=^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/ddqd.js
+
+[MITM]
+
+hostname = %APPEND% lchttpapi.xczim.com, app.yiyan.art, *kuwo*, *lrts*, gateway.caixin.com, api.revenuecat.com, notability.com, pan.baidu.com, spclient.wg.spotify.com, *wps*, ticktick.com, dida365.com, ap*.intsig.net, ipadcms.caixin.com, server.yoyiapp.com, gw.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net
