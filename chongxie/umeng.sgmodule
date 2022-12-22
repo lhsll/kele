@@ -1,10 +1,11 @@
 #!name=umeng分流修正
-#!desc=umeng域名毒瘤软件分流修正  更新：2022-12-22 10:59:47
+#!desc=umeng域名毒瘤软件分流修正  更新：2022-12-22 11:27:19
 #!system=ios
 
 
 
 [Rule]
+USER-AGENT,umeng,umeng
 DOMAIN-SUFFIX,umeng.co,umeng
 # umeng.com
 DOMAIN-SUFFIX,ar.umeng.com,umeng
