@@ -1,0 +1,27 @@
+#!name=umeng分流修正
+#!desc=umeng域名毒瘤软件分流修正  更新：2022-12-22 10:59:47
+#!system=ios
+
+
+
+[Rule]
+DOMAIN-SUFFIX,umeng.co,umeng
+# umeng.com
+DOMAIN-SUFFIX,ar.umeng.com,umeng
+DOMAIN-SUFFIX,alog.umeng.com,umeng
+DOMAIN-SUFFIX,alogs.umeng.com,umeng
+DOMAIN-SUFFIX,log.umeng.com,umeng
+DOMAIN-SUFFIX,logs.umeng.com,umeng
+DOMAIN-SUFFIX,msg.umeng.com,umeng
+DOMAIN-SUFFIX,plbslog.umeng.com,umeng
+DOMAIN-SUFFIX,ulogs.umeng.com,umeng
+DOMAIN-SUFFIX,uop.umeng.com,umeng
+DOMAIN-SUFFIX,utoken.umeng.com,umeng
+# umengcloud.com
+DOMAIN-SUFFIX,log.umengcloud.com,umeng
+DOMAIN-SUFFIX,ulog.umengcloud.com,umeng
+DOMAIN-SUFFIX,ulogs.umengcloud.com,umeng
+# umengcloudlog.com
+DOMAIN-SUFFIX,logs.umengcloudlog.com,umeng
+DOMAIN-SUFFIX,alogs.umengcloudlog.com,umeng
+DOMAIN-SUFFIX,alog.umengcloudlog.com,umeng
