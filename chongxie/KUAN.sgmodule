@@ -1,11 +1,11 @@
 #!name=酷安去广告
-#!desc=其他去广告  更新：2022-12-9 23:46:27
+#!desc=其他去广告  更新：2022-12-22 10:25:31
 #!system=ios
 
 
-[Url Rewrite]
+[Rule]
 
-^https?://api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk - reject
+DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT-NO-DROP
 
 [Script]
 

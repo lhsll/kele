@@ -1,5 +1,5 @@
 #!name=张军去广告(可乐修改版)
-#!desc=其他去广告  更新：2022-12-9 00:33:54
+#!desc=其他去广告  更新：2022-12-22 10:29:42
 #!system=ios
 
 [Rule]
@@ -9176,7 +9176,6 @@ DOMAIN-SUFFIX,alog.umengcloud.com,REJECT
 DOMAIN-SUFFIX,alogs.umengcloud.com,REJECT
 DOMAIN-SUFFIX,ar.umeng.com,REJECT
 DOMAIN-SUFFIX,plbslog.umeng.com,REJECT
-DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT
 DOMAIN-SUFFIX,a.wkanx.com,REJECT
 DOMAIN-SUFFIX,cwx.lianwangtech.com,REJECT
 DOMAIN-SUFFIX,c1wx.lianwangtech.com,REJECT
