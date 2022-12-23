@@ -9,7 +9,6 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 [Map Local]
 ^https:\/\/ossgw\.alicdn\.com\/creatives-assets\/image\/[A-Za-z0-9]{4}\/\d{4}\/\d{2}\/\d{2}\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]+?\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
-^https:\/\/flowplus\.meituan\.net\/v1\/.+\/linglong\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
-
+^https:\/\/flowplus\.meituan\.net\/v1\/.+\/linglong\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-array.json"
 [MITM]
 hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net
