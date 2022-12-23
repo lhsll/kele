@@ -5,8 +5,9 @@
 
 [[URL Rewrite]
 https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.com/lhsll/Plao/main/rsp_17889startInfo.json header
-
-[Url Rewrite]
 ^http:\/\/xiaoredpic\.neoclub\.cn/backend\/activityPack\/.+.png - reject
+[Map Local]
+^https:\/\/ossgw\.alicdn\.com\/creatives-assets\/image\/[A-Za-z0-9]{4}\/\d{4}\/\d{2}\/\d{2}\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
+
 [MITM]
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com
