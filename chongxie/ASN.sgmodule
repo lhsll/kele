@@ -1,0 +1,14 @@
+#!name=ASN分流
+#!desc=ASN  更新：2022-12-24 21:55:17
+#!system=ios
+
+[Rule]
+IP-ASN,56040,DIRECT,no-resolve // Wechat
+IP-ASN,56041,DIRECT,no-resolve // Wechat
+IP-ASN,56042,DIRECT,no-resolve // Wechat
+IP-ASN,56044,DIRECT,no-resolve // Wechat
+IP-ASN,56046,DIRECT,no-resolve // Wechat
+IP-ASN,56047,DIRECT,no-resolve // Wechat
+IP-ASN,56048,DIRECT,no-resolve // Wechat
+IP-ASN,132203,DIRECT,no-resolve// Wechat
+IP-ASN,9808,DIRECT,no-resolve // 广东移动通信有限公司
