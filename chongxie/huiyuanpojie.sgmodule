@@ -29,5 +29,5 @@ Grow解锁永久会员 = type=http-response,pattern=^https?:\/\/api\.revenuecat\
 
 
 [MITM]
-hostname = %APPEND% *xiaozujian.com, *faceu*, *retouchpics*, pay.wecut.com, wallpaper.soutushenqi.com, api.revenuecat.com, buy.itunes.apple.com, widget-box-api.codefuture.top, api.revenuecat.com, api.tipsoon.com,
+hostname = %APPEND% *xiaozujian.com, commerce-api.faceu.mobi, pay.wecut.com, wallpaper.soutushenqi.com, api.revenuecat.com, buy.itunes.apple.com, widget-box-api.codefuture.top, api.revenuecat.com, api.tipsoon.com,
 
