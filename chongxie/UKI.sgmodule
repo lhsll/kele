@@ -2,8 +2,6 @@
 #!desc=自制  更新：2022-12-20 12:14:39
 #!system=ios
 
-[Script]
-美团 = type=http-response,pattern=^https:\/\/mop.meituan.com\/api\/entryModule\/.+$ ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/Sta/main/Kp/meitun.json_js
 [[URL Rewrite]
 https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.com/lhsll/Plao/main/rsp_17889startInfo.json header
 ^http:\/\/xiaoredpic\.neoclub\.cn/backend\/activityPack\/.+.png - reject
@@ -11,6 +9,7 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 [Map Local]
 ^https:\/\/ossgw\.alicdn\.com\/creatives-assets\/image\/[A-Za-z0-9]{4}\/\d{4}\/\d{2}\/\d{2}\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]+?\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
-^https:\/\/flowplus\.meituan\.net\/v1\/.+\/linglong\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-array.json"
+^https:\/\/flowplus\.meituan\.net\/v\d{1}\/.+\/linglong\/.+\.(jpg|jpeg|png|gif|webp|mp4)$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-img.gif"
+^https:\/\/mop\.meituan\.com\/api\/entryModule\/.+$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-array.json"
 [MITM]
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com
