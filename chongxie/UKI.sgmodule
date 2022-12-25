@@ -11,5 +11,6 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 ^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]+?\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^https:\/\/flowplus\.meituan\.net\/v\d{1}\/.+\/linglong\/.+\.(jpg|jpeg|png|gif|webp|mp4)$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-img.gif"
 ^https:\/\/mop\.meituan\.com\/api\/entryModule\/.+$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-array.json"
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 [MITM]
 hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com
