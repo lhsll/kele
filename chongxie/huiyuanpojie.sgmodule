@@ -6,6 +6,7 @@
 # ～ TopWidgets☆永久VIP（2022-10-30）@ddgksf2013
 TopWidgets= type=http-response,pattern=^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/topwidgets.js
 
+醒图+解锁VIP = type=http-response,pattern=^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xt.js
 #醒图解锁VIP = type=http-request,pattern=^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/XT2.js
 
 #醒图
