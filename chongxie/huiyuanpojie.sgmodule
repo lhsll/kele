@@ -6,7 +6,11 @@
 # ～ TopWidgets☆永久VIP（2022-10-30）@ddgksf2013
 TopWidgets= type=http-response,pattern=^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig ,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Crack/topwidgets.js
 
-醒图——解锁VIP = type=http-request,pattern=^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/XT2.js
+#醒图——解锁VIP = type=http-request,pattern=^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/gx/XT2.js
+
+#醒图
+^http[s]?:\/\/commerccd-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xuid.js
+^http[s]?:\/\/.+((retouchpics)|(faceu)).(com|cn|mobi)\/.+user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js
 
 手机硬件管家解锁永久高级版 = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$,requires-body=1,max-size=0,script-path=https://ghproxy.com/https://raw.githubusercontent.com/lhsll/CQY/main/Script/MobileMonsterProCrack.js
 
@@ -24,5 +28,5 @@ Grow解锁永久会员 = type=http-response,pattern=^https?:\/\/api\.revenuecat\
 
 
 [MITM]
-hostname = %APPEND% *xiaozujian.com, *faceu*,*retouchpics*, pay.wecut.com, wallpaper.soutushenqi.com, api.revenuecat.com, buy.itunes.apple.com, biz.caiyunapp.com, widget-box-api.codefuture.top, api.revenuecat.com, api.tipsoon.com, *.caiyunapp.*
+hostname = %APPEND% *xiaozujian.com, *faceu*, *retouchpics*, pay.wecut.com, wallpaper.soutushenqi.com, api.revenuecat.com, buy.itunes.apple.com, widget-box-api.codefuture.top, api.revenuecat.com, api.tipsoon.com,
 
