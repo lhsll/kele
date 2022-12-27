@@ -13,5 +13,7 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 ^https:\/\/mop\.meituan\.com\/api\/entryModule\/.+$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-array.json"
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^https:\/\/(img|gw)\.alicdn\.com\/imgextra\/i\d\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
+^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
+
 [MITM]
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com,
