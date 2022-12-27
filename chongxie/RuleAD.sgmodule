@@ -178,14 +178,6 @@ DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
 DOMAIN-SUFFIX, shouji.sougou.com,REJECT
 DOMAIN, u51.me,REJECT
 DOMAIN-SUFFIX, u51.me,REJECT
-# > 美团
-DOMAIN, flowplus.meituan.net,REJECT
-DOMAIN-SUFFIX, analytics.meituan.net,REJECT
-DOMAIN-SUFFIX, meituan.xn--io0a7i,REJECT
-DOMAIN-SUFFIX, meituan.yoga,REJECT
-DOMAIN-SUFFIX, meituangov.cn,REJECT
-DOMAIN-SUFFIX, report.meituan.com,REJECT
-DOMAIN-SUFFIX, wmlog.meituan.com,REJECT
 # > UC浏览器
 DOMAIN-KEYWORD, m.atm.youku.com,REJECT
 DOMAIN-KEYWORD, adp.atm.youku.com,REJECT
@@ -980,7 +972,6 @@ DOMAIN-KEYWORD,adimg.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,adimg.vue.weibo.com,REJECT
 DOMAIN-SUFFIX,zymo.mps.weibo.com,REJECT
 DOMAIN-SUFFIX,weibomingzi.com,REJECT
-DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,s.alitui.weibo.com,REJECT
 DOMAIN-SUFFIX,promote.biz.weibo.cn,REJECT
 DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn,REJECT
@@ -1014,7 +1005,6 @@ DOMAIN-KEYWORD,c.biz.weibo.com,REJECT
 DOMAIN-KEYWORD,c.wcpt.biz.weibo.com,REJECT
 DOMAIN-KEYWORD,click.uve.weibo.com,REJECT
 DOMAIN-KEYWORD,wax.weibo.com,REJECT
-DOMAIN-KEYWORD,wbapp.uve.weibo.com,REJECT
 DOMAIN-KEYWORD,widget.weibo.com,REJECT
 DOMAIN-KEYWORD,zc.biz.weibo.com,REJECT
 DOMAIN-KEYWORD,dsp.edm.weibo.cn,REJECT
