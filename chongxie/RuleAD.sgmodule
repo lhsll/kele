@@ -967,7 +967,7 @@ DOMAIN,vcardsdkservice.vivo.com.cn,REJECT
 DOMAIN-KEYWORD,stsdk.vivo.com.cn,REJECT
 DOMAIN-KEYWORD,stsdk.vivoglobal.com,REJECT
 # > 微博
-DOMAIN-KEYWORD,fastimage.uve.weibo.com,REJECT
+DOMAIN-KEYWORD,fastimage.uve.weibo.com,REJECT-NO-DROP
 DOMAIN-KEYWORD,adimg.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,adimg.vue.weibo.com,REJECT
 DOMAIN-SUFFIX,zymo.mps.weibo.com,REJECT
@@ -976,7 +976,7 @@ DOMAIN-SUFFIX,s.alitui.weibo.com,REJECT
 DOMAIN-SUFFIX,promote.biz.weibo.cn,REJECT
 DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn,REJECT
 DOMAIN-SUFFIX,game.weibo.cn,REJECT
-DOMAIN-SUFFIX,biz.weibo.com,REJECT
+DOMAIN-SUFFIX,biz.weibo.com,REJECT-NO-DROP
 DOMAIN-SUFFIX,adimg.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,game.weibo.com,REJECT
 DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn,REJECT
