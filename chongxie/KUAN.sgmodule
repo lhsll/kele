@@ -19,4 +19,4 @@ coolapk = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(
 
 [MITM]
 
-hostname = %APPEND% api.coolapk.com, api-access.pangolin-sdk-toutiao.com
+hostname = %APPEND% api.coolapk.com
