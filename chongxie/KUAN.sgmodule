@@ -6,6 +6,7 @@
 [Rule]
 
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT-NO-DROP
+DOMAIN,toblog.ctobsnssdk.com,REJECT-NO-DROP
 
 [Script]
 
