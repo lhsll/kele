@@ -5,7 +5,7 @@
 
 [Rule]
 
-DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT-NO-DROP
 
 [Script]
 
