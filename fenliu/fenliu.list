@@ -316,59 +316,7 @@ DOMAIN,r.51wnl-cq.com
 
 # > 屏蔽苹果系统更新 已经拿出去单独配置
 # https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/apple.conf
-# > 微博
-HOST-KEYWORD,fastimage.uve.weibo.com, reject
-HOST-KEYWORD,adimg.uve.weibo.com, reject
-HOST-SUFFIX,adimg.vue.weibo.com, reject
-HOST-SUFFIX,zymo.mps.weibo.com, reject
-HOST-SUFFIX,weibomingzi.com, reject
-HOST-SUFFIX,sdkapp.uve.weibo.com, reject
-HOST-SUFFIX,s.alitui.weibo.com, reject
-HOST-SUFFIX,promote.biz.weibo.cn, reject
-HOST-SUFFIX,gw5.push.mcp.weibo.cn, reject
-HOST-SUFFIX,game.weibo.cn, reject
-HOST-SUFFIX,biz.weibo.com, reject
-HOST-SUFFIX,adimg.uve.weibo.com, reject
-HOST-SUFFIX,game.weibo.com, reject
-HOST-SUFFIX,gw6.push.mcp.weibo.cn, reject
-HOST-KEYWORD,ads.viber.com, reject
-HOST-KEYWORD,ads-d.viber.com, reject
-HOST-KEYWORD,ads.aws.viber.com, reject
-HOST-SUFFIX,alitui.weibo.com, reject
-HOST,adimg.uve.weibo.com, reject
-HOST,adimg.vue.weibo.com, reject
-HOST-KEYWORD,adimg.uve.weibo.com,REJECT
-HOST-KEYWORD,alitui.weibo.com,REJECT
-HOST-KEYWORD,biz.weibo.com,REJECT
-HOST-KEYWORD,game.weibo.cn,REJECT
-HOST-KEYWORD,game.weibo.com,REJECT
-HOST-KEYWORD,gw5.push.mcp.weibo.cn,REJECT
-HOST-KEYWORD,gw6.push.mcp.weibo.cn,REJECT
-HOST-KEYWORD,promote.biz.weibo.cn,REJECT
-HOST-KEYWORD,s.alitui.weibo.com,REJECT
-HOST-KEYWORD,sdkapp.uve.weibo.com,REJECT
-HOST-KEYWORD,weibomingzi.com,REJECT
-HOST-KEYWORD,zymo.mps.weibo.com,REJECT
-HOST-KEYWORD,adimg.vue.weibo.com,REJECT
-HOST-KEYWORD,dp.im.weibo.cn,REJECT
-HOST-KEYWORD,m.game.weibo.cn,REJECT
-HOST-KEYWORD,c.biz.weibo.com,REJECT
-HOST-KEYWORD,c.wcpt.biz.weibo.com,REJECT
-HOST-KEYWORD,click.uve.weibo.com,REJECT
-HOST-KEYWORD,wax.weibo.com,REJECT
-HOST-KEYWORD,wbapp.uve.weibo.com,REJECT
-HOST-KEYWORD,widget.weibo.com,REJECT
-HOST-KEYWORD,zc.biz.weibo.com,REJECT
-HOST-KEYWORD,dsp.edm.weibo.cn,REJECT
-HOST-KEYWORD,alitui.weibo.com.cn,REJECT
-HOST-KEYWORD,biz.weibo.com.cn,REJECT
-HOST-KEYWORD,game.weibo.com.cn,REJECT
-HOST-KEYWORD,tui.weibo.com,REJECT
-HOST-KEYWORD,wax.weibo.com.cn,REJECT
-HOST-KEYWORD,ad.weibo.com,REJECT
-HOST-KEYWORD,adstrategy.biz.weibo.com,REJECT
-HOST-KEYWORD,s.weibo.com,REJECT
-HOST-KEYWORD,vs.biz.weibo.com,REJECT
+
 # > 优酷
 DOMAIN-SUFFIX,atm.youku.com
 DOMAIN,ad.mobile.youku.com
@@ -1028,6 +976,59 @@ DOMAIN,adxlog.vivo.com.cn
 DOMAIN,vcardsdkservice.vivo.com.cn
 DOMAIN-KEYWORD,stsdk.vivo.com.cn
 DOMAIN-KEYWORD,stsdk.vivoglobal.com
+# > 微博
+DOMAIN-KEYWORD,fastimage.uve.weibo.com
+DOMAIN-KEYWORD,adimg.uve.weibo.com
+DOMAIN-SUFFIX,adimg.vue.weibo.com
+DOMAIN-SUFFIX,zymo.mps.weibo.com
+DOMAIN-SUFFIX,weibomingzi.com
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com
+DOMAIN-SUFFIX,s.alitui.weibo.com
+DOMAIN-SUFFIX,promote.biz.weibo.cn
+DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn
+DOMAIN-SUFFIX,game.weibo.cn
+DOMAIN-SUFFIX,biz.weibo.com
+DOMAIN-SUFFIX,adimg.uve.weibo.com
+DOMAIN-SUFFIX,game.weibo.com
+DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn
+DOMAIN-KEYWORD,ads.viber.com
+DOMAIN-KEYWORD,ads-d.viber.com
+DOMAIN-KEYWORD,ads.aws.viber.com
+DOMAIN-SUFFIX,alitui.weibo.com
+DOMAIN,adimg.uve.weibo.com
+DOMAIN,adimg.vue.weibo.com
+DOMAIN-KEYWORD,adimg.uve.weibo.com
+DOMAIN-KEYWORD,alitui.weibo.com
+DOMAIN-KEYWORD,biz.weibo.com
+DOMAIN-KEYWORD,game.weibo.cn
+DOMAIN-KEYWORD,game.weibo.com
+DOMAIN-KEYWORD,gw5.push.mcp.weibo.cn
+DOMAIN-KEYWORD,gw6.push.mcp.weibo.cn
+DOMAIN-KEYWORD,promote.biz.weibo.cn
+DOMAIN-KEYWORD,s.alitui.weibo.com
+DOMAIN-KEYWORD,sdkapp.uve.weibo.com
+DOMAIN-KEYWORD,weibomingzi.com
+DOMAIN-KEYWORD,zymo.mps.weibo.com
+DOMAIN-KEYWORD,adimg.vue.weibo.com
+DOMAIN-KEYWORD,dp.im.weibo.cn
+DOMAIN-KEYWORD,m.game.weibo.cn
+DOMAIN-KEYWORD,c.biz.weibo.com
+DOMAIN-KEYWORD,c.wcpt.biz.weibo.com
+DOMAIN-KEYWORD,click.uve.weibo.com
+DOMAIN-KEYWORD,wax.weibo.com
+DOMAIN-KEYWORD,wbapp.uve.weibo.com
+DOMAIN-KEYWORD,widget.weibo.com
+DOMAIN-KEYWORD,zc.biz.weibo.com
+DOMAIN-KEYWORD,dsp.edm.weibo.cn
+DOMAIN-KEYWORD,alitui.weibo.com.cn
+DOMAIN-KEYWORD,biz.weibo.com.cn
+DOMAIN-KEYWORD,game.weibo.com.cn
+DOMAIN-KEYWORD,tui.weibo.com
+DOMAIN-KEYWORD,wax.weibo.com.cn
+DOMAIN-KEYWORD,ad.weibo.com
+DOMAIN-KEYWORD,adstrategy.biz.weibo.com
+DOMAIN-KEYWORD,s.weibo.com
+DOMAIN-KEYWORD,vs.biz.weibo.com
 # > keep
 DOMAIN,apm.gotokeep.com
 DOMAIN,kad.gotokeep.com
