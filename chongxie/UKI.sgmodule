@@ -17,7 +17,13 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^https:\/\/p\d\.meituan\.net\/travelcube\/.+\.png\.webp.+ data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
-# 高德地图顶部消息横幅
-^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-dict.json"
+[Script]
+
+## 我的页面
+^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? url script-response-bodyhttps://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+## 首页消息横幅
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull(3|_mp)\? url script-response-bodyhttps://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
 [MITM]
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com,
+
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn,m5.amap.com,sns.amap.com
