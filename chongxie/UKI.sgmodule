@@ -33,11 +33,15 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 
 [Script]
 
+[Script]
+
+#我的页面
 myBlockAds = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-myBlockAds = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page(-location)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+#首页消息横幅
 myBlockAds = type=http-response,pattern=^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull(3|_mp)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+myBlockAds = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page(-location)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 myBlockAds = type=http-response,pattern=^https:\/\/wmapi\.meituan\.com\/api\/v7\/loadInfo\?ad,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 
 [MITM]
 
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com, sns.amap.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net,wmapi.meituan.com, www.meituan.com
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com, sns.amap.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net,wmapi.meituan.com, www.meituan.com,m5.amap.com
