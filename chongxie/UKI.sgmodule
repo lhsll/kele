@@ -1,4 +1,4 @@
-#!name=UKI去广告
+#!name=自制去广告
 #!desc=自制  更新：2022-12-20 12:14:39
 #!system=ios
 
@@ -20,4 +20,4 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 # 高德地图顶部消息横幅
 ^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-dict.json"
 [MITM]
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn,sns.amap.com
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com,
