@@ -3,10 +3,22 @@
 #!system=ios
 
 [[URL Rewrite]
+
 https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.com/lhsll/Plao/main/rsp_17889startInfo.json header
 ^http:\/\/xiaoredpic\.neoclub\.cn/backend\/activityPack\/.+.png - reject
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+^https:\/\/amap-aos-info-nogw\.amap\.com\/ws\/aos\/alimama\/splash_screen_rt\? - reject
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\? - reject
+^https:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
+^https:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
+^https:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
+^https:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg - reject
+^https:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp - reject
+^https:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture - reject
+^https:\/\/www\.meituan\.com\/api\/v2\/appstatus\?ad - reject
+
 [Map Local]
+
 ^https:\/\/ossgw\.alicdn\.com\/creatives-assets\/image\/[A-Za-z0-9]{4}\/\d{4}\/\d{2}\/\d{2}\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]+?\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
@@ -17,6 +29,15 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
 ^https:\/\/p\d\.meituan\.net\/travelcube\/.+\.png\.webp.+ data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-200.txt"
+^https:\/\/optimus-ads\.amap\.com\/uploadimg\/\w{32}\.(gif|jpg|png)$ data="https://raw.githubusercontents.com/lhsll/Plao/main/reject-img.gif"
+
+[Script]
+
+myBlockAds = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+myBlockAds = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page(-location)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+myBlockAds = type=http-response,pattern=^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull(3|_mp)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+myBlockAds = type=http-response,pattern=^https:\/\/wmapi\.meituan\.com\/api\/v7\/loadInfo\?ad,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
 [MITM]
 
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn,
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com, sns.amap.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net,wmapi.meituan.com, www.meituan.com
