@@ -24,7 +24,7 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-200.txt
 ^https:\/\/mop\.meituan\.com\/api\/entryModule\/.+$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
-^https:\/\/(img|gw)\.alicdn\.com\/imgextra\/i\d\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
+^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
 ^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
