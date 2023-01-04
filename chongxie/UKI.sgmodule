@@ -18,7 +18,7 @@ https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.
 ^https:\/\/www\.meituan\.com\/api\/v2\/appstatus\?ad - reject
 
 [Map Local]
-
+https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
 ^https:\/\/ossgw\.alicdn\.com\/creatives-assets\/image\/[A-Za-z0-9]{4}\/\d{4}\/\d{2}\/\d{2}\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-200.txt"
 ^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]+?\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-200.txt"
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(jpg|jpeg|png|gif|webp|mp4) data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-200.txt
