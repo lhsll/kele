@@ -2,6 +2,11 @@
 #!desc=自制  更新：2022-12-20 12:14:39
 #!system=ios
 
+[Rule]
+
+# >腾讯加速器
+URL-REGEX,^http:\/\/dldir1\.qq\.com\/INO\/img\/[A-Za-z0-9]+\/[A-Za-z0-9]+\.jpg,REJECT
+
 [[URL Rewrite]
 
 https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.com/lhsll/Plao/main/rsp_17889startInfo.json header
@@ -42,4 +47,4 @@ myBlockAds = type=http-response,pattern=^https:\/\/wmapi\.meituan\.com\/api\/v7\
 
 [MITM]
 
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com, sns.amap.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net,wmapi.meituan.com, www.meituan.com,m5.amap.com
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com, sns.amap.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net,wmapi.meituan.com, www.meituan.com,m*.amap.com, dldir1.qq.com,
