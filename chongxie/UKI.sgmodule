@@ -1,4 +1,4 @@
-#!name=自制去广告
+#!name=AAAAA自制去广告
 #!desc=自制  更新：2022-12-20 12:14:39
 #!system=ios
 
@@ -10,7 +10,6 @@ URL-REGEX,^http:\/\/dldir1\.qq\.com\/INO\/img\/[A-Za-z0-9]+\/[A-Za-z0-9]+\.jpg,R
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com/uploadimg\/[A-Za-z0-9]{30,32}.mp4,REJECT
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com/uploadimg\/[A-Za-z0-9]{30,32}.mp4,REJECT-TINYGIF
 URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]+?\_!!\d{13}\-\d\-\w{3}\-\d{3,4}\-\d{3}\.jpg,REJECT
-#URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]+?\_!!\d{13}\-\d\-\w{3}\-\d{3,4}\-\d{3}\.png,REJECT
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]+?\.jpg,REJECT
 URL-REGEX,^https:\/\/mapdownload\.autonavi\.com\/voiceip\/voiceip\/publish\/platform\/\d{3}\/\d{4}\/ipinfo\/[A-Za-z0-9]{32}\.jpg,REJECT
 URL-REGEX,^https:\/\/mapdownload\.autonavi\.com\/voiceip\/voiceip\/publish\/platform\/\d{3}\/\d{4}\/ipinfo\/[A-Za-z0-9]{32}\.png,REJECT
@@ -25,7 +24,7 @@ URL-REGEX,^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]{31,32}\.gif,
 # > 淘宝去广告
 URL-REGEX,^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d{13}\/[A-Za-z0-9]{23,24}\_!!\d{13}\.(jpg|png|gif|mp4|wepb)\_\d{2,4}\x\d{2,4}\q\d{2,3}\.(jpg|png|gif|mp4|wepb)\_.heic,REJECT
 URL-REGEX,^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]{23}\_!!\d{13}\-\d\-tps\-\d{4}\-\d{4}\.jpg\_\d{4}x\d{4}\q90\.jpg\_\.heic,REJECT
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/.{1,52}\.(png|jpg|gif),REJECT
+URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/.{1,52}\.(jpg|gif),REJECT
 [[URL Rewrite]
 
 https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.com/lhsll/Plao/main/rsp_17889startInfo.json header
