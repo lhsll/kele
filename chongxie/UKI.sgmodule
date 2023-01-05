@@ -10,7 +10,7 @@ URL-REGEX,^http:\/\/dldir1\.qq\.com\/INO\/img\/[A-Za-z0-9]+\/[A-Za-z0-9]+\.jpg,R
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com/uploadimg\/[A-Za-z0-9]{30,32}.mp4,REJECT
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com/uploadimg\/[A-Za-z0-9]{30,32}.mp4,REJECT-TINYGIF
 URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]+?\_!!\d{13}\-\d\-\w{3}\-\d{3,4}\-\d{3}\.jpg,REJECT
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]+?\_!!\d{13}\-\d\-\w{3}\-\d{3,4}\-\d{3}\.png,REJECT
+#URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]+?\_!!\d{13}\-\d\-\w{3}\-\d{3,4}\-\d{3}\.png,REJECT
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com\/uploadimg\/[A-Za-z0-9]+?\.jpg,REJECT
 URL-REGEX,^https:\/\/mapdownload\.autonavi\.com\/voiceip\/voiceip\/publish\/platform\/\d{3}\/\d{4}\/ipinfo\/[A-Za-z0-9]{32}\.jpg,REJECT
 URL-REGEX,^https:\/\/mapdownload\.autonavi\.com\/voiceip\/voiceip\/publish\/platform\/\d{3}\/\d{4}\/ipinfo\/[A-Za-z0-9]{32}\.png,REJECT
