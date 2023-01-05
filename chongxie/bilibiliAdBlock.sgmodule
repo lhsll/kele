@@ -1,7 +1,6 @@
 #!name=BiliBiliAdBlock
 #!desc=bilibili DiY
 #!system=iOS
-#@ddgksf2013, @blackmatrix7, @app2smile, @yjqiang, @ClydeTime, @RuCu6,感谢以上大佬做出的贡献
 
 [Script]
 
@@ -40,8 +39,6 @@ bili_info = type=http-response,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(v
 
 [URL Rewrite]
 
-#>BiliBili_哔哩哔哩_屏蔽Grpc
-^https?:\/\/grpc\.biliapi\.net\/bilibili\.pgc\.gateway\.player\.v2\.PlayURL\/PlayView - reject
 #>BiliBili_哔哩哔哩_屏蔽直播间商品广告浮窗
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? - reject
 #>BiliBili_哔哩哔哩_屏蔽广告浮窗
