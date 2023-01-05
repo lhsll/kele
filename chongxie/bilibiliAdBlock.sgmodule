@@ -13,7 +13,7 @@ biliProto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.
 #>BiliBili_哔哩哔哩_屏蔽首页右上活动
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_观影页面去广告
-bilibili_json = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+myBlockAds = type=http-response,pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/cinema\/tab\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_应用开屏广告预加载
 bilibili_json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_1080P高码率+4K画质
