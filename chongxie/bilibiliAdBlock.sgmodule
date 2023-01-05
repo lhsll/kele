@@ -3,6 +3,10 @@
 #!system=ios
 
 [Script]
+#>BiliBili_哔哩哔哩_共享会员
+B站共享 = type=http-request,requires-body=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili(.*)\/(View|Play(URL|View|Conf|erOnline)|MainList|ViewProgress)$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/BiliBili/biliCrack.js
+#>BiliBili_哔哩哔哩_B站皮肤
+B站皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/BiliBili/biliSkin.js
 #>BiliBili_哔哩哔哩_屏蔽首页右上活动
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_观影页面去广告
@@ -25,14 +29,16 @@ bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/re
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩Proto去广告
 bilibili_proto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js,script-update-interval=0
+#>BiliBili_哔哩哔哩_去除后台播放限制
+biliProto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.playurl\.v1\.PlayURL\/PlayView$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=0
+#>BiliBili_哔哩哔哩_B站皮肤魔改
 B站皮肤魔改 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/bili_info.js
+#>BiliBili_哔哩哔哩_哔哩哔哩会员限定版
 哔哩哔哩会员限定版 = type=http-request,pattern= ^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili\.\w{3,9}\..+\/(View|Play(URL|View|Conf|erOnline)|MainList|ViewProgress)$,requires-body=0,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/BiLiBiLiBVIPCrack.js
 
-
-
-
-
 [URL Rewrite]
+#>BiliBili_哔哩哔哩_屏蔽grpc
+^https?:\/\/grpc\.biliapi\.net\/bilibili\.pgc\.gateway\.player\.v2\.PlayURL\/PlayView - reject
 #>BiliBili_哔哩哔哩_屏蔽直播间商品广告浮窗
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? - reject
 #>BiliBili_哔哩哔哩_屏蔽广告浮窗
@@ -53,7 +59,8 @@ B站皮肤魔改 = type=http-response,requires-body=1,max-size=0,pattern=^https?
 ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject
 #>BiliBili_哔哩哔哩_漫画去广告
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash) - reject
-
+#>BiliBili_哔哩哔哩_拒绝位置请求
+^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ - reject
 
 [MITM]
-hostname = %APPEND%  app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net
+hostname = %APPEND%  app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, 124.239.240.*, 120.192.82.*, 101.89.57.*, 218.94.210.*, 218.60.18.*, 240e:b1:9801:206:11:0:0:*,
