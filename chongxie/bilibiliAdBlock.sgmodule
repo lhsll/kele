@@ -1,13 +1,13 @@
 #!name= BiliBili_AdBlock_DIY
 #!desc= bilibili去广告配置
-#!system=ios
+#!system=@ddgksf2013, @blackmatrix7, @app2smile, @yjqiang, @ClydeTime, @RuCu6,感谢以上大佬做出的贡献
 
 [Script]
 
 #>BiliBili_哔哩哔哩_共享会员
-B站共享 = type=http-request,requires-body=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili(.*)\/(View|Play(URL|View|Conf|erOnline)|MainList|ViewProgress)$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/BiliBili/biliCrack.js
+B站共享 = type=http-request,requires-body=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili(.*)\/(View|Play(URL|View|Conf|erOnline)|MainList|ViewProgress)$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/BiliBili/biliCrack.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_B站皮肤
-B站皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/BiliBili/biliSkin.js
+B站皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/BiliBili/biliSkin.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_屏蔽首页右上活动
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_观影页面去广告
@@ -39,7 +39,7 @@ bili_info = type=http-response,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(v
 
 [URL Rewrite]
 
-#>BiliBili_哔哩哔哩_屏蔽grpc
+#>BiliBili_哔哩哔哩_屏蔽Grpc
 ^https?:\/\/grpc\.biliapi\.net\/bilibili\.pgc\.gateway\.player\.v2\.PlayURL\/PlayView - reject
 #>BiliBili_哔哩哔哩_屏蔽直播间商品广告浮窗
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? - reject
