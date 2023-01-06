@@ -3,10 +3,10 @@
 #!system=ios
 
 [Script]
-#>BiliBili_哔哩哔哩_Proto 播放页去广告
-biliProto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.view\.v1\.View\/View$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_屏蔽首页右上活动
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+bili-json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js,script-update-interval=0
+bili-proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll|playurl\.v1\.PlayURL\/PlayView)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_观影页面去广告
 myBlockAds = type=http-response,pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/cinema\/tab\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_应用开屏广告预加载
@@ -27,8 +27,6 @@ bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/re
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩Proto去广告
 bilibili_proto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js,script-update-interval=0
-#>BiliBili_哔哩哔哩_去除后台播放限制
-biliProto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.playurl\.v1\.PlayURL\/PlayView$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_共享会员
 B站共享 = type=http-request,requires-body=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili(.*)\/(View|Play(URL|View|Conf|erOnline)|MainList|ViewProgress)$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/BiliBili/biliCrack.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_B站皮肤
