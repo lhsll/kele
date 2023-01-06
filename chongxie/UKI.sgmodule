@@ -53,6 +53,8 @@ https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data="https://raw
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
 ^https:\/\/p\d\.meituan\.net\/travelcube\/.+\.png\.webp.+ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
 ^https:\/\/optimus-ads\.amap\.com\/uploadimg\/\w{32}\.(gif|jpg|png)$ data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-img.gif"
+^https:\/\/api\.weibo\.cn\/2\/ug\/checkin\/list\?gsid= data="https://raw.githubusercontent.com/lhsll/Plao/main/reject-dict.json"
+
 
 [Script]
 
