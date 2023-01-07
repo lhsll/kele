@@ -3,6 +3,8 @@
 #!system=ios
 
 [Script]
+#>BiliBili_哔哩哔哩_推荐去广告
+bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_屏蔽首页右上活动
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_热搜发现
@@ -16,8 +18,6 @@ myBlockAds = type=http-response,pattern=^https:\/\/api\.bilibili\.com\/pgc\/page
 bilibili_json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_1080P高码率+4K画质
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
-#>BiliBili_哔哩哔哩_推荐去广告
-bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_追番去广告
 bilibili_json = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
 #>BiliBili_哔哩哔哩_直播去广告
