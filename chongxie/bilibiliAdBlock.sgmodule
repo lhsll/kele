@@ -59,4 +59,4 @@ B站皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/a
 
 [MITM]
 
-hostname = %APPEND%  app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net
+hostname = %APPEND% app.bilibili.com, api.bilibili.com,api.biliapi.net, grpc.biliapi.net, api.vc.bilibili.com, -broadcast.chat.bilibili.com, grpc.biliapi.net, -*cdn*.biliapi.net, -*tracker*.biliapi.net, api.live.bilibili.com, manga.bilibili.com
