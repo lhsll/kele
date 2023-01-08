@@ -1239,30 +1239,30 @@ http:\/\/analytics\.163\.com\/ntes url reject
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ url reject-200
 
 # > 微博开屏广告
-^https?:\/\/(sdk|wb)app\.uve\.weibo\.com\/(interface\/sdk\/sdkad.php|wbapplua\/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+#^https?:\/\/(sdk|wb)app\.uve\.weibo\.com\/(interface\/sdk\/sdkad.php|wbapplua\/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 # > 微博去广告
-^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+#^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
 # > 微博自定义tab皮肤
-^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+#^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 # > 微博非会员设置tab皮肤
-^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+#^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 
 # > 微博国际版_推荐tab|热门tab去广告
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+#^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 # > 微博国际版_关注tab去广告
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+#^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 # > 微博国际版_趋势tab
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+#^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 # > 微博国际版_屏蔽search_suggest
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest url reject-dict
+#^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest url reject-dict
 # > 微博国际版_趋势tab去广告
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+#^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 # > 微博国际版_屏蔽searching_info
-^ttps?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info url reject
+#^ttps?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info url reject
 # > 微博国际版_屏蔽search_topic
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic url reject
+#^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic url reject
 # > 微博国际版_屏蔽开屏广告
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads url reject
+#^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads url reject
 
 # > 无他相机
 ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree url reject-200
