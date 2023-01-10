@@ -59,4 +59,4 @@ B站共享 = type=http-request,requires-body=0,pattern=^https?:\/\/ap(i|p)\.bili
 
 [MITM]
 
-hostname = %APPEND% app.bilibili.com, api.bilibili.com,api.biliapi.net, grpc.biliapi.net, api.vc.bilibili.com, -broadcast.chat.bilibili.com, grpc.biliapi.net, -*cdn*.biliapi.net, -*tracker*.biliapi.net, api.live.bilibili.com, manga.bilibili.com
+hostname = %APPEND% app.bilibili.com, api.bilibili.com,api.biliapi.net, grpc.biliapi.net, api.vc.bilibili.com, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, api.live.bilibili.com, manga.bilibili.com
