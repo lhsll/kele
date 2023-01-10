@@ -5,7 +5,7 @@
 
 # > 高德地图_通用广告请求@ddgksf2013
 ^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject
-
+^http?:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
 [Script]
 # > 高德地图_首页底部处理@ddgksf2013
 amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/main-page,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
