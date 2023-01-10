@@ -8,6 +8,7 @@ bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2
 #>BiliBili_哔哩哔哩_屏蔽首页右上活动
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=2097152,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 #>BiliBili_哔哩哔哩_播放页面
+bili-proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll|playurl\.v1\.PlayURL\/PlayView)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js,script-update-interval=-1
 bili-json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2),requires-body=1,max-size=2097152,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js,script-update-interval=-1
 #>BiliBili_哔哩哔哩_观影页面去广告
 bilibili_json = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?,requires-body=1,max-size=2097152,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
@@ -17,7 +18,6 @@ bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/re
 bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,requires-body=1,max-size=2097152,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 #>BiliBili_哔哩哔哩_热搜发现
 BiliBili_热搜发现 = type=http-response,requires-body=1,max-size=0,pattern=^https://app.bilibili.com/x/v2/search/square,script-path=https://raw.githubusercontents.com/lhsll/CQY/main/JS/bilibili_json.js,script-update-interval=-1
-bili-proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll|playurl\.v1\.PlayURL\/PlayView)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js,script-update-interval=-1
 #>BiliBili_哔哩哔哩_应用开屏广告预加载
 bilibili_json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 #>BiliBili_哔哩哔哩_1080P高码率+4K画质
