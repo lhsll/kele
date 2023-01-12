@@ -9,7 +9,8 @@ URL-REGEX,\/amdc\/mobileDispatch,REJECT
 [URL Rewrite]
 #> 高德地图_通用广告请求@ddgksf2013
 ^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject
-
+# > 高德地图_首页右中'2022出行报告
+^https?:\/\/img\.alicdn\.com\/imgextra\/i1\/.+\.png - reject
 [Script]
 #> 高德地图_附近页面@ddgksf2013
 amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/search\/nearbyrec_smart,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
@@ -40,4 +41,4 @@ amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/search\
 
 
 [MITM]
-hostname = %APPEND% *amap.com,m5.amap.com,sns.amap.com
+hostname = %APPEND% *amap.com,m5.amap.com,sns.amap.com,img.alicdn.com
