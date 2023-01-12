@@ -1,44 +1,80 @@
-#!name=高德地图
-#!desc=amap
+#!name=DNS设置
+#!desc=dns解析
 
-[Rule]
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
-#由于surge需特殊方法匹配域名下ip,因此用如下规则
-URL-REGEX,\/amdc\/mobileDispatch,REJECT
-
-[URL Rewrite]
-#> 高德地图_通用广告请求@ddgksf2013
-^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject
-# > 高德地图_首页右中'2022出行报告
-^https?:\/\/img\.alicdn\.com\/imgextra\/i1\/.+\.png - reject
-[Script]
-#> 高德地图_附近页面@ddgksf2013
-amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/search\/nearbyrec_smart,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
-#> 高德地图_打车页面@ddgksf2013
-amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/promotion-web\/resource,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
-#> 高德地图_首页底部处理@ddgksf2013
-amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/main-page,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
-#> 高德地图_开屏广告@ddgksf2013
-amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/valueadded\/alimama\/splash_screen,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
-#> 高德地图_首页顶部推广@ddgksf2013
-amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/msgbox\/pull,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
-#> 高德地图_我的页面@ddgksf2013
-amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaas,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
-#> 高德地图_搜索框热词@ddgksf2013
-amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/search\/new_hotword,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js,script-update-interval=-1
-
-[Map Local]
-#> 高德地图_Tip请求@ddgksf2013
-^https?:\/\/.*\.amap\.com\/ws\/boss\/order_web\/\w{8}_information data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
-#> 高德地图_搜索框scene@ddgksf2013
-^https?:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-#> 高德地图_首页左上角gif@ddgksf2013
-^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
-#> 高德地图_左下天气@ddgksf2013
-^https?:\/\/.*\.amap\.com\/ws\/valueadded\/weather data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-#> 高德地图更新弹窗
-^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-
-[MITM]
-hostname = %APPEND% *amap.com,m5.amap.com,sns.amap.com,img.alicdn.com
+[Host]
+#> 微信固定ip
+short.weixin.qq.com = 43.129.255.26
+aeproxy.weixin.qq.com = 203.205.234.42
+dns.weixin.qq.com.cn = 42.187.184.232
+aedns.weixin.qq.com = 61.151.165.107
+#> 国外网站
+bgp.he.net = server:syslib
+github.com = server:syslib
+ghproxy.com = server:syslib
+raw.githubusercontent.com = server:syslib
+#> 国内网站
+*.mi.com = server:syslib
+*.bytecdn.com = server:syslib
+*mmbiz* = server:syslib
+*qlogo* = server:syslib
+*.meituan.* = server:119.29.29.29
+#> 腾讯游戏手游(王者荣耀|金铲铲之战|和平精英)
+szmg.qq.com = server:syslib
+down.pandora.qq.com = server:syslib
+*.tdm.qq.com = server:119.29.29.29
+*.broker.tplay.qq.com = server:syslib
+ubpdata.geely.com = server:syslib
+#> 领克APP
+*.lynkco.com.cn = server:syslib
+*.lynkco.com = server:syslib
+api.im.qcloud.com = server:223.5.5.5
+#> 银行类
+res.cc.cmbimg.com = server:syslib
+#> 酷安
+*.coolapk.com = server:syslib
+#> 腾讯
+*tencent.com = server:119.29.29.29
+*qq.com = server:119.29.29.29
+#> 微信
+#dns.weixin.qq.com.cn = server:119.29.29.29
+badjs.weixinbridge.com = server:syslib
+long.weixin.qq.com = server:syslib
+*.weixin.qq.* = server:119.29.29.29
+*.weixin.com = server:119.29.29.29
+qpic.cn = server:syslib
+res.servicewechat.com = server:119.29.29.29
+#> 阿里系
+*.alipay.com = server:223.5.5.5
+*.taobao.com = server:223.5.5.5
+*.alicdn.com = server:syslib
+*.alibabachengdun.com = server:syslib
+#> 小组件
+*.tianapi.com = server:syslib
+#> 地图
+*.amap.* = server:syslib
+#> 京东
+aks.jdpay.com = server:syslib
+*.360buyimg.com = server:119.29.29.29
+*.jd.com = server:119.29.29.29
+#> 微博
+*.video.weibocdn.com = server:syslib
+*.weibocdn.* = server:https://east.lele233.com/cdn
+*.sinaimg.cn = server:https://edns.apad.pro:3306/dns-query
+*.weibo.cn = server:https://east.lele233.com/cdn
+#> 拼多多
+*.pinduoduo.com = server:syslib
+#> bilibili
+*.gcloudcs.com = server:119.29.29.29
+*.anticheatexpert.com = server:119.29.29.29
+*.szbdyd.com = server:syslib
+*.bilivideo.* = server:119.29.29.29
+*.biliapi.* = server:119.29.29.29
+*.bilibili.* = server:119.29.29.29
+hdslb.com = server:119.29.29.29
+*.smtcdns.* = server:119.29.29.29
+#> Apple
+*.push.apple.com = server:https://doh.apad.pro/us-query
+*.apple.* = server:syslib
+*.mzstatic.com = server:syslib
+*icloud.com = server:119.29.29.29
+*icloud.com.cn = server:119.29.29.29
