@@ -35,6 +35,9 @@ amap = type=http-response,pattern=^https?:\/\/.*\.amap\.com\/ws\/shield\/search\
 ^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
 #> 高德地图_左下天气@ddgksf2013
 ^https?:\/\/.*\.amap\.com\/ws\/valueadded\/weather data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+#> 高德地图更新弹窗
+^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
 
 [MITM]
 hostname = %APPEND% *amap.com,m5.amap.com,sns.amap.com
