@@ -3,9 +3,6 @@
 #!system=ios
 
 [Rule]
-
-# >腾讯加速器
-URL-REGEX,^http:\/\/dldir1\.qq\.com\/INO\/img\/[A-Za-z0-9]+\/[A-Za-z0-9]+\.jpg,REJECT
 # > 高德地图去广告
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com/uploadimg\/[A-Za-z0-9]{30,32}.mp4,REJECT
 URL-REGEX,^http:\/\/optimus\-ads\.amap\.com/uploadimg\/[A-Za-z0-9]{30,32}.mp4,REJECT-TINYGIF
@@ -67,4 +64,4 @@ myBlockAds = type=http-response,pattern=^https:\/\/wmapi\.meituan\.com\/api\/v7\
 
 [MITM]
 
-hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com, sns.amap.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net,wmapi.meituan.com, www.meituan.com,m*.amap.com, dldir1.qq.com,
+hostname = %APPEND% ukiapi567.neoclub.cn, xiaoredpic.neoclub.cn, ossgw.alicdn.com, optimus-ads.amap.com, flowplus.meituan.net, mop.meituan.com, api.pinduoduo.com, api.yangkeduo.com, mop.meituan.com, *.alicdn.com, lban.spdb.com.cn, *.amap.com, sns.amap.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net,wmapi.meituan.com, www.meituan.com,m*.amap.com,
