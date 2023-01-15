@@ -1,36 +1,12 @@
-[Rule]
-# > 微信
-RULE-SET,https://github.com/NobyDa/Script/raw/master/Surge/WeChat.list,🥰🥰🥰,update-interval=-1
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list,🥰🥰🥰,update-interval=-1
-# RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/WeChat.list,🥰🥰🥰,update-interval=-1
-# > Spark
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spark/Spark.list,𝐏𝐫𝐨𝐱𝐲,update-interval=-1
-# > 王者荣耀
-RULE-SET,https://raw.githubusercontent.com/lhsll/kele/main/fenliu/ArenaOfValor.list,👾👾👾,update-interval=-1
-# > Bilibili cdn
-OR,((AND,((OR,((DOMAIN-KEYWORD,cn-), (DOMAIN-KEYWORD,mcdn))), (DOMAIN-KEYWORD,bilivideo.c))), (DOMAIN-SUFFIX,szbdyd.com), (DEST-PORT,4480)),🥵🥵🥵,notification-text="已禁用b站垃圾cdn" // 禁用b站垃圾cdn
-# > 广告拦截
-RULE-SET,https://raw.githubusercontent.com/lhsll/kele/main/fenliu/fenliu.list,🥵🥵🥵,update-interval=-1
-DOMAIN-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list,🥵🥵🥵
-# > 域名拦截
-RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list,❌❌❌,update-interval=-1
-# > 隐私保护
-RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list,❌❌❌,update-interval=-1
-# > 运营商劫持
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list,🥰🥰🥰,update-interval=-1
-# > GitHub
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list,GitHub,update-interval=-1
-# > TestFlight
-RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/TestFlight.list,𝐏𝐫𝐨𝐱𝐲,update-interval=-1
-# > Apple
-RULE-SET,https://raw.githubusercontent.com/lhsll/kele/main/fenliu/ApplePUSH.list,  ,update-interval=-1
-RULE-SET,https://raw.githubusercontent.com/lhsll/kele/main/fenliu/Apple.list,𝐀𝐩𝐩𝐥𝐞,update-interval=-1
-# > Youtube
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,𝐘𝐨𝐮𝐓𝐮𝐛𝐞,update-interval=-1
-# > 国外APP
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list,Twitter,update-interval=-1
-RULE-SET,https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.Telegram.list,𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦,update-interval=-1
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list,𝐒𝐩𝐨𝐭𝐢𝐟𝐲,update-interval=-1
-RULE-SET,https://github.com/DivineEngine/Profiles/raw/master/Surge/Ruleset/Global.list,𝐏𝐫𝐨𝐱𝐲,update-interval=-1
-# > china ip. asn
-OR,((RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list), (RULE-SET,https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list), (GEOIP,CN,no-resolve)),🥰🥰🥰
+#!name=App会员解锁
+#!desc=Svip
+
+[Script]
+# > Fileball会员
+#Fileball会员=type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/fileball.js,script-update-interval=-1
+# > 彩云天气svip
+caiyun = type=http-response,pattern=^https:\/\/biz\.caiyunapp\.com\/v2\/user.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/caiyun.js,script-update-interval=-1
+# > 百度输入法vip
+BaiduKeyboard = type=http-response,pattern=^https:\/\/mime\.baidu\.com\/sapi\/v\d\/vip\/mywvip,requires-body=1,max-size=3145728,script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduKeyboard.js,script-update-interval=-1
+[MITM] 
+hostname = %APPEND% biz.caiyunapp.com,mime.baidu.com
