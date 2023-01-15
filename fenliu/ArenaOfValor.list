@@ -1,4 +1,3 @@
-# > 王者荣耀
 # > 2023年1月15日08:27:17
 DOMAIN-SUFFIX,qt.qq.com
 DOMAIN-KEYWORD,kohsocialapp
@@ -44,10 +43,10 @@ DOMAIN,szmg.qq.com
 DOMAIN,down.game.qq.com
 DOMAIN,sdk.xyapi.game.qq.com
 
-// 腾讯
+# >腾讯
 USER-AGENT,*TencentMidasConnect*
 
-// 微信
+# > 微信
 USER-AGENT,*WeChat*
 USER-AGENT,*MicroMessenger*
 HOST-SUFFIX,weixin.qq.com
@@ -104,16 +103,16 @@ IP-CIDR,223.166.152.0/24,no-resolve
 IP-CIDR,223.166.222.0/24,no-resolve
 IP-CIDR,223.167.104.0/24,no-resolve
 
-//QQ
+# >QQ
 USER-AGENT,*QQ*
 HOST-SUFFIX,qq.com
 
-//腾讯视频
+# >腾讯视频
 USER-AGENT,*live4iphone*
 USER-AGENT,*qqlive4iphone*
 HOST-SUFFIX,video.qq.com
 
-// 王者荣耀
+# > 王者荣耀
 USER-AGENT,smoba*
 IP-CIDR,58.246.223.140/32,no-resolve
 IP-CIDR,58.250.136.0/24,no-resolve
@@ -166,24 +165,24 @@ IP-CIDR,223.166.150.0/24,no-resolve
 IP-CIDR,223.167.86.33/32,no-resolve
 IP-CIDR,223.167.104.0/24,no-resolve
 
-// QQ 邮箱
+# > QQ 邮箱
 USER-AGENT,*QQ邮箱*
 HOST-SUFFIX,mail.qq.com
 
-// 腾讯微视
+# > 腾讯微视
 USER-AGENT,*microvision*
 HOST-SUFFIX,qpic.cn
 HOST-SUFFIX,qlogo.cn
 
-// 微博
+# > 微博
 HOST-SUFFIX,weibo.com
 HOST-SUFFIX,weibo.cn
 
-// 10010
+# > 10010
 USER-AGENT,*ChinaUnicom*
 HOST-SUFFIX,10010.com
 
-// 招商银行
+# > 招商银行
 USER-AGENT,*MPBank*
 USER-AGENT,*cmblife*
 HOST-SUFFIX,cmbchina.com
