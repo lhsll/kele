@@ -7,6 +7,8 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spark/Spark.list,𝐏𝐫𝐨𝐱𝐲,update-interval=-1
 # > 王者荣耀
 RULE-SET,https://raw.githubusercontent.com/lhsll/kele/main/fenliu/ArenaOfValor.list,👾👾👾,update-interval=-1
+# > Bilibili cdn
+OR,((AND,((OR,((DOMAIN-KEYWORD,cn-), (DOMAIN-KEYWORD,mcdn))), (DOMAIN-KEYWORD,bilivideo.c))), (DOMAIN-SUFFIX,szbdyd.com), (DEST-PORT,4480)),🥵🥵🥵,notification-text="已禁用b站垃圾cdn" // 禁用b站垃圾cdn
 # > 广告拦截
 RULE-SET,https://raw.githubusercontent.com/lhsll/kele/main/fenliu/fenliu.list,🥵🥵🥵,update-interval=-1
 DOMAIN-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list,🥵🥵🥵
