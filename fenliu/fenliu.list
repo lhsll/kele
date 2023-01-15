@@ -160,23 +160,7 @@ DOMAIN,track.tenjin.io
 #DOMAIN,errlog.umeng.com
 DOMAIN,lf9-cdn-tos.bytegecko.com
 DOMAIN,novel.pangolin-sdk-toutiao.com
-# > 高德
-DOMAIN-SUFFIX,adiu.amap.com
-DOMAIN,aboard.apilocate.amap.com
-DOMAIN,apiinit.amap.com
-DOMAIN,icloud-amap.com
-DOMAIN,logs.amap.com
-DOMAIN-SUFFIX,dualstack-logs.amap.com
-DOMAIN-SUFFIX,logs.amap.com
-DOMAIN-SUFFIX,optimus-ads.amap.com
-DOMAIN-SUFFIX,page.amap.com
-DOMAIN,optimus-ads.amap.com
-DOMAIN,optimus-ads.amap.com.w.alikunlun.com
-DOMAIN-SUFFIX,shouji.sougou.com
-DOMAIN,u51.me
-DOMAIN-SUFFIX,u51.me
 # > 美团
-DOMAIN,flowplus.meituan.net
 DOMAIN-SUFFIX,analytics.meituan.net
 DOMAIN-SUFFIX,meituan.xn--io0a7i
 DOMAIN-SUFFIX,meituan.yoga
