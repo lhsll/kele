@@ -303,9 +303,9 @@ DOMAIN,tnc3-aliec2.snssdk.com
 # > 交管12123
 DOMAIN,static.122.gov.cn
 DOMAIN-SUFFIX,v3.fstats.xyz
-DOMAIN-SUFFIX,wss.haoyundmn.com 
-DOMAIN-SUFFIX,new.xiongzhangad.com  
-DOMAIN-SUFFIX,alexametrics.com 
+DOMAIN-SUFFIX,wss.haoyundmn.com
+DOMAIN-SUFFIX,new.xiongzhangad.com
+DOMAIN-SUFFIX,alexametrics.com
 DOMAIN-KEYWORD,in-page-push
 # > 广告
 # > 51wnl
@@ -313,9 +313,6 @@ DOMAIN,ad.51wnl-cq.com
 DOMAIN,adextra.51wnl-cq.com
 DOMAIN,log.51wnl-cq.com
 DOMAIN,r.51wnl-cq.com
-
-# > 屏蔽苹果系统更新 已经拿出去单独配置
-# https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/apple.conf
 
 # > 优酷
 DOMAIN-SUFFIX,atm.youku.com
@@ -1356,7 +1353,7 @@ DOMAIN-KEYWORD,dtscout
 DOMAIN-KEYWORD,adform
 DOMAIN-KEYWORD,mathtag
 DOMAIN-KEYWORD,pagespeed-mod
-DOMAIN-KEYWORD,in-page-push 
+DOMAIN-KEYWORD,in-page-push
 DOMAIN-SUFFIX,referrer.disqus.com
 DOMAIN-SUFFIX,links.services.disqus.com
 DOMAIN-SUFFIX,disqusads.com
@@ -9581,7 +9578,7 @@ IP-CIDR,188.89.204.198/32,no-resolve
 IP-CIDR,122.229.8.47/32,no-resolve
 IP-CIDR,122.229.29.89/32,no-resolve
 IP-CIDR,120.240.95.37/32,no-resolve
-# IP-CIDR,10.72.25.0/24,no-resolve
+#IP-CIDR,10.72.25.0/24,no-resolve
 IP-CIDR,211.161.101.110/32,no-resolve
 IP-CIDR,114.119.160.0/21,no-resolve
 DOMAIN-SUFFIX,hyunke.com
