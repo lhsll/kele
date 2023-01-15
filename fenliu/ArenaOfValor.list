@@ -49,9 +49,9 @@ USER-AGENT,*TencentMidasConnect*
 # > 微信
 USER-AGENT,*WeChat*
 USER-AGENT,*MicroMessenger*
-HOST-SUFFIX,weixin.qq.com
-HOST-SUFFIX,wx.qq.com
-HOST-SUFFIX,pay.weixin.qq.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,pay.weixin.qq.com
 IP-CIDR,42.81.92.0/24,no-resolve
 IP-CIDR,42.81.114.0/24,no-resolve
 IP-CIDR,42.81.115.0/24,no-resolve
@@ -105,12 +105,12 @@ IP-CIDR,223.167.104.0/24,no-resolve
 
 # >QQ
 USER-AGENT,*QQ*
-HOST-SUFFIX,qq.com
+DOMAIN-SUFFIX,qq.com
 
 # >腾讯视频
 USER-AGENT,*live4iphone*
 USER-AGENT,*qqlive4iphone*
-HOST-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,video.qq.com
 
 # > 王者荣耀
 USER-AGENT,smoba*
@@ -167,22 +167,22 @@ IP-CIDR,223.167.104.0/24,no-resolve
 
 # > QQ 邮箱
 USER-AGENT,*QQ邮箱*
-HOST-SUFFIX,mail.qq.com
+DOMAIN-SUFFIX,mail.qq.com
 
 # > 腾讯微视
 USER-AGENT,*microvision*
-HOST-SUFFIX,qpic.cn
-HOST-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
 
 # > 微博
-HOST-SUFFIX,weibo.com
-HOST-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.cn
 
 # > 10010
 USER-AGENT,*ChinaUnicom*
-HOST-SUFFIX,10010.com
+DOMAIN-SUFFIX,10010.com
 
 # > 招商银行
 USER-AGENT,*MPBank*
 USER-AGENT,*cmblife*
-HOST-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbchina.com
