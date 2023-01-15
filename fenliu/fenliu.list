@@ -157,7 +157,7 @@ DOMAIN-SUFFIX,cpatrk.net
 # > 天神
 DOMAIN,track.tenjin.com
 DOMAIN,track.tenjin.io
-DOMAIN,errlog.umeng.com
+#DOMAIN,errlog.umeng.com
 DOMAIN,lf9-cdn-tos.bytegecko.com
 DOMAIN,novel.pangolin-sdk-toutiao.com
 # > 高德
@@ -221,7 +221,6 @@ DOMAIN-KEYWORD,editor.sm.cn
 DOMAIN-KEYWORD,fc-video.cdn.bcebos.com
 DOMAIN-KEYWORD,vs10.bj2ct.u3.ucweb.com
 DOMAIN,navigis.uc.cn
-DOMAIN,restapi.amap.com
 DOMAIN,order.sm.cn
 DOMAIN,ucdc-upaas.uc.cn
 DOMAIN,access.open.uc.cn
