@@ -157,7 +157,6 @@ DOMAIN-SUFFIX,cpatrk.net
 # > 天神
 DOMAIN,track.tenjin.com
 DOMAIN,track.tenjin.io
-#DOMAIN,errlog.umeng.com
 DOMAIN,lf9-cdn-tos.bytegecko.com
 DOMAIN,novel.pangolin-sdk-toutiao.com
 # > 美团
@@ -765,7 +764,6 @@ DOMAIN-KEYWORD,clk.gentags.net
 DOMAIN-KEYWORD,dm.toutiao.com
 DOMAIN-KEYWORD,dm.pstatp.com
 DOMAIN-KEYWORD,dm.bytedance.com
-DOMAIN-KEYWORD,uop.umeng.com
 DOMAIN-KEYWORD,policy.jd.com
 DOMAIN-KEYWORD,kepler.jd.com
 DOMAIN-KEYWORD,bdsp.x.jd.com
@@ -1178,7 +1176,6 @@ DOMAIN-KEYWORD,sdfp.snssdk.com
 DOMAIN-KEYWORD,tosv.boe.byted.org
 DOMAIN-KEYWORD,tosv.byted.org
 DOMAIN-KEYWORD,ad.ihuman.com
-DOMAIN-KEYWORD,errlog.umeng.com
 DOMAIN,delivery-node-aziz.voe-network.net
 DOMAIN,inspiringaccurate.com
 DOMAIN,track.aso1.net
@@ -8942,7 +8939,6 @@ DOMAIN-SUFFIX,zuimeitianqi.inveno.com
 DOMAIN-SUFFIX,zws.avvo.com
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com
 DOMAIN-SUFFIX,log.tagtic.cn
-DOMAIN-SUFFIX,ulogs.umeng.com
 DOMAIN-SUFFIX,zx.baosmx.com
 DOMAIN-SUFFIX,zxcs.ggwan.com
 DOMAIN-SUFFIX,zxcs.linghit.com
@@ -9166,13 +9162,6 @@ DOMAIN-SUFFIX,iad0ssl.pconline.com.cn
 DOMAIN-SUFFIX,imgad0.pcauto.com.cn
 DOMAIN-SUFFIX,imgad0.pconline.com.cn
 DOMAIN-SUFFIX,ivy.pchouse.com.cn
-DOMAIN-SUFFIX,alog.umeng.com
-DOMAIN-SUFFIX,alogs.umeng.com
-DOMAIN-SUFFIX,alog.umengcloud.com
-DOMAIN-SUFFIX,alogs.umengcloud.com
-DOMAIN-SUFFIX,ar.umeng.com
-DOMAIN-SUFFIX,plbslog.umeng.com
-DOMAIN-SUFFIX,ulogs.umengcloud.com
 DOMAIN-SUFFIX,a.wkanx.com
 DOMAIN-SUFFIX,cwx.lianwangtech.com
 DOMAIN-SUFFIX,c1wx.lianwangtech.com
