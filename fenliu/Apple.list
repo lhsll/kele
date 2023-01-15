@@ -1,18 +1,18 @@
-DOMAIN, time.apple.com
-DOMAIN-KEYWORD, weather-adge.apple.com
-DOMAIN-KEYWORD, buy.itunes.apple.com
-DOMAIN-KEYWORD, icloud.com
+DOMAIN,time.apple.com
+DOMAIN-KEYWORD,weather-adge.apple.com
+DOMAIN-KEYWORD,buy.itunes.apple.com
+DOMAIN-KEYWORD,icloud.com
 DOMAIN,gateway.icloud.com.cn
-DOMAIN-KEYWORD, api.smoot.apple.com
-DOMAIN-KEYWORD, api.smoot.apple.cn
-DOMAIN, init.ess.apple.com
-DOMAIN-KEYWORD, ssl.apple.com
-DOMAIN-KEYWORD, humb.apple.com
-DOMAIN, smp-device-content.apple.com
-DOMAIN-KEYWORD, api-adservices.apple.com
-DOMAIN-KEYWORD, ls.apple.com
-DOMAIN-KEYWORD, gsa.apple.com
-DOMAIN-KEYWORD, ess.apple.com
+DOMAIN-KEYWORD,api.smoot.apple.com
+DOMAIN-KEYWORD,api.smoot.apple.cn
+DOMAIN,init.ess.apple.com
+DOMAIN-KEYWORD,ssl.apple.com
+DOMAIN-KEYWORD,humb.apple.com
+DOMAIN,smp-device-content.apple.com
+DOMAIN-KEYWORD,api-adservices.apple.com
+DOMAIN-KEYWORD,ls.apple.com
+DOMAIN-KEYWORD,gsa.apple.com
+DOMAIN-KEYWORD,ess.apple.com
 DOMAIN,csig.apple.com,
 DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
