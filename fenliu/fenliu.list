@@ -31,8 +31,6 @@ DOMAIN-KEYWORD,image.bianxianmao.com
 IP-CIDR,203.107.1.1/24,no-resolve
 # > VIVO商城
 DOMAIN-KEYWORD,paradisestatic.vivo.com.cn
-# > 酷安
-# > DOMAIN-KEYWORD,p6-be-pack-sign.pglstatp-toutiao.com
 # > 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
 # > DOMAIN-KEYWORD,xqimg.imedao.com
 # > 滴滴青桔（支付界面图片有误杀）
@@ -106,8 +104,6 @@ DOMAIN-SUFFIX,wa.kuwo.cn
 DOMAIN-SUFFIX,webstat.kuwo.cn
 DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN-SUFFIX,rich.kuwo.cn
-# > 向日葵 见重写
-
 # > 小利生活
 DOMAIN-KEYWORD,mpos-pic.helipay.com
 # > 懂车帝
