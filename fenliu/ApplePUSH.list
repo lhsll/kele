@@ -197,4 +197,3 @@ IP-CIDR,17.188.128.144/32,no-resolve
 IP-CIDR,17.188.128.142/32,no-resolve
 IP-CIDR,17.188.128.140/32,no-resolve
 DOMAIN-SUFFIX,push.apple.com
-DOMAIN-SUFFIX,*.push.apple.com
