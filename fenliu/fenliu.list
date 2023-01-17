@@ -1,4 +1,6 @@
 # > 2023.1.15  15:44:20
+# > 屏蔽数字联盟
+DOMAIN-SUFFIX,shuzilm.cn
 # > 光大银行阳光惠生活
 DOMAIN-KEYWORD,talk.bz.getui.com
 # > 民生银行
