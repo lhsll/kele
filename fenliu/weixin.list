@@ -1,6 +1,7 @@
 #微信分流
 #v2测试版
 #更新时间2022.8.11 3:31
+DOMAIN,dns.weixin.qq.com
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,btrace.qq.com
 DOMAIN,dl.wechat.com
