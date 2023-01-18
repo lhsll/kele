@@ -177,6 +177,7 @@ DOMAIN-SUFFIX,qlogo.cn
 # > 微博
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,sinaimg.cn
 
 # > 10010
 USER-AGENT,*ChinaUnicom*
