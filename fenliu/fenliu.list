@@ -1,4 +1,6 @@
 # > 2023.1.15  15:44:20
+# > 网易云音乐
+DOMAIN,ipv6.music.163.com
 # > 屏蔽数字联盟
 DOMAIN-SUFFIX,shuzilm.cn
 # > 光大银行阳光惠生活
