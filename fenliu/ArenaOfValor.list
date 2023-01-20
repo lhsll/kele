@@ -252,3 +252,6 @@ DOMAIN-SUFFIX,10010.com
 USER-AGENT,*MPBank*
 USER-AGENT,*cmblife*
 DOMAIN-SUFFIX,cmbchina.com
+
+# > 网易云音乐
+DOMAIN,ipv6.music.163.com
