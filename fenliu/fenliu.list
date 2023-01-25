@@ -4,19 +4,19 @@ DOMAIN,ipv6.music.163.com
 # > 屏蔽数字联盟
 DOMAIN-SUFFIX,shuzilm.cn
 # > 光大银行阳光惠生活
-DOMAIN-KEYWORD,talk.bz.getui.com
+DOMAIN-SUFFIX,talk.bz.getui.com
 # > 民生银行
-DOMAIN-KEYWORD,cm-10-134.getui.com
-DOMAIN-KEYWORD,sdk.open.talk.getui.com
-DOMAIN-KEYWORD,cm-10-35.getui.com
-DOMAIN-KEYWORD,c-hzgt2.getui.com
+DOMAIN-SUFFIX,cm-10-134.getui.com
+DOMAIN-SUFFIX,sdk.open.talk.getui.com
+DOMAIN-SUFFIX,cm-10-35.getui.com
+DOMAIN-SUFFIX,c-hzgt2.getui.com
 DOMAIN-SUFFIX,sdk.open.talk.igexin.com
 # > 云闪付
-DOMAIN-KEYWORD,switch.cup.com.cn
-DOMAIN-KEYWORD,sdk.open.talk.getui.net
-DOMAIN-KEYWORD,sdk-conf.getui.com
-DOMAIN-KEYWORD,cm-10-138.getui.com
-DOMAIN-KEYWORD,ads.95516.com
+DOMAIN-SUFFIX,switch.cup.com.cn
+DOMAIN-SUFFIX,sdk.open.talk.getui.net
+DOMAIN-SUFFIX,sdk-conf.getui.com
+DOMAIN-SUFFIX,cm-10-138.getui.com
+DOMAIN-SUFFIX,ads.95516.com
 # > 中信银行
 DOMAIN-SUFFIX,sis.jpush.io
 DOMAIN-SUFFIX,s.jpush.cn
@@ -25,41 +25,41 @@ DOMAIN-SUFFIX,im64.jpush.cn
 DOMAIN-SUFFIX,im.jpush.cn
 DOMAIN-SUFFIX,jpush.html5.qq.com
 # > 买单吧
-DOMAIN-KEYWORD,c-hzgt2.getui.com
+DOMAIN-SUFFIX,c-hzgt2.getui.com
 # > 招钱进宝
-DOMAIN-KEYWORD,p26-be-pack-sign.pglstatp-toutiao.com
+DOMAIN-SUFFIX,p26-be-pack-sign.pglstatp-toutiao.com
 # > 哈啰
-DOMAIN-KEYWORD,assets.51downapp.cn
+DOMAIN-SUFFIX,assets.51downapp.cn
 # > 叮嗒出行
-DOMAIN-KEYWORD,image.bianxianmao.com
+DOMAIN-SUFFIX,image.bianxianmao.com
 IP-CIDR,203.107.1.1/24,no-resolve
 # > VIVO商城
-DOMAIN-KEYWORD,paradisestatic.vivo.com.cn
+DOMAIN-SUFFIX,paradisestatic.vivo.com.cn
 # > 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
-# > DOMAIN-KEYWORD,xqimg.imedao.com
+# > DOMAIN-SUFFIX,xqimg.imedao.com
 # > 滴滴青桔（支付界面图片有误杀）
-# > DOMAIN-KEYWORD,pt-starimg.didistatic.com
+# > DOMAIN-SUFFIX,pt-starimg.didistatic.com
 # > 一刻相册
-DOMAIN-KEYWORD,sf1-be-tos.pglstatp-toutiao.com
-DOMAIN-KEYWORD,sf3-fe-tos.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf1-be-tos.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
 # > 酷狗音乐
-DOMAIN-KEYWORD,searchrecommend.kugou.com
-DOMAIN-KEYWORD,nbcollectretry.kugou.com
-DOMAIN-KEYWORD,rtmretry.kugou.com
-DOMAIN-KEYWORD,rt-m.kugou.com
-DOMAIN-KEYWORD,nbcollect.kugou.com
-DOMAIN-KEYWORD,c1img.ali.kugou.com
-DOMAIN-KEYWORD,kgstaticdlbssdlbig.tx.kugou.com
-DOMAIN-KEYWORD,adsfilebssdlbig.ali.kugou.com
-DOMAIN-KEYWORD,splashimgbssdl.yun.kugou.com
-DOMAIN-KEYWORD,adservice.kugou.com
-DOMAIN-KEYWORD,kgipadstat.kugou.com
-DOMAIN-KEYWORD,kgipadstatbak.kugou.com
-DOMAIN-KEYWORD,logwebs.kugou.com
-DOMAIN-KEYWORD,tracker.kugou.com
-DOMAIN-KEYWORD,trackercdnbj.kugou.com
-DOMAIN-KEYWORD,rich.kuwo.cn
-DOMAIN-KEYWORD,mobilead.kuwo.cn
+DOMAIN-SUFFIX,searchrecommend.kugou.com
+DOMAIN-SUFFIX,nbcollectretry.kugou.com
+DOMAIN-SUFFIX,rtmretry.kugou.com
+DOMAIN-SUFFIX,rt-m.kugou.com
+DOMAIN-SUFFIX,nbcollect.kugou.com
+DOMAIN-SUFFIX,c1img.ali.kugou.com
+DOMAIN-SUFFIX,kgstaticdlbssdlbig.tx.kugou.com
+DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com
+DOMAIN-SUFFIX,splashimgbssdl.yun.kugou.com
+DOMAIN-SUFFIX,adservice.kugou.com
+DOMAIN-SUFFIX,kgipadstat.kugou.com
+DOMAIN-SUFFIX,kgipadstatbak.kugou.com
+DOMAIN-SUFFIX,logwebs.kugou.com
+DOMAIN-SUFFIX,tracker.kugou.com
+DOMAIN-SUFFIX,trackercdnbj.kugou.com
+DOMAIN-SUFFIX,rich.kuwo.cn
+DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN,adsfile.bssdlbig.kugou.com
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com
 DOMAIN,pgdt.gtimg.cn
@@ -109,12 +109,12 @@ DOMAIN-SUFFIX,webstat.kuwo.cn
 DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN-SUFFIX,rich.kuwo.cn
 # > 小利生活
-DOMAIN-KEYWORD,mpos-pic.helipay.com
+DOMAIN-SUFFIX,mpos-pic.helipay.com
 # > 懂车帝
-DOMAIN-KEYWORD,p3-pack.byteimg.com
-DOMAIN-KEYWORD,p6-pack.byteimg.com
+DOMAIN-SUFFIX,p3-pack.byteimg.com
+DOMAIN-SUFFIX,p6-pack.byteimg.com
 # > 懂球帝
-DOMAIN-KEYWORD,apimg.qunliao.info
+DOMAIN-SUFFIX,apimg.qunliao.info
 # > 搜狗
 DOMAIN,indivi-cdn.shouji.sogou.com
 DOMAIN-SUFFIX,epro.sogou.com
@@ -136,7 +136,7 @@ DOMAIN-SUFFIX,bite.theta.sogoucdn.com
 DOMAIN-SUFFIX,brand.sogou.com
 DOMAIN-SUFFIX,bsiet.husky.sogou.com
 # > 搜狗输入法
-DOMAIN-KEYWORD,business-cdn.shouji.sogou.com
+DOMAIN-SUFFIX,business-cdn.shouji.sogou.com
 ## QQ音乐广告
 DOMAIN,tmeadcomm.y.qq.com
 DOMAIN,ad.tencentmusic.com
@@ -167,42 +167,42 @@ DOMAIN-SUFFIX,meituangov.cn
 DOMAIN-SUFFIX,report.meituan.com
 DOMAIN-SUFFIX,wmlog.meituan.com
 # > UC浏览器
-DOMAIN-KEYWORD,m.atm.youku.com
-DOMAIN-KEYWORD,adp.atm.youku.com
-DOMAIN-KEYWORD,clickc.admaster.com
-DOMAIN-KEYWORD,count.atm.youku.com
-DOMAIN-KEYWORD,ems.youku.com
-DOMAIN-KEYWORD,fans.m.tmall.com
-DOMAIN-KEYWORD,ktd.m.cn.miaozhen.com
-DOMAIN-KEYWORD,r1.ykimg.com
-DOMAIN-KEYWORD,v.admaster.com
-DOMAIN-KEYWORD,v2.reachmax.cn
-DOMAIN-KEYWORD,val.atm.youku.com
-DOMAIN-KEYWORD,yktd.m.cn.miaozhen.com
-DOMAIN-KEYWORD,server.m.pp.cn
-DOMAIN-KEYWORD,puds.ucweb.com
-DOMAIN-KEYWORD,wgo.mmstat.com
-DOMAIN-KEYWORD,log.cs.pp.cn
-DOMAIN-KEYWORD,applog.uc.cn
-DOMAIN-KEYWORD,afpapi.alimama.com
-DOMAIN-KEYWORD,a.9game.cn
-DOMAIN-KEYWORD,track.uc.cn
-DOMAIN-KEYWORD,adtrack.ucweb.com
-DOMAIN-KEYWORD,utp-dmp.ucweb.com
-DOMAIN-KEYWORD,utp.ucweb.com
-DOMAIN-KEYWORD,huichuan.sm.cn
-DOMAIN-KEYWORD,ynuf.alipay.com
-DOMAIN-KEYWORD,pdds.ucweb.com
-DOMAIN-KEYWORD,js.union-wifi.com
-DOMAIN-KEYWORD,www.qmlog.cn
-DOMAIN-KEYWORD,cpu.baidu.com
-DOMAIN-KEYWORD,caclick.baidu.com
-DOMAIN-KEYWORD,rescn.u3.ucweb.com
+DOMAIN-SUFFIX,m.atm.youku.com
+DOMAIN-SUFFIX,adp.atm.youku.com
+DOMAIN-SUFFIX,clickc.admaster.com
+DOMAIN-SUFFIX,count.atm.youku.com
+DOMAIN-SUFFIX,ems.youku.com
+DOMAIN-SUFFIX,fans.m.tmall.com
+DOMAIN-SUFFIX,ktd.m.cn.miaozhen.com
+DOMAIN-SUFFIX,r1.ykimg.com
+DOMAIN-SUFFIX,v.admaster.com
+DOMAIN-SUFFIX,v2.reachmax.cn
+DOMAIN-SUFFIX,val.atm.youku.com
+DOMAIN-SUFFIX,yktd.m.cn.miaozhen.com
+DOMAIN-SUFFIX,server.m.pp.cn
+DOMAIN-SUFFIX,puds.ucweb.com
+DOMAIN-SUFFIX,wgo.mmstat.com
+DOMAIN-SUFFIX,log.cs.pp.cn
+DOMAIN-SUFFIX,applog.uc.cn
+DOMAIN-SUFFIX,afpapi.alimama.com
+DOMAIN-SUFFIX,a.9game.cn
+DOMAIN-SUFFIX,track.uc.cn
+DOMAIN-SUFFIX,adtrack.ucweb.com
+DOMAIN-SUFFIX,utp-dmp.ucweb.com
+DOMAIN-SUFFIX,utp.ucweb.com
+DOMAIN-SUFFIX,huichuan.sm.cn
+DOMAIN-SUFFIX,ynuf.alipay.com
+DOMAIN-SUFFIX,pdds.ucweb.com
+DOMAIN-SUFFIX,js.union-wifi.com
+DOMAIN-SUFFIX,www.qmlog.cn
+DOMAIN-SUFFIX,cpu.baidu.com
+DOMAIN-SUFFIX,caclick.baidu.com
+DOMAIN-SUFFIX,rescn.u3.ucweb.com
 DOMAIN,safe.ucweb.com
 DOMAIN,px.ucweb.com
-DOMAIN-KEYWORD,editor.sm.cn
-DOMAIN-KEYWORD,fc-video.cdn.bcebos.com
-DOMAIN-KEYWORD,vs10.bj2ct.u3.ucweb.com
+DOMAIN-SUFFIX,editor.sm.cn
+DOMAIN-SUFFIX,fc-video.cdn.bcebos.com
+DOMAIN-SUFFIX,vs10.bj2ct.u3.ucweb.com
 DOMAIN,navigis.uc.cn
 DOMAIN,order.sm.cn
 DOMAIN,ucdc-upaas.uc.cn
@@ -289,7 +289,7 @@ DOMAIN-SUFFIX,v3.fstats.xyz
 DOMAIN-SUFFIX,wss.haoyundmn.com
 DOMAIN-SUFFIX,new.xiongzhangad.com
 DOMAIN-SUFFIX,alexametrics.com
-DOMAIN-KEYWORD,in-page-push
+DOMAIN-SUFFIX,in-page-push
 # > 广告
 # > 51wnl
 DOMAIN,ad.51wnl-cq.com
@@ -346,11 +346,11 @@ DOMAIN-SUFFIX,wan.youku.com
 DOMAIN-SUFFIX,ykatr.youku.com
 DOMAIN-SUFFIX,ykrec.youku.com
 # > 汽车之家
-DOMAIN-KEYWORD,adm3.autoimg.cn
-DOMAIN-KEYWORD,audid-api.taobao.com
-DOMAIN-KEYWORD,collectionpv.che168.com
-DOMAIN-KEYWORD,adproxy.autohome.com
-DOMAIN-KEYWORD,applogapi.autohome.com
+DOMAIN-SUFFIX,adm3.autoimg.cn
+DOMAIN-SUFFIX,audid-api.taobao.com
+DOMAIN-SUFFIX,collectionpv.che168.com
+DOMAIN-SUFFIX,adproxy.autohome.com
+DOMAIN-SUFFIX,applogapi.autohome.com
 DOMAIN,adproxy.autohome.com.cn
 DOMAIN,rd.autohome.com.cn
 DOMAIN,al.autohome.com.cn
@@ -529,7 +529,7 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com
 DOMAIN,ad.toutiao.com
 DOMAIN,dsp.toutiao.com
-DOMAIN-KEYWORD,pangolin.snssdk.com
+DOMAIN-SUFFIX,pangolin.snssdk.com
 # > baicizhan
 DOMAIN,advertise.baicizhan.com
 DOMAIN,advertise.baicizhan.org
@@ -537,7 +537,7 @@ DOMAIN,advertise.baicizhan.org
 DOMAIN,adx.yiche.com
 DOMAIN,log.ycapp.yiche.com
 # > 团油
-DOMAIN-KEYWORD,img1.czb365.com
+DOMAIN-SUFFIX,img1.czb365.com
 # > Braze
 DOMAIN-SUFFIX,iad.appboy.com
 DOMAIN-SUFFIX,iad-03.appboy.com
@@ -656,29 +656,29 @@ DOMAIN-SUFFIX,bingads.microsoft.com
 DOMAIN-SUFFIX,rads.msn.com
 DOMAIN,mobileads.msn.com
 # > 讯飞输入法广告
-DOMAIN-KEYWORD,ossp.voicecloud.cn
-DOMAIN-KEYWORD,bj.imp.voiceads.cn
-DOMAIN-KEYWORD,m.panda.voiceads.cn
-DOMAIN-KEYWORD,iflyad.bj.openstorage.cn
+DOMAIN-SUFFIX,ossp.voicecloud.cn
+DOMAIN-SUFFIX,bj.imp.voiceads.cn
+DOMAIN-SUFFIX,m.panda.voiceads.cn
+DOMAIN-SUFFIX,iflyad.bj.openstorage.cn
 # > 墨迹天气
-DOMAIN-KEYWORD,fds.api.moji.com
-DOMAIN-KEYWORD,me.api.moji.com
-DOMAIN-KEYWORD,android.bugly.qq.com
-DOMAIN-KEYWORD,av1.xdrig.com
-DOMAIN-KEYWORD,adash.man.aliyuncs.com
-DOMAIN-KEYWORD,v1.log.moji.com
-DOMAIN-KEYWORD,ad.api.moji.com
+DOMAIN-SUFFIX,fds.api.moji.com
+DOMAIN-SUFFIX,me.api.moji.com
+DOMAIN-SUFFIX,android.bugly.qq.com
+DOMAIN-SUFFIX,av1.xdrig.com
+DOMAIN-SUFFIX,adash.man.aliyuncs.com
+DOMAIN-SUFFIX,v1.log.moji.com
+DOMAIN-SUFFIX,ad.api.moji.com
 DOMAIN,ad.api.moji.com
 DOMAIN,adlaunch.moji.com
 DOMAIN,ads.mojicdn.com
 DOMAIN,v1.log.moji.com
 # > 中华万年历广告
-DOMAIN-KEYWORD,lkme.cc
-DOMAIN-KEYWORD,api.freed.so
-DOMAIN-KEYWORD,log-dmp.suishenyun.cn
-DOMAIN-KEYWORD,client-dmp.suishenyun.cn
-DOMAIN-KEYWORD,pc.suishenyun.net
-DOMAIN-KEYWORD,v0-client-lz.rili.cn
+DOMAIN-SUFFIX,lkme.cc
+DOMAIN-SUFFIX,api.freed.so
+DOMAIN-SUFFIX,log-dmp.suishenyun.cn
+DOMAIN-SUFFIX,client-dmp.suishenyun.cn
+DOMAIN-SUFFIX,pc.suishenyun.net
+DOMAIN-SUFFIX,v0-client-lz.rili.cn
 # > 腾讯视频
 DOMAIN-SUFFIX,tetrack.qq.com
 DOMAIN-SUFFIX,tpns.tencent.com
@@ -686,8 +686,8 @@ DOMAIN-SUFFIX,api.poll.video.qq.com
 DOMAIN-SUFFIX,static-res.qq.com
 DOMAIN-SUFFIX,stat.tpns.tencent.com
 DOMAIN,h.trace.qq.com
-DOMAIN-KEYWORD,omgmta.qq.com
-DOMAIN-KEYWORD,omgmta1.qq.com
+DOMAIN-SUFFIX,omgmta.qq.com
+DOMAIN-SUFFIX,omgmta1.qq.com
 # > 爱奇艺
 DOMAIN,cr-status.iqiyi.com
 DOMAIN-SUFFIX,cupid.iqiyi.com
@@ -725,7 +725,7 @@ DOMAIN,nex.163.com
 DOMAIN,yt-adp.nosdn.127.net
 DOMAIN,yt-adp.ws.126.net
 # > 网易云
-DOMAIN-KEYWORD,ossgw.alicdn.com
+DOMAIN-SUFFIX,ossgw.alicdn.com
 # (P)
 # > PPTV
 DOMAIN,ads.aplus.pptv.com
@@ -739,45 +739,45 @@ DOMAIN,cdn.adapi.fotoable.com
 DOMAIN,adnew.wifi8.com
 DOMAIN,adfile.wifi8.com
 # > WiFi万能钥匙广告
-DOMAIN-KEYWORD,app.51y5.net
-DOMAIN-KEYWORD,apiinit.amap.com
-DOMAIN-KEYWORD,c.51y5.net
-DOMAIN-KEYWORD,msg.push.51y5.net
-DOMAIN-KEYWORD,a.wkanx.com
-DOMAIN-KEYWORD,c.wkanx.com
-DOMAIN-KEYWORD,c1.wkanx.com
-DOMAIN-KEYWORD,ap.51y5.net
-DOMAIN-KEYWORD,dc.51y5.net
-DOMAIN-KEYWORD,push-dc.51y5.net
-DOMAIN-KEYWORD,news-log.51y5.net
-DOMAIN-KEYWORD,login.push.51y5.net
-DOMAIN-KEYWORD,news.51y5.net
-DOMAIN-KEYWORD,cds.51y5.net
-DOMAIN-KEYWORD,insurance.lianwifi.com
-DOMAIN-KEYWORD,config.51y5.net
-DOMAIN-KEYWORD,static.wkanx.com
-DOMAIN-KEYWORD,config.y5en.com
+DOMAIN-SUFFIX,app.51y5.net
+DOMAIN-SUFFIX,apiinit.amap.com
+DOMAIN-SUFFIX,c.51y5.net
+DOMAIN-SUFFIX,msg.push.51y5.net
+DOMAIN-SUFFIX,a.wkanx.com
+DOMAIN-SUFFIX,c.wkanx.com
+DOMAIN-SUFFIX,c1.wkanx.com
+DOMAIN-SUFFIX,ap.51y5.net
+DOMAIN-SUFFIX,dc.51y5.net
+DOMAIN-SUFFIX,push-dc.51y5.net
+DOMAIN-SUFFIX,news-log.51y5.net
+DOMAIN-SUFFIX,login.push.51y5.net
+DOMAIN-SUFFIX,news.51y5.net
+DOMAIN-SUFFIX,cds.51y5.net
+DOMAIN-SUFFIX,insurance.lianwifi.com
+DOMAIN-SUFFIX,config.51y5.net
+DOMAIN-SUFFIX,static.wkanx.com
+DOMAIN-SUFFIX,config.y5en.com
 # > 今日头条
 DOMAIN,dm.toutiao.com
-DOMAIN-KEYWORD,ad.toutiao.com
-DOMAIN-KEYWORD,clk.gentags.net
-DOMAIN-KEYWORD,dm.toutiao.com
-DOMAIN-KEYWORD,dm.pstatp.com
-DOMAIN-KEYWORD,dm.bytedance.com
-DOMAIN-KEYWORD,policy.jd.com
-DOMAIN-KEYWORD,kepler.jd.com
-DOMAIN-KEYWORD,bdsp.x.jd.com
-DOMAIN-KEYWORD,keplerapi.jd.com
-DOMAIN-KEYWORD,m.suning.com
-DOMAIN-KEYWORD,adshare.toutiao.com
-DOMAIN-KEYWORD,tunion-api.m.taobao.com
-DOMAIN-KEYWORD,mapi.m.jd.com
-DOMAIN-KEYWORD,s1.pstatp.com
-DOMAIN-KEYWORD,s2.pstatp.com
-DOMAIN-KEYWORD,s3.pstatp.com
-DOMAIN-KEYWORD,a3.pstatp.com
-DOMAIN-KEYWORD,a3.bytecdn.cn
-DOMAIN-KEYWORD,ichannel.snssdk.com
+DOMAIN-SUFFIX,ad.toutiao.com
+DOMAIN-SUFFIX,clk.gentags.net
+DOMAIN-SUFFIX,dm.toutiao.com
+DOMAIN-SUFFIX,dm.pstatp.com
+DOMAIN-SUFFIX,dm.bytedance.com
+DOMAIN-SUFFIX,policy.jd.com
+DOMAIN-SUFFIX,kepler.jd.com
+DOMAIN-SUFFIX,bdsp.x.jd.com
+DOMAIN-SUFFIX,keplerapi.jd.com
+DOMAIN-SUFFIX,m.suning.com
+DOMAIN-SUFFIX,adshare.toutiao.com
+DOMAIN-SUFFIX,tunion-api.m.taobao.com
+DOMAIN-SUFFIX,mapi.m.jd.com
+DOMAIN-SUFFIX,s1.pstatp.com
+DOMAIN-SUFFIX,s2.pstatp.com
+DOMAIN-SUFFIX,s3.pstatp.com
+DOMAIN-SUFFIX,a3.pstatp.com
+DOMAIN-SUFFIX,a3.bytecdn.cn
+DOMAIN-SUFFIX,ichannel.snssdk.com
 # > PConline
 DOMAIN,ad-analysis.pconline.com.cn
 DOMAIN,iad0ssl.pcauto.com.cn
@@ -953,11 +953,11 @@ DOMAIN,adsdk.vivo.com.cn
 DOMAIN,adsstatic.vivo.com.cn
 DOMAIN,adxlog.vivo.com.cn
 DOMAIN,vcardsdkservice.vivo.com.cn
-DOMAIN-KEYWORD,stsdk.vivo.com.cn
-DOMAIN-KEYWORD,stsdk.vivoglobal.com
+DOMAIN-SUFFIX,stsdk.vivo.com.cn
+DOMAIN-SUFFIX,stsdk.vivoglobal.com
 # > 微博
-DOMAIN-KEYWORD,fastimage.uve.weibo.com
-DOMAIN-KEYWORD,adimg.uve.weibo.com
+DOMAIN-SUFFIX,fastimage.uve.weibo.com
+DOMAIN-SUFFIX,adimg.uve.weibo.com
 DOMAIN-SUFFIX,adimg.vue.weibo.com
 DOMAIN-SUFFIX,zymo.mps.weibo.com
 DOMAIN-SUFFIX,weibomingzi.com
@@ -970,44 +970,44 @@ DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN-SUFFIX,adimg.uve.weibo.com
 DOMAIN-SUFFIX,game.weibo.com
 DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn
-DOMAIN-KEYWORD,ads.viber.com
-DOMAIN-KEYWORD,ads-d.viber.com
-DOMAIN-KEYWORD,ads.aws.viber.com
+DOMAIN-SUFFIX,ads.viber.com
+DOMAIN-SUFFIX,ads-d.viber.com
+DOMAIN-SUFFIX,ads.aws.viber.com
 DOMAIN-SUFFIX,alitui.weibo.com
 DOMAIN,adimg.uve.weibo.com
 DOMAIN,adimg.vue.weibo.com
-DOMAIN-KEYWORD,adimg.uve.weibo.com
-DOMAIN-KEYWORD,alitui.weibo.com
-DOMAIN-KEYWORD,biz.weibo.com
-DOMAIN-KEYWORD,game.weibo.cn
-DOMAIN-KEYWORD,game.weibo.com
-DOMAIN-KEYWORD,gw5.push.mcp.weibo.cn
-DOMAIN-KEYWORD,gw6.push.mcp.weibo.cn
-DOMAIN-KEYWORD,promote.biz.weibo.cn
-DOMAIN-KEYWORD,s.alitui.weibo.com
-DOMAIN-KEYWORD,sdkapp.uve.weibo.com
-DOMAIN-KEYWORD,weibomingzi.com
-DOMAIN-KEYWORD,zymo.mps.weibo.com
-DOMAIN-KEYWORD,adimg.vue.weibo.com
-DOMAIN-KEYWORD,dp.im.weibo.cn
-DOMAIN-KEYWORD,m.game.weibo.cn
-DOMAIN-KEYWORD,c.biz.weibo.com
-DOMAIN-KEYWORD,c.wcpt.biz.weibo.com
-DOMAIN-KEYWORD,click.uve.weibo.com
-DOMAIN-KEYWORD,wax.weibo.com
-DOMAIN-KEYWORD,wbapp.uve.weibo.com
-DOMAIN-KEYWORD,widget.weibo.com
-DOMAIN-KEYWORD,zc.biz.weibo.com
-DOMAIN-KEYWORD,dsp.edm.weibo.cn
-DOMAIN-KEYWORD,alitui.weibo.com.cn
-DOMAIN-KEYWORD,biz.weibo.com.cn
-DOMAIN-KEYWORD,game.weibo.com.cn
-DOMAIN-KEYWORD,tui.weibo.com
-DOMAIN-KEYWORD,wax.weibo.com.cn
-DOMAIN-KEYWORD,ad.weibo.com
-DOMAIN-KEYWORD,adstrategy.biz.weibo.com
-DOMAIN-KEYWORD,s.weibo.com
-DOMAIN-KEYWORD,vs.biz.weibo.com
+DOMAIN-SUFFIX,adimg.uve.weibo.com
+DOMAIN-SUFFIX,alitui.weibo.com
+DOMAIN-SUFFIX,biz.weibo.com
+DOMAIN-SUFFIX,game.weibo.cn
+DOMAIN-SUFFIX,game.weibo.com
+DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn
+DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn
+DOMAIN-SUFFIX,promote.biz.weibo.cn
+DOMAIN-SUFFIX,s.alitui.weibo.com
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com
+DOMAIN-SUFFIX,weibomingzi.com
+DOMAIN-SUFFIX,zymo.mps.weibo.com
+DOMAIN-SUFFIX,adimg.vue.weibo.com
+DOMAIN-SUFFIX,dp.im.weibo.cn
+DOMAIN-SUFFIX,m.game.weibo.cn
+DOMAIN-SUFFIX,c.biz.weibo.com
+DOMAIN-SUFFIX,c.wcpt.biz.weibo.com
+DOMAIN-SUFFIX,click.uve.weibo.com
+DOMAIN-SUFFIX,wax.weibo.com
+DOMAIN-SUFFIX,wbapp.uve.weibo.com
+DOMAIN-SUFFIX,widget.weibo.com
+DOMAIN-SUFFIX,zc.biz.weibo.com
+DOMAIN-SUFFIX,dsp.edm.weibo.cn
+DOMAIN-SUFFIX,alitui.weibo.com.cn
+DOMAIN-SUFFIX,biz.weibo.com.cn
+DOMAIN-SUFFIX,game.weibo.com.cn
+DOMAIN-SUFFIX,tui.weibo.com
+DOMAIN-SUFFIX,wax.weibo.com.cn
+DOMAIN-SUFFIX,ad.weibo.com
+DOMAIN-SUFFIX,adstrategy.biz.weibo.com
+DOMAIN-SUFFIX,s.weibo.com
+DOMAIN-SUFFIX,vs.biz.weibo.com
 # > keep
 DOMAIN,apm.gotokeep.com
 DOMAIN,kad.gotokeep.com
@@ -1096,20 +1096,20 @@ DOMAIN-SUFFIX,adashbc.m.taobao.com
 # > 小小影视
 DOMAIN,39d83s.com
 # > 威锋
-DOMAIN-KEYWORD,p3-be-pack-sign.pglstatp-toutiao.com
-DOMAIN-KEYWORD,sf3-be-pack.pglstatp-toutiao.com
-DOMAIN-KEYWORD,sf1-be-pack.pglstatp-toutiao.com
-DOMAIN-KEYWORD,sf1-fe-tos.pglstatp-toutiao.com
-DOMAIN-KEYWORD,sf1-ttcdn-tos.pstatp.com
-DOMAIN-KEYWORD,sf3-fe-tos.pglstatp-toutiao.com
-DOMAIN-KEYWORD,sf3-ttcdn-tos.pstatp.com
-DOMAIN-KEYWORD,sf6-fe-tos.pglstatp-toutiao.com
-DOMAIN-KEYWORD,s3-fe-scm.pglstatp-toutiao.com
-DOMAIN-KEYWORD,sf6-be-pack.pglstatp-toutiao.com
-DOMAIN-KEYWORD,p9-be-pack-sign.pglstatp-toutiao.com
+DOMAIN-SUFFIX,p3-be-pack-sign.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf3-be-pack.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf1-be-pack.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf1-fe-tos.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf1-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX,sf6-fe-tos.pglstatp-toutiao.com
+DOMAIN-SUFFIX,s3-fe-scm.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf6-be-pack.pglstatp-toutiao.com
+DOMAIN-SUFFIX,p9-be-pack-sign.pglstatp-toutiao.com
 # > 哔哩哔哩
 DOMAIN-SUFFIX,cm.bilibili.com
-DOMAIN-KEYWORD,api.sobot.com
+DOMAIN-SUFFIX,api.sobot.com
 DOMAIN-SUFFIX,cm.ad.bilibili.com
 DOMAIN-SUFFIX,cm.adcommon.bilibili.com
 DOMAIN-SUFFIX,cm.game.bilibili.com
@@ -1123,7 +1123,7 @@ DOMAIN-SUFFIX,cm.ad.gifshow.com
 DOMAIN-SUFFIX,cm.kwad.com
 # > 人民日报
 # > 蓝基因（弹窗还在，需要手动关闭）
-DOMAIN-KEYWORD,medicine.lanjiyin.com.cn
+DOMAIN-SUFFIX,medicine.lanjiyin.com.cn
 # > 美颜相机去首页和轮播广告
 DOMAIN,adui.tg.meitu.com
 DOMAIN,aaid.uyunad.com
@@ -1146,36 +1146,36 @@ DOMAIN,ad.chelaile.net.cn
 # > 两步路
 DOMAIN-SUFFIX,admobile.top
 # > 抖音
-DOMAIN-KEYWORD,bds.snssdk.com
-DOMAIN-KEYWORD,p6-ad-sign.byteimg.com
-DOMAIN-KEYWORD,p3.pstatp.com
+DOMAIN-SUFFIX,bds.snssdk.com
+DOMAIN-SUFFIX,p6-ad-sign.byteimg.com
+DOMAIN-SUFFIX,p3.pstatp.com
 # > 皮皮虾（推荐视频不能预览）
-DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao-b.com
-DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao.com
-DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
 # > 皮皮虾（比较激进，需要的自己开启）
-# > DOMAIN-KEYWORD,snssdk.com
-# > DOMAIN-KEYWORD,mssdk.bytedance.com
-# > DOMAIN-KEYWORD,api.ribaoapi.com
-# > DOMAIN-KEYWORD,apps.bytesfield.com
-# > DOMAIN-KEYWORD,bytesmanager.com
-# > DOMAIN-KEYWORD,pglstatp-toutiao.com
-# > DOMAIN-KEYWORD,mssdk-bu.bytedance.com
-# > DOMAIN-KEYWORD,365yg.com
-# > DOMAIN-KEYWORD,ppx.byteimg.com
-# > DOMAIN-KEYWORD,i.snssdk.com
+# > DOMAIN-SUFFIX,snssdk.com
+# > DOMAIN-SUFFIX,mssdk.bytedance.com
+# > DOMAIN-SUFFIX,api.ribaoapi.com
+# > DOMAIN-SUFFIX,apps.bytesfield.com
+# > DOMAIN-SUFFIX,bytesmanager.com
+# > DOMAIN-SUFFIX,pglstatp-toutiao.com
+# > DOMAIN-SUFFIX,mssdk-bu.bytedance.com
+# > DOMAIN-SUFFIX,365yg.com
+# > DOMAIN-SUFFIX,ppx.byteimg.com
+# > DOMAIN-SUFFIX,i.snssdk.com
 # > 影响端传媒正常运行，默认关闭
 # > DOMAIN-SUFFIX,cloudfront.net
 # > 其他广告
-DOMAIN-KEYWORD,extlog.snssdk.com
-DOMAIN-KEYWORD,is.snssdk.com
-DOMAIN-KEYWORD,log.snssdk.com
-DOMAIN-KEYWORD,mobads.baidu.com
-DOMAIN-KEYWORD,s3a.pstatp.com
-DOMAIN-KEYWORD,sdfp.snssdk.com
-DOMAIN-KEYWORD,tosv.boe.byted.org
-DOMAIN-KEYWORD,tosv.byted.org
-DOMAIN-KEYWORD,ad.ihuman.com
+DOMAIN-SUFFIX,extlog.snssdk.com
+DOMAIN-SUFFIX,is.snssdk.com
+DOMAIN-SUFFIX,log.snssdk.com
+DOMAIN-SUFFIX,mobads.baidu.com
+DOMAIN-SUFFIX,s3a.pstatp.com
+DOMAIN-SUFFIX,sdfp.snssdk.com
+DOMAIN-SUFFIX,tosv.boe.byted.org
+DOMAIN-SUFFIX,tosv.byted.org
+DOMAIN-SUFFIX,ad.ihuman.com
 DOMAIN,delivery-node-aziz.voe-network.net
 DOMAIN,inspiringaccurate.com
 DOMAIN,track.aso1.net
@@ -1211,16 +1211,16 @@ DOMAIN-SUFFIX,uus52.com
 DOMAIN-SUFFIX,uus58.com
 DOMAIN-SUFFIX,ddmax20.xyz
 DOMAIN-SUFFIX,ads.exosrv.com
-DOMAIN-KEYWORD,exosrv
-DOMAIN-KEYWORD,asewlfjqwlflkew
+DOMAIN-SUFFIX,exosrv
+DOMAIN-SUFFIX,asewlfjqwlflkew
 DOMAIN-SUFFIX,tyrantdb.com
 DOMAIN-SUFFIX,adserve.work
-DOMAIN-KEYWORD,brushshopy
-DOMAIN-KEYWORD,onenews
+DOMAIN-SUFFIX,brushshopy
+DOMAIN-SUFFIX,onenews
 DOMAIN-SUFFIX,s96.cnzz.com
 DOMAIN-SUFFIX,yabo729.com
 DOMAIN-SUFFIX,xn--xhq9mt12cf5v.xn--io0a7i
-DOMAIN-KEYWORD,xn--2qux23c9ziyrq
+DOMAIN-SUFFIX,xn--2qux23c9ziyrq
 DOMAIN-SUFFIX,xn--3bs795g.zone
 DOMAIN-SUFFIX,xn--2qux23c9ziyrq.plus
 DOMAIN-SUFFIX,xn--2qux23c9ziyrq.club
@@ -1230,7 +1230,7 @@ DOMAIN-SUFFIX,xn--3bs795g.link
 DOMAIN-SUFFIX,show.suning.beer
 DOMAIN-SUFFIX,www.govshenzhen.cn
 DOMAIN-SUFFIX,mm9842.com
-DOMAIN-KEYWORD,e2wysbacctt1
+DOMAIN-SUFFIX,e2wysbacctt1
 DOMAIN-SUFFIX,streamtape.com
 DOMAIN-SUFFIX,maphuahin.com
 DOMAIN-SUFFIX,ggsfq.com
@@ -1238,7 +1238,7 @@ DOMAIN-SUFFIX,ad.pornimg.xyz
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,awaitcola.com
 DOMAIN-SUFFIX,wine-api.net
-DOMAIN-KEYWORD,wixsite.com
+DOMAIN-SUFFIX,wixsite.com
 DOMAIN-SUFFIX,exosrv.com
 DOMAIN-SUFFIX,juicyads.com
 DOMAIN-SUFFIX,wixstatic.com
@@ -1267,19 +1267,19 @@ DOMAIN-SUFFIX,dvzk66.cn
 DOMAIN-SUFFIX,pu0glv.cn
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,ads.bullionyield.com
-DOMAIN-KEYWORD,dlads
+DOMAIN-SUFFIX,dlads
 DOMAIN,dagonghuzhu.com
-DOMAIN-KEYWORD,xxshuyuan
-DOMAIN-KEYWORD,haowanyou
-DOMAIN-KEYWORD,dat8
-DOMAIN-KEYWORD,112wan
-DOMAIN-KEYWORD,dfkj8
-DOMAIN-KEYWORD,mifengv
-DOMAIN-KEYWORD,lieyou
-DOMAIN-KEYWORD,789htbet
-DOMAIN-KEYWORD,mdapp09
-DOMAIN-KEYWORD,juruigj
-DOMAIN-KEYWORD,mmiyue
+DOMAIN-SUFFIX,xxshuyuan
+DOMAIN-SUFFIX,haowanyou
+DOMAIN-SUFFIX,dat8
+DOMAIN-SUFFIX,112wan
+DOMAIN-SUFFIX,dfkj8
+DOMAIN-SUFFIX,mifengv
+DOMAIN-SUFFIX,lieyou
+DOMAIN-SUFFIX,789htbet
+DOMAIN-SUFFIX,mdapp09
+DOMAIN-SUFFIX,juruigj
+DOMAIN-SUFFIX,mmiyue
 DOMAIN-SUFFIX,etahub.com
 DOMAIN-SUFFIX,22c.in
 DOMAIN-SUFFIX,imgxxx.shunxincar.cn
@@ -1316,25 +1316,25 @@ DOMAIN-SUFFIX,aaacompany.net
 DOMAIN-SUFFIX,d24ak3f2b.top
 DOMAIN-SUFFIX,blastcahs.com
 DOMAIN-SUFFIX,wpncdn.com
-DOMAIN-KEYWORD,toateeli
-DOMAIN-KEYWORD,greenplasticdua
-DOMAIN-KEYWORD,bongacash
-DOMAIN-KEYWORD,bngpt
-DOMAIN-KEYWORD,stunninglover
-DOMAIN-KEYWORD,highwebmedia
-DOMAIN-KEYWORD,jads
-DOMAIN-KEYWORD,trwl1
-DOMAIN-KEYWORD,vidoza
-DOMAIN-KEYWORD,o333o
+DOMAIN-SUFFIX,toateeli
+DOMAIN-SUFFIX,greenplasticdua
+DOMAIN-SUFFIX,bongacash
+DOMAIN-SUFFIX,bngpt
+DOMAIN-SUFFIX,stunninglover
+DOMAIN-SUFFIX,highwebmedia
+DOMAIN-SUFFIX,jads
+DOMAIN-SUFFIX,trwl1
+DOMAIN-SUFFIX,vidoza
+DOMAIN-SUFFIX,o333o
 DOMAIN-SUFFIX,x2sfa.javgg.eu
 DOMAIN-SUFFIX,xd3r.javgg.eu
 DOMAIN-SUFFIX,p242.plainwrk.name
-DOMAIN-KEYWORD,histats
-DOMAIN-KEYWORD,dtscout
-DOMAIN-KEYWORD,adform
-DOMAIN-KEYWORD,mathtag
-DOMAIN-KEYWORD,pagespeed-mod
-DOMAIN-KEYWORD,in-page-push
+DOMAIN-SUFFIX,histats
+DOMAIN-SUFFIX,dtscout
+DOMAIN-SUFFIX,adform
+DOMAIN-SUFFIX,mathtag
+DOMAIN-SUFFIX,pagespeed-mod
+DOMAIN-SUFFIX,in-page-push
 DOMAIN-SUFFIX,referrer.disqus.com
 DOMAIN-SUFFIX,links.services.disqus.com
 DOMAIN-SUFFIX,disqusads.com
