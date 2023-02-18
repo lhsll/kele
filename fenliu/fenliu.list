@@ -272,15 +272,15 @@
 .www.google-analytics.com
 .ads.youtube.com
 # > 高德
-.adiu.amap.com
-.aboard.apilocate.amap.com
-.apiinit.amap.com
-.icloud-amap.com
-.logs.amap.com
-.dualstack-logs.amap.com
-.optimus-ads.amap.com
-.page.amap.com
-.optimus-ads.amap.com.w.alikunlun.com
+#.adiu.amap.com
+#.aboard.apilocate.amap.com
+#.apiinit.amap.com
+#.icloud-amap.com
+#.logs.amap.com
+#.dualstack-logs.amap.com
+#.optimus-ads.amap.com
+#.page.amap.com
+#.optimus-ads.amap.com.w.alikunlun.com
 .shouji.sougou.com
 .u51.me
 # > HDO
