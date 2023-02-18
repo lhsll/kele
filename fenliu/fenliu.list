@@ -840,12 +840,12 @@
 .stsdk.vivoglobal.com
 # > VIVO商城
 .paradisestatic.vivo.com.cn
+# > 微博
 .fastimage.uve.weibo.com
 .adimg.uve.weibo.com
 .adimg.vue.weibo.com
 .zymo.mps.weibo.com
 .weibomingzi.com
-.sdkapp.uve.weibo.com
 .s.alitui.weibo.com
 .promote.biz.weibo.cn
 .gw5.push.mcp.weibo.cn
@@ -874,7 +874,6 @@
 .wax.weibo.com.cn
 .ad.weibo.com
 .adstrategy.biz.weibo.com
-# .s.weibo.com
 .vs.biz.weibo.com
 # > 网易
 .dsp.youdao.com
