@@ -1,288 +1,3 @@
-# > 2023.1.15  15:44:20
-# > 网易云音乐
-.ipv6.music.163.com
-# > 屏蔽数字联盟
-.shuzilm.cn
-# > 光大银行阳光惠生活
-.talk.bz.getui.com
-# > 民生银行
-.cm-10-134.getui.com
-.sdk.open.talk.getui.com
-.cm-10-35.getui.com
-.c-hzgt2.getui.com
-.sdk.open.talk.igexin.com
-# > 云闪付
-.switch.cup.com.cn
-.sdk.open.talk.getui.net
-.sdk-conf.getui.com
-.cm-10-138.getui.com
-.ads.95516.com
-# > 中信银行
-.sis.jpush.io
-.s.jpush.cn
-.jpush.cn
-.im64.jpush.cn
-.im.jpush.cn
-.jpush.html5.qq.com
-# > 买单吧
-.c-hzgt2.getui.com
-# > 招钱进宝
-.p26-be-pack-sign.pglstatp-toutiao.com
-# > 哈啰
-.assets.51downapp.cn
-# > 叮嗒出行
-.image.bianxianmao.com
-
-# > VIVO商城
-.paradisestatic.vivo.com.cn
-# > 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
-# > .xqimg.imedao.com
-# > 滴滴青桔（支付界面图片有误杀）
-# > .pt-starimg.didistatic.com
-# > 一刻相册
-.sf1-be-tos.pglstatp-toutiao.com
-.sf3-fe-tos.pglstatp-toutiao.com
-# > 酷狗音乐
-.searchrecommend.kugou.com
-.nbcollectretry.kugou.com
-.rtmretry.kugou.com
-.rt-m.kugou.com
-.nbcollect.kugou.com
-.c1img.ali.kugou.com
-.kgstaticdlbssdlbig.tx.kugou.com
-.adsfilebssdlbig.ali.kugou.com
-.splashimgbssdl.yun.kugou.com
-.adservice.kugou.com
-.kgipadstat.kugou.com
-.kgipadstatbak.kugou.com
-.logwebs.kugou.com
-.tracker.kugou.com
-.trackercdnbj.kugou.com
-.rich.kuwo.cn
-.mobilead.kuwo.cn
-.adsfile.bssdlbig.kugou.com
-.oth.eve.mdt.qq.com
-.pgdt.gtimg.cn
-.pgdt.gtimg.cn
-.pgdt.gtimg.com
-.adsmind.gdtimg.com
-.channel.fanxing.kugou.com
-.d.kugou.com
-.downmobile.kugou.com
-.gad.kugou.com
-.game.kugou.com
-.gamebox.kugou.com
-.gcapi.sy.kugou.com
-.gg.kugou.com
-.install.kugou.com
-.install2.kugou.com
-.minidcsc.kugou.com
-.mo.kugou.com
-.msg.mobile.kugou.com
-.mvads.kugou.com
-.p.kugou.com
-.push.mobile.kugou.com
-.rtmonitor.kugou.com
-.sdn.kugou.com
-.song.fanxing.kugou.com
-.update.mobile.kugou.com
-.youxi.kugou.com
-.adserviceretry.kugou.com
-.ads.service.kugou.com
-.adsfile.bssdlbig.kugou.com
-.log.stat.kugou.com
-.log.web.kugou.com
-.kgmobilestat.kugou.com
-.kgmobilestatbak.kugou.com
-.mobilelog.kugou.com
-# > 酷我音乐
-.c.kuwo.cn
-.deliver.kuwo.cn
-.game.kuwo.cn
-.kuwoyy.com
-.kwmsg.kuwo.cn
-.msclick2.kuwo.cn
-.msphoneclick.kuwo.cn
-.updatepage.kuwo.cn
-.wa.kuwo.cn
-.webstat.kuwo.cn
-.mobilead.kuwo.cn
-.rich.kuwo.cn
-# > 小利生活
-.mpos-pic.helipay.com
-# > 懂车帝
-.p3-pack.byteimg.com
-.p6-pack.byteimg.com
-# > 懂球帝
-.apimg.qunliao.info
-# > 搜狗
-.indivi-cdn.shouji.sogou.com
-.epro.sogou.com
-.golden1.sogou.com
-.inte.sogou.com
-.inte.sogoucdn.com
-.lu.sogoucdn.com
-.theta.sogoucdn.com
-.uranus.sogou.com
-.123.sogou.com
-.a1click.cpc.sogou.com
-.adsence.sogou.com
-.adstream.123.sogoucdn.com
-.amfi.gou.sogou.com
-.art.theta.sogoucdn.com
-.athena.wan.sogou.com
-.bazinga.mse.sogou.com
-.bite.theta.sogoucdn.com
-.brand.sogou.com
-.bsiet.husky.sogou.com
-# > 搜狗输入法
-.business-cdn.shouji.sogou.com
-## QQ音乐广告
-.tmeadcomm.y.qq.com
-.ad.tencentmusic.com
-.adstats.tencentmusic.com
-.tmead.y.qq.com
-.rqd.qq.com
-.wup.imtt.qq.com
-.gdt.qq.com
-.android.rqd.qq.com
-.e.qq.com
-.beacon.qq.com
-.v.gdt.qq.com
-# > 小米
-.data.mistat.xiaomi.com
-.tracking.intl.miui.com
-# > TalkingData
-.cpatrk.net
-# > 天神
-.track.tenjin.com
-.track.tenjin.io
-.lf9-cdn-tos.bytegecko.com
-.novel.pangolin-sdk-toutiao.com
-# > 美团
-.analytics.meituan.net
-.meituan.xn--io0a7i
-.meituan.yoga
-.meituangov.cn
-.report.meituan.com
-.wmlog.meituan.com
-# > UC浏览器
-.m.atm.youku.com
-.adp.atm.youku.com
-.clickc.admaster.com
-.count.atm.youku.com
-.ems.youku.com
-.fans.m.tmall.com
-.ktd.m.cn.miaozhen.com
-.r1.ykimg.com
-.v.admaster.com
-.v2.reachmax.cn
-.val.atm.youku.com
-.yktd.m.cn.miaozhen.com
-.server.m.pp.cn
-.puds.ucweb.com
-.wgo.mmstat.com
-.log.cs.pp.cn
-.applog.uc.cn
-.afpapi.alimama.com
-.a.9game.cn
-.track.uc.cn
-.adtrack.ucweb.com
-.utp-dmp.ucweb.com
-.utp.ucweb.com
-.huichuan.sm.cn
-.ynuf.alipay.com
-.pdds.ucweb.com
-.js.union-wifi.com
-.www.qmlog.cn
-.cpu.baidu.com
-.caclick.baidu.com
-.rescn.u3.ucweb.com
-.safe.ucweb.com
-.px.ucweb.com
-.editor.sm.cn
-.fc-video.cdn.bcebos.com
-.vs10.bj2ct.u3.ucweb.com
-.navigis.uc.cn
-.order.sm.cn
-.ucdc-upaas.uc.cn
-.access.open.uc.cn
-.uc.ucweb.com
-.emoji.uc.cn
-.ssp-partner.alibaba.com
-.voice-service.uc.cn
-.v.uc.cn
-.coral.uc.cn
-.wolong-dsp.sm.cn
-.cartoonapi.uc.cn
-.umessage-online-zb.uc.cn
-.sealine.youku.com
-.api.c.uc.cn
-.aid.m.taobao.com
-.cms.uc.cn
-.applog-perf.uc.cn
-.m.atm.youku.com
-.adp.atm.youku.com
-.clickc.admaster.com.cn
-.count.atm.youku.com
-.ems.youku.com
-.fans.m.tmall.com
-.ktd.m.cn.miaozhen.com
-.r1.ykimg.com
-.v.admaster.com.cn
-.v2.reachmax.cn
-.val.atm.youku.com
-.yktd.m.cn.miaozhen.com
-.server.m.pp.cn
-.puds.ucweb.com
-.wgo.mmstat.com
-.log.cs.pp.cn
-.applog.uc.cn
-.afpapi.alimama.com
-.a.9game.cn
-.track.uc.cn
-.adtrack.ucweb.com
-.utp-dmp.ucweb.com
-.utp.ucweb.com
-.huichuan.sm.cn
-.ynuf.alipay.com
-.pdds.ucweb.com
-.js.union-wifi.com
-.qmlog.cn
-.cpu.baidu.com
-.caclick.baidu.com
-.rescn.u3.ucweb.com
-.feedback.uc.cn
-.gj.applog.uc.cn
-.gj.track.uc.cn
-.gjapplog.uc.cn
-.gjtrack.uc.cn
-.holmeshelptest.uc.cn
-.ads.uc.cn
-.adslot.uc.cn
-.alissl.ucdl.pp.uc.cn
-.api.mp.uc.cn
-.api.open.uc.cn
-.applog.uc.cn
-.applogios.uc.cn
-.bench.uc.cn
-.client.tv.uc.cn
-.coral-task.uc.cn
-.dispatcher.upmc.uc.cn
-.hcadv.video.ums.uc.cn
-.hao.uc.cn
-.lobmuc.cn
-.open-uc.cn
-.puds.test.uae.uc.cn
-.t.uc.cn
-.track.uc.cn
-.wmedia-track.uc.cn
-.woodpecker.uc.cn
-.gecko-pangle-lf.snssdk.com
-.mercury-sdk.snssdk.com
-.tbm.snssdk.com
-.toblog.ctobsnssdk.com
-.tnc3-aliec2.snssdk.com
 # > 交管12123
 .static.122.gov.cn
 .v3.fstats.xyz
@@ -290,76 +5,29 @@
 .new.xiongzhangad.com
 .alexametrics.com
 .in-page-push
-# > 广告
 # > 51wnl
 .ad.51wnl-cq.com
 .adextra.51wnl-cq.com
 .log.51wnl-cq.com
 .r.51wnl-cq.com
-
-# > 优酷
-.atm.youku.com
-.ad.mobile.youku.com
-.iyes.youku.com
-.pl.cp31.ott.cibntv.net
-.actives.youku.com
-.ad.api.3g.tudou.com
-.ad.api.3g.youku.com
-.ad.api.mobile.youku.com
-.a-dxk.play.api.3g.youku.com
-.b.smartvideo.youku.com
-.c.yes.youku.com
-.das.api.youku.com
-.das.mobile.youku.com
-.dev-push.m.youku.com
-.dl.g.youku.com
-.dmapp.youku.com
-.gamex.mobile.youku.com
-.hudong.pl.youku.com
-.huodong.pl.youku.com
-.huodong.vip.youku.com
-.hz.youku.com
-.iyes.youku.com
-.l.ykimg.com
-.lstat.youku.com
-.m.yes.youku.com
-.mobilemsg.youku.com
-.msg.youku.com
-.myes.youku.com
-.p.l.youku.com
-.passport-log.youku.com
-.p-log.ykimg.com
-.push.m.youku.com
-.r.l.youku.com
-.s.p.youku.com
-.sdk.api.gamex.mobile.youku.com
-.sdk.m.youku.com
-.stat.youku.com
-.store.tv.api.3g.youku.com
-.store.xl.api.3g.youku.com
-.tdrec.youku.com
-.test.ott.youku.com
-.urchin.lstat.youku.com
-.v.l.youku.com
-.val.api.youku.com
-.wan.youku.com
-.ykatr.youku.com
-.ykrec.youku.com
-# > 汽车之家
-.adm3.autoimg.cn
-.audid-api.taobao.com
-.collectionpv.che168.com
-.adproxy.autohome.com
-.applogapi.autohome.com
-.adproxy.autohome.com.cn
-.rd.autohome.com.cn
-.al.autohome.com.cn
-.applogapi.autohome.com.cn
-.adm0.autoimg.cn
-.adm1.autoimg.cn
-.adm2.autoimg.cn
-.adm3.autoimg.cn
-# (B)
+# > 51.LA
+.js.users.51.la
+.mc.51.la
+.wc.51.la
+# > 58同城
+.track.58.com
+.tracklog.58.com
+# > 爱奇艺
+.cr-status.iqiyi.com
+.cupid.iqiyi.com
+.f74f7f7765f8a2f6.ngaa.net.cn
+.ef-dongfeng.tanx.com
+.iqiyim.adtrack.enlightent.cn
+.dig.bdurl.net
+.ads3-normal-lq.zijieapi.com
+.ads5-normal-lq.zijieapi.com
+.t7z.cupid.iqiyi.com
+.t7z.cupid.ptqy.gitv.tv
 # > 百度
 .duapps.com
 .cpro.baidu.com
@@ -396,11 +64,6 @@
 .cbjs.baidu.com
 .cpro2.baidu.com
 .cpu-admin.baidu.com
-# > 百度贴吧屏蔽域名dns查询
-
-# > 百度贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
-.im.tieba.baidu.com
-## /*  
 .10086.cn.baidu.cdn.yiwk.com
 .360baidus.com
 .app.ibaiducdn.com
@@ -505,35 +168,18 @@
 .yingxiao.baidu.com
 .znsv.baidu.com
 .baidustatic.com
-.afd.baidu.com
-.als.baidu.com
-.duclick.baidu.com
 .hm.baidu.com
 .hmma.baidu.com
-.mobads.baidu.com
-.mobads-logs.baidu.com
-.nsclick.baidu.com
-.hm.baidu.com
-.hmma.baidu.com
-# >爱奇艺
-.t7z.cupid.iqiyi.com
-.t7z.cupid.ptqy.gitv.tv
-
-# > 字节跳动
-.pangolin-sdk-toutiao.com
-.pangolin-sdk-toutiao-b.com
-.api-access.pangolin-sdk-toutiao-b.com
-.ad.toutiao.com
-.dsp.toutiao.com
-.pangolin.snssdk.com
+# > 哔哩哔哩
+.cm.bilibili.com
+.api.sobot.com
+.cm.ad.bilibili.com
+.cm.adcommon.bilibili.com
+.cm.game.bilibili.com
+.cm.track.biligame.bilibili.com
 # > baicizhan
 .advertise.baicizhan.com
 .advertise.baicizhan.org
-# > 易车
-.adx.yiche.com
-.log.ycapp.yiche.com
-# > 团油
-.img1.czb365.com
 # > Braze
 .iad.appboy.com
 .iad-03.appboy.com
@@ -544,37 +190,63 @@
 .iad-05.braze.com
 .iad-06.braze.com
 .iad-08.braze.com
-# > 央视
-.a.cctv.com
-.ad.cctv.com
-.ad.cntv.cn
-.adguanggao.eee114.com
-.afp.qiyi.com
-.cctv.adsunion.com
-.d.cntv.cn
-.de.pandora.xiaomi.com
-.mishop.pandora.xiaomi.com
-.cws-cctv.conviva.com
-.galaxy.bjcathay.com
-.mdrecv.app.cntvwb.cn
-.sdapprecv.app.cntvwb.cn
-.vdapprecv.app.cntvwb.cn
-.mdrecv.app.cntvwb.cn
-.sdapprecv.app.cntvwb.cn
-.vdapprecv.app.cntvwb.cn
-# > 中国电信
-.ad.21cn.com
-.ad.k.21cn.com
-.admarket.21cn.com
-.adshows.21cn.com
-# > 车来乐
-.atrace.chelaile.net.cn
-.logs.chelaile.net.cn
+# > C&J Marketing
+# https://www.zhihu.com/question/46746200
+.alienskins.cn
+.anydeskchina.cn
+.betterzipcn.com
+.dongmansoft.com
+.earmasterchina.cn
+.folxchina.cn
+.hypeapp.cn
+.idmchina.net
+.imazingchina.com
+.luping.net.cn
+.mindmanager.cn
+.officesoftcn.com
+.photozoomchina.com
+.xitongqingli.com
 # > Camera360
 .dispatcher.360in.com
 .ad.360in.com
 .exp.360in.com
-# (G)
+# > 车来乐
+.atrace.chelaile.net.cn
+.logs.chelaile.net.cn
+# > 创维
+.hoisin.coocaa.com
+.hoisin.coocaatv.com
+.data-hoisin.coocaa.com
+# > 车来了（包括小程序）
+.ad.chelaile.net.cn
+# > 叮嗒出行
+.image.bianxianmao.com
+# > 懂车帝
+.p3-pack.byteimg.com
+.p6-pack.byteimg.com
+# > 懂球帝
+.apimg.qunliao.info
+# > 抖音
+.bds.snssdk.com
+.p6-ad-sign.byteimg.com
+.p3.pstatp.com
+# > 多多视频
+.bayescom.com
+# > Daum
+.track.tiara.daum.net
+.track.tiara.kakao.com
+# > 凤凰新媒体
+.deliver.ifeng.com
+.api.newad.ifeng.com
+.ifengad.3g.ifeng.com
+# > GozenData
+.gozendata.com
+.gzads.com
+.gz-data.com
+# > GrowingIO
+.giocdn.com
+# > 光大银行阳光惠生活
+.talk.bz.getui.com
 # > 谷歌
 .google-analytics.com
 .safebrowsing.googleapis.com
@@ -599,7 +271,21 @@
 .www.googleadservices.com
 .www.google-analytics.com
 .ads.youtube.com
-# (H)
+# > 高德
+.adiu.amap.com
+.aboard.apilocate.amap.com
+.apiinit.amap.com
+.icloud-amap.com
+.logs.amap.com
+.dualstack-logs.amap.com
+.optimus-ads.amap.com
+.page.amap.com
+.optimus-ads.amap.com.w.alikunlun.com
+.shouji.sougou.com
+.u51.me
+# > HDO
+.applovin.com
+.applvn.com
 # > 湖南卫视
 .da.mgtv.com
 .da.hunantv.com
@@ -609,20 +295,12 @@
 .adx.hupu.com
 .adx-api.hupu.com
 .goblin.hupu.com
-# > 快乐广播
-.ad.hpplay.cn
-.adc.hpplay.cn
-.adcdn.hpplay.cn
-.adeng.hpplay.cn
-.pin.hpplay.cn
-.rp.hpplay.cn
-.rpt.hpplay.cn
-# (J)
-# >jxedt
+# > 哈啰
+.assets.51downapp.cn
+# > jxedt
 .richmanapi.jxedt.com
 .richmanmain.jxedt.com
 .richmanrules.jxedt.com
-# (K)
 # > 金山词霸
 .ad-stat.ksosoft.com
 .img.auction-ads.wpscdn.cn
@@ -632,134 +310,13 @@
 .mobad.ijinshan.com
 .ups.ksmobile.net
 .ws.ksmobile.net
-# (L)
-# > 乐视
-.webp2p.letv.com
-.ark.letv.com
-.emma-414870e223.huodonghezi.com
-.g3.letv.com
-.n.mark.letv.com
-# > LinkWiFi
-.a.wkanx.com
-.cwx.lianwangtech.com
-.c1wx.lianwangtech.com
-# (M)
-# > 微软
-.ads.msn.com
-.ads1.msn.com
-.ads2.msn.com
-.bingads.microsoft.com
-.rads.msn.com
-.mobileads.msn.com
-# > 讯飞输入法广告
-.ossp.voicecloud.cn
-.bj.imp.voiceads.cn
-.m.panda.voiceads.cn
-.iflyad.bj.openstorage.cn
-# > 墨迹天气
-.fds.api.moji.com
-.me.api.moji.com
-.android.bugly.qq.com
-.av1.xdrig.com
-.adash.man.aliyuncs.com
-.v1.log.moji.com
-.ad.api.moji.com
-.ad.api.moji.com
-.adlaunch.moji.com
-.ads.mojicdn.com
-.v1.log.moji.com
-# > 中华万年历广告
-.lkme.cc
-.api.freed.so
-.log-dmp.suishenyun.cn
-.client-dmp.suishenyun.cn
-.pc.suishenyun.net
-.v0-client-lz.rili.cn
-# > 腾讯视频
-.tetrack.qq.com
-.tpns.tencent.com
-.api.poll.video.qq.com
-.static-res.qq.com
-.stat.tpns.tencent.com
-.h.trace.qq.com
-.omgmta.qq.com
-.omgmta1.qq.com
-# > 爱奇艺
-.cr-status.iqiyi.com
-.cupid.iqiyi.com
-.f74f7f7765f8a2f6.ngaa.net.cn
-.ef-dongfeng.tanx.com
-.iqiyim.adtrack.enlightent.cn
-.dig.bdurl.net
-.ads3-normal-lq.zijieapi.com
-.ads5-normal-lq.zijieapi.com
-# > 咪咕视频
-.ad.cmvideo.cn
-.ggc.cmvideo.cn
-.ggic03.miguvideo.com
-.ggmk.miguvideo.com
-.ggv.cmvideo.cn
-.ggx.cmvideo.cn
-.ggx03.miguvideo.com
-# (N)
-# > 网易
-.dsp.youdao.com
-.union.youdao.com
-.ad.bn.netease.com
-.ad.yixin.im
-.admusicpic.music.126.net
-.g1.163.com
-.gorgon.youdao.com
-.iad.g.163.com
-.iadmat.nosdn.127.net
-.iadmusicmat.music.126.net
-.iadmusicmatvideo.music.126.net
-.impservice.dictapp.youdao.com
-.impservice.youdao.com
-.n.3g.163.com
-.nex.163.com
-.yt-adp.nosdn.127.net
-.yt-adp.ws.126.net
-# > 网易云
-.ossgw.alicdn.com
-# (P)
-# > PPTV
-.ads.aplus.pptv.com
-.ads.aplusapi.pptv.com
-.asimgs.pplive.cn
-.de.as.pptv.com
-# > Photoable
-.regist.fotoable.com
-.cdn.adapi.fotoable.com
-# > PeanutWiFi
-.adnew.wifi8.com
-.adfile.wifi8.com
-# > WiFi万能钥匙广告
-.app.51y5.net
-.apiinit.amap.com
-.c.51y5.net
-.msg.push.51y5.net
-.a.wkanx.com
-.c.wkanx.com
-.c1.wkanx.com
-.ap.51y5.net
-.dc.51y5.net
-.push-dc.51y5.net
-.news-log.51y5.net
-.login.push.51y5.net
-.news.51y5.net
-.cds.51y5.net
-.insurance.lianwifi.com
-.config.51y5.net
-.static.wkanx.com
-.config.y5en.com
 # > 今日头条
 .dm.toutiao.com
 .ad.toutiao.com
 .clk.gentags.net
-.dm.toutiao.com
 .dm.pstatp.com
 .dm.bytedance.com
+.uop.umeng.com
 .policy.jd.com
 .kepler.jd.com
 .bdsp.x.jd.com
@@ -774,6 +331,163 @@
 .a3.pstatp.com
 .a3.bytecdn.cn
 .ichannel.snssdk.com
+.pangolin-sdk-toutiao.com
+.pangolin-sdk-toutiao-b.com
+.api-access.pangolin-sdk-toutiao-b.com
+.dsp.toutiao.com
+.pangolin.snssdk.com
+# > keep
+.apm.gotokeep.com
+.kad.gotokeep.com
+# > 快乐广播
+.ad.hpplay.cn
+.adc.hpplay.cn
+.adcdn.hpplay.cn
+.adeng.hpplay.cn
+.pin.hpplay.cn
+.rp.hpplay.cn
+.rpt.hpplay.cn
+# > 快手
+# .yximgs.com
+.e.kuaishou.com
+# .js-ad.a.yximgs.com
+.cm.downloader.commercial.kuaishou.com
+.cm.ad.gifshow.com
+.cm.kwad.com
+# > 酷狗音乐
+.searchrecommend.kugou.com
+.nbcollectretry.kugou.com
+.rtmretry.kugou.com
+.rt-m.kugou.com
+.nbcollect.kugou.com
+.c1img.ali.kugou.com
+.kgstaticdlbssdlbig.tx.kugou.com
+.adsfilebssdlbig.ali.kugou.com
+.splashimgbssdl.yun.kugou.com
+.adservice.kugou.com
+.kgipadstat.kugou.com
+.kgipadstatbak.kugou.com
+.logwebs.kugou.com
+.tracker.kugou.com
+.trackercdnbj.kugou.com
+.rich.kuwo.cn
+.mobilead.kuwo.cn
+.adsfile.bssdlbig.kugou.com
+.oth.eve.mdt.qq.com
+.pgdt.gtimg.cn
+.pgdt.gtimg.com
+.adsmind.gdtimg.com
+.channel.fanxing.kugou.com
+.d.kugou.com
+.downmobile.kugou.com
+.gad.kugou.com
+.game.kugou.com
+.gamebox.kugou.com
+.gcapi.sy.kugou.com
+.gg.kugou.com
+.install.kugou.com
+.install2.kugou.com
+.minidcsc.kugou.com
+.mo.kugou.com
+.msg.mobile.kugou.com
+.mvads.kugou.com
+.p.kugou.com
+.push.mobile.kugou.com
+.rtmonitor.kugou.com
+.sdn.kugou.com
+.song.fanxing.kugou.com
+.update.mobile.kugou.com
+.youxi.kugou.com
+.adserviceretry.kugou.com
+.ads.service.kugou.com
+.log.stat.kugou.com
+.log.web.kugou.com
+.kgmobilestat.kugou.com
+.kgmobilestatbak.kugou.com
+.mobilelog.kugou.com
+# > 酷我音乐
+.c.kuwo.cn
+.deliver.kuwo.cn
+.game.kuwo.cn
+.kuwoyy.com
+.kwmsg.kuwo.cn
+.msclick2.kuwo.cn
+.msphoneclick.kuwo.cn
+.updatepage.kuwo.cn
+.wa.kuwo.cn
+.webstat.kuwo.cn
+# > 酷安
+# > .p6-be-pack-sign.pglstatp-toutiao.com
+# > 乐视
+.webp2p.letv.com
+.ark.letv.com
+.emma-414870e223.huodonghezi.com
+.g3.letv.com
+.n.mark.letv.com
+# > LinkWiFi
+.a.wkanx.com
+.cwx.lianwangtech.com
+.c1wx.lianwangtech.com
+# > 蓝基因（弹窗还在，需要手动关闭）
+.medicine.lanjiyin.com.cn
+# > 两步路
+.admobile.top
+# > 美团
+.flowplus.meituan.net
+.analytics.meituan.net
+.meituan.xn--io0a7i
+.meituan.yoga
+.meituangov.cn
+.report.meituan.com
+.wmlog.meituan.com
+# > 美颜相机 去首页和轮播广告
+.adui.tg.meitu.com
+.aaid.uyunad.com
+# > 买单吧
+.c-hzgt2.getui.com
+# > 民生银行
+.cm-10-134.getui.com
+.sdk.open.talk.getui.com
+.cm-10-35.getui.com
+.sdk.open.talk.igexin.com
+# > 墨迹天气
+.fds.api.moji.com
+.me.api.moji.com
+.android.bugly.qq.com
+.av1.xdrig.com
+.adash.man.aliyuncs.com
+.v1.log.moji.com
+.ad.api.moji.com
+.adlaunch.moji.com
+.ads.mojicdn.com
+# > 咪咕视频
+.ad.cmvideo.cn
+.ggc.cmvideo.cn
+.ggic03.miguvideo.com
+.ggmk.miguvideo.com
+.ggv.cmvideo.cn
+.ggx.cmvideo.cn
+.ggx03.miguvideo.com
+# > NicoNico
+.ads.nicovideo.jp
+# > OPPO
+.adsfs.oppomobile.com
+.ads.oppomobile.com
+# > Outlook
+.acdn.adnxs.com
+.mediation.adnxs.com
+.sin3-ib.adnxs.com
+# > PPTV
+.ads.aplus.pptv.com
+.ads.aplusapi.pptv.com
+.asimgs.pplive.cn
+.de.as.pptv.com
+# > Photoable
+.regist.fotoable.com
+.cdn.adapi.fotoable.com
+# > PeanutWiFi
+.adnew.wifi8.com
+.adfile.wifi8.com
 # > PConline
 .ad-analysis.pconline.com.cn
 .iad0ssl.pcauto.com.cn
@@ -781,37 +495,126 @@
 .imgad0.pcauto.com.cn
 .imgad0.pconline.com.cn
 .ivy.pchouse.com.cn
-# > 凤凰新媒体
-.deliver.ifeng.com
-.api.newad.ifeng.com
-.ifengad.3g.ifeng.com
-# (Q)
-# > QingTing
+# > 皮皮虾（推荐视频不能预览）
+.log-api.pangolin-sdk-toutiao-b.com
+.log-api.pangolin-sdk-toutiao.com
+.api-access.pangolin-sdk-toutiao.com
+# > 皮皮虾（比较激进，需要的自己开启）
+# > .snssdk.com
+# > .mssdk.bytedance.com
+# > .api.ribaoapi.com
+# > .apps.bytesfield.com
+# > .bytesmanager.com
+# > .pglstatp-toutiao.com
+# > .mssdk-bu.bytedance.com
+# > .365yg.com
+# > .ppx.byteimg.com
+# > .i.snssdk.com
+# > 影响端传媒正常运行，默认关闭
+# > .cloudfront.net
 .ad.qingting.fm
 .adlaunch.qingting.fm
 .ad-cdn.qingting.fm
-# > OPPO
-.ads.oppomobile.com
-.adsfs.oppomobile.com
-# (S)
-# > 新浪
-.beacon.sina.com.cn
-.u1.img.mobile.sina.cn
-.sax.sina.com.cn
-.saxs.sina.com.cn
-.saxn.sina.com.cn
+# > 汽车之家
+.adm3.autoimg.cn
+.audid-api.taobao.com
+.collectionpv.che168.com
+.adproxy.autohome.com
+.applogapi.autohome.com
+.adproxy.autohome.com.cn
+.rd.autohome.com.cn
+.al.autohome.com.cn
+.applogapi.autohome.com.cn
+.adm0.autoimg.cn
+.adm1.autoimg.cn
+.adm2.autoimg.cn
+# > QQ音乐广告
+.tmeadcomm.y.qq.com
+.ad.tencentmusic.com
+.adstats.tencentmusic.com
+.tmead.y.qq.com
+.rqd.qq.com
+.wup.imtt.qq.com
+.gdt.qq.com
+.android.rqd.qq.com
+.e.qq.com
+.beacon.qq.com
+.v.gdt.qq.com
+# > Snapchat
+.ads.snapchat.com
+.adsapi.snapchat.com
 # > 搜狐
 .ad.sohu.com
 .ads.sohu.com
 .aty.sohu.com
 .hui.sohu.com
-# > Snapchat
-.ads.snapchat.com
-.adsapi.snapchat.com
-# > 创维
-.hoisin.coocaa.com
-.hoisin.coocaatv.com
-.data-hoisin.coocaa.com
+# > 搜狗
+.indivi-cdn.shouji.sogou.com
+.epro.sogou.com
+.golden1.sogou.com
+.inte.sogou.com
+.inte.sogoucdn.com
+.lu.sogoucdn.com
+.theta.sogoucdn.com
+.uranus.sogou.com
+.123.sogou.com
+.a1click.cpc.sogou.com
+.adsence.sogou.com
+.adstream.123.sogoucdn.com
+.amfi.gou.sogou.com
+.art.theta.sogoucdn.com
+.athena.wan.sogou.com
+.bazinga.mse.sogou.com
+.bite.theta.sogoucdn.com
+.brand.sogou.com
+.bsiet.husky.sogou.com
+# > 搜狗输入法
+.business-cdn.shouji.sogou.com
+# > 深圳通微信小程序
+.wxsnsdythumb.wxs.qq.com
+.admonitor.thepaper.cn
+.adpai.thepaper.cn
+.imgadpai.thepaper.cn
+# > TalkingData
+.cpatrk.net
+# > 天神
+.track.tenjin.com
+.track.tenjin.io
+.errlog.umeng.com
+.lf9-cdn-tos.bytegecko.com
+.novel.pangolin-sdk-toutiao.com
+# > 淘宝
+.apoll.m.taobao.com
+.h-adashx.ut.taobao.com
+.w.m.taobao.com
+.ai.m.taobao.com
+.re.m.taobao.com
+.agoodm.m.taobao.com
+.ai.taobao.com
+.api.waptest.taobao.com
+.dsp.simba.taobao.com
+.fav.simba.taobao.com
+.m.simba.taobao.com
+.mclick.simba.taobao.com
+.re.taobao.com
+.redirect.simba.taobao.com
+.simba.m.taobao.com
+.srd.simba.taobao.com
+.temai.taobao.com
+.textlink.simba.taobao.com
+.unitacs.m.taobao.com
+.acs4baichuan.m.taobao.com
+.adashbc.ut.taobao.com
+.adash-c.ut.taobao.com
+.adashxgc.ut.taobao.com
+.adashx4yt.m.taobao.com
+.tns.simba.taobao.com
+.click.mz.simba.taobao.com
+.click.simba.taobao.com
+.click.tz.simba.taobao.com
+.stat.simba.taobao.com
+.m-adash.m.taobao.com
+.adashbc.m.taobao.com
 # >  腾讯
 .news.ssp.qq.com
 .news.l.qq.com
@@ -900,14 +703,12 @@
 .pingtcss.qq.com
 .tajs.qq.com
 .wxsnsdy.wxs.qq.com
-.wxsnsdythumb.wxs.qq.com
 .fusion.qq.com
 .ios.bugly.qq.com
 .safebrowsing.urlsec.qq.com
 .oth.str.mdt.qq.com
 .l.qq.com
 .adsmind.apdcdn.tc.qq.com
-.adsmind.tc.qq.com
 .adsmind.ugdtimg.com
 .livep.l.t002.ottcn.com
 .pgdt.ugdtimg.com
@@ -916,27 +717,113 @@
 .wa.gtimg.com
 # .wxsnsdy.wxs.qq.com
 # .wxsnsdythumb.wxs.qq.com
+# > 腾讯视频
+.tetrack.qq.com
+.tpns.tencent.com
+.api.poll.video.qq.com
+.static-res.qq.com
+.stat.tpns.tencent.com
+.h.trace.qq.com
+.omgmta.qq.com
+.omgmta1.qq.com
 # > 腾讯音乐
-.adserviceretry.kugou.com
-.ads.service.kugou.com
-.adsfile.bssdlbig.kugou.com
 .g.koowo.com
-.kgmobilestat.kugou.com
-.kgmobilestatbak.kugou.com
-.mobilelog.kugou.com
-.mobilead.kuwo.cn
-.rich.kuwo.cn
 # > 同花顺
 .adm.10jqka.com.cn
 .stat.10jqka.com.cn
-# > The Paper
-.admonitor.thepaper.cn
-.adpai.thepaper.cn
-.imgadpai.thepaper.cn
 # > 迅雷
 .adsp.xunlei.com
 .etl.xlmc.sandai.net
-# (V)
+# > 团油
+.img1.czb365.com
+# > UC浏览器
+.m.atm.youku.com
+.adp.atm.youku.com
+.clickc.admaster.com
+.count.atm.youku.com
+.ems.youku.com
+.fans.m.tmall.com
+.ktd.m.cn.miaozhen.com
+.r1.ykimg.com
+.v.admaster.com
+.v2.reachmax.cn
+.val.atm.youku.com
+.yktd.m.cn.miaozhen.com
+.server.m.pp.cn
+.puds.ucweb.com
+.wgo.mmstat.com
+.log.cs.pp.cn
+.applog.uc.cn
+.afpapi.alimama.com
+.a.9game.cn
+.track.uc.cn
+.adtrack.ucweb.com
+.utp-dmp.ucweb.com
+.utp.ucweb.com
+.huichuan.sm.cn
+.ynuf.alipay.com
+.pdds.ucweb.com
+.js.union-wifi.com
+.www.qmlog.cn
+.cpu.baidu.com
+.caclick.baidu.com
+.rescn.u3.ucweb.com
+.safe.ucweb.com
+.px.ucweb.com
+.editor.sm.cn
+.fc-video.cdn.bcebos.com
+.vs10.bj2ct.u3.ucweb.com
+.navigis.uc.cn
+.restapi.amap.com
+.order.sm.cn
+.ucdc-upaas.uc.cn
+.access.open.uc.cn
+.uc.ucweb.com
+.emoji.uc.cn
+.ssp-partner.alibaba.com
+.voice-service.uc.cn
+.v.uc.cn
+.coral.uc.cn
+.wolong-dsp.sm.cn
+.cartoonapi.uc.cn
+.umessage-online-zb.uc.cn
+.sealine.youku.com
+.api.c.uc.cn
+.aid.m.taobao.com
+.cms.uc.cn
+.applog-perf.uc.cn
+.clickc.admaster.com.cn
+.v.admaster.com.cn
+.qmlog.cn
+.feedback.uc.cn
+.gj.applog.uc.cn
+.gj.track.uc.cn
+.gjapplog.uc.cn
+.gjtrack.uc.cn
+.holmeshelptest.uc.cn
+.ads.uc.cn
+.adslot.uc.cn
+.alissl.ucdl.pp.uc.cn
+.api.mp.uc.cn
+.api.open.uc.cn
+.applogios.uc.cn
+.bench.uc.cn
+.client.tv.uc.cn
+.coral-task.uc.cn
+.dispatcher.upmc.uc.cn
+.hcadv.video.ums.uc.cn
+.hao.uc.cn
+.lobmuc.cn
+.open-uc.cn
+.puds.test.uae.uc.cn
+.t.uc.cn
+.wmedia-track.uc.cn
+.woodpecker.uc.cn
+.gecko-pangle-lf.snssdk.com
+.mercury-sdk.snssdk.com
+.tbm.snssdk.com
+.toblog.ctobsnssdk.com
+.tnc3-aliec2.snssdk.com
 # > VariFlight
 .adv-adlog.variflight.com
 .adv-ads.variflight.com
@@ -951,7 +838,8 @@
 .vcardsdkservice.vivo.com.cn
 .stsdk.vivo.com.cn
 .stsdk.vivoglobal.com
-# > 微博
+# > VIVO商城
+.paradisestatic.vivo.com.cn
 .fastimage.uve.weibo.com
 .adimg.uve.weibo.com
 .adimg.vue.weibo.com
@@ -963,28 +851,12 @@
 .gw5.push.mcp.weibo.cn
 .game.weibo.cn
 .biz.weibo.com
-.adimg.uve.weibo.com
 .game.weibo.com
 .gw6.push.mcp.weibo.cn
 .ads.viber.com
 .ads-d.viber.com
 .ads.aws.viber.com
 .alitui.weibo.com
-.adimg.uve.weibo.com
-.adimg.vue.weibo.com
-.adimg.uve.weibo.com
-.alitui.weibo.com
-.biz.weibo.com
-.game.weibo.cn
-.game.weibo.com
-.gw5.push.mcp.weibo.cn
-.gw6.push.mcp.weibo.cn
-.promote.biz.weibo.cn
-.s.alitui.weibo.com
-.sdkapp.uve.weibo.com
-.weibomingzi.com
-.zymo.mps.weibo.com
-.adimg.vue.weibo.com
 .dp.im.weibo.cn
 .m.game.weibo.cn
 .c.biz.weibo.com
@@ -1002,11 +874,69 @@
 .wax.weibo.com.cn
 .ad.weibo.com
 .adstrategy.biz.weibo.com
-.s.weibo.com
+# .s.weibo.com
 .vs.biz.weibo.com
-# > keep
-.apm.gotokeep.com
-.kad.gotokeep.com
+# > 网易
+.dsp.youdao.com
+.union.youdao.com
+.ad.bn.netease.com
+.ad.yixin.im
+.admusicpic.music.126.net
+.g1.163.com
+.gorgon.youdao.com
+.iad.g.163.com
+.iadmat.nosdn.127.net
+.iadmusicmat.music.126.net
+.iadmusicmatvideo.music.126.net
+.impservice.dictapp.youdao.com
+.impservice.youdao.com
+.n.3g.163.com
+.nex.163.com
+.yt-adp.nosdn.127.net
+.yt-adp.ws.126.net
+# > 网易云
+.ossgw.alicdn.com
+# > 微软
+.ads.msn.com
+.ads1.msn.com
+.ads2.msn.com
+.bingads.microsoft.com
+.rads.msn.com
+.mobileads.msn.com
+# > WiFi万能钥匙
+.app.51y5.net
+.c.51y5.net
+.msg.push.51y5.net
+.c.wkanx.com
+.c1.wkanx.com
+.ap.51y5.net
+.dc.51y5.net
+.push-dc.51y5.net
+.news-log.51y5.net
+.login.push.51y5.net
+.news.51y5.net
+.cds.51y5.net
+.insurance.lianwifi.com
+.config.51y5.net
+.static.wkanx.com
+.config.y5en.com
+# > 威锋
+.p3-be-pack-sign.pglstatp-toutiao.com
+.sf3-be-pack.pglstatp-toutiao.com
+.sf1-be-pack.pglstatp-toutiao.com
+.sf1-fe-tos.pglstatp-toutiao.com
+.sf1-ttcdn-tos.pstatp.com
+.sf3-fe-tos.pglstatp-toutiao.com
+.sf3-ttcdn-tos.pstatp.com
+.sf6-fe-tos.pglstatp-toutiao.com
+.s3-fe-scm.pglstatp-toutiao.com
+.sf6-be-pack.pglstatp-toutiao.com
+.p9-be-pack-sign.pglstatp-toutiao.com
+# > 讯飞输入法
+.ossp.voicecloud.cn
+.bj.imp.voiceads.cn
+.m.panda.voiceads.cn
+.iflyad.bj.openstorage.cn
 # > 喜马拉雅
 .adbehavior.ximalaya.com
 .adwbs.ximalaya.com
@@ -1023,12 +953,34 @@
 .adbehavior.wsa.ximalaya.com
 .adsebs.ximalaya.com
 .adbs.ximalaya.com
-# >小红书
+# > 小红书
 .ads-img-qc.xhscdn.com
 .ads-video-al.xhscdn.com
 .ads-video-qc.xhscdn.com
 .t-ads.xiaohongshu.com
-# (Y)
+# > 小米
+.data.mistat.xiaomi.com
+.tracking.intl.miui.com
+# > 小小影视
+.39d83s.com
+# > 小利生活
+.mpos-pic.helipay.com
+# > 新浪
+.beacon.sina.com.cn
+.u1.img.mobile.sina.cn
+.sax.sina.com.cn
+.saxs.sina.com.cn
+.saxn.sina.com.cn
+# > 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
+# > .xqimg.imedao.com
+# > 向日葵 见重写
+# > 云闪付
+.ads.95516.com
+.cm-10-138.getui.com
+.sdk.open.talk.getui.net
+.sdk-conf.getui.com
+.switch.cup.com.cn
+.tysdk.95516.com
 # > 雅虎
 .adserver.yahoo.com
 .adspecs.yahoo.com
@@ -1039,355 +991,11 @@
 .ads.finance.yahoo.com
 .ads.yahoo.com
 .ads.yahoo.de
-# (Z)
-# > 知乎
-USER-AGENT,AVOS*
-.appcloud2.in.zhihu.com
-.mqtt.zhihu.com
-.sugar.zhihu.com
-.118.89.204.198
-
-# > 中关村
-.apppv.zol.com.cn
-.pvnapp.zol.com.cn
-
-# > 中国联通
-.m1.ad.10010.com
-
-# > 淘宝
-.apoll.m.taobao.com
-.h-adashx.ut.taobao.com
-.w.m.taobao.com
-.tunion-api.m.taobao.com
-.ai.m.taobao.com
-.re.m.taobao.com
-.agoodm.m.taobao.com
-.ai.taobao.com
-.api.waptest.taobao.com
-.dsp.simba.taobao.com
-.fav.simba.taobao.com
-.m.simba.taobao.com
-.mclick.simba.taobao.com
-.re.taobao.com
-.redirect.simba.taobao.com
-.simba.m.taobao.com
-.srd.simba.taobao.com
-.temai.taobao.com
-.textlink.simba.taobao.com
-.unitacs.m.taobao.com
-.acs4baichuan.m.taobao.com
-.adashbc.ut.taobao.com
-.adash-c.ut.taobao.com
-.adashxgc.ut.taobao.com
-.adashx4yt.m.taobao.com
-.tunion-api.m.taobao.com
-.tns.simba.taobao.com
-.click.mz.simba.taobao.com
-.click.simba.taobao.com
-.click.tz.simba.taobao.com
-.stat.simba.taobao.com
-.m-adash.m.taobao.com
-.adashbc.m.taobao.com
-# > 小小影视
-.39d83s.com
-# > 威锋
-.p3-be-pack-sign.pglstatp-toutiao.com
-.sf3-be-pack.pglstatp-toutiao.com
-.sf1-be-pack.pglstatp-toutiao.com
-.sf1-fe-tos.pglstatp-toutiao.com
-.sf1-ttcdn-tos.pstatp.com
-.sf3-fe-tos.pglstatp-toutiao.com
-.sf3-ttcdn-tos.pstatp.com
-.sf6-fe-tos.pglstatp-toutiao.com
-.s3-fe-scm.pglstatp-toutiao.com
-.sf6-be-pack.pglstatp-toutiao.com
-.p9-be-pack-sign.pglstatp-toutiao.com
-# > 哔哩哔哩
-.cm.bilibili.com
-.api.sobot.com
-.cm.ad.bilibili.com
-.cm.adcommon.bilibili.com
-.cm.game.bilibili.com
-.cm.track.biligame.bilibili.com
-# > 快手
-# .yximgs.com
-.e.kuaishou.com
-# .js-ad.a.yximgs.com
-.cm.downloader.commercial.kuaishou.com
-.cm.ad.gifshow.com
-.cm.kwad.com
-# > 人民日报
-# > 蓝基因（弹窗还在，需要手动关闭）
-.medicine.lanjiyin.com.cn
-# > 美颜相机去首页和轮播广告
-.adui.tg.meitu.com
-.aaid.uyunad.com
-# > 真不卡
-.ttayy.cn
-.zhengxiaoliu.top
-# > NicoNico
-.ads.nicovideo.jp
-# > HDO
-.applovin.com
-.applvn.com
-# > 多多视频
-.bayescom.com
-# > 车来了（包括小程序）
-.atrace.chelaile.net.cn
-.logs.chelaile.net.cn
-.ad.chelaile.net.cn
-# > 铁路12306
-
-# > 两步路
-.admobile.top
-# > 抖音
-.bds.snssdk.com
-.p6-ad-sign.byteimg.com
-.p3.pstatp.com
-# > 皮皮虾（推荐视频不能预览）
-.log-api.pangolin-sdk-toutiao-b.com
-.log-api.pangolin-sdk-toutiao.com
-.api-access.pangolin-sdk-toutiao.com
-# > 皮皮虾（比较激进，需要的自己开启）
-# > .snssdk.com
-# > .mssdk.bytedance.com
-# > .api.ribaoapi.com
-# > .apps.bytesfield.com
-# > .bytesmanager.com
-# > .pglstatp-toutiao.com
-# > .mssdk-bu.bytedance.com
-# > .365yg.com
-# > .ppx.byteimg.com
-# > .i.snssdk.com
-# > 影响端传媒正常运行，默认关闭
-# > .cloudfront.net
-# > 其他广告
-.extlog.snssdk.com
-.is.snssdk.com
-.log.snssdk.com
-.mobads.baidu.com
-.s3a.pstatp.com
-.sdfp.snssdk.com
-.tosv.boe.byted.org
-.tosv.byted.org
-.ad.ihuman.com
-.delivery-node-aziz.voe-network.net
-.inspiringaccurate.com
-.track.aso1.net
-.wpadmngr.com
-.histats.com
-.son-in-lawmorbid.com
-.mc.yandex.ru
-.amung.us
-.widgets.amung.us
-.s10.histats.com
-.js.wpadmngr.com
-.suzihaza.com
-.tapioni.com
-.qinhemuye.com
-.107iwh.cn
-.hbhuatie.com
-.qinzhihao.com
-.nby360.com
-.tfosrv.com
-.trafforsrv.com
-.trafficforce.com
-.qw2v.changshuohr.net
-.wss.haoyundmn.com
-.cashewsforlife208.com
-.ingest.sentry
-.phloxsub73ulata.com
-.xxxjmp.com
-.pitrespite.com
-.alexametrics.com
-.realsrv.com
-.asewlfjqwlflkew.com
-.uus52.com
-.uus58.com
-.ddmax20.xyz
-.ads.exosrv.com
-.exosrv
-.asewlfjqwlflkew
-.tyrantdb.com
-.adserve.work
-.brushshopy
-.onenews
-.s96.cnzz.com
-.yabo729.com
-.xn--xhq9mt12cf5v.xn--io0a7i
-.xn--2qux23c9ziyrq
-.xn--3bs795g.zone
-.xn--2qux23c9ziyrq.plus
-.xn--2qux23c9ziyrq.club
-.xn--xhq9mt12cf5v.xn--io0a7i
-.www.avple.video
-.xn--3bs795g.link
-.show.suning.beer
-.www.govshenzhen.cn
-.mm9842.com
-.e2wysbacctt1
-.streamtape.com
-.maphuahin.com
-.ggsfq.com
-.ad.pornimg.xyz
-.yandex.ru
-.awaitcola.com
-.wine-api.net
-.wixsite.com
-.exosrv.com
-.juicyads.com
-.wixstatic.com
-.thumb.fvs.io
-.itnuzleafan.com
-.oawhaursaith.com
-.unreshiramor.com
-.regulationprivilegescan.top
-.in-page-push.com
-.farmcrapsubsist.com
-.jads.co
-.adxadserv.com
-.moatads.com
-.juicyads.in
-.dtscout.com
-.51.la
-.51daeka.com
-.trafficjunky.com
-.adserver.juicyads.com
-.poweredby.jads.co
-.exdynsrv.com
-.d227cncaprzd7y.cloudfront.net
-.d10lumateci472.cloudfront.net
-.new.xiongzhangad.com
-.dvzk66.cn
-.pu0glv.cn
-.sentry.io
-.ads.bullionyield.com
-.dlads
-.dagonghuzhu.com
-.xxshuyuan
-.haowanyou
-.dat8
-.112wan
-.dfkj8
-.mifengv
-.lieyou
-.789htbet
-.mdapp09
-.juruigj
-.mmiyue
-.etahub.com
-.22c.in
-.imgxxx.shunxincar.cn
-.cc58.oss-cn-beijing.aliyuncs.com
-.oss-accelerate.aliyuncs.com
-.kk.braincf.com
-.run.haireig.com
-.d.zxptw.cn
-.js.users.51.la
-.maxwellsery.com
-.annabelleabe.com
-.jidukeji.com
-.atmib.com
-.bjzysd.net
-.iycwl.com
-.haoyundm.com
-.qqq123987.site
-.qweewq2021.online
-.qqq123987.site
-.jianxinshanghai.com
-.js.51toubu.com
-.img.hylmxing.com
-.777.000123456789.space
-.bhichong.com
-.tskdfjksldk.sdhsgcj.com
-.haoyuntj.com
-.bizhixiang.cn
-.jspassport.ssl.qhimg.com
-.ads.superad.cc
-.isboost.co.jp
-.boost-next.co.jp
-.ad-nex.com
-.aaacompany.net
-.d24ak3f2b.top
-.blastcahs.com
-.wpncdn.com
-.toateeli
-.greenplasticdua
-.bongacash
-.bngpt
-.stunninglover
-.highwebmedia
-.jads
-.trwl1
-.vidoza
-.o333o
-.x2sfa.javgg.eu
-.xd3r.javgg.eu
-.p242.plainwrk.name
-.histats
-.dtscout
-.adform
-.mathtag
-.pagespeed-mod
-.in-page-push
-.referrer.disqus.com
-.links.services.disqus.com
-.disqusads.com
-.glitter.services.disqus.com
-.juggler.services.disqus.com
-.tempest.services.disqus.com
-.mc.viglink.com
-.qa.viglink.com
-.ns4.viglink.com
-.ns2.viglink.com
-.ns3.viglink.com
-.apicdn.viglink.com
-.cdn.viglink.com
-.mcupdate.gstarcad.com
-.adx.open-adx.com
-.adservice.sigmob.cn
-.t7z.cupid.iqiyi.com
-.static-s.iqiyi.com
-.mobile2.da.mgtv.com
-.mobile.da.mgtv.com
-.gwp.xiaojukeji.com
-.ct.xiaojukeji.com
-.unidesk.alicdn.com
-.idealads.net
-.ironsrc.com
-.comet.yahoo.com
-.a.ckm.iqiyi.com
-.ad.m.iqiyi.com
-.afp.iqiyi.com
-.androidgo.duapp.com
-.api.cupid.iqiyi.com
-.api.cupid.qiyi.com
-.c.uaa.iqiyi.com
-.cloudpush.iqiyi.com
-.cm.passport.iqiyi.com
-.count.game.pps.tv
-.cupid.iqiyi.com
-.emoticon.sns.iqiyi.com
-.game.pps.tv
-.gamecenter.iqiyi.com
-.mbdlog.iqiyi.com
-.msg.iqiyi.com
-.msg.video.qiyi.com
-.msg2.video.qiyi.com
-.msga.71.am
-.msga.cupid.iqiyi.com
-.nl.notice.iqiyi.com
-.nl.rcd.iqiyi.com
-.notice.iqiyi.com
-.noxagile.duapp.com
-.paopao.iqiyi.com
-.policy.video.iqiyi.com
-.qosp.msg.71.am
-.static.g.iqiyi.com
-.static.g.ppstream.com
-.store.iqiyi.com
-.tracker.sns.iqiyi.com
-.yuedu.iqiyi.com
+# > 优酷
+.atm.youku.com
+.ad.mobile.youku.com
+.iyes.youku.com
+.pl.cp31.ott.cibntv.net
 .actives.youku.com
 .ad.api.3g.tudou.com
 .ad.api.3g.youku.com
@@ -1430,6 +1038,276 @@ USER-AGENT,AVOS*
 .wan.youku.com
 .ykatr.youku.com
 .ykrec.youku.com
+# > 易车
+.adx.yiche.com
+.log.ycapp.yiche.com
+# > 央视
+.a.cctv.com
+.ad.cctv.com
+.ad.cntv.cn
+.adguanggao.eee114.com
+.afp.qiyi.com
+.cctv.adsunion.com
+.d.cntv.cn
+.de.pandora.xiaomi.com
+.mishop.pandora.xiaomi.com
+.cws-cctv.conviva.com
+.galaxy.bjcathay.com
+.mdrecv.app.cntvwb.cn
+.sdapprecv.app.cntvwb.cn
+.vdapprecv.app.cntvwb.cn
+# > 一刻相册
+.sf1-be-tos.pglstatp-toutiao.com
+# > 知乎
+USER-AGENT,AVOS*
+.appcloud2.in.zhihu.com
+.mqtt.zhihu.com
+.sugar.zhihu.com
+# > 中关村
+.apppv.zol.com.cn
+.pvnapp.zol.com.cn
+# > 中国联通
+.m1.ad.10010.com
+# > 中国电信
+.ad.21cn.com
+.ad.k.21cn.com
+.admarket.21cn.com
+.adshows.21cn.com
+# > 中信银行
+.sis.jpush.io
+.s.jpush.cn
+.jpush.cn
+.im64.jpush.cn
+.im.jpush.cn
+.jpush.html5.qq.com
+# > 中华万年历广告
+.lkme.cc
+.api.freed.so
+.log-dmp.suishenyun.cn
+.client-dmp.suishenyun.cn
+.pc.suishenyun.net
+.v0-client-lz.rili.cn
+# > 招钱进宝
+.p26-be-pack-sign.pglstatp-toutiao.com
+# > 真不卡
+.ttayy.cn
+.zhengxiaoliu.top
+.extlog.snssdk.com
+.is.snssdk.com
+.s3a.pstatp.com
+.sdfp.snssdk.com
+.tosv.boe.byted.org
+.tosv.byted.org
+.ad.ihuman.com
+.delivery-node-aziz.voe-network.net
+.inspiringaccurate.com
+.track.aso1.net
+.wpadmngr.com
+.histats.com
+.son-in-lawmorbid.com
+.mc.yandex.ru
+.amung.us
+.widgets.amung.us
+.s10.histats.com
+.js.wpadmngr.com
+.suzihaza.com
+.tapioni.com
+.qinhemuye.com
+.107iwh.cn
+.hbhuatie.com
+.qinzhihao.com
+.nby360.com
+.tfosrv.com
+.trafforsrv.com
+.trafficforce.com
+.qw2v.changshuohr.net
+.cashewsforlife208.com
+.ingest.sentry
+.phloxsub73ulata.com
+.xxxjmp.com
+.pitrespite.com
+.realsrv.com
+.asewlfjqwlflkew.com
+.uus52.com
+.uus58.com
+.ddmax20.xyz
+.ads.exosrv.com
+.exosrv
+.asewlfjqwlflkew
+.tyrantdb.com
+.adserve.work
+.brushshopy
+.onenews
+.s96.cnzz.com
+.yabo729.com
+.xn--xhq9mt12cf5v.xn--io0a7i
+.xn--2qux23c9ziyrq
+.xn--3bs795g.zone
+.xn--2qux23c9ziyrq.plus
+.xn--2qux23c9ziyrq.club
+.www.avple.video
+.xn--3bs795g.link
+.show.suning.beer
+.www.govshenzhen.cn
+.mm9842.com
+.e2wysbacctt1
+.streamtape.com
+.maphuahin.com
+.ggsfq.com
+.ad.pornimg.xyz
+.yandex.ru
+.awaitcola.com
+.wine-api.net
+.wixsite.com
+.exosrv.com
+.juicyads.com
+.wixstatic.com
+.thumb.fvs.io
+.itnuzleafan.com
+.oawhaursaith.com
+.unreshiramor.com
+.regulationprivilegescan.top
+.in-page-push.com
+.farmcrapsubsist.com
+.jads.co
+.adxadserv.com
+.moatads.com
+.juicyads.in
+.dtscout.com
+.51.la
+.51daeka.com
+.trafficjunky.com
+.adserver.juicyads.com
+.poweredby.jads.co
+.exdynsrv.com
+.d227cncaprzd7y.cloudfront.net
+.d10lumateci472.cloudfront.net
+.dvzk66.cn
+.pu0glv.cn
+.sentry.io
+.ads.bullionyield.com
+.dlads
+.dagonghuzhu.com
+.xxshuyuan
+.haowanyou
+.dat8
+.112wan
+.dfkj8
+.mifengv
+.lieyou
+.789htbet
+.mdapp09
+.juruigj
+.mmiyue
+.etahub.com
+.22c.in
+.imgxxx.shunxincar.cn
+.cc58.oss-cn-beijing.aliyuncs.com
+.oss-accelerate.aliyuncs.com
+.kk.braincf.com
+.run.haireig.com
+.d.zxptw.cn
+.maxwellsery.com
+.annabelleabe.com
+.jidukeji.com
+.atmib.com
+.bjzysd.net
+.iycwl.com
+.haoyundm.com
+.qqq123987.site
+.qweewq2021.online
+.jianxinshanghai.com
+.js.51toubu.com
+.img.hylmxing.com
+.777.000123456789.space
+.bhichong.com
+.tskdfjksldk.sdhsgcj.com
+.haoyuntj.com
+.bizhixiang.cn
+.jspassport.ssl.qhimg.com
+.ads.superad.cc
+.isboost.co.jp
+.boost-next.co.jp
+.ad-nex.com
+.aaacompany.net
+.d24ak3f2b.top
+.blastcahs.com
+.wpncdn.com
+.toateeli
+.greenplasticdua
+.bongacash
+.bngpt
+.stunninglover
+.highwebmedia
+.jads
+.trwl1
+.vidoza
+.o333o
+.x2sfa.javgg.eu
+.xd3r.javgg.eu
+.p242.plainwrk.name
+.histats
+.dtscout
+.adform
+.mathtag
+.pagespeed-mod
+.in-page-push 
+.referrer.disqus.com
+.links.services.disqus.com
+.disqusads.com
+.glitter.services.disqus.com
+.juggler.services.disqus.com
+.tempest.services.disqus.com
+.mc.viglink.com
+.qa.viglink.com
+.ns4.viglink.com
+.ns2.viglink.com
+.ns3.viglink.com
+.apicdn.viglink.com
+.cdn.viglink.com
+.mcupdate.gstarcad.com
+.adx.open-adx.com
+.adservice.sigmob.cn
+.static-s.iqiyi.com
+.mobile2.da.mgtv.com
+.mobile.da.mgtv.com
+.gwp.xiaojukeji.com
+.ct.xiaojukeji.com
+.unidesk.alicdn.com
+.idealads.net
+.ironsrc.com
+.comet.yahoo.com
+.a.ckm.iqiyi.com
+.ad.m.iqiyi.com
+.afp.iqiyi.com
+.androidgo.duapp.com
+.api.cupid.iqiyi.com
+.api.cupid.qiyi.com
+.c.uaa.iqiyi.com
+.cloudpush.iqiyi.com
+.cm.passport.iqiyi.com
+.count.game.pps.tv
+.emoticon.sns.iqiyi.com
+.game.pps.tv
+.gamecenter.iqiyi.com
+.mbdlog.iqiyi.com
+.msg.iqiyi.com
+.msg.video.qiyi.com
+.msg2.video.qiyi.com
+.msga.71.am
+.msga.cupid.iqiyi.com
+.nl.notice.iqiyi.com
+.nl.rcd.iqiyi.com
+.notice.iqiyi.com
+.noxagile.duapp.com
+.paopao.iqiyi.com
+.policy.video.iqiyi.com
+.qosp.msg.71.am
+.static.g.iqiyi.com
+.static.g.ppstream.com
+.store.iqiyi.com
+.tracker.sns.iqiyi.com
+.yuedu.iqiyi.com
 .ads-api.videojj.com
 .cdn.cmop.mgtv.com
 .click.hunantv.com
@@ -1540,10 +1418,8 @@ USER-AGENT,AVOS*
 .static.ku6.com
 .static8.pmadx.com
 .store.ptqy.gitv.tv
-.t7z.cupid.ptqy.gitv.tv
 .traffic.uusee.com
 .union.6.cn
-.wa.gtimg.com
 .bfshan.cn
 .0.r.msn.com
 .000dn.com
@@ -2236,7 +2112,6 @@ USER-AGENT,AVOS*
 .ad.thepaper.cn
 .ad.thisav.com
 .ad.thsi.cn
-.ad.toutiao.com
 .ad.turn.com
 .ad.unimhk.com
 .ad.userporn.com
@@ -2389,10 +2264,6 @@ USER-AGENT,AVOS*
 .adm.xmfish.com
 .adm.zbinfo.net
 .adm.zookingsoft.com
-.adm0.autoimg.cn
-.adm1.autoimg.cn
-.adm2.autoimg.cn
-.adm3.autoimg.cn
 .admaji.com
 .admarket.mobi
 .admd.yam.com
@@ -2417,7 +2288,6 @@ USER-AGENT,AVOS*
 .adp.cnool.net
 .adp.s8bbs.com
 .adp1.cnool.net
-.adpai.thepaper.cn
 .adperium.com
 .adplatform.vrtcal.com
 .ad-plus.cn
@@ -2459,9 +2329,8 @@ USER-AGENT,AVOS*
 .adsdk.9imobi.com
 .adserve2.tom.com
 .adsfactor.net
-.adsfs.oppomobile.com
 .adshare.freedocast.com
-.adsDOMAIN2.com
+.adsHOST2.com
 .adshow.it168.com
 .adsin.zhangyoubao.com
 .adsinstant.com
@@ -2671,9 +2540,7 @@ USER-AGENT,AVOS*
 .api.mobgi.com
 .api.mobula.sdk.duapps.com
 .api.moogos.com
-.api.mp.uc.cn
 .api.newbelden.com
-.api.open.uc.cn
 .api.pingstart.com
 .api.ppoi.org
 .api.primecaster.net
@@ -2842,7 +2709,6 @@ USER-AGENT,AVOS*
 .b.aowugame.com
 .b.babylon.com
 .b.baiy.net
-.b.bdstatic.com
 .b.bst.126.net
 .b.clkservice.youdao.com
 .b.code.tanwanyx.com
@@ -2894,7 +2760,7 @@ USER-AGENT,AVOS*
 .banner.itweb.co.za
 .banner.telefragged.com
 .banner.titancasino.com
-.banner1.pornDOMAIN.com
+.banner1.pornHOST.com
 .banners.beevpn.com
 .banners.beted.com
 .banners.cams.com
@@ -3020,7 +2886,6 @@ USER-AGENT,AVOS*
 .biz.vpon.com
 .biz37.net
 .bizanti.youwatch.org
-.bj.imp.voiceads.cn
 .bj14.9669.cn
 .bjcathay.com
 .bjcu.u3.ucweb.com
@@ -3035,7 +2900,7 @@ USER-AGENT,AVOS*
 .blogad02.myweb.hinet.net
 .bloggerads.net
 .bluekai.com
-.bluDOMAINedbanners.blucigs.com
+.bluHOSTedbanners.blucigs.com
 .bmg.wnbfw.com
 .bmp.ali213.net
 .bmp1.ali213.net
@@ -3107,7 +2972,6 @@ USER-AGENT,AVOS*
 .c.35kds.com
 .c.365yigou.cn
 .c.45io.com
-.c.51y5.net
 .c.adbxb.cn
 .c.anmeilai.net
 .c.autohome.com.cn
@@ -3166,7 +3030,6 @@ USER-AGENT,AVOS*
 .c.v4dwkcv.com
 .c.vip97.net
 .c.wechat.jx.cn
-.c.wkanx.com
 .c.wrating.com
 .c.xianguonongchang.org
 .c.xznykf.org
@@ -3191,7 +3054,6 @@ USER-AGENT,AVOS*
 .c1.popads.net
 .c1.statcounter.com
 .c1.ulink.cc
-.c1.wkanx.com
 .c1.xcy8.com
 .c16cp358.com
 .c2.58toto.net
@@ -3338,7 +3200,6 @@ USER-AGENT,AVOS*
 .cdn-rtb.sape.ru
 .cdn-settings.segment.com
 .cdntest.a8tiyu.com
-.cds.51y5.net
 .cdyqc.com
 .ced.sascdn.com
 .cee1.iteye.com
@@ -3376,7 +3237,6 @@ USER-AGENT,AVOS*
 .chnhty.com
 .chuantu.biz
 .chushoushijian.cn
-.c-hzgt2.getui.com
 .ci.csefaazc.net
 .ciajingman.com
 .cilidaquan.pw
@@ -3414,10 +3274,8 @@ USER-AGENT,AVOS*
 .client.stats.yinyuetai.com
 .client.tenddata.com
 .client-api.ele.me
-.client-dmp.suishenyun.cn
 .cliushow.com
 .clk.dxpmedia.com
-.clk.gentags.net
 .clk.madserving.com
 .clk.optaim.com
 .clk.pdb.madserving.com
@@ -3559,7 +3417,6 @@ USER-AGENT,AVOS*
 .count5.pconline.com.cn
 .count6.pconline.com.cn
 .counter.csdn.net
-.counter.kingsoft.com
 .counter.m1905.com
 .counter.marketgid.com
 .counter.sina.com.cn
@@ -3615,7 +3472,7 @@ USER-AGENT,AVOS*
 .creative.ltheanine.cn
 .creatives.cliphunter.com
 .creatives.ftchinese.com
-.creatives.inmotionDOMAINing.com
+.creatives.inmotionHOSTing.com
 .creatives.livejasmin.com
 .creatives.pichunter.com
 .creatives.summitconnect.co.uk
@@ -3775,7 +3632,6 @@ USER-AGENT,AVOS*
 .data.danmu.baofeng.com
 .data.doodlemobile.com
 .data.gosquared.com
-.data.mistat.xiaomi.com
 .data.neuroxmedia.com
 .data2.doodlemobile.com
 .data2.gosquared.com
@@ -3914,7 +3770,6 @@ USER-AGENT,AVOS*
 .dm.51okc.com
 .dm.92to.com
 .dm.aizhan.com
-.dm.bytedance.com
 .dm.chalook.net
 .dm.fsyzcs.com
 .dm.gbeik.com
@@ -3923,13 +3778,11 @@ USER-AGENT,AVOS*
 .dm.jsyst.cn
 .dm.jy135.com
 .dm.ppzuowen.com
-.dm.pstatp.com
 .dm.pw0.cn
 .dm.riji.cn
 .dm.sanwen.net
 .dm.sanwen8.com
 .dm.sb580.com
-.dm.toutiao.com
 .dm.ws8.org
 .dm.yjbys.com
 .dm1.tom61.com
@@ -4030,7 +3883,6 @@ USER-AGENT,AVOS*
 .dsp.hypers.com.cn
 .dsp.pro.cn
 .dsp.send.microad-cn.com
-.dsp.toutiao.com
 .ds-pc.admsger.com
 .dsp-click.youdao.com
 .dsp-impr.youdao.com
@@ -4387,7 +4239,6 @@ USER-AGENT,AVOS*
 .ew16d.package12.com
 .ex.mobmore.com
 .ex.puata.info
-.exdynsrv.com
 .exit.macandbumble.com
 .exoclick.com
 .exp.17wo.cn
@@ -4460,7 +4311,6 @@ USER-AGENT,AVOS*
 .fd.anzhi.com
 .fd.qchannel03.cn
 .fd7c.com
-.fds.api.moji.com
 .fe.lea.lycos.co.uk
 .fe1-au.imrworldwide.com
 .fe2-au.imrworldwide.com
@@ -4497,7 +4347,7 @@ USER-AGENT,AVOS*
 .fimserve.ign.com
 .findicons.com
 .finding.hardwareheaven.com
-.findnsave.idaDOMAINatesman.com
+.findnsave.idaHOSTatesman.com
 .finead.cn
 .fips.uimserv.net
 .firefang.cn
@@ -4596,7 +4446,6 @@ USER-AGENT,AVOS*
 .g.zx-jsp.com
 .g1.0573ren.com
 .g1.08160.cn
-.g1.163.com
 .g1.tagtic.cn
 .g1.taijuba.com
 .g1c5.com
@@ -4731,7 +4580,6 @@ USER-AGENT,AVOS*
 .good.ta80.com
 .goolpter.com
 .gopig.io
-.gorgon.youdao.com
 .gosquared.com
 .goto.sogou.com
 .goto.www.iciba.com
@@ -4810,14 +4658,13 @@ USER-AGENT,AVOS*
 .hao.7654.com
 .hao.qquu8.com
 .hao.tiandi.com
-.hao.uc.cn
 .hao123.xywy.com
 .hao123rt.com
 .hao549.com
 .hao61.net
 .hao916.com
 .hao934.com
-.haogDOMAIN.com
+.haogHOST.com
 .haohaowan8.com
 .haolew.com
 .haostat.qihoo.com
@@ -4874,7 +4721,6 @@ USER-AGENT,AVOS*
 .hilltopads.net
 .himandy.com
 .hipersushiads.com
-.histats.com
 .hit.webcentre.lycos.co.uk
 .hitlog2.chosun.com
 .hitslink.com
@@ -4902,7 +4748,7 @@ USER-AGENT,AVOS*
 .hnyny.com
 .home520.com
 .hoplink.ksosoft.com
-.DOMAINing.miarroba.info
+.HOSTing.miarroba.info
 .hot.browser.miui.com
 .hot.m.shouji.360tpcdn.com
 .hot-mob.com
@@ -4985,7 +4831,6 @@ USER-AGENT,AVOS*
 .i5.akjunshi.com
 .i92xue.com
 .ia.ctags.cn
-.iad.g.163.com
 .iadc.qwapi.com
 .iadmatvideo.nosdn.127.net
 .iads.xinmin.cn
@@ -5013,7 +4858,6 @@ USER-AGENT,AVOS*
 .ie8eamus.com
 .ieonline.microsoft.com
 .if1512.com
-.iflyad.bj.openstorage.cn
 .iframe.travel.yahoo.com
 .ig.nukefans.net
 .igexin.com
@@ -5521,7 +5365,6 @@ USER-AGENT,AVOS*
 .jtxh.net
 .jtys8.com
 .ju33.com
-.juicyads.com
 .jump.luna.58.com
 .jumpe.58xmgys.com
 .jumpluna.58.com
@@ -5756,7 +5599,6 @@ USER-AGENT,AVOS*
 .log1.molitv.cn
 .log2.air.yoyi.com.cn
 .log2.molitv.cn
-.log-dmp.suishenyun.cn
 .logger.qingting.fm
 .logger.treexml.baofeng.com
 .logonext.tv.kuyun.com
@@ -6029,7 +5871,6 @@ USER-AGENT,AVOS*
 .m.osndy.com
 .m.ourlj.com
 .m.oyrim.com
-.m.panda.voiceads.cn
 .m.pbino.com
 .m.phonthing.com
 .m.picbr.com
@@ -6227,7 +6068,6 @@ USER-AGENT,AVOS*
 .mbrowser.news.so.com
 .mbs.weathercn.com
 .mc.hujiang.com
-.mc.yandex.ru
 .mcore.vcgame.cn
 .md.1drj.com
 .md.he9630.com
@@ -6344,13 +6184,10 @@ USER-AGENT,AVOS*
 .mo.res.wpscdn.cn
 .mo.test.haloapps.com
 .moad.cn
-.moatads.com
 .mob.huimee.net
-.mobad.ijinshan.com
 .mobadme.jp
 .mobfox.com
 .mobgi.com
-.mobileads.msn.com
 .mobileapptracking.com
 .mobiledissector.com
 .mobile-pubt.ele.me
@@ -6402,7 +6239,6 @@ USER-AGENT,AVOS*
 .msads.net
 .mscimg.com
 .msg.ptqy.gitv.tv
-.msg.push.51y5.net
 .mshow.fang.com
 .msltzer.cn
 .msn.wrating.com
@@ -6486,7 +6322,6 @@ USER-AGENT,AVOS*
 .new.zhqiu.com
 .newloc.map.n.shifen.com
 .newrelic.com
-.news.51y5.net
 .news.58.com
 .news.cxxtv.com
 .news.push.126.net
@@ -6495,7 +6330,6 @@ USER-AGENT,AVOS*
 .news-img.51y5.net
 .news-l.play.aiseet.atianqi.com
 .news-l.play.cp81.ott.cibntv.net
-.news-log.51y5.net
 .newspage.xilu.com
 .newspush.sinajs.cn
 .newswifiapi.dfshurufa.com
@@ -6573,7 +6407,7 @@ USER-AGENT,AVOS*
 .oasc07.citywire.co.uk
 .oascentral.abclocal.go.com
 .oascentral.chron.com
-.oascentral.DOMAINed.ap.org
+.oascentral.HOSTed.ap.org
 .oascentral.lycos.com
 .oascentral.newsmax.com
 .oascentral.sina.com
@@ -6711,9 +6545,9 @@ USER-AGENT,AVOS*
 .papajia55.com
 .parking.zunmi.cn
 .parser.houyi.baofeng.net
-.partner.bargainDOMAINs.com
+.partner.bargainHOSTs.com
 .partner.catchy.com
-.partner.premiumDOMAINs.com
+.partner.premiumHOSTs.com
 .partner.toutiao.com
 .partners.fshealth.com
 .partners.keezmovies.com
@@ -6769,7 +6603,6 @@ USER-AGENT,AVOS*
 .pf-2.pchome.net
 .pfp.sina.com.cn
 .pfpip.sina.com
-.pgdt.ugdtimg.com
 .photo.dhford.cn
 .photo.lyghjzs.cn
 .photo.qianerbai.cn
@@ -6947,7 +6780,6 @@ USER-AGENT,AVOS*
 .pubmatic.com
 .pubnub.com
 .pubs.hiddennetwork.com
-.puds.test.uae.uc.cn
 .pull.push.sogou.com
 .punchbox.org
 .punuomisi.cn
@@ -6967,7 +6799,6 @@ USER-AGENT,AVOS*
 .push.zhangyue.com
 .push-android.myzaker.com
 .pushapi.lenovomm.com
-.push-dc.51y5.net
 .pv.alert.autohome.com.cn
 .pv.anzhi.com
 .pv.cheshi.com
@@ -7336,7 +7167,6 @@ USER-AGENT,AVOS*
 .s1.qiuyi.cn
 .s1.s8tu.com
 .s1.tansuotv.com
-.s10.histats.com
 .s2.dnaxddnc.com
 .s2.hiapk.com
 .s2.huoying666.com
@@ -7492,7 +7322,7 @@ USER-AGENT,AVOS*
 .shangz99991.com
 .share.gzdsw.com
 .shared.youdao.com
-.sharedadDOMAIN.com
+.sharedadHOST.com
 .sharrysweb.com
 .shbywsd.cn
 .shenghuo.xiaomi.com
@@ -8150,7 +7980,6 @@ USER-AGENT,AVOS*
 .update.sdk.jiguang.cn
 .updates-s3.binaryage.com
 .uplze.code.weddingeeos.com
-.ups.ksmobile.net
 .upush.res.meizu.com
 .uqszvk.code.weddingeeos.com
 .uqum.52shouyou.com.cn
@@ -8431,7 +8260,6 @@ USER-AGENT,AVOS*
 .womenwan.com
 .wooboo.com.cn
 .woocall.sina.com.cn
-.woodpecker.uc.cn
 .worldh5.gamehz.cn
 .wowips.com
 .wpc.32df9.rhocdn.net
@@ -8441,7 +8269,6 @@ USER-AGENT,AVOS*
 .wqsph.net
 .wr.da.netease.com
 .wrvdmh.cn
-.ws.ksmobile.net
 .ws.progrss.yahoo.com
 .ws.tapjoyads.com
 .ws.voiceads.cn
@@ -8934,6 +8761,7 @@ USER-AGENT,AVOS*
 .zws.avvo.com
 .img.adnyg.com.w.kunlungr.com
 .log.tagtic.cn
+.ulogs.umeng.com
 .zx.baosmx.com
 .zxcs.ggwan.com
 .zxcs.linghit.com
@@ -8962,7 +8790,6 @@ USER-AGENT,AVOS*
 .zzzzz4.52896368.com
 .analytics.query.yahoo.com
 .42trck.com
-.51.la
 .adcolony.com
 .adinfuse.com
 .adjust.com
@@ -9031,28 +8858,20 @@ USER-AGENT,AVOS*
 .wedolook.com
 .xdrig.com
 .abema-adx.ameba.jp
-.ad.51wnl-cq.com
 .ad.caiyunapp.com
 .ad.huajiao.com
 .ad.hzyoka.com
 .ad.jiemian.com
-.ad.qingting.fm
 .ad.wappalyzer.com
 .ad-cn.jovcloud.com
-.adextra.51wnl-cq.com
 .ads.adadapted.com
 .ads.daydaycook.com.cn
 .ads.weilitoutiao.net
 .adsapi.manhuaren.com
 .adsdk.dmzj.com
 .adserver.pandora.com
-.adui.tg.meitu.com
 .adv.bandi.so
-.goblin.hupu.com
-.adx.hupu.com
-.adx-api.hupu.com
 .adxserver.ad.cmvideo.cn
-.app-ad.variflight.com
 .applog.mobike.com
 .appnext.hs.llnwd.net
 .appnext-a.akamaihd.net
@@ -9062,110 +8881,36 @@ USER-AGENT,AVOS*
 .mads.suning.com
 .mopnativeadv.037201.com
 .nativeadv.dftoutiao.com
-.optimus-ads.amap.com
-.sugar.zhihu.com
-.track.tiara.daum.net
-.track.tiara.kakao.com
 .trackapp.guahao.cn
 .traffic.mogujie.com
-.wmlog.meituan.com
 .adshow.58.com
-.track.58.com
-.tracklog.58.com
-.adash.man.aliyuncs.com
 .nbsdk-baichuan.alicdn.com
-.adproxy.autohome.com.cn
-.rd.autohome.com.cn
-.ad.k.21cn.com
-.al.autohome.com.cn
-.applogapi.autohome.com.cn
 .applog.musical.ly
 .track.toutiao.com
 .xlog.snssdk.com
 .xlog-va.byteoversea.com
-.adx.yiche.com
-.log.ycapp.yiche.com
-.advertise.baicizhan.org
-.advertise.baicizhan.com
-.galaxy.bjcathay.com
-.admarket.21cn.com
-.adshows.21cn.com
-.atrace.chelaile.net.cn
-.logs.chelaile.net.cn
 .log.v2.hunantv.com
 .v2.log.hunantv.com
 .ifacelog.iqiyi.com
 .msg.71.am
-.api.newad.ifeng.com
-.ifengad.3g.ifeng.com
-.ad-stat.ksosoft.com
-.img.auction-ads.wpscdn.cn
-.counter.ksosoft.com
-.minfo.wps.cn
-.ark.letv.com
-.emma-414870e223.huodonghezi.com
-.g3.letv.com
-.n.mark.letv.com
 .ad.intl.xiaomi.com
 .ad.xiaomi.com
 .admob.xiaomi.com
 .tracking.miui.com
 .adv.sec.intl.miui.com
 .adv.sec.miui.com
-.tracking.intl.miui.com
-.ad.api.moji.com
-.adlaunch.moji.com
-.ads.mojicdn.com
-.v1.log.moji.com
-.ad.bn.netease.com
-.ad.yixin.im
-.admusicpic.music.126.net
-.iadmusicmat.music.126.net
-.iadmusicmatvideo.music.126.net
-.impservice.dictapp.youdao.com
-.impservice.youdao.com
 .log.yex.youdao.com
 .log-yex.youdao.com
-.n.3g.163.com
-.nex.163.com
-.yt-adp.nosdn.127.net
-.ads.aplus.pptv.com
-.ads.aplusapi.pptv.com
-.asimgs.pplive.cn
-.de.as.pptv.com
-.regist.fotoable.com
-.cdn.adapi.fotoable.com
-.adnew.wifi8.com
-.adfile.wifi8.com
-.u1.img.mobile.sina.cn
-.sax.sina.com.cn
-.saxs.sina.com.cn
-.saxn.sina.com.cn
 .imp.optaim.com
 .track.sohu.com
-.hui.sohu.com
-.splashqqlive.gtimg.com
-.imgadpai.thepaper.cn
-.admonitor.thepaper.cn
-.adsp.xunlei.com
-.etl.xlmc.sandai.net
-.adm.10jqka.com.cn
-.stat.10jqka.com.cn
-.ad-analysis.pconline.com.cn
-.iad0ssl.pcauto.com.cn
-.iad0ssl.pconline.com.cn
-.imgad0.pcauto.com.cn
-.imgad0.pconline.com.cn
-.ivy.pchouse.com.cn
-.a.wkanx.com
-.cwx.lianwangtech.com
-.c1wx.lianwangtech.com
+.alog.umeng.com
+.alogs.umeng.com
+.alog.umengcloud.com
+.alogs.umengcloud.com
+.ar.umeng.com
+.plbslog.umeng.com
+.ulogs.umengcloud.com
 .apm-track.xiaohongshu.com
-.t-ads.xiaohongshu.com
-.ad.mobile.youku.com
-.iyes.youku.com
-.apppv.zol.com.cn
-.pvnapp.zol.com.cn
 .17gouwuba.com
 .186078.com
 .189zj.cn
@@ -9280,8 +9025,6 @@ USER-AGENT,AVOS*
 .4paradigm.com
 .catch.gift
 .pubnative.net
-.applovin.com
-.applvn.com
 .inner-active.mobi
 .mdfull.com
 .openx.net
@@ -9289,7 +9032,6 @@ USER-AGENT,AVOS*
 .flash.cn
 .gs.getui.com
 .log.b612kaji.com
-.pgdt.gtimg.com
 .4009997658.com
 .abbyychina.com
 .bartender.cc
@@ -9352,17 +9094,15 @@ USER-AGENT,AVOS*
 .ad.daum.net
 .track.xiachufang.com
 .toots-a.akamaihd.net
-.optimus-ads.amap.com.w.alikunlun.com
-.yt-adp.ws.126.net
 .alog.umeng.co
-.ad.360in.com
-.ad.hpplay.cn
-.adeng.hpplay.cn
-.rp.hpplay.cn
 .appcpi.net
 .bulldogcpi.com
 .insurads.com
-
+# > 运营商劫持
+.189key.com
+.bkyhq.cn
+.gscxs.cn
+.hbssjd.cn
 .hyunke.com
 .jsncke.com
 .junkucm.com
@@ -9374,42 +9114,7 @@ USER-AGENT,AVOS*
 .xchmai.com
 .ygyzx.cn
 .zmlled.cn
-# > ChinaTelecom
-
-# > ChinaUnicom
-# > ChinaMobile
-
-# > Dr.Peng
-
-# Malware
-# > Huawei AspiegelBot
-
-# > KuaiZip
-# https://zhuanlan.zhihu.com/p/39534279
-.kuaizip.com
-# > MacKeeper
-# https://www.lizhi.io/blog/40002904
-.zryydi.com
-# > Adobe Flash China Special Edition
-# https://www.zhihu.com/question/281163698/answer/441388130
-.geo2.adobe.com
-# > C&J Marketing
-# https://www.zhihu.com/question/46746200
-.alienskins.cn
-.anydeskchina.cn
-.betterzipcn.com
-.dongmansoft.com
-.earmasterchina.cn
-.folxchina.cn
-.hypeapp.cn
-.idmchina.net
-.imazingchina.com
-.luping.net.cn
-.mindmanager.cn
-.officesoftcn.com
-.photozoomchina.com
-.xitongqingli.com
-# 隐私保护
+# > 隐私保护
 .airpr.com
 .hotjar.com
 .hotjar.io
@@ -9451,22 +9156,3 @@ USER-AGENT,AVOS*
 .ads.linkedin.com
 .analytics.slashdotmedia.com
 .zgsdk.zhugeio.com
-# > 51.LA
-.js.users.51.la
-.mc.51.la
-.wc.51.la
-# >58
-.track.58.com
-.tracklog.58.com
-# > Daum
-.track.tiara.daum.net
-.track.tiara.kakao.com
-# > GozenData
-# https://www.v2ex.com/t/772523
-.gozendata.com
-.gzads.com
-.gz-data.com
-# > GrowingIO
-.giocdn.com
-# > 深圳通微信小程序
-.wxsnsdythumb.wxs.qq.com
