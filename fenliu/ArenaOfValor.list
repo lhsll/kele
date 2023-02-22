@@ -239,17 +239,3 @@ USER-AGENT,*microvision*
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qlogo.cn
 
-# > 微博
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibo.cn
-DOMAIN-SUFFIX,sinaimg.cn
-
-# > 10010
-USER-AGENT,*ChinaUnicom*
-DOMAIN-SUFFIX,10010.com
-
-# > 招商银行
-USER-AGENT,*MPBank*
-USER-AGENT,*cmblife*
-DOMAIN-SUFFIX,cmbchina.com
-
