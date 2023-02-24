@@ -1,65 +1,123 @@
 # NAME: WeChat
 # AUTHOR: @blackmatrix7@NobyDa@DivineEngine@KeLe
-# UPDATED: 2023-2-24 10:26:50
-# DOMAIN: 16
-# DOMAIN-SUFFIX: 34
-# DOMAIN-KEYWORD: 269
+# UPDATED: 2023-2-24 11:33:23
+# DOMAIN: 70
+# DOMAIN-SUFFIX: 38
+# DOMAIN-KEYWORD: 320
 # IP-CIDR: 13
 # IP-CIDR6: 69
 # USER-AGENT: 2
-# TOTAL: 403
+# TOTAL: 512
 
 # > WeChat domain
+DOMAIN,act.weixin.qq.com
+DOMAIN,adsmedium-40038.sh.gfp.tencent-cloud.com
+DOMAIN,aedns.iot.wechatpay.cn
+DOMAIN,aedns.iot-tencent.com
+DOMAIN,aedns.weixin.qq.com
+DOMAIN,aelong.iot.wechatpay.cn
+DOMAIN,aelong.iot-tencent.com
+DOMAIN,aeshort.iot.wechatpay.cn
+DOMAIN,aeshort.iot-tencent.com
+DOMAIN,aiwx.html5.qq.com
+DOMAIN,analytics.map.qq.com
+DOMAIN,android.bugly.qq.com
+DOMAIN,android.rqd.qq.com
+DOMAIN,androidrqd.iot.wechatpay.cn
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,api.pr.weixin.qq.com
+DOMAIN,apis.map.qq.com
 DOMAIN,btrace.qq.com
+DOMAIN,cc.map.qq.com
 DOMAIN,dl.wechat.com
 DOMAIN,dldir1.qq.com
 DOMAIN,dldir1v6.qq.com
+DOMAIN,gtimg.wechatpay.cn
+DOMAIN,h.trace.qq.com
+DOMAIN,ilinklong.pay.weixin.qq.com
+DOMAIN,indoorroad.map.qq.com
+DOMAIN,iosrqd.iot.wechatpay.cn
+DOMAIN,l.lswld.com
+DOMAIN,lbs.gtimg.com
+DOMAIN,lbs.map.iot.wechatpay.cn
+DOMAIN,lbs.map.qq.com
+DOMAIN,log.weixin.qq.com
+DOMAIN,long.open.weixin.qq.com
+DOMAIN,longcloud.weixin.com
+DOMAIN,lp.open.weixin.qq.com
+DOMAIN,mmbiz.qpic.cn
+DOMAIN,mmpaypublicbucketlog-40035.sh.gfp.tencent-cloud.com
+DOMAIN,mmpaypublicbucketpackage-40035.sh.gfp.tencent-cloud.com
+DOMAIN,nlp.map.qq.com
+DOMAIN,open.weixin.qq.com
+DOMAIN,payapp.weixin.qq.com
+DOMAIN,posts.tenpay.com
+DOMAIN,publicadsmedium-40038.sh.gfp.tencent-cloud.com
+DOMAIN,res.pay.weixin.qq.com
+DOMAIN,res.servicewechat.com
+DOMAIN,restlbs.map.qq.com
+DOMAIN,rttgps.map.qq.com
+DOMAIN,servicewechat.com
 DOMAIN,sglong.wechat.com
 DOMAIN,sgminorshort.wechat.com
 DOMAIN,sgshort.wechat.com
+DOMAIN,shortcloud.weixin.com
 DOMAIN,slife.xy-asia.com
 DOMAIN,soup.v.qq.com
+DOMAIN,tdid.m.qq.com
 DOMAIN,tencentmap.wechat.com
+DOMAIN,ue.indoorloc.map.qq.com
+DOMAIN,up-hl.3g.qq.com
+DOMAIN,vectorsdk.map.qq.com
 DOMAIN,vweixinf.tc.qq.com
 DOMAIN,weixin110.qq.com
 DOMAIN,wup.imtt.qq.com
+DOMAIN,wx.gtimg.com
+DOMAIN,wx.qlogo.cn
 DOMAIN,wx.tenpay.com
 DOMAIN,wxapp.tc.qq.com
+DOMAIN,wxpay.iot.wechatpay.cn
+DOMAIN,wxpay.iot-tencent.com
+DOMAIN,wxpay.qpic.cn
+DOMAIN,yun-hl.3g.qq.com
 
 # > WeChat domain suffix
-DOMAIN-SUFFIX,analytics.map.qq.com
-DOMAIN-SUFFIX,apis.map.qq.com
-DOMAIN-SUFFIX,cc.map.qq.com
-DOMAIN-SUFFIX,dlied1.cdntips.net
-DOMAIN-SUFFIX,indoorroad.map.qq.com
-DOMAIN-SUFFIX,iot-tencent.com
-DOMAIN-SUFFIX,lbs.gtimg.com
-DOMAIN-SUFFIX,lbs.map.qq.com
-DOMAIN-SUFFIX,map.qq.com
-DOMAIN-SUFFIX,nlp.map.qq.com
-DOMAIN-SUFFIX,qlogo.cn
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,rttgps.map.qq.com
-DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,ue.indoorloc.map.qq.com
-DOMAIN-SUFFIX,up-hl.3g.qq.com
-DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,wechatlegal.net
-DOMAIN-SUFFIX,wechatos.net
-DOMAIN-SUFFIX,wechatpay.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,weixinbridge.com
-DOMAIN-SUFFIX,weixinsxy.com
-DOMAIN-SUFFIX,wx.gtimg.com
-DOMAIN-SUFFIX,wx.qq.com
-DOMAIN-SUFFIX,wxapp.tc.qq.com
-DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
+DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,wxapp.tc.qq.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN-SUFFIX,weixinsxy.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,wechatpay.cn
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,wechatlegal.net
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
+DOMAIN-SUFFIX,up-hl.3g.qq.com
+DOMAIN-SUFFIX,ue.indoorloc.map.qq.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tencent-cloud.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,rttgps.map.qq.com
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,nlp.map.qq.com
+DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,lswld.com
+DOMAIN-SUFFIX,lbs.map.qq.com
+DOMAIN-SUFFIX,lbs.gtimg.com
+DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN-SUFFIX,indoorroad.map.qq.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,dlied1.cdntips.net
+DOMAIN-SUFFIX,cc.map.qq.com
+DOMAIN-SUFFIX,apis.map.qq.com
+DOMAIN-SUFFIX,analytics.map.qq.com
 DOMAIN-KEYWORD,weixin
 DOMAIN-KEYWORD,tencent
 
@@ -333,6 +391,57 @@ DOMAIN-KEYWORD,36.155.184.
 DOMAIN-KEYWORD,36.155.189.
 DOMAIN-KEYWORD,39.170.87.
 DOMAIN-KEYWORD,61.151.229.
+DOMAIN-KEYWORD,81.69.54.164
+DOMAIN-KEYWORD,81.69.216.68
+DOMAIN-KEYWORD,61.151.165.107
+DOMAIN-KEYWORD,58.247.204.157
+DOMAIN-KEYWORD,58.246.163.67
+DOMAIN-KEYWORD,223.167.104.141
+DOMAIN-KEYWORD,223.166.152.104
+DOMAIN-KEYWORD,221.181.97.254
+DOMAIN-KEYWORD,203.205.234.86
+DOMAIN-KEYWORD,203.205.234.42
+DOMAIN-KEYWORD,183.3.224.140
+DOMAIN-KEYWORD,183.194.238.217
+DOMAIN-KEYWORD,183.192.199.140
+DOMAIN-KEYWORD,183.192.169.104
+DOMAIN-KEYWORD,182.254.92.144
+DOMAIN-KEYWORD,182.254.92.143
+DOMAIN-KEYWORD,182.254.78.167
+DOMAIN-KEYWORD,182.254.78.165
+DOMAIN-KEYWORD,180.163.25.147
+DOMAIN-KEYWORD,180.163.15.172
+DOMAIN-KEYWORD,175.27.6.112
+DOMAIN-KEYWORD,175.27.0.253
+DOMAIN-KEYWORD,175.27.0.14
+DOMAIN-KEYWORD,175.27.0.129
+DOMAIN-KEYWORD,175.24.209.113
+DOMAIN-KEYWORD,175.24.208.31
+DOMAIN-KEYWORD,140.207.119.144
+DOMAIN-KEYWORD,140.207.119.143
+DOMAIN-KEYWORD,124.223.121.10
+DOMAIN-KEYWORD,121.51.77.114
+DOMAIN-KEYWORD,121.51.73.103
+DOMAIN-KEYWORD,121.51.58.150
+DOMAIN-KEYWORD,121.51.58.140
+DOMAIN-KEYWORD,121.51.50.151
+DOMAIN-KEYWORD,120.204.10.116
+DOMAIN-KEYWORD,120.204.0.143
+DOMAIN-KEYWORD,120.204.0.142
+DOMAIN-KEYWORD,117.184.242.108
+DOMAIN-KEYWORD,116.128.171.168
+DOMAIN-KEYWORD,116.128.133.109
+DOMAIN-KEYWORD,109.244.148.15
+DOMAIN-KEYWORD,101.91.5.198
+DOMAIN-KEYWORD,101.91.34.241
+DOMAIN-KEYWORD,101.91.34.241
+DOMAIN-KEYWORD,101.89.47.182
+DOMAIN-KEYWORD,101.89.15.122
+DOMAIN-KEYWORD,101.35.76.45
+DOMAIN-KEYWORD,101.227.162.155
+DOMAIN-KEYWORD,101.227.162.154
+DOMAIN-KEYWORD,101.227.162.146
+DOMAIN-KEYWORD,101.227.162.142
 
 # > WeChat Telecom IPv4 (WeChat)
 IP-CIDR,101.32.104.4/32,no-resolve
