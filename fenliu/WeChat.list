@@ -1,6 +1,6 @@
 # NAME: WeChat
 # AUTHOR: @blackmatrix7@NobyDa@DivineEngine@KeLe
-# UPDATED: 2023-2-25 20:29:45
+# UPDATED: 2023-2-27 19:11:06
 
 # > WeChat domain
 DOMAIN,act.weixin.qq.com
@@ -111,6 +111,7 @@ DOMAIN-SUFFIX,dlied1.cdntips.net
 DOMAIN-SUFFIX,cc.map.qq.com
 DOMAIN-SUFFIX,apis.map.qq.com
 DOMAIN-SUFFIX,analytics.map.qq.com
+DOMAIN-SUFFIX,pay.weixin.qq.com
 DOMAIN-KEYWORD,weixin
 DOMAIN-KEYWORD,tencent
 
@@ -458,6 +459,56 @@ IP-CIDR,112.53.20.0/24,no-resolve
 IP-CIDR,129.226.107.244/32,no-resolve
 IP-CIDR,129.226.3.47/32,no-resolve
 IP-CIDR,162.62.163.63/32,no-resolve
+IP-CIDR,42.81.92.0/24,no-resolve
+IP-CIDR,42.81.114.0/24,no-resolve
+IP-CIDR,42.81.115.0/24,no-resolve
+IP-CIDR,42.202.154.0/24,no-resolve
+IP-CIDR,58.247.204.0/24,no-resolve
+IP-CIDR,61.151.183.16/32,no-resolve
+IP-CIDR,61.151.224.41/32,no-resolve
+IP-CIDR,101.89.15.0/24,no-resolve
+IP-CIDR,101.91.60.0/24,no-resolve
+IP-CIDR,101.226.211.0/24,no-resolve
+IP-CIDR,101.227.169.159/32,no-resolve
+IP-CIDR,117.184.242.0/24,no-resolve
+IP-CIDR,120.204.0.149/32,no-resolve
+IP-CIDR,120.204.10.0/24,no-resolve
+IP-CIDR,121.29.28.0/24,no-resolve
+IP-CIDR,121.29.29.0/24,no-resolve
+IP-CIDR,121.51.77.100/32,no-resolve
+IP-CIDR,123.151.10.0/24,no-resolve
+IP-CIDR,123.151.76.0/24,no-resolve
+IP-CIDR,123.151.114.0/24,no-resolve
+IP-CIDR,125.39.247.171/32,no-resolve
+IP-CIDR,140.207.54.47/32,no-resolve
+IP-CIDR,140.207.135.125/32,no-resolve
+IP-CIDR,153.3.221.16/32,no-resolve
+IP-CIDR,153.3.222.0/24,no-resolve
+IP-CIDR,153.3.233.101/32,no-resolve
+IP-CIDR,163.177.89.165/32,no-resolve
+IP-CIDR,163.177.90.57/32,no-resolve
+IP-CIDR,180.97.8.0/24,no-resolve
+IP-CIDR,180.97.10.0/24,no-resolve
+IP-CIDR,180.163.25.0/24,no-resolve
+IP-CIDR,182.254.78.0/24,no-resolve
+IP-CIDR,182.254.86.0/24,no-resolve
+IP-CIDR,182.254.92.139/32,no-resolve
+IP-CIDR,183.3.226.57/32,no-resolve
+IP-CIDR,183.3.234.0/24,no-resolve
+IP-CIDR,183.61.49.200/32,no-resolve
+IP-CIDR,183.192.199.0/24,no-resolve
+IP-CIDR,203.205.146.0/24,no-resolve
+IP-CIDR,203.205.147.188/32,no-resolve
+IP-CIDR,203.205.151.204/32,no-resolve
+IP-CIDR,203.205.179.0/24,no-resolve
+IP-CIDR,203.205.219.0/24,no-resolve
+IP-CIDR,218.98.1.0/24,no-resolve
+IP-CIDR,220.194.122.0/24,no-resolve
+IP-CIDR,220.194.123.0/24,no-resolve
+IP-CIDR,220.249.243.14/32,no-resolve
+IP-CIDR,223.166.152.0/24,no-resolve
+IP-CIDR,223.166.222.0/24,no-resolve
+IP-CIDR,223.167.104.0/24,no-resolve
 
 # > WeChat Telecom IPv6 (WeChat)
 IP-CIDR6,2402:4e00:1020:10fb:0:9466::/112,no-resolve
@@ -533,6 +584,8 @@ IP-CIDR6,240E:F7:A070:403::/60,no-resolve
 # > WeChat
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
+USER-AGENT,*WeChat*
+USER-AGENT,*MicroMessenger*
 DEST-PORT,49155
 
 
