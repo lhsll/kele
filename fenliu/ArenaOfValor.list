@@ -108,8 +108,7 @@ DOMAIN,wj.qq.com
 DOMAIN,wuji.video.qq.com
 DOMAIN,yun-hl.3g.qq.com
 
-# >腾讯
-USER-AGENT,*TencentMidasConnect*
+
 
 # > 微信
 USER-AGENT,*WeChat*
@@ -168,15 +167,6 @@ IP-CIDR,223.166.152.0/24,no-resolve
 IP-CIDR,223.166.222.0/24,no-resolve
 IP-CIDR,223.167.104.0/24,no-resolve
 
-# >QQ
-USER-AGENT,*QQ*
-DOMAIN-SUFFIX,qq.com
-
-# >腾讯视频
-USER-AGENT,*live4iphone*
-USER-AGENT,*qqlive4iphone*
-DOMAIN-SUFFIX,video.qq.com
-
 # > 王者荣耀
 USER-AGENT,smoba*
 IP-CIDR,58.246.223.140/32,no-resolve
@@ -230,6 +220,15 @@ IP-CIDR,223.166.150.0/24,no-resolve
 IP-CIDR,223.167.86.33/32,no-resolve
 IP-CIDR,223.167.104.0/24,no-resolve
 
+# >QQ
+USER-AGENT,*QQ*
+DOMAIN-SUFFIX,qq.com
+
+# >腾讯视频
+USER-AGENT,*live4iphone*
+USER-AGENT,*qqlive4iphone*
+DOMAIN-SUFFIX,video.qq.com
+
 # > QQ 邮箱
 USER-AGENT,*QQ邮箱*
 DOMAIN-SUFFIX,mail.qq.com
@@ -239,3 +238,5 @@ USER-AGENT,*microvision*
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qlogo.cn
 
+# >腾讯
+USER-AGENT,*TencentMidasConnect*
