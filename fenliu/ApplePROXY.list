@@ -1,40 +1,33 @@
-# > 苹果时间同步
-DOMAIN-SUFFIX,time.apple.com,  
-DOMAIN-KEYWORD,time,  
-# > 苹果天气服务
-DOMAIN-KEYWORD,weather-edge.apple.com,  
-DOMAIN-KEYWORD,weather-adge.apple.com,  
-# > 苹果内购服务
-DOMAIN-KEYWORD,buy.itunes.apple.com,  
-# > 苹果icloud
-DOMAIN-KEYWORD,icloud,  
-# > 苹果输入法相关服务
-DOMAIN-KEYWORD,api.smoot.apple.com,  
-DOMAIN-KEYWORD,api.smoot.apple.cn,  
-# > 苹果iMessage服务
-DOMAIN,init.ess.apple.com,  
-# > 苹果其他服务
-DOMAIN-KEYWORD,ssl.apple.com,  
-DOMAIN-KEYWORD,humb.apple.com,  
-DOMAIN,smp-device-content.apple.com,  
-DOMAIN-KEYWORD,api-adservices.apple.com,  
-DOMAIN-KEYWORD,ls.apple.com,  
-DOMAIN-KEYWORD,gsa.apple.com,  
-DOMAIN-KEYWORD,ess.apple.com,  
-DOMAIN,itunesconnect.apple.com,  
-DOMAIN,init.itunes.apple.com,  
-DOMAIN-SUFFIX, itunes.apple.com,   //商店内容，如 App、图书和音乐
-DOMAIN-SUFFIX, apps.apple.com,   //商店内容，如 App、图书和音乐
-DOMAIN-SUFFIX, mzstatic.com,   //商店内容，如 App、图书和音乐
-DOMAIN,itunes.apple.com,  
-DOMAIN,ppq.apple.com,   //企业 App 验证
-DOMAIN,appleid.apple.com,   //“设置”和“系统偏好设置”中的 Apple ID 认证
-DOMAIN,appleid.cdn-apple.com,   //“设置”和“系统偏好设置”中的 Apple ID 认证
-DOMAIN,idmsa.apple.com,   //Apple ID 认证
-DOMAIN,gsa.apple.com,   //Apple ID 认证
-#分流修正 新增
-DOMAIN,weather-data.apple.com,🥰🥰🥰
-DOMAIN,weather-map.apple.com,🥰🥰🥰
-DOMAIN,weather-analytics-events.apple.com,🥰🥰🥰
-DOMAIN-SUFFIX,safebrowsing.apple,  
-IP-CIDR,17.0.0.0/8,  ,no-resolve
+
+DOMAIN-SUFFIX,time.apple.com
+DOMAIN-KEYWORD,time
+DOMAIN-KEYWORD,weather-edge.apple.com
+DOMAIN-KEYWORD,weather-adge.apple.com
+DOMAIN-KEYWORD,buy.itunes.apple.com
+DOMAIN-KEYWORD,icloud
+DOMAIN-KEYWORD,api.smoot.apple.com
+DOMAIN-KEYWORD,api.smoot.apple.cn
+DOMAIN,init.ess.apple.com
+DOMAIN-KEYWORD,ssl.apple.com
+DOMAIN-KEYWORD,humb.apple.com
+DOMAIN,smp-device-content.apple.com
+DOMAIN-KEYWORD,api-adservices.apple.com
+DOMAIN-KEYWORD,ls.apple.com
+DOMAIN-KEYWORD,gsa.apple.com
+DOMAIN-KEYWORD,ess.apple.com
+DOMAIN,itunesconnect.apple.com
+DOMAIN,init.itunes.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,itunes.apple.com
+DOMAIN,ppq.apple.com
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,weather-data.apple.com
+DOMAIN,weather-map.apple.com
+DOMAIN,weather-analytics-events.apple.com
+DOMAIN-SUFFIX,safebrowsing.apple
+IP-CIDR,17.0.0.0/8,no-resolve
