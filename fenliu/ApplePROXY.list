@@ -1,53 +1,40 @@
-# App Store
-# Store content such as apps, books, and music
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN,ppq.apple.com
-DOMAIN,appstoreconnect.apple.com
-DOMAIN,iosapps-ssl.itunes.apple.com
-DOMAIN,itcmobile.itunes.apple.com
-DOMAIN,appldnld.apple.com
-DOMAIN,ns.itunes.apple.com
-DOMAIN,gg.apple.com
-DOMAIN,gdmf.apple.com
-DOMAIN,mesu.apple.com
-DOMAIN,updates.cdn-apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,xp.apple.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,gc.apple.com
-DOMAIN-SUFFIX,icloud.apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,iwork.apple.com
-DOMAIN-KEYWORD,icloud.com.akadns.net
-DOMAIN,buy.itunes.apple.com
-DOMAIN-SUFFIX,books.apple.com
-DOMAIN,books.itunes.apple.com
-DOMAIN,bookkeeper.itunes.apple.com
-DOMAIN,books-analytics-events.apple.com
-DOMAIN,hls-svod.itunes.apple.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,music.apple.com
-DOMAIN,aod.itunes.apple.com
-DOMAIN,aod-ssl.itunes.apple.com
-DOMAIN,audio.itunes.apple.com
-DOMAIN,audio-ssl.itunes.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN-SUFFIX,tv.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,hls-amt.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
-USER-AGENT,AppleTV*
-USER-AGENT,com.apple.tv*
-USER-AGENT,Music*
+# > 苹果时间同步
+DOMAIN-SUFFIX,time.apple.com,  
+DOMAIN-KEYWORD,time,  
+# > 苹果天气服务
+DOMAIN-KEYWORD,weather-edge.apple.com,  
+DOMAIN-KEYWORD,weather-adge.apple.com,  
+# > 苹果内购服务
+DOMAIN-KEYWORD,buy.itunes.apple.com,  
+# > 苹果icloud
+DOMAIN-KEYWORD,icloud,  
+# > 苹果输入法相关服务
+DOMAIN-KEYWORD,api.smoot.apple.com,  
+DOMAIN-KEYWORD,api.smoot.apple.cn,  
+# > 苹果iMessage服务
+DOMAIN,init.ess.apple.com,  
+# > 苹果其他服务
+DOMAIN-KEYWORD,ssl.apple.com,  
+DOMAIN-KEYWORD,humb.apple.com,  
+DOMAIN,smp-device-content.apple.com,  
+DOMAIN-KEYWORD,api-adservices.apple.com,  
+DOMAIN-KEYWORD,ls.apple.com,  
+DOMAIN-KEYWORD,gsa.apple.com,  
+DOMAIN-KEYWORD,ess.apple.com,  
+DOMAIN,itunesconnect.apple.com,  
+DOMAIN,init.itunes.apple.com,  
+DOMAIN-SUFFIX, itunes.apple.com,   //商店内容，如 App、图书和音乐
+DOMAIN-SUFFIX, apps.apple.com,   //商店内容，如 App、图书和音乐
+DOMAIN-SUFFIX, mzstatic.com,   //商店内容，如 App、图书和音乐
+DOMAIN,itunes.apple.com,  
+DOMAIN,ppq.apple.com,   //企业 App 验证
+DOMAIN,appleid.apple.com,   //“设置”和“系统偏好设置”中的 Apple ID 认证
+DOMAIN,appleid.cdn-apple.com,   //“设置”和“系统偏好设置”中的 Apple ID 认证
+DOMAIN,idmsa.apple.com,   //Apple ID 认证
+DOMAIN,gsa.apple.com,   //Apple ID 认证
+#分流修正 新增
+DOMAIN,weather-data.apple.com,🥰🥰🥰
+DOMAIN,weather-map.apple.com,🥰🥰🥰
+DOMAIN,weather-analytics-events.apple.com,🥰🥰🥰
+DOMAIN-SUFFIX,safebrowsing.apple,  
+IP-CIDR,17.0.0.0/8,  ,no-resolve
