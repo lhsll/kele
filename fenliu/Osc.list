@@ -1,0 +1,17 @@
+# NAME: 其他分流
+# AUTHOR: @KeLe
+# UPDATED: 2023-2-27 19:11:06
+# > 其他分流
+DOMAIN,dsxys.com
+DOMAIN,www.ikandy.fun
+DOMAIN,bgp.he.net
+DOMAIN,sessions.bugsnag.com
+DOMAIN,api.tianapi.com
+DOMAIN,landray.dingtalkapps.com
+# > QQ空间
+DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
+# > 路由器后台
+IP-CIDR,192.168.6.1/24,no-resolve
+IP-CIDR,192.168.0.1/24,no-resolve
+# > 天翼网关
+IP-CIDR,192.168.1.1/24,no-resolve
