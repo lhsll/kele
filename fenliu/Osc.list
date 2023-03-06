@@ -8,6 +8,8 @@ DOMAIN,bgp.he.net
 DOMAIN,sessions.bugsnag.com
 DOMAIN,api.tianapi.com
 DOMAIN,landray.dingtalkapps.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,hdslb.net
 # > QQ空间
 DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 # > 路由器后台
