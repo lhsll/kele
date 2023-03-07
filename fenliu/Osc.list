@@ -10,7 +10,15 @@ DOMAIN,api.tianapi.com
 DOMAIN,landray.dingtalkapps.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hdslb.net
+DOMAIN-SUFFIX,faxianpindao.com
+DOMAIN-SUFFIX,quaolai.com
 DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,smzdmimg.com
+DOMAIN-SUFFIX,valueq-sea.com
+DOMAIN-SUFFIX,wanwuzhinan.com
+DOMAIN-SUFFIX,zdm.net
+DOMAIN-SUFFIX,zdmimg.com
+DOMAIN-SUFFIX,zhidemai.com
 # > QQ空间
 DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 # > 路由器后台
