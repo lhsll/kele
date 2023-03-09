@@ -73,6 +73,9 @@ DOMAIN,wxpay.iot.wechatpay.cn
 DOMAIN,wxpay.iot-tencent.com
 DOMAIN,wxpay.qpic.cn
 DOMAIN,yun-hl.3g.qq.com
+DOMAIN,175.24.214.208
+DOMAIN,175.24.211.24
+DOMAIN,175.24.213.135
 
 # > WeChat domain suffix
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
