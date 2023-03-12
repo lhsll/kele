@@ -51,6 +51,21 @@ DOMAIN-SUFFIX,biliplus.com
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bilivideo.net
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-KEYWORD,weibo
+DOMAIN-SUFFIX,cmbchina.biz
+DOMAIN-SUFFIX,cmbchina.cn
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbi.com.hk
+DOMAIN-SUFFIX,cmbimg.cn
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,8008205555.cn
+DOMAIN-SUFFIX,8008205555.com
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,189jk.cn
+DOMAIN-SUFFIX,189qas.com
 # > QQ空间
 DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 # > 路由器后台
