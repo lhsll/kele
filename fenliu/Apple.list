@@ -1,6 +1,7 @@
 # NAME: Apple
 # AUTHOR: @blackmatrix7@KeLe
 # UPDATED: 2023-2-27 20:59:49
+DOMAIN,amp-api.sandbox.apple.com
 DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
 DOMAIN,gsa.apple.com
