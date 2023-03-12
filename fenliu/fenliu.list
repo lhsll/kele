@@ -8894,9 +8894,9 @@ USER-AGENT,AVOS*
 .ad.intl.xiaomi.com
 .ad.xiaomi.com
 .admob.xiaomi.com
-.tracking.miui.com
-.adv.sec.intl.miui.com
-.adv.sec.miui.com
+#.tracking.miui.com
+#.adv.sec.intl.miui.com
+#.adv.sec.miui.com
 .log.yex.youdao.com
 .log-yex.youdao.com
 .imp.optaim.com
@@ -9015,7 +9015,7 @@ USER-AGENT,AVOS*
 .zunmi.cn
 .zzd6.com
 .mackeeper.com
-.app-measurement.com
+#.app-measurement.com
 .mob.com
 .api.joybj.com
 .api.whizzone.com
