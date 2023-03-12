@@ -316,7 +316,7 @@
 .clk.gentags.net
 .dm.pstatp.com
 .dm.bytedance.com
-.uop.umeng.com
+#.uop.umeng.com
 .policy.jd.com
 .kepler.jd.com
 .bdsp.x.jd.com
@@ -580,7 +580,7 @@
 # > 天神
 .track.tenjin.com
 .track.tenjin.io
-.errlog.umeng.com
+#.errlog.umeng.com
 .lf9-cdn-tos.bytegecko.com
 .novel.pangolin-sdk-toutiao.com
 # > 淘宝
@@ -8759,7 +8759,7 @@ USER-AGENT,AVOS*
 .zws.avvo.com
 .img.adnyg.com.w.kunlungr.com
 .log.tagtic.cn
-.ulogs.umeng.com
+#.ulogs.umeng.com
 .zx.baosmx.com
 .zxcs.ggwan.com
 .zxcs.linghit.com
@@ -8901,13 +8901,13 @@ USER-AGENT,AVOS*
 .log-yex.youdao.com
 .imp.optaim.com
 .track.sohu.com
-.alog.umeng.com
+#.alog.umeng.com
 .alogs.umeng.com
-.alog.umengcloud.com
-.alogs.umengcloud.com
-.ar.umeng.com
-.plbslog.umeng.com
-.ulogs.umengcloud.com
+#.alog.umengcloud.com
+#.alogs.umengcloud.com
+#.ar.umeng.com
+#.plbslog.umeng.com
+#.ulogs.umengcloud.com
 .apm-track.xiaohongshu.com
 .17gouwuba.com
 .186078.com
@@ -9092,7 +9092,7 @@ USER-AGENT,AVOS*
 .ad.daum.net
 .track.xiachufang.com
 .toots-a.akamaihd.net
-.alog.umeng.co
+#.alog.umeng.co
 .appcpi.net
 .bulldogcpi.com
 .insurads.com
@@ -9154,3 +9154,4 @@ USER-AGENT,AVOS*
 .ads.linkedin.com
 .analytics.slashdotmedia.com
 .zgsdk.zhugeio.com
+
