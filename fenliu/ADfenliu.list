@@ -3509,7 +3509,7 @@ DOMAIN-SUFFIX,crashapi.growingio.com
 DOMAIN-SUFFIX,crashes.mo.wps.cn
 DOMAIN-SUFFIX,crasheye.cn
 DOMAIN-SUFFIX,crashlytics.163.com
-DOMAIN-SUFFIX,crashlytics.com
+#DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crdrjs.info
 DOMAIN-SUFFIX,cre.dp.sina.cn
 DOMAIN-SUFFIX,cre.mix.sina.com.cn
@@ -9011,10 +9011,10 @@ DOMAIN-SUFFIX,n.mark.letv.com
 DOMAIN-SUFFIX,ad.intl.xiaomi.com
 DOMAIN-SUFFIX,ad.xiaomi.com
 DOMAIN-SUFFIX,admob.xiaomi.com
-DOMAIN-SUFFIX,tracking.miui.com
-DOMAIN-SUFFIX,adv.sec.intl.miui.com
-DOMAIN-SUFFIX,adv.sec.miui.com
-DOMAIN-SUFFIX,tracking.intl.miui.com
+#DOMAIN-SUFFIX,tracking.miui.com
+#DOMAIN-SUFFIX,adv.sec.intl.miui.com
+#DOMAIN-SUFFIX,adv.sec.miui.com
+#DOMAIN-SUFFIX,tracking.intl.miui.com
 DOMAIN-SUFFIX,ad.api.moji.com
 DOMAIN-SUFFIX,adlaunch.moji.com
 DOMAIN-SUFFIX,ads.mojicdn.com
@@ -9181,7 +9181,7 @@ DOMAIN-SUFFIX,zlne800.com
 DOMAIN-SUFFIX,zunmi.cn
 DOMAIN-SUFFIX,zzd6.com
 DOMAIN-SUFFIX,mackeeper.com
-DOMAIN-SUFFIX,app-measurement.com
+#DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,api.joybj.com
 DOMAIN-SUFFIX,api.whizzone.com
