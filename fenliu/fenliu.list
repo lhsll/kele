@@ -7303,7 +7303,7 @@ USER-AGENT,AVOS*
 .serving-sys.com
 .setting.crashlytics.com
 .setting.rayjump.com
-.settings.crashlytics.com
+#.settings.crashlytics.com
 .sezvc.com
 .sfloushi.com
 .sgbfjs.info
