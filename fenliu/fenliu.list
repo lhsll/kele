@@ -8892,7 +8892,7 @@ USER-AGENT,AVOS*
 .ifacelog.iqiyi.com
 .msg.71.am
 .ad.intl.xiaomi.com
-.ad.xiaomi.com
+#.ad.xiaomi.com
 .admob.xiaomi.com
 #.tracking.miui.com
 #.adv.sec.intl.miui.com
