@@ -1046,7 +1046,7 @@ DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
 DOMAIN,118.89.204.198
 IP-CIDR,118.89.204.198/32,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
 DOMAIN-SUFFIX,m1.ad.10010.com
@@ -9469,7 +9469,7 @@ IP-CIDR,122.229.8.47/32,no-resolve
 IP-CIDR,122.229.29.89/32,no-resolve
 IP-CIDR,120.240.95.37/32,no-resolve
 IP-CIDR,211.161.101.110/32,no-resolve
-IP-CIDR,114.119.160.0/21
+IP-CIDR,114.119.160.0/21,no-resolve
 DOMAIN-SUFFIX,kuaizip.com
 DOMAIN-SUFFIX,zryydi.com
 DOMAIN,geo2.adobe.com
