@@ -3,7 +3,7 @@
 #已排除的规则数量:0
 
 #-----------------以下为解析后的规则-----------------#
-DOMAIN,hw-sh-pcdn-26.biliapi.net
+URL-REGEX,\w{2}-\w{2}-pcdn-\d{2}\.biliapi\.net
 DOMAIN,static.122.gov.cn
 DOMAIN-SUFFIX,v3.fstats.xyz
 DOMAIN-SUFFIX,wss.haoyundmn.com
