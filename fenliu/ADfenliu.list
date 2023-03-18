@@ -948,8 +948,8 @@ DOMAIN,ads-img-qc.xhscdn.com
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-video-qc.xhscdn.com
 DOMAIN,t-ads.xiaohongshu.com
-DOMAIN,data.mistat.xiaomi.com
-DOMAIN,tracking.intl.miui.com
+
+
 DOMAIN,39d83s.com
 DOMAIN-KEYWORD,mpos-pic.helipay.com
 DOMAIN-SUFFIX,beacon.sina.com.cn
@@ -1040,7 +1040,6 @@ DOMAIN-SUFFIX,sdapprecv.app.cntvwb.cn
 DOMAIN-SUFFIX,vdapprecv.app.cntvwb.cn
 DOMAIN-KEYWORD,sf1-be-tos.pglstatp-toutiao.com
 DOMAIN-KEYWORD,sf3-fe-tos.pglstatp-toutiao.com
-USER-AGENT,AVOS*
 DOMAIN,appcloud2.in.zhihu.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
@@ -2266,7 +2265,7 @@ DOMAIN-SUFFIX,adinall.com
 DOMAIN-SUFFIX,adinf.cp11.ott.cibntv.net
 DOMAIN-SUFFIX,adinf.voole.com
 DOMAIN-SUFFIX,adinfo.aol.com
-DOMAIN-SUFFIX,adinfo.ra1.xlmc.sec.miui.com
+
 DOMAIN-SUFFIX,adingo.jp.eimg.jp
 DOMAIN-SUFFIX,adirects.com
 DOMAIN-SUFFIX,adjb.5nd.com
@@ -2584,21 +2583,21 @@ DOMAIN-SUFFIX,api.pingstart.com
 DOMAIN-SUFFIX,api.ppoi.org
 DOMAIN-SUFFIX,api.primecaster.net
 DOMAIN-SUFFIX,api.push.daoyoudao.com
-DOMAIN-SUFFIX,api.ra2.xlmc.sec.miui.com
+
 DOMAIN-SUFFIX,api.rees46.com
 DOMAIN-SUFFIX,api.rideraid.net
-DOMAIN-SUFFIX,api.sec.miui.com
+
 DOMAIN-SUFFIX,api.share.mob.com
 DOMAIN-SUFFIX,api.shuzilm.cn
 DOMAIN-SUFFIX,api.similarweb.com
 DOMAIN-SUFFIX,api.tr.blismedia.com
-DOMAIN-SUFFIX,api.tw06.xlmc.sec.miui.com
+
 DOMAIN-SUFFIX,api.ujian.cc
 DOMAIN-SUFFIX,api.union.vip.com
 DOMAIN-SUFFIX,api.uniplayad.com
 DOMAIN-SUFFIX,api.userstyles.org
 DOMAIN-SUFFIX,api.viglink.com
-DOMAIN-SUFFIX,api.xk.miui.com
+
 DOMAIN-SUFFIX,api.y.igexin.com
 DOMAIN-SUFFIX,api.youxiaoad.com
 DOMAIN-SUFFIX,api.zol.com
@@ -3128,7 +3127,7 @@ DOMAIN-SUFFIX,cadvv.koreaherald.com
 DOMAIN-SUFFIX,caiyifz.com
 DOMAIN-SUFFIX,cal.meizu.com
 DOMAIN-SUFFIX,caliyuna.cn
-DOMAIN-SUFFIX,calopenupdate.comm.miui.com
+
 DOMAIN-SUFFIX,cams.pornrabbit.com
 DOMAIN-SUFFIX,cangnews.com
 DOMAIN-SUFFIX,canvas.thenextweb.com
@@ -4274,7 +4273,8 @@ DOMAIN-SUFFIX,esptj.com
 DOMAIN-SUFFIX,esrpxyahzna.bid
 DOMAIN-SUFFIX,eteun.cn
 DOMAIN-SUFFIX,ethod.gzgmjcx.com
-DOMAIN-SUFFIX,etl.xlmc.sec.miui.com
+
+
 DOMAIN-SUFFIX,eu-gmtdmp.gd1.mookie1.com
 DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-SUFFIX,eus.rubiconproject.com
@@ -4356,7 +4356,7 @@ DOMAIN-SUFFIX,fastclick.net
 DOMAIN-SUFFIX,fastly.bench.cedexis.com
 DOMAIN-SUFFIX,fastpopunder.com
 DOMAIN-SUFFIX,fathionmall.com
-DOMAIN-SUFFIX,fb.xk.miui.com
+
 DOMAIN-SUFFIX,fbc.ffychb.com
 DOMAIN-SUFFIX,fccxgjg.com
 DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com
@@ -4807,7 +4807,7 @@ DOMAIN-SUFFIX,hnyny.com
 DOMAIN-SUFFIX,home520.com
 DOMAIN-SUFFIX,hoplink.ksosoft.com
 DOMAIN-SUFFIX,hosting.miarroba.info
-DOMAIN-SUFFIX,hot.browser.miui.com
+
 DOMAIN-SUFFIX,hot.m.shouji.360tpcdn.com
 DOMAIN-SUFFIX,hot-mob.com
 DOMAIN-SUFFIX,hotrank.com.tw
@@ -5089,7 +5089,7 @@ DOMAIN-SUFFIX,info.downsave.com
 DOMAIN-SUFFIX,info.gomlab.com
 DOMAIN-SUFFIX,info.meihua.docer.com
 DOMAIN-SUFFIX,info.pinyin.sogou.com
-DOMAIN-SUFFIX,info.sec.miui.com
+
 DOMAIN-SUFFIX,info.stockstar.com
 DOMAIN-SUFFIX,info.yitsoftware.com
 DOMAIN-SUFFIX,infocenter.meizu.com
@@ -5665,7 +5665,7 @@ DOMAIN-SUFFIX,logger.qingting.fm
 DOMAIN-SUFFIX,logger.treexml.baofeng.com
 DOMAIN-SUFFIX,logonext.tv.kuyun.com
 DOMAIN-SUFFIX,logstat.caixin.com
-DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com
+
 DOMAIN-SUFFIX,lol.pnhfc.com
 DOMAIN-SUFFIX,loldy.jiangmg.com
 DOMAIN-SUFFIX,lomark.cn
@@ -6168,7 +6168,7 @@ DOMAIN-SUFFIX,menghuanzs.com
 DOMAIN-SUFFIX,mengmengdas.com
 DOMAIN-SUFFIX,mengyuanwei.com
 DOMAIN-SUFFIX,message.meitu.com
-DOMAIN-SUFFIX,metok.sys.miui.com
+
 DOMAIN-SUFFIX,metrics.cnn.com
 DOMAIN-SUFFIX,mfan.iclick.com.cn
 DOMAIN-SUFFIX,mfp.deliver.ifeng.com
@@ -6221,8 +6221,7 @@ DOMAIN-SUFFIX,mip.yuelvxing.com
 DOMAIN-SUFFIX,mipcache.bdstatic.com
 DOMAIN-SUFFIX,mipujia.com
 DOMAIN-SUFFIX,mis.g.mi.com
-DOMAIN-SUFFIX,miui.hdfdm.com
-DOMAIN-SUFFIX,miui.hftaili.com
+
 DOMAIN-SUFFIX,mivideo.g.mi.com
 DOMAIN-SUFFIX,mj70.cn
 DOMAIN-SUFFIX,mjs.csyymp4.com
@@ -6828,7 +6827,7 @@ DOMAIN-SUFFIX,promotions.iasbet.com
 DOMAIN-SUFFIX,propellerads.com
 DOMAIN-SUFFIX,prophet.heise.de
 DOMAIN-SUFFIX,proton.flurry.com
-DOMAIN-SUFFIX,proxy.sec.miui.com
+
 DOMAIN-SUFFIX,prw.lenovomm.com
 DOMAIN-SUFFIX,ps.3fenge.com
 DOMAIN-SUFFIX,psb.lenovomm.com
@@ -6986,7 +6985,7 @@ DOMAIN-SUFFIX,qzkxt.com
 DOMAIN-SUFFIX,r.0.0.0.0.cn
 DOMAIN-SUFFIX,r.254a.com
 DOMAIN-SUFFIX,r.5207470.com
-DOMAIN-SUFFIX,r.browser.miui.com
+
 DOMAIN-SUFFIX,r.bxb.oupeng.com
 DOMAIN-SUFFIX,r.dmp.sina.com.cn
 DOMAIN-SUFFIX,r.mail.163.com
@@ -7039,7 +7038,7 @@ DOMAIN-SUFFIX,rdtuijian.com
 DOMAIN-SUFFIX,rdx.autohome.com.cn
 DOMAIN-SUFFIX,re.taotaosou.com
 DOMAIN-SUFFIX,reachmax.cn
-DOMAIN-SUFFIX,reader.browser.miui.com
+
 DOMAIN-SUFFIX,reader.meizu.com
 DOMAIN-SUFFIX,reader.res.meizu.com
 DOMAIN-SUFFIX,realtime.monitor.ppweb.com.cn
@@ -7356,7 +7355,7 @@ DOMAIN-SUFFIX,secure-asia.imrworldwide.com
 DOMAIN-SUFFIX,secure-assets.rubiconproject.com
 DOMAIN-SUFFIX,secure-chn.imrworldwide.com
 DOMAIN-SUFFIX,secure-ds.serving-sys.com
-DOMAIN-SUFFIX,security.browser.miui.com
+
 DOMAIN-SUFFIX,seen.h01ce.cn
 DOMAIN-SUFFIX,seen.hgo7r.cn
 DOMAIN-SUFFIX,seg.sharethis.com
@@ -8044,7 +8043,6 @@ DOMAIN-SUFFIX,up.hiao.com
 DOMAIN-SUFFIX,up4.ucweb.com
 DOMAIN-SUFFIX,upd.faronicslabs.com
 DOMAIN-SUFFIX,update.360safe.com
-DOMAIN-SUFFIX,update.avlyun.sec.miui.com
 DOMAIN-SUFFIX,update.bainv.net
 DOMAIN-SUFFIX,update.coolyun.com
 DOMAIN-SUFFIX,update.juw37xqo3x.com
@@ -9010,10 +9008,7 @@ DOMAIN-SUFFIX,n.mark.letv.com
 DOMAIN-SUFFIX,ad.intl.xiaomi.com
 DOMAIN-SUFFIX,ad.xiaomi.com
 DOMAIN-SUFFIX,admob.xiaomi.com
-#DOMAIN-SUFFIX,tracking.miui.com
-#DOMAIN-SUFFIX,adv.sec.intl.miui.com
-#DOMAIN-SUFFIX,adv.sec.miui.com
-#DOMAIN-SUFFIX,tracking.intl.miui.com
+
 DOMAIN-SUFFIX,ad.api.moji.com
 DOMAIN-SUFFIX,adlaunch.moji.com
 DOMAIN-SUFFIX,ads.mojicdn.com
