@@ -45,3 +45,6 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,sub.sharecentre.online
+DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,vercel.app
