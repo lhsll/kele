@@ -77,6 +77,7 @@ PROCESS-NAME,music
 PROCESS-NAME,news
 PROCESS-NAME,storedownloadd
 PROCESS-NAME,tv
+PROCESS-NAME,storedownloadd // Mac App Store
 USER-AGENT,AppleNews*
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.appstored*
@@ -84,5 +85,4 @@ USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
 USER-AGENT,Music*
-PROCESS-NAME,storedownloadd // Mac App Store
 USER-AGENT,com.apple.appstored* // iOS App Store
