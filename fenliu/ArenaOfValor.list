@@ -46,6 +46,9 @@ DOMAIN,down.game.qq.com
 DOMAIN,sdk.xyapi.game.qq.com
 
 # > 王者农药
+DOMAIN,ipv6.cn.voice.gcloudcs.com
+DOMAIN,sgamecdn.cn.gcloudcs.com
+DOMAIN,qosidc.gcloudsdk.com
 DOMAIN,cdn.wetest.qq.com
 DOMAIN,iegab.qq.com
 DOMAIN,rmonitor.qq.com
