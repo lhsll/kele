@@ -1,15 +1,10 @@
 # NAME: Apple
 # AUTHOR: @blackmatrix7@KeLe
-#规则数量:86
 #不支持的规则数量:0
-#已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
+#规则数量:91
+#已排除的规则数量:0
 #-----------------以下为解析后的规则-----------------#
-DOMAIN,iosapps.itunes.apple.com
-DOMAIN,swcdn.apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,updates.cdn-apple.com
-DOMAIN,osxapps.itunes.apple.com
 DOMAIN,amp-api.sandbox.apple.com
 DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
@@ -18,11 +13,16 @@ DOMAIN,gsa.apple.com
 DOMAIN,idmsa.apple.com
 DOMAIN,init.ess.apple.com
 DOMAIN,init.itunes.apple.com
+DOMAIN,iosapps.itunes.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
+DOMAIN,osxapps.itunes.apple.com
 DOMAIN,ppq.apple.com
 DOMAIN,smp-device-content.apple.com
+DOMAIN,swcdn.apple.com
 DOMAIN,testflight.apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,updates-http.cdn-apple.com
 DOMAIN,weather-analytics-events.apple.com
 DOMAIN,weather-data.apple.com
 DOMAIN,weather-map.apple.com
