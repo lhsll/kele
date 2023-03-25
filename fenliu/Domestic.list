@@ -239,3 +239,9 @@ USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
 DOMAIN-SUFFIX,CN
 DOMAIN-KEYWORD,baidu
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.dler.io
+DOMAIN-KEYWORD,speedtest
+USER-AGENT,SpeedTest*
