@@ -1,3 +1,9 @@
+# NAME: Tencent
+#规则数量:87
+#不支持的规则数量:0
+#已排除的规则数量:0
+#更新时间：2023-3-25 15:43:33
+#-----------------以下为解析后的规则-----------------#
 DOMAIN,access1.tpns.sh.tencent.com
 DOMAIN,aegis.qq.com
 DOMAIN,api.kohsocialapp.qq.com
@@ -64,11 +70,6 @@ DOMAIN,report.tv.kohesport.qq.com
 DOMAIN,rmonitor.qq.com
 DOMAIN,sdk.xyapi.game.qq.com
 DOMAIN,sdkconfig.video.qq.com
-#规则数量:87
-#不支持的规则数量:0
-#已排除的规则数量:0
-#更新时间：2023-3-25 15:43:33
-#-----------------以下为解析后的规则-----------------#
 DOMAIN,snowflake.qq.com
 DOMAIN,soup.v.qq.com
 DOMAIN,speed.gsdk.qq.com
