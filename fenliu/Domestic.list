@@ -1,5 +1,5 @@
 # NAME: 国内
-#规则数量:234
+#规则数量:235
 #不支持的规则数量:0
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
@@ -10,6 +10,7 @@ DOMAIN,dsxys.com
 DOMAIN,landray.dingtalkapps.com
 DOMAIN,sessions.bugsnag.com
 DOMAIN,www.ikandy.fun
+DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,*.95516.com
 DOMAIN-SUFFIX,189.cn
 DOMAIN-SUFFIX,189jk.cn
