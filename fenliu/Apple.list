@@ -1,9 +1,14 @@
-# NAME: Apple
 # AUTHOR: @blackmatrix7@KeLe
-# UPDATED: 2023-2-27 20:59:49
+# NAME: Apple
+#规则数量:86
+#不支持的规则数量:0
+#已排除的规则数量:0
+#更新时间：2023-3-25 15:43:33
+#-----------------以下为解析后的规则-----------------#
 DOMAIN,amp-api.sandbox.apple.com
 DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
+DOMAIN,beta.apple.com
 DOMAIN,gsa.apple.com
 DOMAIN,idmsa.apple.com
 DOMAIN,init.ess.apple.com
@@ -12,28 +17,26 @@ DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
 DOMAIN,ppq.apple.com
 DOMAIN,smp-device-content.apple.com
+DOMAIN,testflight.apple.com
 DOMAIN,weather-analytics-events.apple.com
 DOMAIN,weather-data.apple.com
 DOMAIN,weather-map.apple.com
-DOMAIN,beta.apple.com
-DOMAIN,testflight.apple.com
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,safebrowsing.apple
-DOMAIN-SUFFIX,time.apple.com
-DOMAIN-SUFFIX,store.apple.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
 DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
+DOMAIN-SUFFIX,safebrowsing.apple
+DOMAIN-SUFFIX,store.apple.com
+DOMAIN-SUFFIX,time.apple.com
 DOMAIN-KEYWORD,api.smoot.apple.cn
 DOMAIN-KEYWORD,api.smoot.apple.com
 DOMAIN-KEYWORD,api-adservices.apple.com
@@ -78,13 +81,13 @@ PROCESS-NAME,lookupviewservice
 PROCESS-NAME,music
 PROCESS-NAME,news
 PROCESS-NAME,storedownloadd
-PROCESS-NAME,tv
 PROCESS-NAME,storedownloadd // Mac App Store
+PROCESS-NAME,tv
 USER-AGENT,AppleNews*
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.appstored*
+USER-AGENT,com.apple.appstored* // iOS App Store
 USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
 USER-AGENT,Music*
-USER-AGENT,com.apple.appstored* // iOS App Store
