@@ -1,10 +1,11 @@
 # NAME: 海外
-#规则数量:89
+#规则数量:91
 #不支持的规则数量:0
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #-----------------以下为解析后的规则-----------------#
 DOMAIN,app.smartmailcloud.com
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.org
