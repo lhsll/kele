@@ -5,6 +5,7 @@
 #更新时间：2023-3-25 15:43:33
 #-----------------以下为解析后的规则-----------------#
 DOMAIN,app.smartmailcloud.com
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
