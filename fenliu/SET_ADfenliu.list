@@ -1,5 +1,5 @@
 # NAME: 广告
-#规则数量:8957
+#规则数量:8956
 #不支持的规则数量:0
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
@@ -435,7 +435,6 @@
 .paradisestatic.vivo.com.cn
 .pc.suishenyun.net
 .pdds.ucweb.com
-.policy.jd.com
 .promote.biz.weibo.cn
 .puds.ucweb.com
 .r1.ykimg.com
