@@ -8,6 +8,7 @@ IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR6,2606:4700:4700::1111/128,no-resolve
 DOMAIN,zero-trust-client.cloudflareclient.com
 DOMAIN,app.smartmailcloud.com
+DOMAIN,data.flurry.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudflare.com
