@@ -4,6 +4,12 @@
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #-----------------以下为解析后的规则-----------------#
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN,cdn.auth0.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,identrust.com
+DOMAIN,challenges.cloudflare.com
 IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR6,2606:4700:4700::1111/128,no-resolve
 DOMAIN,zero-trust-client.cloudflareclient.com
