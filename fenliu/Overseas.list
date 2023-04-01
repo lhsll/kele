@@ -10,8 +10,6 @@ DOMAIN,cdn.auth0.com
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,identrust.com
 DOMAIN,app.smartmailcloud.com
-
-
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,sentry.io
@@ -73,7 +71,6 @@ DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,v1.efshop.cc
-DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,youtu.be
