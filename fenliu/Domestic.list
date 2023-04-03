@@ -81,7 +81,6 @@ DOMAIN-SUFFIX,duokan.com
 DOMAIN-SUFFIX,duokanbox.com
 DOMAIN-SUFFIX,e0n.cn
 DOMAIN-SUFFIX,facephoto.com
-DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,faxianpindao.com
 DOMAIN-SUFFIX,fe-cdn.huami.com
 DOMAIN-SUFFIX,fe-static.huami.com
@@ -160,7 +159,6 @@ DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mixinshe.com
 DOMAIN-SUFFIX,miyun.com
 DOMAIN-SUFFIX,n0q.cn
-DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,peijian.com
 DOMAIN-SUFFIX,pushcfg.com
 DOMAIN-SUFFIX,qsb.browser.miui.srv
@@ -174,8 +172,6 @@ DOMAIN-SUFFIX,shunwei.cn
 DOMAIN-SUFFIX,singapore01.kuaipandata.com
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,smzdmimg.com
-DOMAIN-SUFFIX,speed.cloudflare.com
-DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,stayfork.app
 DOMAIN-SUFFIX,store-cdn.huami.com
 DOMAIN-SUFFIX,surge-activation.com
@@ -231,7 +227,6 @@ DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 DOMAIN-KEYWORD,lynkco-app-log-release
-DOMAIN-KEYWORD,speedtest
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,weibo
 IP-CIDR,192.168.0.1/24,no-resolve
@@ -242,5 +237,4 @@ IP-CIDR,198.11.188.0/25,no-resolve
 IP-CIDR,223.109.148.0/22,no-resolve
 USER-AGENT,MApi* // Dianping
 USER-AGENT,MicroMessenger Client
-USER-AGENT,SpeedTest*
 USER-AGENT,WeChat*
