@@ -4,7 +4,7 @@
 #更新时间：2023-3-25 15:43:33
 #规则数量:91
 #已排除的规则数量:0
-#---------------以下为解析后的规则----------------#
+#---------------以下为解析后的规则---------------#
 DOMAIN,amp-api.sandbox.apple.com
 DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
