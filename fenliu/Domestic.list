@@ -4,7 +4,7 @@
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #--------------以下为解析后的规则--------------#
-IP-CIDR,58.83.230.158/32,no-resolve
+
 DOMAIN,pc.stgowan.com
 DOMAIN,www.cupfox.app
 DOMAIN,widget-api.heweather.net
@@ -229,7 +229,8 @@ DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 DOMAIN-KEYWORD,lynkco-app-log-release
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,weibo
-DOMAIN-KEYWORD,59.82.17
+IP-CIDR,58.82.17.1/32,no-resolve
+IP-CIDR,58.83.230.158/32,no-resolve
 IP-CIDR,192.168.0.1/24,no-resolve
 IP-CIDR,192.168.1.1/24,no-resolve
 IP-CIDR,192.168.6.1/24,no-resolve
