@@ -229,6 +229,7 @@ DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 DOMAIN-KEYWORD,lynkco-app-log-release
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,weibo
+DOMAIN-KEYWORD,59.82.17
 IP-CIDR,192.168.0.1/24,no-resolve
 IP-CIDR,192.168.1.1/24,no-resolve
 IP-CIDR,192.168.6.1/24,no-resolve
