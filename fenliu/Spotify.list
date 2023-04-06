@@ -9,6 +9,7 @@
 # PROCESS-NAME: 1
 # USER-AGENT: 1
 # TOTAL: 30
+#--------------以下为解析后的规则--------------#
 DOMAIN,audio4-ak-spotify-com.akamaized.net
 DOMAIN,heads-ak-spotify-com.akamaized.net
 DOMAIN,spotify.com.edgesuite.net
