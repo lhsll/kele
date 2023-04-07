@@ -18,6 +18,5 @@ DOMAIN-KEYWORD,push //APP推送通知
 #IP-CIDR6,2403:300:a42::/48,no-resolve
 #IP-CIDR6,2403:300:a51::/48,no-resolve
 #IP-CIDR6,2a01:b740:a42::/48,no-resolve
-URL-REGEX,^https+:\/\/api.bilibili.com\/x\/push\/.+
 DEST-PORT,5223
 DEST-PORT,2197
