@@ -1,0 +1,11 @@
+# NAME: Apple系统更新
+#规则数量:5
+#不支持的规则数量:0
+#已排除的规则数量:0
+#更新时间：2023-3-25 15:43:33
+#--------------以下为解析后的规则--------------#
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,osxapps.itunes.apple.com
