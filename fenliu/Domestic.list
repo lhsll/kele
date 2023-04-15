@@ -5,6 +5,7 @@
 #更新时间：2023-3-25 15:43:33
 #--------------以下为解析后的规则--------------#
 
+DOMAIN-SUFFIX,flydigi.com
 DOMAIN,pc.stgowan.com
 DOMAIN,www.cupfox.app
 DOMAIN,widget-api.heweather.net
