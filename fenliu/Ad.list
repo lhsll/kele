@@ -5,16 +5,3 @@
 #已排除的规则数量:0
 #更新时间：2023-4-6 07:56:47
 #--------------以下为解析后的规则--------------#
-#.shuzilm.cn
-#.daa.shuzilm.cn
-#.dai.shuzilm.cn
-#.api.shuzilm.cn
-#.stream.shuzilm.cn
-.api-access.pangolin-sdk-toutiao.com
-.toblog.ctobsnssdk.com
-.pangolin-sdk-toutiao-b.com
-.pangolin-sdk-toutiao.com
-.httpdns.yunxindns.com
-.pglstatp-toutiao.com
-.dg.k.jd.com
-.dgstatic.jd.com
