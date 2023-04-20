@@ -4,6 +4,8 @@
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #--------------以下为解析后的规则--------------#
+DOMAIN,api.tzrl.net
+DOMAIN,api.neoclub.cn
 DOMAIN-SUFFIX,dlied1.cdntips.net
 DOMAIN-SUFFIX,neoclub.cn
 DOMAIN-SUFFIX,mob.com
