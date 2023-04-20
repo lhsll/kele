@@ -4,6 +4,7 @@
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #--------------以下为解析后的规则--------------#
+DOMAIN,sgamecdn.cn.gcloudcs.com
 DOMAIN,access1.tpns.sh.tencent.com
 DOMAIN,aegis.qq.com
 DOMAIN,api.kohsocialapp.qq.com
