@@ -5,13 +5,79 @@
 #已排除的规则数量:0
 #更新时间：2023-4-6 07:56:47
 #--------------以下为解析后的规则--------------#
+# > 美团
+DOMAIN,aop.meituan.com
+# > 哔哩哔哩
+DOMAIN,mall.bilibili.com
+DOMAIN,passport.bilibili.com
+DOMAIN-SUFFIX,cm.bilibili.com
+DOMAIN-KEYWORD,api.sobot.com
+DOMAIN-SUFFIX,cm.ad.bilibili.com
+DOMAIN-SUFFIX,cm.adcommon.bilibili.com
+DOMAIN-SUFFIX,cm.game.bilibili.com
+DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
+# > 酷安–>头条
 DOMAIN,dm.toutiao.com
 DOMAIN,tr.byteurl.cn
 DOMAIN,toblog.ctobsnssdk.com
-DOMAIN,aop.meituan.com
-DOMAIN,mall.bilibili.com
-DOMAIN,passport.bilibili.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,zijieapi.com
+# > 交管12123
+DOMAIN,static.122.gov.cn
+DOMAIN-SUFFIX,v3.fstats.xyz
+DOMAIN-SUFFIX,wss.haoyundmn.com
+DOMAIN-SUFFIX,new.xiongzhangad.com
+DOMAIN-SUFFIX,alexametrics.com
+DOMAIN-KEYWORD,in-page-push
+# > 谷歌
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
+DOMAIN-SUFFIX,tpc.googlesyndication.com
+DOMAIN-SUFFIX,pagead.google.com
+DOMAIN-SUFFIX,pagead.l.google.com
+DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,pagead-tpc.l.google.com
+DOMAIN-SUFFIX,mobileads.google.com
+DOMAIN-SUFFIX,googlecommerce.com
+DOMAIN-SUFFIX,blaaaa12.googlecode.com
+DOMAIN-SUFFIX,badad.googleplex.com
+DOMAIN-SUFFIX,afs.googlesyndication.com
+DOMAIN-SUFFIX,afd.l.google.com
+DOMAIN-SUFFIX,www.googleadservices.com
+DOMAIN-SUFFIX,www.google-analytics.com
+DOMAIN,ads.youtube.com,reject
+# > 美团
+DOMAIN-SUFFIX,analytics.meituan.net
+DOMAIN-SUFFIX,meituan.xn--io0a7i
+DOMAIN-SUFFIX,meituan.yoga
+DOMAIN-SUFFIX,meituangov.cn
+DOMAIN-SUFFIX,report.meituan.com
+DOMAIN-SUFFIX,wmlog.meituan.com
+# > QQ音乐广告
+DOMAIN,tmeadcomm.y.qq.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,tmead.y.qq.com
+DOMAIN-SUFFIX,rqd.qq.com
+DOMAIN-SUFFIX,wup.imtt.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,android.rqd.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,v.gdt.qq.com
+# > 云闪付
+DOMAIN,ads.95516.com
+DOMAIN,cm-10-138.getui.com
+DOMAIN,sdk.open.talk.getui.net
+DOMAIN,sdk-conf.getui.com
+DOMAIN,switch.cup.com.cn
+DOMAIN,tysdk.95516.com
