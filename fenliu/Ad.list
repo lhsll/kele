@@ -9,6 +9,8 @@ DOMAIN,dm.toutiao.com
 DOMAIN,tr.byteurl.cn
 DOMAIN,toblog.ctobsnssdk.com
 DOMAIN,aop.meituan.com
+DOMAIN,mall.bilibili.com
+DOMAIN,passport.bilibili.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
