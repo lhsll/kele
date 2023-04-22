@@ -90,7 +90,7 @@ DOMAIN-SUFFIX,nlp.map.qq.com
 DOMAIN-SUFFIX,pay.weixin.qq.com
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,qq.com
+#DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,rttgps.map.qq.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tencent-cloud.com
