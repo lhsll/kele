@@ -81,3 +81,4 @@ DOMAIN,sdk.open.talk.getui.net
 DOMAIN,sdk-conf.getui.com
 DOMAIN,switch.cup.com.cn
 DOMAIN,tysdk.95516.com
+URL-REGEX,^https:\/\/pvppic\.kohsocialapp\.qq\.com\/wzzs_pic\/0\/8248c706927336a84895485dd3a2b702\/0$
