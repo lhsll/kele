@@ -6,7 +6,7 @@
 #更新时间：2023-4-6 07:56:47
 #--------------以下为解析后的规则--------------#
 # > 王者营地
-DOMAIN,ssl.kohsocialapp.qq.com
+#DOMAIN,ssl.kohsocialapp.qq.com
 # > 美团
 DOMAIN,aop.meituan.com
 # > 哔哩哔哩
