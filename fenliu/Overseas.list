@@ -21,7 +21,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,api.revenuecat.com
+#DOMAIN-SUFFIX,api.revenuecat.com
 DOMAIN-SUFFIX,api2.amplitude.com
 DOMAIN-SUFFIX,api3.misaka.io
 DOMAIN-SUFFIX,appsflyer.com
