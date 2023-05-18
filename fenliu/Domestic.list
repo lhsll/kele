@@ -22,6 +22,7 @@ DOMAIN,landray.dingtalkapps.com
 DOMAIN,sessions.bugsnag.com
 DOMAIN,www.ikandy.fun
 DOMAIN,shortconn.im.qcloud.com
+DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,coolapk.com
