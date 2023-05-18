@@ -5,6 +5,7 @@
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #--------------以下为解析后的规则--------------#
+DOMAIN,finderks.video.qq.com
 DOMAIN,act.weixin.qq.com
 DOMAIN,adsmedium-40038.sh.gfp.tencent-cloud.com
 DOMAIN,aedns.iot.wechatpay.cn
