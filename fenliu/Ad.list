@@ -5,6 +5,8 @@
 #已排除的规则数量:0
 #更新时间：2023-4-6 07:56:47
 #--------------以下为解析后的规则--------------#
+# > Openai
+DOMAIN,o33249.ingest.sentry.io
 # > 王者营地
 #DOMAIN,ssl.kohsocialapp.qq.com
 # > 美团
