@@ -7,8 +7,6 @@
 #--------------以下为解析后的规则--------------#
 # > Openai
 DOMAIN,o33249.ingest.sentry.io
-# > 王者营地
-#DOMAIN,ssl.kohsocialapp.qq.com
 # > 美团
 DOMAIN,aop.meituan.com
 # > 哔哩哔哩
@@ -88,3 +86,24 @@ DOMAIN,sdk-conf.getui.com
 DOMAIN,switch.cup.com.cn
 DOMAIN,tysdk.95516.com
 URL-REGEX,^https:\/\/pvppic\.kohsocialapp\.qq\.com\/wzzs_pic\/0\/8248c706927336a84895485dd3a2b702\/0$
+# >中国移动
+URL-REGEX,^https:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/00\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{30}\.(png|jpg)
+URL-REGEX,^https:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/00\/54\/[A-Za-z0-9]{24}\_[A-Za-z0-9]{5}.(jpg|png)
+URL-REGEX,^https:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/00\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{25}\-[A-Za-z0-9]{4}\.(png|jpg)
+# > 腾讯QQ
+URL-REGEX,^http:\/\/.+\/analytics\/upload
+DOMAIN,sq.bls.mdt.qq.com
+# > 微信
+URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),REJECT
+# > 淘宝去广告
+URL-REGEX,^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d{13}\/[A-Za-z0-9]{23,24}\_!!\d{13}\.(jpg|png|gif|mp4|wepb)\_\d{2,4}\x\d{2,4}\q\d{2,3}\.(jpg|png|gif|mp4|wepb)\_.heic
+URL-REGEX,^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]{23}\_!!\d{13}\-\d\-tps\-\d{4}\-\d{4}\.jpg\_\d{4}x\d{4}\q90\.jpg\_\.heic
+#URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/.{1,52}\.(jpg|gif)
+URL-REGEX,^https:\/\/data\.bilibili\.com\/log\/mobile\?ios$
+# > 美团
+URL-REGEX,^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg)
+URL-REGEX,^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage
+URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$
+URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
+URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg
+URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp
