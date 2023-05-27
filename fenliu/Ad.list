@@ -11,7 +11,7 @@ DOMAIN,o33249.ingest.sentry.io
 DOMAIN,aop.meituan.com
 # > 哔哩哔哩
 DOMAIN,httpdns.bilivideo.com
-DOMAIN,mall.bilibili.com
+#DOMAIN,mall.bilibili.com
 DOMAIN,passport.bilibili.com
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-KEYWORD,api.sobot.com
