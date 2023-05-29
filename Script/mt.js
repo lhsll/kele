@@ -1,8 +1,23 @@
-// 将响应体解析为JSON对象
 let obj = JSON.parse($response.body);
-// 将 JSON 字符串解析为 JavaScript 对象并存储在变量 obj 中
-const obj = JSON.parse(jsonString);
-// 从 obj 对象中删除 data 属性
-delete obj.data;
-// 使用 $done() 函数将更改后的响应返回到原始请求
-$done({response: JSON.stringify(obj)});
+
+if ($request.url.indexOf('/backend-api/models') !== -1 && obj && obj.models) {
+    obj.models = obj.models.map(m => {
+        m.tags = m.tags.filter(t => {
+            return t !== 'mobile';
+        });
+        if (m.slug === 'gpt-4-mobile') {
+            obj.categories.push({
+                browsing_model: null,
+                category: "gpt_4",
+                code_interpreter_model: null,
+                default_model: "gpt-4-mobile",
+                human_category_name: "GPT-4-Mobile",
+                plugins_model: null,
+                subscription_level: "plus",
+            });
+        }
+        return m;
+    });
+}
+
+$done({body: JSON.stringify(obj)});
