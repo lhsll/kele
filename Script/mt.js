@@ -1,23 +1,15 @@
-let obj = JSON.parse($response.body);
+function blockAds(request, response) {
+  const responseData = JSON.parse(response.body); // 解析响应的 JSON 数据
 
-if ($request.url.indexOf('/backend-api/models') !== -1 && obj && obj.models) {
-    obj.models = obj.models.map(m => {
-        m.tags = m.tags.filter(t => {
-            return t !== 'mobile';
-        });
-        if (m.slug === 'gpt-4-mobile') {
-            obj.categories.push({
-                browsing_model: null,
-                category: "gpt_4",
-                code_interpreter_model: null,
-                default_model: "gpt-4-mobile",
-                human_category_name: "GPT-4-Mobile",
-                plugins_model: null,
-                subscription_level: "plus",
-            });
-        }
-        return m;
-    });
+  // 遍历 entities 数组查找匹配的广告链接
+  for (const entity of responseData.entities) {
+    if (entity.title === '来来来「赚点零花钱」 >>>') {
+      response.status = 404; // 返回 404 响应以屏蔽广告链接
+      break; // 找到匹配的链接后，停止遍历
+    }
+  }
+
+  return response;
 }
 
-$done({body: JSON.stringify(obj)});
+$done({ response: blockAds });
