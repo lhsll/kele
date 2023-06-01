@@ -2,28 +2,30 @@
 #!desc=kele
 
 [Map Local]
-# 百度输入法开屏
+
+# > 百度输入法开屏
 ^https?:\/\/mime\.baidu\.com\/v5\/start_screen_ads/list data="reject-dict.json"
-# 应用内灵感语录 输入页面推荐里语录
+# > 百度输入法应用内灵感语录 输入页面推荐里语录
 ^https?:\/\/mime\.baidu\.com\/sapi\/v1\/lccorpus\/(applist|pannellist) data="mime.json"
-
-# 输入法点击图标 
+# > 百度输入法点击图标 
 ^https?:\/\/mime\.baidu\.com\/sapi\/v1\/circle\/joinedlist data="mime.json"
-
 ^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list data="mime.json"
-
 ^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input data="bd.json"
+# > 百度
+hpd\.baidu\.com data="reject-dict.json"
 
 # > Lynk&Co
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/searching\/hot\/recommend\/list data="reject-dict.json"
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/topic\/together\/hot data="reject-dict.json"
-#^https://app-services.lynkco.com.cn/app/vmall/point/page?.*$ data="reject-dict.json"
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/page\/detail\?deviceId=650AF146-27FF-4387-9101-409327AA70B4&vin=L6T7854D2MZ242793&pnoCode=GS4GH773D161003149&pageCode=LYNKCO_APP_1043 data="reject-dict.json"
-# > 酷安
+
+# > 数字联盟
 ^https?:\/\/.+?\.shuzilm\.cn data="reject-200.txt"
-#台州人力网
+
+# > 台州人力网
 #^https:\/\/api\.tzrl\.net\/person\/v5\/job\/about_keywords$ data="reject-200.txt"
-^http:\/\/oc\.umeng\.com\/v2\/check_config_update data="reject-200.txt"
+
+
 # > 京喜
 ^https:\/\/m\.360buyimg\.com\/deliveryadmin\/jfs\/t1\/99787\/19\/22629\/58593\/641d791dF4b406c06\/362d434eb6c32c10\.gif data="reject-200.txt"
 ^https:\/\/m\.360buyimg\.com\/deliveryadmin\/jfs\/t1\/220411\/21\/24513\/51233\/642402c1F960d4637\/06d2b7a9124906e0\.gif data="reject-200.txt"
@@ -32,9 +34,6 @@
 ^https:\/\/api-unionid\.meituan\.com\/extension\/network\/update data="reject-dict.json"
 ^https:\/\/aop\.meituan\.com\/api\/entry\/indexLayer.+ data="reject-dict.json"
 ^https:\/\/apimobile\.meituan\.com\/group\/v2\/recommend\/homepage\/city\/1\.+ data="reject-dict.json"
-
-# > 百度
-hpd\.baidu\.com data="reject-dict.json"
 
 # > UKi
 ^https:\/\/api\.neoclub\.cn\/uki\/v1\/chatPartyFeed data="reject-dict.json"
@@ -46,7 +45,7 @@ hpd\.baidu\.com data="reject-dict.json"
 ^https:\/\/api\.neoclub\.cn\/v1\/party\/squareRecommend data="reject-dict.json"
 ^https:\/\/api\.neoclub\.cn\/v1\/friends\/indexBanner data="reject-dict.json"
 ^https:\/\/api\.neoclub\.cn\/v1\/friends\/(startInfo|advConf) data="reject-dict.json"
-#^https:\/\/api\.neoclub\.cn\/v1\/user\/userCenterProjects\? data="reject-dict.json"
+
 # > 招商银行
 ^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) data="reject-200.txt"
 
@@ -63,11 +62,10 @@ nscosdownload\/SZ\/reserved\/.+ data="reject-200.txt"
 ^https:\/\/member\.tmga\.qq\.com\/member data="reject-dict.json"
 ^https:\/\/member\.tmga\.qq\.com\/intelDelivery data="reject-dict.json"
 sq\.bls\.mdt\.qq\.com data="reject-dict.json"
+
 # > 美团开屏
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(jpg|jpeg|png|gif|webp|mp4) data="reject-200.txt"
 ^https:\/\/p\d\.meituan\.net\/travelcube\/.+\.png\.webp.+ data="reject-dict.json"
-
-# 美团 //img.meituan.net, s3plus.meituan.net
 ^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="reject-dict.json"
 
 # > 拼多多开屏
@@ -75,13 +73,13 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 
 # > 淘宝广告
 ^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data="reject-dict.json"
-
 ^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data="reject-200.txt"
-
-#^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/.+\.(jpg|jpeg|gif|webp|mp4) data="reject-dict.json"
+# > 淘宝直播
+^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data="reject-dict.json"
 
 # > 其他
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="reject-dict.json"
+^http:\/\/oc\.umeng\.com\/v2\/check_config_update data="reject-200.txt"
 
 # > 微博
 #^https:\/\/api\.weibo\.cn\/2\/ug\/checkin\/list\?gsid= data="reject-dict.json"
@@ -90,7 +88,7 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 ^https?:\/\/api\.aliyundrive\.com\/business\/.
 +\users\/vip\/info data="SVIPInfo.json"
 
-# > 51信用卡管家   去首页签到  首页推荐办卡  原规则都删除
+# > 51信用卡管家
 ^https?:\/\/api\.u51\.com\/(generic-config-gateway|rs-resys)\/api\/v\d\/(creditpage-config|recommend) data="reject-200.txt"
 
 # > 浙里办
@@ -111,19 +109,15 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 # > 中国电信
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data="reject-img.gif"
 
-#通用公众号小程序屏蔽广告
+# > 通用公众号小程序屏蔽广告
 ^https?:\/\/wxsnsdythumb\.wxs\.qq\.com data="reject-200.txt"
 
-#爱思去除精选顶部广告
+# > 爱思去除精选顶部广告
 ^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data="reject-200.txt"
-
 ^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data="reject-200.txt"
 
 # > 米家
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab)\? data="reject-dict.json"
-
-# > 淘宝直播
-^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data="reject-dict.json"
 
 # > 飞智游戏
 ^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data="reject-dict.json"
@@ -132,28 +126,26 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 ^https:\/\/pvppic\.kohsocialapp\.qq\.com\/wzzs_pic\/0\/(fb|9c)[0-9a-f]{28}(fd|a5)\/0 data="reject-200.txt"
 
 [Url Rewrite]
-#投稿 #识货 #开屏广告
+
+# > 识货 开屏广告
 ^https:\/\/sh-gateway\.shihuo\.cn\/v4\/services\/sh-adapi\/home\/ad\/ - reject
 ^https:\/\/sh-gateway\.shihuo\.cn\/v4\/services\/sh-adapi\/home\/screen\? - reject
-# 禁京东DNS解析   感谢@Eula分享 #主机名dns.jd.com, api.m.jd.com
+
+# >  禁京东DNS解析
 ^https?:\/\/dns\.jd\.com\/ - reject
-
-# 禁京东直播小窗
+# >  禁京东直播小窗
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 - reject
-
-# 禁京东直播(慎用！店铺页面无活动弹窗、无关注按钮、无法观看直播)
-;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live｜getShopHomeExtendInfo|getImmediatePlayV910) - reject
-
+# >  禁京东直播(慎用！店铺页面无活动弹窗、无关注按钮、无法观看直播)
+#^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live｜getShopHomeExtendInfo|getImmediatePlayV910) - reject
 # > 京东去广告
 dns\.jd\.com - reject
 
-# > UKi
-#https://ukiapi567.neoclub.cn/v1/friends/startInfo https://raw.githubusercontent.com/lhsll/Plao/main/rsp_17889startInfo.json header
-
 # > 飞智游戏厅
 ^http:\/\/xiaoredpic\.neoclub\.cn/backend\/activityPack\/.+.png - reject
+
 # > 拼多多
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+
 # > 美团
 ^https:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
 ^https:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
@@ -162,42 +154,49 @@ dns\.jd\.com - reject
 ^https:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture - reject
 ^https:\/\/www\.meituan\.com\/api\/v2\/appstatus\?ad - reject
 ^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/app\/adposNew - reject
+# > 美团
+^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+ - reject
+^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\?? - reject
+
 # > 瑞幸咖啡
 ^https:\/\/(ec|c)api\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList - reject
+
 # > 中国电信开屏
 ^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
 ^https?:\/\/ii\.gdt\.qq\.com\/.+ - reject
 ^https:\/\/app-measurement\.com\/config\/app\/1?(.*?)*$ - reject
-# 建设银行
+
+# >  建设银行
 ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/nf\/newfin\/activity\/xjr_\w+\.png$ - reject
 ^http:\/\/imageadv\.ccb\.com\/adpic\/(nctm\/ad|sszserver\/upload\/activity)\/\d{8}\/\w+\.(gif|png|jpg)$ - reject
-# 饿了么 //elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com
+
+# >  饿了么
 ^https:\/\/elemecdn.com\/.+\/sitemap - reject
 ^https:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} - reject
 ^https:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} - reject
 ^https:\/\/fuss10.elemecdn.com\/.+\.mp4 - reject
 ^https:\/\/www1.elecfans.com\/www\/delivery - reject
 ^https:\/\/fb\.fbstatic\.cn\/api\/ape-images - reject
-# > 美团
-^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+ - reject
-^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\?? - reject
 
 [Script]
+
+# > 京喜
 京喜 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show,requires-body=1,max-size=0,script-path=jingxi2.js
+
 # > 美团外卖
 美团外卖_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo?,script-path=meituanwanmai.js,script-update-interval=-1
 
-# 移除百度知道搜索广告
+# >  移除百度知道搜索广告
 移除百度知道搜索广告= type=http-response,pattern=^https?:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word),requires-body=1,max-size=0,script-path=BaiduZhidao_remove_ads.js
 
-# 移除百度搜索首页广告
+# >  移除百度搜索首页广告
 移除百度搜索首页广告= type=http-response,pattern=^https?:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*),requires-body=1,max-size=0,script-path=BaiduSearchHomePage_remove_ads.js
 
-# 移除百度搜索结果广告
+# >  移除百度搜索结果广告
 移除百度搜索结果广告
 = type=http-response,pattern=^https?:\/\/(www|m)\.baidu\.com\/.*word=.*,requires-body=1,max-size=0,script-path=BaiduSearchResults_remove_ads.js
 
-# 百度防跳转
+# >  百度防跳转
 移除百度搜索首页广告= type=http-response,pattern=^https?:\/\/boxer\.baidu\.com\/scheme\?scheme,requires-body=1,max-size=0,script-path=RemoveBaiduSearchRedirect.js
 
 # > 51信用卡管家 去首页横幅广告 @RuCu6
@@ -224,7 +223,7 @@ Aisi_37 = type=http-response, pattern=^https?:\/\/list-app-m\.i4\.cn\/(getAppLis
 iT之家 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/(napi|api|m)\.ithome\.com\/(api|json)\/(news|topmenu|listpage|newslist|slide)\/(getfeeds|index|slide),script-path=ithome.ad.js,script-update-interval=-1
 
 # > 小程序_去广告
-xcx_22 = type=http-response, pattern="^(https?://)?([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\.)+[a-zA-Z]{2,}(:\d+)?/wp-json/[a-zA-Z0-9_-]+/(mp\/)?v\d/posts", requires-body=true, max-size=3145728, script-path=xcx.js, timeout=60, script-update-interval=0
+xcx_22 = type=http-response, pattern=^(https?://)?([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\.)+[a-zA-Z]{2,}(:\d+)?/wp-json/[a-zA-Z0-9_-]+/(mp\/)?v\d/posts, requires-body=true, max-size=3145728, script-path=xcx.js, timeout=60, script-update-interval=-1
 
 # > 百度输入法
 BDSRF = type=http-response,pattern=^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)),requires-body=1,max-size=0,script-path=bdsrf.js
