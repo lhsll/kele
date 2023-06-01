@@ -1,15 +1,90 @@
-#!name=苹果服务器
-#!desc=测试版  更新：2022-12-27 19:27:06
-#!system=ios
+#!name=1.2 🍉 0.4VIP解锁
+#!desc=本地APP会员脚本
 
-[Host]
-# > Aplle
-token.safebrowsing.apple = 17.253.85.207
-proxy.safebrowsing.apple = 17.253.85.208
-iosapps.itunes.apple.com = 17.253.85.201
-iosapps.itunes.g.aaplimg.com = 17.253.85.206
-k128-iosapps-all.gslb.ksyuncdn.com = 17.253.85.201
-iosapps.itunes.apple.com.m.alikunlun.net = 17.253.85.201
-iosapps.itunes.apple.com.download.ks-cdn.com = 17.253.85.201
-hls.itunes.apple.com.mwcname.com = 17.253.85.201
-iosapps-cn-lb.dl-apple.com.akadns.net = 17.253.85.201
+[Header Rewrite]
+# > New Bing Ai
+^https:\/\/www\.bing\.com\/(search|new) header-replace-regex User-Agent \w+\/[\d\.]+$ "AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0"
+
+[Script]
+
+# > Bing Edge UA
+#bing-edge-ua = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,script-path=edge-useragent.js,requires-body=false
+
+# > ChatGPT 解锁 Plus 订阅
+ChatGPTPlusCrack_12 = type=http-response, pattern=^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models), requires-body=true, max-size=3145728, script-path=ChatGPT.js, timeout=60, script-update-interval=-1
+
+# > fileball
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ requires-body=1,script-path=fileballvip.js
+
+# > 搜图神器
+stsq_3 = type=http-response,pattern=http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account,requires-body=1,max-size=3145728,script-path=SearchArtifact.js
+
+# > 百度网盘(倍速)
+BaiDuCloudProCrack = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=3145728,script-path=BaiDuCloudProCrack.js
+
+# > 彩云天气svip
+caiyun = type=http-response,pattern=^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$,requires-body=1,max-size=0,script-path=caiyun.js
+
+# > 百度输入法vip
+#BaiduKeyboard = type=http-response,pattern=^https:\/\/mime\.baidu\.com\/sapi\/v\d\/vip\/mywvip,requires-body=1,max-size=3145728,script-path=BaiduKeyboard.js
+
+# > TopWidgets☆永久VIP
+TopWidgets= type=http-response,pattern=^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig ,requires-body=1,max-size=0,script-path=topwidgets.js
+
+# > 小组件盒子解锁VIP
+小组件盒子解锁VIP = type=http-response,pattern=^https:\/\/widget-box-api\.codefuture\.top\/v1\/users\/me,requires-body=1,max-size=0,script-path=xzjhz.js
+
+# > SparkMail解锁永久订阅
+#SparkMail解锁永久订阅 = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$,requires-body=1,max-size=0,script-path=SparkMailProCrack.js
+
+# > 扫描全能王 pro
+CamScanner_8 = type=http-response, pattern=^https:\/\/.*\.(intsig\.net|camscanner\.com), requires-body=true, max-size=3145728, script-path=CamScanner.js, timeout=60, script-update-interval=0
+
+# > 金山WPS vip
+# > Old
+WPSOffice_3 = type=http-response, pattern=^https:\/\/account\.wps\.cn\/api\/users\/\d+\/overview, requires-body=true, max-size=3145728, script-path=WPSOffice.js, timeout=60, script-update-interval=0
+
+# > New
+WPSOffice_5 = type=http-response, pattern=^https:\/\/vas\.wps\.cn\/query\/api\/v\d\/list_purchase_info, requires-body=true, max-size=3145728, script-path=WPSOffice.js, timeout=60, script-update-interval=0
+
+# > Dayone vip
+Day One = type=http-response,pattern=^https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$,requires-body=1,max-size=0,script-path=dayone.js
+
+# > BaiduCloud
+BaiduCloud = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=3145728,script-path=BaiduCloud.js
+
+# > 百度云盘 解锁
+百度云盘 = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,requires-body=1,max-size=0,script-path=bdcloud.js
+
+# > MIX 解锁
+MIX解锁 = requires-body=1,script-path=mix.js,type=http-response,pattern= ^https:\/\/bmall\.camera360\.com\/api\/mix\/recovery$
+
+# > vsco 解锁
+vsco解锁 = type=http-response,pattern=^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/subscriptions\/\d\.\d\/user-subscriptions)\/,requires-body=1,max-size=0,script-path=vsco.js
+
+# > 豆瓣电影 搜索
+豆瓣电影 = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,max-size=0,script-path=Douban.js
+
+# > 美图秀秀
+美图秀秀 = requires-body=1,max-size=0,script-path=Mtxx.js,type=http-response,pattern=^https?://(api|h5).xiuxiu.meitu.com/(v1/user/show.json|v1/vip/vip_show.json|v1/vip/prompt/query.json|v1/h5/vip/sub_detail.json|v1/h5/user/self_show.json|v1/h5/vip/user_detail.json|v1/vip/prompt/query.json|v1/vip/prompt/query.json)
+
+# > Emby 解锁
+#EmbyPro = type=http-response,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Emby.js
+
+# > 阿里云盘SVIP
+SVIP = type=http-response,pattern=^https?:\/\/api\.aliyundrive\.com\/(v2\/databox\/get_personal_info|business\/.+\/users\/vip\/info),requires-body=1,max-size=0,script-path=SVIPInfo.js
+
+# > 获取B站装扮信息
+#http-response ^https:\/\/api\.bilibili\.com\/x\/garb\/v2\/mall\/suit\/detail requires-body=1,script-path=bili-suit-detail.js
+
+# 装扮DIY
+#bili-skin = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?,requires-body=1,script-path=bili-suit-diy.js
+ 
+# > iScreen
+#iScreen_2 = type=http-response, pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/iScreen.js, timeout=60, script-update-interval=0
+
+# > 轻图解锁永久专业版
+PhotoVisionProCrack_12 = type=http-response, pattern=^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$, requires-body=true, max-size=3145728, script-path=PhotoVisionProCrack.js, timeout=60, script-update-interval=0
+
+# Spotify 音质不能设置为超高
+spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=spotify-proto.js, timeout=60, script-update-interval=0
