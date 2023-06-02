@@ -160,7 +160,6 @@ ghproxy.com = server:syslib
 *.bytecdn.com = server:syslib
 *mmbiz* = server:syslib
 *qlogo* = server:syslib
-*.meituan.* = server:119.29.29.29
 *.chinaz.com = server:223.5.5.5
 *.cmbchina.com = server:223.5.5.5
 
