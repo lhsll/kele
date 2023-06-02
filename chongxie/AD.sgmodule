@@ -178,7 +178,13 @@ dns\.jd\.com - reject
 ^https:\/\/www1.elecfans.com\/www\/delivery - reject
 ^https:\/\/fb\.fbstatic\.cn\/api\/ape-images - reject
 
+# > 微信去广告
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(advertisement_report|cps_product_info|wapcommreport|jsreport|jsmonitor|getappmsgext) - reject
+^https?:\/\/wxa\.wxs\.qq\.com\/tmpl\/kf\/base_tmpl\.html - reject
+
 [Script]
+# > 微信去广告[不包含公众号信息流AD、朋友圈AD]
+replaceBody_weixin = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=replace-body.js, timeout=60, argument=""advertisement_num":\d,"advertisement_info":\[.+\],->"advertisement_num":0,"advertisement_info":[],"
 
 # > 京喜
 京喜 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show,requires-body=1,max-size=0,script-path=jingxi2.js
