@@ -123,7 +123,7 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 ^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data="reject-dict.json"
 
 # > 王者营地
-^https:\/\/pvppic\.kohsocialapp\.qq\.com\/wzzs_pic\/0\/(fb|9c)[0-9a-f]{28}(fd|a5)\/0 data="reject-200.txt"
+^https:\/\/pvppic\.kohsocialapp\.qq\.com\/wzzs_pic\/0\/(fb|9c|d8)[0-9a-f]{16,28}(fd|a5|86)\/0 data="reject-200.txt"
 
 [Url Rewrite]
 
@@ -177,12 +177,12 @@ dns\.jd\.com - reject
 ^https:\/\/fuss10.elemecdn.com\/.+\.mp4 - reject
 ^https:\/\/www1.elecfans.com\/www\/delivery - reject
 ^https:\/\/fb\.fbstatic\.cn\/api\/ape-images - reject
-
 # > 微信去广告
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/(advertisement_report|cps_product_info|wapcommreport|jsreport|jsmonitor|getappmsgext) - reject
 ^https?:\/\/wxa\.wxs\.qq\.com\/tmpl\/kf\/base_tmpl\.html - reject
 
 [Script]
+
 # > 微信去广告[不包含公众号信息流AD、朋友圈AD]
 replaceBody_weixin = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=replace-body.js, timeout=60, argument=""advertisement_num":\d,"advertisement_info":\[.+\],->"advertisement_num":0,"advertisement_info":[],"
 
