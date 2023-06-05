@@ -246,6 +246,7 @@ IP-CIDR,198.11.136.0/24,no-resolve
 IP-CIDR,198.11.188.0/25,no-resolve
 IP-CIDR,223.109.148.0/22,no-resolve
 IP-CIDR,124.156.215.228/32,no-resolve
+IP-CIDR,112.0.0.0/10,no-resolve
 USER-AGENT,MApi* // Dianping
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
