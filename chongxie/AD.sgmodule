@@ -3,6 +3,10 @@
 
 [Map Local]
 
+# > 全球购骑士卡
+^https:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?cityId=102923&positions=mine_popup data="reject-dict.json"
+^https:\/\/facade-api\.black-unique\.com\/app\/v1\/startScreen\?cityId=102923&channelId=0&width=1170&height=2532 data="reject-dict.json"
+
 # > 百度输入法开屏
 ^https?:\/\/mime\.baidu\.com\/v5\/start_screen_ads/list data="reject-dict.json"
 # > 百度输入法应用内灵感语录 输入页面推荐里语录
