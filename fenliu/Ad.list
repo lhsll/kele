@@ -108,5 +108,3 @@ URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|
 URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp
-URL-REGEX,^http:\/\/\d{2,3}\.\d{2,3}\.\d{2,3}\.\d{2,3}:485\/live-bvc\/.+$
-URL-REGEX,^http:\/\/\d{2,3}\.\d{2,3}\.\d{2,3}\.\d{2,3}\/live-bvc\/.+$
