@@ -186,6 +186,8 @@ dns\.jd\.com - reject
 ^https?:\/\/wxa\.wxs\.qq\.com\/tmpl\/kf\/base_tmpl\.html - reject
 
 [Script]
+# ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
+bilibili_json_125 = type=http-response, pattern=^https://app.bilibili.com/x/v2/search/square, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, timeout=60, script-update-interval=-1
 
 # > 微信去广告[不包含公众号信息流AD、朋友圈AD]
 replaceBody_weixin = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=replace-body.js, timeout=60, argument=""advertisement_num":\d,"advertisement_info":\[.+\],->"advertisement_num":0,"advertisement_info":[],"
