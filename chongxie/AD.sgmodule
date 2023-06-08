@@ -3,6 +3,8 @@
 
 [Map Local]
 
+^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed data="reject-dict.json"
+
 # > 全球购骑士卡
 ^https:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?cityId=102923&positions=mine_popup data="reject-dict.json"
 ^https:\/\/facade-api\.black-unique\.com\/app\/v1\/startScreen\?cityId=102923&channelId=0&width=1170&height=2532 data="reject-dict.json"
@@ -188,7 +190,7 @@ dns\.jd\.com - reject
 [Script]
 
 # > BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
-bilibili_屏蔽直播页顶部轮播图 = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, requires-body=true, max-size=3145728, script-path=bilibili_json.js, timeout=60, script-update-interval=-1
+#bilibili_屏蔽直播页顶部轮播图 = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, requires-body=true, max-size=3145728, script-path=bilibili_json.js, timeout=60, script-update-interval=-1
 # > BiliBili_哔哩哔哩_热搜发现@ddgksf2013
 bilibili_热搜发现 = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/search\/square, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, timeout=60, script-update-interval=-1
 
