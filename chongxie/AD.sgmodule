@@ -187,10 +187,10 @@ dns\.jd\.com - reject
 
 [Script]
 
-# ～ BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
-bilibili_json_108 = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, requires-body=true, max-size=3145728, script-path=bilibili_json.js, timeout=60, script-update-interval=-1
-# ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
-bilibili_json_125 = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/search\/square, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, timeout=60, script-update-interval=-1
+# > BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
+bilibili_屏蔽直播页顶部轮播图 = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, requires-body=true, max-size=3145728, script-path=bilibili_json.js, timeout=60, script-update-interval=-1
+# > BiliBili_哔哩哔哩_热搜发现@ddgksf2013
+bilibili_热搜发现 = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/search\/square, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, timeout=60, script-update-interval=-1
 
 # > 微信去广告[不包含公众号信息流AD、朋友圈AD]
 replaceBody_weixin = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=replace-body.js, timeout=60, argument=""advertisement_num":\d,"advertisement_info":\[.+\],->"advertisement_num":0,"advertisement_info":[],"
