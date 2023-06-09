@@ -105,3 +105,16 @@ DOMAIN-KEYWORD,gcloud.qq.com
 DOMAIN-KEYWORD,tc.gcloudgbs.com
 IP-CIDR,112.88.0.0/13,no-resolve
 IP-CIDR,43.154.192.0/18,no-resolve
+# > 和平精英
+DOMAIN,gpcloud.tgpa.qq.com
+DOMAIN,apm.wetest.qq.com
+DOMAIN,hpjy-op.tga.qq.com
+DOMAIN,hc3.tdm.qq.com
+DOMAIN,down.qq.com
+DOMAIN,ossweb-img.qq.com
+DOMAIN,hwypandora.ll.tcdnos.com
+DOMAIN,cjm.broker.tplay.qq.com
+DOMAIN,cdn.cn.gcloudcs.com
+DOMAIN-SUFFIX,cg.qq.com
+DOMAIN-KEYWORD,gcloudpg.qq.com
+DOMAIN-KEYWORD,teg.tencent-cloud.net
