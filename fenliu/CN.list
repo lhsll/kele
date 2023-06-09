@@ -33,8 +33,6 @@ DOMAIN-SUFFIX,hjq.komect.com
 DOMAIN-SUFFIX,caiyun.feixin.10086.cn
 DOMAIN-SUFFIX,shop.10086.cn
 DOMAIN-KEYWORD,chinamobile.com
-USER-AGENT,ChinaMobile
-USER-AGENT,AppleWebKit
 # > 哔哩哔哩弹幕网(粉色)
 DOMAIN,app.bilibili.com
 DOMAIN,data.bilibili.com
@@ -65,15 +63,10 @@ IP-CIDR,27.184.0.0/13,no-resolve
 IP-CIDR,114.216.0.0/13,no-resolve
 IP-CIDR,58.248.0.0/13,no-resolve
 IP-CIDR,114.116.224.0/19,no-resolve
-USER-AGENT,Bilibili
-USER-AGENT,bili-universal
-USER-AGENT,grpc-objc
-USER-AGENT,%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9
 # > 酷安
 DOMAIN,avatar.coolapk.com
 DOMAIN,image.coolapk.com
 DOMAIN,api.coolapk.com
-USER-AGENT,CoolMarket
 # > 高德地图
 DOMAIN,1117_ios_kingkong_xml_default_icon
 DOMAIN,m5-x.amap.com
@@ -90,7 +83,6 @@ DOMAIN,ts.amap.com
 DOMAIN,sync.amap.com
 DOMAIN,aos-cdn-image.amap.com
 DOMAIN,mapdownload.autonavi.com
-USER-AGENT,AMapiPhone
 
 
 
