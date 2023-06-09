@@ -31,6 +31,7 @@ DOMAIN,payapp.wechatpay.cn
 DOMAIN,cube.weixinbridge.com
 DOMAIN,mmpayweb.cdn-go.cn
 DOMAIN,imap.qq.com
+DOMAIN,finderhwy.video.qq.com
 IP-CIDR,110.76.0.0/19,no-resolve
 IP-CIDR,61.174.0.0/15,no-resolve
 IP-CIDR,42.202.0.0/15,no-resolve
