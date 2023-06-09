@@ -13,6 +13,8 @@ DOMAIN,wxpaylogo.qpic.cn
 DOMAIN,support.weixin.qq.com
 DOMAIN,gtimg.wechatpay.cn
 DOMAIN,tenpay.wechatpay.cn
+DOMAIN,wxapp.tc.qq.com
+DOMAIN,appcfg.v.qq.com
 IP-CIDR,39.128.0.0/10,no-resolve
 IP-CIDR,223.64.0.0/10,no-resolve
 IP-CIDR,36.128.0.0/10,no-resolve
