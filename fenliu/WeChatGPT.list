@@ -16,6 +16,7 @@ DOMAIN,tenpay.wechatpay.cn
 DOMAIN,wxapp.tc.qq.com
 DOMAIN,appcfg.v.qq.com
 DOMAIN,extshort.weixin.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,minorshort.weixin.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,short.pay.weixin.qq.com
@@ -25,10 +26,10 @@ DOMAIN,findermp.video.qq.com
 DOMAIN,bsy.resstatic.tcdnos.com
 DOMAIN,resstatic.servicewechat.com
 DOMAIN,wxpay.qpic.cn
-DOMAIN,payapp.weixin.qq.com:443
-DOMAIN,payapp.wechatpay.cn:443
-DOMAIN,cube.weixinbridge.com:443
-DOMAIN,mmpayweb.cdn-go.cn:443
+DOMAIN,payapp.weixin.qq.com
+DOMAIN,payapp.wechatpay.cn
+DOMAIN,cube.weixinbridge.com
+DOMAIN,mmpayweb.cdn-go.cn
 IP-CIDR,110.76.0.0/19,no-resolve
 IP-CIDR,61.174.0.0/15,no-resolve
 IP-CIDR,42.202.0.0/15,no-resolve
