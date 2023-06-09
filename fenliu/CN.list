@@ -52,6 +52,13 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,biliapi.net
 IP-CIDR,49.64.0.0/11,no-resolve
 IP-CIDR,27.36.0.0/14,no-resolve
+IP-CIDR,115.192.0.0/11,no-resolve
+IP-CIDR,223.166.0.0/16,no-resolve
+IP-CIDR,120.192.0.0/10,no-resolve
+IP-CIDR,182.112.0.0/12,no-resolve
+IP-CIDR,223.166.0.0/16,no-resolve
+IP-CIDR,223.240.0.0/13,no-resolve
+IP-CIDR,183.92.0.0/14,no-resolve
 USER-AGENT,Bilibili
 USER-AGENT,bili-universal
 USER-AGENT,grpc-objc
