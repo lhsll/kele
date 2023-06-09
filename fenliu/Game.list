@@ -82,3 +82,26 @@ DOMAIN,member.tmga.qq.com
 DOMAIN,email.tmga.qq.com
 DOMAIN,measurement.nj.prod.ino.qq.com
 DOMAIN-KEYWORD,myqcloud.com
+# > 金铲铲之战
+DOMAIN,cdn.jkmobile.qq.com
+DOMAIN,api.unipay.qq.com
+DOMAIN,jkgame-op.tga.qq.com
+DOMAIN,down.pandora.qq.com
+DOMAIN,speed.gsdk.qq.com
+DOMAIN,jk.broker.tplay.qq.com
+DOMAIN,cdn.jkmobile.qq.com
+DOMAIN,access1.tpns.tencent.com
+DOMAIN,comm.ams.game.qq.com
+DOMAIN,aegis.qq.com
+DOMAIN,dmplog.qq.com
+DOMAIN,pingfore.qq.com
+DOMAIN,game.gtimg.cn
+DOMAIN,jcc.qq.com
+DOMAIN,tam.cdn-go.cn
+DOMAIN,thirdwx.qlogo.cn
+DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN-SUFFIX,gcloud.qq.com
+DOMAIN-KEYWORD,gcloud.qq.com
+DOMAIN-KEYWORD,tc.gcloudgbs.com
+IP-CIDR,112.88.0.0/13,no-resolve
+IP-CIDR,43.154.192.0/18,no-resolve
