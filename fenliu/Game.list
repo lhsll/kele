@@ -1,0 +1,26 @@
+# > 王者荣耀
+DOMAIN,oth.eve.mdt.qq.com
+DOMAIN,oth.str.mdt.qq.com
+DOMAIN,game.eve.mdt.qq.com
+DOMAIN,game.str.mdt.qq.com
+DOMAIN,thirdqq.qlogo.cn
+DOMAIN,jsonatm.broker.tplay.qq.com
+DOMAIN,hc2.tdm.qq.com
+DOMAIN,ios.crashsight.qq.com
+DOMAIN,download.nature.qq.com
+DOMAIN,image.smoba.qq.com
+DOMAIN,superr.game.qq.com
+DOMAIN,ssl.msdk.qq.com
+DOMAIN,pvp.ingame.qq.com
+DOMAIN,mazu.m.qq.com
+DOMAIN,kohcloud.tgpa.qq.com
+DOMAIN,qosidc.gcloudsdk.com
+DOMAIN,access1.tpns.sh.tencent.com
+DOMAIN,appsupport.qq.com
+DOMAIN,tiem-cdn.qq.com
+DOMAIN,ipv6.cn.voice.gcloudcs.com
+DOMAIN,speed.ino.qq.com
+DOMAIN,control.mna.qq.com
+DOMAIN,
+DOMAIN-SUFFIX,dlied1.cdntips.net
+IP-CIDR,LHS,no-resolve
