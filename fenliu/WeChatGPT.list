@@ -20,6 +20,11 @@ DOMAIN,minorshort.weixin.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,short.pay.weixin.qq.com
 DOMAIN,shortconn.im.qcloud.com
+DOMAIN,dldir1v6.qq.com
+DOMAIN,findermp.video.qq.com
+DOMAIN,bsy.resstatic.tcdnos.com
+DOMAIN,resstatic.servicewechat.com
+IP-CIDR,42.202.0.0/15,no-resolve
 IP-CIDR,49.7.192.0/18,no-resolve
 IP-CIDR,110.156.0.0/15,no-resolve
 IP-CIDR,27.152.0.0/13,no-resolve
