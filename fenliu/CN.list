@@ -74,7 +74,23 @@ DOMAIN,avatar.coolapk.com
 DOMAIN,image.coolapk.com
 DOMAIN,api.coolapk.com
 USER-AGENT,CoolMarket
-
+# > 高德地图
+DOMAIN,1117_ios_kingkong_xml_default_icon
+DOMAIN,m5-x.amap.com
+DOMAIN,ota-hd-lnds.amap.com
+DOMAIN,m5.amap.com
+DOMAIN,mps.amap.com
+DOMAIN,awaken.amap.com
+DOMAIN,cache.amap.com
+DOMAIN,aos-cdn-carowners-img.amap.com
+DOMAIN,faas-image-er.amap.com
+DOMAIN,m5-zb.amap.com
+DOMAIN,c2.amap.com
+DOMAIN,ts.amap.com
+DOMAIN,sync.amap.com
+DOMAIN,aos-cdn-image.amap.com
+DOMAIN,mapdownload.autonavi.com
+USER-AGENT,AMapiPhone
 
 
 
