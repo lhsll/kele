@@ -6,6 +6,13 @@ DOMAIN,mp.weixin.qq.com
 DOMAIN,wx.qlogo.cn
 DOMAIN,mmbiz.qpic.cn
 DOMAIN,res.wx.qq.com
+DOMAIN,mmcard.qpic.cn
+DOMAIN,log.weixin.qq.com
+DOMAIN,wx.gtimg.com
+DOMAIN,wxpaylogo.qpic.cn
+DOMAIN,support.weixin.qq.com
+DOMAIN,gtimg.wechatpay.cn
+DOMAIN,tenpay.wechatpay.cn
 IP-CIDR,39.128.0.0/10,no-resolve
 IP-CIDR,223.64.0.0/10,no-resolve
 IP-CIDR,36.128.0.0/10,no-resolve
