@@ -69,6 +69,10 @@ USER-AGENT,Bilibili
 USER-AGENT,bili-universal
 USER-AGENT,grpc-objc
 USER-AGENT,%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9
+# > 酷安
+DOMAIN,avatar.coolapk.com
+DOMAIN,image.coolapk.com
+DOMAIN,api.coolapk.com
 
 
 
