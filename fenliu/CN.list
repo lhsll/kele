@@ -64,6 +64,7 @@ IP-CIDR,111.224.0.0/14,no-resolve
 IP-CIDR,27.184.0.0/13,no-resolve
 IP-CIDR,114.216.0.0/13,no-resolve
 IP-CIDR,58.248.0.0/13,no-resolve
+IP-CIDR,114.116.224.0/19,no-resolve
 USER-AGENT,Bilibili
 USER-AGENT,bili-universal
 USER-AGENT,grpc-objc
