@@ -28,3 +28,9 @@ IP-CIDR,112.0.0.0/10,no-resolve
 IP-CIDR,183.192.0.0/10,no-resolve
 IP-CIDR,112.0.0.0/10,no-resolve
 IP-CIDR,111.0.0.0/10,no-resolve
+IP-CIDR,117.80.0.0/12,no-resolve
+IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,122.224.0.0/12,no-resolve
+IP-CIDR,180.96.0.0/11,no-resolve
+IP-CIDR,117.80.0.0/12,no-resolve
+IP-CIDR,101.88.0.0/13,no-resolve
