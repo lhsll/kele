@@ -60,3 +60,4 @@ IP-CIDR,101.88.0.0/13,no-resolve
 IP-CIDR,117.64.0.0/13,no-resolve
 IP-CIDR,222.92.0.0/14,no-resolve
 IP-CIDR,183.128.0.0/11,no-resolve
+IP-CIDR,42.187.128.0/17,no-resolve
