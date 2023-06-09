@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,shop.10086.cn
 DOMAIN-KEYWORD,chinamobile.com
 USER-AGENT,ChinaMobile
 USER-AGENT,AppleWebKit
-# >哔哩哔哩弹幕网(粉色)
+# > 哔哩哔哩弹幕网(粉色)
 DOMAIN,app.bilibili.com
 DOMAIN,data.bilibili.com
 DOMAIN,api.bilibili.com
