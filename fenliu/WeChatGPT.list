@@ -24,6 +24,11 @@ DOMAIN,dldir1v6.qq.com
 DOMAIN,findermp.video.qq.com
 DOMAIN,bsy.resstatic.tcdnos.com
 DOMAIN,resstatic.servicewechat.com
+DOMAIN,wxpay.qpic.cn
+DOMAIN,payapp.weixin.qq.com:443
+DOMAIN,payapp.wechatpay.cn:443
+DOMAIN,cube.weixinbridge.com:443
+DOMAIN,mmpayweb.cdn-go.cn:443
 IP-CIDR,110.76.0.0/19,no-resolve
 IP-CIDR,61.174.0.0/15,no-resolve
 IP-CIDR,42.202.0.0/15,no-resolve
@@ -52,3 +57,4 @@ IP-CIDR,117.80.0.0/12,no-resolve
 IP-CIDR,101.88.0.0/13,no-resolve
 IP-CIDR,117.64.0.0/13,no-resolve
 IP-CIDR,222.92.0.0/14,no-resolve
+IP-CIDR,183.128.0.0/11,no-resolve
