@@ -1,3 +1,37 @@
 # > ping0
 DOMAIN,ping0.cc
 DOMAIN,ipv6.ping0.cc
+# > 中国移动营业厅APP
+DOMAIN,client.app.coc.10086.cn
+DOMAIN,touch.10086.cn
+DOMAIN,push.it.10086.cn
+DOMAIN,sdc.10086.cn
+DOMAIN,app.10086.cn
+DOMAIN,res.app.coc.10086.cn
+DOMAIN,jiguang.coc.10086.cn
+DOMAIN,touch.10086.cn
+DOMAIN,h.app.coc.10086
+DOMAIN,search.10086.cn
+DOMAIN,testapp.clientaccess.10086.cn
+DOMAIN,photo.caiyun.feixin.10086.cn
+DOMAIN,clientaccess.10086.cn
+DOMAIN,mcmm.caiyun.feixin.10086.cn
+DOMAIN,10086.online-cmcc.cn
+DOMAIN,apm.clientaccess.10086.cn
+DOMAIN,api-fc.dutils.com
+DOMAIN,crystal.miguvideo.com
+DOMAIN,api-fd.dutils.com
+DOMAIN,umdc.aliapp.org
+DOMAIN,da.mmarket.com
+DOMAIN,devs-data.dutils.com
+DOMAIN,app-sc.miguvideo.com
+DOMAIN,uem.migu.cn
+DOMAIN,sdk.migudm.cn
+DOMAIN,api.share.mob.com
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,hjq.komect.com
+DOMAIN-SUFFIX,caiyun.feixin.10086.cn
+DOMAIN-SUFFIX,shop.10086.cn
+DOMAIN-KEYWORD,chinamobile.com
+USER-AGENT,ChinaMobile
+USER-AGENT,AppleWebKit
