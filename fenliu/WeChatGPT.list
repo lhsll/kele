@@ -3,6 +3,7 @@ DOMAIN,dns.weixin.qq.com.cn
 DOMAIN,short.weixin.qq.com
 DOMAIN,res.servicewechat.com
 DOMAIN,mp.weixin.qq.com
+DOMAIN,wx.qlogo.cn
 IP-CIDR,36.128.0.0/10,no-resolve
 IP-CIDR,120.192.0.0/10,no-resolve
 IP-CIDR,221.176.0.0/13,no-resolve
