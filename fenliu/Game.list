@@ -68,3 +68,15 @@ DOMAIN-SUFFIX,sngdia.imtmp.net
 DOMAIN-SUFFIX,dlied1.cdntips.net
 IP-CIDR,182.254.0.0/16,no-resolve
 IP-CIDR,180.160.0.0/13,no-resolve
+# > 腾讯手游加速器
+DOMAIN,wspeed.qq.com
+DOMAIN,dldir1.qq.com
+DOMAIN,control.vpn.qq.com
+DOMAIN,ios.bugly.qq.com
+DOMAIN,static.yky.qq.com
+DOMAIN,puui.qpic.cn
+DOMAIN,files.wujicode.cn
+DOMAIN,hc.tdm.qq.com
+DOMAIN,api.yky.qq.com
+DOMAIN,member.tmga.qq.com
+DOMAIN-KEYWORD,myqcloud.com
