@@ -179,6 +179,8 @@ DOMAIN,ss1.bdstatic.com
 DOMAIN,nimg.ws.126.net
 DOMAIN-SUFFIX,itc.cn
 DOMAIN,c-ssl.duitang.com
+# > 悬浮时钟
+DOMAIN,firebase-settings.crashlytics.com
 
 
 
