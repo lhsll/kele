@@ -156,6 +156,12 @@ DOMAIN,zj.122.gov.cn
 # > 阿里巴巴
 DOMAIN,cloudauth-device.aliyuncs.com
 DOMAIN,mgw.mpaas.cn-hangzhou.aliyuncs.com
+# > 搜图神器
+DOMAIN,img.hb.aicdn.com
+DOMAIN,api.huaban.com
+DOMAIN,wallpaper.soutushenqi.com
+DOMAIN,gd-hbimg.huaban.com
+DOMAIN-SUFFIX,sogoucdn.com
 
 
 
