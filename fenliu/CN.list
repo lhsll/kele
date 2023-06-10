@@ -308,8 +308,44 @@ DOMAIN,common-api.smzdm.com
 DOMAIN,baichuan-sdk.alicdn.com
 DOMAIN,userlink.alicdn.com
 DOMAIN,pv.sohu.com
-
-
+# > 美团
+DOMAIN,appsec-mobile.meituan.com
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,live-monitor-broker.sankuai.com
+DOMAIN,dreport.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,p0.meituan.net
+DOMAIN,p1.meituan.net
+DOMAIN,portal-portm.meituan.com
+DOMAIN,catfront.dianping.com
+DOMAIN,i.waimai.meituan.com
+DOMAIN,beauty-tx-flv.meituan.net
+DOMAIN,tte.meituan.com
+DOMAIN,mlvbdc.live.qcloud.com
+DOMAIN,beauty-tx-flv.meituan.net
+DOMAIN,w.meituan.net
+DOMAIN,apimobile.meituan.com
+DOMAIN,data-sdk-uuid-report.dreport.meituan.net
+DOMAIN,img.meituan.net
+DOMAIN,api.neixin.cn
+DOMAIN,i.meituan.com
+DOMAIN,layout.meituan.net
+DOMAIN,dd.meituan.com
+DOMAIN,babel-statistics-android.d.meituan.net
+DOMAIN,al-log.d.meituan.net
+DOMAIN,api-unionid.meituan.com
+DOMAIN,al-log.d.meituan.net
+DOMAIN,lx0.meituan.com
+DOMAIN,hlx.meituan.com
+DOMAIN,awp-assets.meituan.net
+DOMAIN,api-unionid.meituan.com
+DOMAIN,ntp.nasa.gov
+DOMAIN-SUFFIX,d.meituan.net
+IP-CIDR,103.37.152.0/21,no-resolve
+IP-CIDR,101.236.64.0/21,no-resolve
+IP-CIDR,202.90.108.0/22,no-resolve
+IP-CIDR,203.76.216.0/22,no-resolve
 
 
 
