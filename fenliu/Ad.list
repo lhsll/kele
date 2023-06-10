@@ -112,3 +112,4 @@ URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp
 # > 米家
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,httpdns.yunxindns.com
+DOMAIN,iyes.youku.com
