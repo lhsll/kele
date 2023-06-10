@@ -151,7 +151,11 @@ DOMAIN,icity-sync.2q10.com
 DOMAIN,ical-cdn.2q10.com
 DOMAIN,chassis-cdn.appcloudcdn.com
 # > 交管12123
-
+DOMAIN,gab.122.gov.cn
+DOMAIN,zj.122.gov.cn
+# > 阿里巴巴
+DOMAIN,cloudauth-device.aliyuncs.com
+DOMAIN,mgw.mpaas.cn-hangzhou.aliyuncs.com
 
 
 
