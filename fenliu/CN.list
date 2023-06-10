@@ -156,6 +156,7 @@ DOMAIN,zj.122.gov.cn
 # > 阿里巴巴
 DOMAIN,cloudauth-device.aliyuncs.com
 DOMAIN,mgw.mpaas.cn-hangzhou.aliyuncs.com
+IP-CIDR,47.100.0.0/14,no-resolve
 # > 搜图神器
 DOMAIN,img.hb.aicdn.com
 DOMAIN,api.huaban.com
@@ -211,6 +212,15 @@ DOMAIN,api.neoclub.cn
 DOMAIN,xiaoredpic.neoclub.cn
 DOMAIN,uki-video.neoclub.cn
 DOMAIN,dispatcher.is.autonavi.com
+# > 台州人力网
+DOMAIN,api.tzrl.net
+DOMAIN,images.tzrl.com
+DOMAIN,mpush-api.aliyun.com
+DOMAIN,lbs.netease.im
+DOMAIN,statistic.live.126
+DOMAIN,beacon-api.aliyuncs.com
+DOMAIN,mpush-api.aliyun.com
+DOMAIN,unilog.wostore.cn
 
 
 
