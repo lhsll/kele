@@ -126,6 +126,14 @@ DOMAIN,gicp-test.oss-cn-hangzhou.aliyuncs.com
 DOMAIN,cloudauth-device.aliyuncs.com
 DOMAIN,gri-cockpit-app-project-prod.(null)
 IP-CIDR,123.60.0.0/17,no-resolve
+# > 支付宝
+DOMAIN,umdc.alibabachengdun.com
+DOMAIN,cdn.ynuf.aliapp.org
+DOMAIN,mdap.alipay.com
+DOMAIN,gw.alipayobjects.com
+DOMAIN,render.alipay.com
+DOMAIN,guide-acs.m.taobao.com
+# > 微博
 
 
 
