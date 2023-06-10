@@ -113,3 +113,5 @@ URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,httpdns.yunxindns.com
 DOMAIN,iyes.youku.com
+# > 京东
+DOMAIN-SUFFIX,jddebug.com
