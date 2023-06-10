@@ -86,13 +86,13 @@ DOMAIN,mapdownload.autonavi.com
 # > 王者营地
 DOMAIN,q.qlogo.cn
 DOMAIN,shp.qpic.cn
-DOMAIN,camp.qq.com:443
-DOMAIN,image.ttwz.qq.com:443
-DOMAIN,ttwzavatar.kohsocialapp.qq.com:443
-DOMAIN,aegis.qq.com:443
+DOMAIN,camp.qq.com
+DOMAIN,image.ttwz.qq.com
+DOMAIN,ttwzavatar.kohsocialapp.qq.com
+DOMAIN,aegis.qq.com
 DOMAIN,pvppic.kohsocialapp.qq.com
 DOMAIN,ts.qq.com:33445
-DOMAIN,kohcamp.qq.com:443
+DOMAIN,kohcamp.qq.com
 DOMAIN,ssl.kohsocialapp.qq.com
 DOMAIN,tmfmazu.m.qq.com
 DOMAIN,h.trace.qq.com
@@ -162,6 +162,23 @@ DOMAIN,api.huaban.com
 DOMAIN,wallpaper.soutushenqi.com
 DOMAIN,gd-hbimg.huaban.com
 DOMAIN-SUFFIX,sogoucdn.com
+DOMAIN,image.so.com
+DOMAIN,pic.sogou.com
+DOMAIN,m.weibo.cn
+DOMAIN,vt.sm.cn
+DOMAIN,image.so.com
+DOMAIN,cn.bing.com
+DOMAIN,hbimg.huabanimg.com
+DOMAIN,article.biliimg.com
+DOMAIN,ocsp2.globalsign.com
+DOMAIN,unsplash.com
+DOMAIN-SUFFIX,ssl.qhimgs1.com
+DOMAIN,pic.09nh.com
+DOMAIN,image.suning.cn
+DOMAIN,ss1.bdstatic.com
+DOMAIN,nimg.ws.126.net
+DOMAIN-SUFFIX,itc.cn
+DOMAIN,c-ssl.duitang.com
 
 
 
