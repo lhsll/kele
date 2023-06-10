@@ -3,6 +3,10 @@
 
 [Map Local]
 
+# > 搜图神器
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/search\/hotword$ data="reject-dict.json"
+
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner$ data="reject-dict.json"
 # > 全球购骑士卡
 ^https:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?cityId=102923&positions=mine_popup data="reject-dict.json"
 ^https:\/\/facade-api\.black-unique\.com\/app\/v1\/startScreen\?cityId=102923&channelId=0&width=1170&height=2532 data="reject-dict.json"
