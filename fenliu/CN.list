@@ -246,10 +246,68 @@ DOMAIN,msgacs.m.taobao.com
 DOMAIN,acs.m.taobao.com
 IP-CIDR,39.128.0.0/10,no-resolve
 IP-CIDR,59.82.32.0/20,no-resolve
-# > 
-
-
-
+# > 京东
+DOMAIN,api.m.jd.com
+DOMAIN,m.360buyimg.com
+DOMAIN,im-x.jd.com
+DOMAIN,storage.jd.com
+DOMAIN,sh.jd.com
+DOMAIN,plogin.m.jd.com
+DOMAIN,un.m.jd.com
+DOMAIN,firevent.jd.com
+DOMAIN,jpushsc.m.jd.com
+DOMAIN,blackhole.m.jd.com
+DOMAIN,policy.jd.com
+DOMAIN,aks.jdpay.com
+DOMAIN,perf.m.jd.com
+DOMAIN,mars.jd.com
+DOMAIN,eid.jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,jddebug.com
+# > 云闪付
+DOMAIN,life.95516.com
+DOMAIN,open.95516.com
+DOMAIN,mpool.unionpay.com
+DOMAIN,base.95516.com
+DOMAIN,pay.95516.com
+DOMAIN,wallet.95516.com
+DOMAIN,cloudvip.95516.com
+DOMAIN,member.95516.com
+DOMAIN,hotpatch.95516.comfhzluz
+DOMAIN,device.95516.com
+DOMAIN,foundation.95516.com
+DOMAIN,tongzhi.95516.com
+DOMAIN,dualstack-restios.amap.com
+DOMAIN,analytics.95516.com
+DOMAIN-SUFFIX,getui.com
+# > 什么值得买
+DOMAIN,shence-import.smzdm.com
+DOMAIN,haojia-cdn.smzdm.com
+DOMAIN,analytics-api.smzdm.com
+DOMAIN,qny.smzdm.com
+DOMAIN,haojia-api.smzdm.com
+DOMAIN,y.zdmimg.com
+DOMAIN,eimg.smzdm.com
+DOMAIN,qneimg.smzdm.com
+DOMAIN,shence-import.smzdm.com
+DOMAIN,www.soboten.com
+DOMAIN,shence-import.smzdm.com
+DOMAIN,dingyue-api.smzdm.com
+DOMAIN,dgstatic.jd.com
+DOMAIN,user-api.smzdm.com
+DOMAIN,onepass.geetest.com
+DOMAIN,mlvbdc.live.qcloud.com
+DOMAIN,baichuan-sdk.taobao.com
+DOMAIN,dg.k.jd.com
+DOMAIN,aaid.uyunad.com
+DOMAIN,mlvbdc.live.qcloud.com
+DOMAIN,s-api.smzdm.com
+DOMAIN,app-api.smzdm.com
+DOMAIN,article-api.smzdm.com
+DOMAIN,common-api.smzdm.com
+DOMAIN,baichuan-sdk.alicdn.com
+DOMAIN,userlink.alicdn.com
+DOMAIN,pv.sohu.com
 
 
 
