@@ -221,6 +221,40 @@ DOMAIN,statistic.live.126
 DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,mpush-api.aliyun.com
 DOMAIN,unilog.wostore.cn
+# > 淘宝
+DOMAIN,amdc.m.taobao.com
+DOMAIN,loggw-ex.alipay.com
+DOMAIN,kgb-ifs.tanx.com
+DOMAIN,meta.m.taobao.com
+DOMAIN,umdc.alibabachengdun.com
+DOMAIN,wvcfg.alicdn.com
+DOMAIN,px.ucweb.com
+DOMAIN,poplayer.template.alibaba.com
+DOMAIN,log.mmstat.com
+DOMAIN,acs-mum.alibabachengdun.com
+DOMAIN,gjusp.alicdn.com
+DOMAIN,g.alicdn.com
+DOMAIN,ark-handler-bottom.m.taobao.com
+DOMAIN,mum.alibabachengdun.com
+DOMAIN,cdn.ynuf.aliapp.org
+DOMAIN,eco.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,apoll.m.taobao.com
+DOMAIN,gw.alipayobjects.com
+DOMAIN,atoken.m.taobao.com
+DOMAIN,msgacs.m.taobao.com
+DOMAIN,acs.m.taobao.com
+IP-CIDR,39.128.0.0/10,no-resolve
+IP-CIDR,59.82.32.0/20,no-resolve
+# > 
+
+
+
+
+
+
+
+
 
 
 
