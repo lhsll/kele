@@ -15,9 +15,9 @@ amp-api.sandbox.apple.com = 17.56.138.66,17.36.202.106
 
 identity.apple.com = 17.179.244.134
 
-time.apple.com = server:119.29.29.29
+time.apple.com = 17.253.116.253
 
-time.asia.apple.com = server:119.29.29.29
+time.asia.apple.com = 17.253.116.253
 
 cdn.smoot.apple.com = 17.253.85.203,17.253.85.205
 
