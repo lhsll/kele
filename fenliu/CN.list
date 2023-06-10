@@ -346,9 +346,34 @@ IP-CIDR,103.37.152.0/21,no-resolve
 IP-CIDR,101.236.64.0/21,no-resolve
 IP-CIDR,202.90.108.0/22,no-resolve
 IP-CIDR,203.76.216.0/22,no-resolve
-
-
-
-
-
-
+# > 菜鸟
+DOMAIN,cn-acs.m.cainiao.com
+DOMAIN,mdap.alipay.com
+DOMAIN,h-adashx.ut.cainiao.com
+DOMAIN,admonitor-feedback.cn-hangzhou.log.aliyuncs.com
+DOMAIN,gw.alipayobjects.com
+DOMAIN,s-gm.mmstat.com
+DOMAIN,wvcfg.alicdn.com
+DOMAIN,cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com
+DOMAIN,dualstack-mpsapi.amap.com
+DOMAIN,admonitor-feedback.cn-hangzhou.log.aliyuncs.com
+DOMAIN,px.effirst.com
+DOMAIN,nbnetflow-reply-log.cn-wulanchabu.log.aliyuncs.com
+DOMAIN,page.cainiao.com
+DOMAIN,abtest.alibaba.com
+DOMAIN,acs.m.taobao.com
+# > 招商银行
+DOMAIN-KEYWORD,cmbchina.com
+DOMAIN-KEYWORD,cmbimg
+IP-CIDR,210.22.192.0/18,no-resolve
+# > 中国建设银行
+DOMAIN,assets.yiwealth.com
+DOMAIN,abs-api.cbndata.com
+DOMAIN-KEYWORD,ccb.com
+IP-CIDR,103.126.126.0/24,no-resolve
+# > 中国工商银行
+DOMAIN,dispatcher.is.autonavi.com
+DOMAIN-KEYWORD,icbc.com
+# > 掌上生活
+DOMAIN,dfp.cmbyc.com
+DOMAIN-KEYWORD,cmbchina.com
