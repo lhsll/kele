@@ -157,6 +157,9 @@ DOMAIN,zj.122.gov.cn
 DOMAIN,cloudauth-device.aliyuncs.com
 DOMAIN,mgw.mpaas.cn-hangzhou.aliyuncs.com
 IP-CIDR,47.100.0.0/14,no-resolve
+IP-CIDR,39.96.0.0/14,no-resolve
+IP-CIDR,59.82.16.0/21,no-resolve
+IP-CIDR,39.96.0.0/14,no-resolve
 # > 搜图神器
 DOMAIN,img.hb.aicdn.com
 DOMAIN,api.huaban.com
@@ -378,3 +381,4 @@ DOMAIN-KEYWORD,icbc.com
 # > 掌上生活
 DOMAIN,dfp.cmbyc.com
 DOMAIN-KEYWORD,cmbchina.com
+# > 其他
