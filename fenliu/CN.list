@@ -134,7 +134,23 @@ DOMAIN,gw.alipayobjects.com
 DOMAIN,render.alipay.com
 DOMAIN,guide-acs.m.taobao.com
 # > 微博
-
+DOMAIN,api.weibo.cn
+DOMAIN,weibointl.api.weibo.cn
+DOMAIN-SUFFIX,sinaimg.cn
+# >倒数日
+DOMAIN,app-measurement.com
+DOMAIN,pic.yupoo.com
+DOMAIN,in.appcenter.ms
+DOMAIN,app-cdn.2q10.com
+DOMAIN,idaily-cdn.appcloudcdn.com
+DOMAIN,idays-cdn.2q10.com
+DOMAIN,idays-push.2q10.com
+DOMAIN,icity.2q10.com
+DOMAIN,clsync-dmtr.2q10.com
+DOMAIN,icity-sync.2q10.com
+DOMAIN,ical-cdn.2q10.com
+DOMAIN,chassis-cdn.appcloudcdn.com
+# > 交管12123
 
 
 
