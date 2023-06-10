@@ -181,6 +181,29 @@ DOMAIN-SUFFIX,itc.cn
 DOMAIN,c-ssl.duitang.com
 # > 悬浮时钟
 DOMAIN,firebase-settings.crashlytics.com
-
+# > 米家
+DOMAIN,api.io.mi.com
+DOMAIN,cdn.exp.xiaomi.com
+DOMAIN,cdn.fds.api.xiaomi.com
+DOMAIN,home.mi.com
+DOMAIN,miot-spec.org
+DOMAIN,api.m.mi.com
+DOMAIN,sentry.d.xiaomi.net
+DOMAIN,shopapi.io.mi.com
+DOMAIN,mimc.chat.xiaomi.net
+DOMAIN,m.xiaomiyoupin.com
+DOMAIN,miot-spec.org
+DOMAIN,tp.hd.mi.com
+DOMAIN,account.xiaomi.com
+DOMAIN,cdn.exp.xiaomi.com
+DOMAIN,tracking.miui.com
+DOMAIN-SUFFIX,mina.mi.com
+DOMAIN-SUFFIX,account.xiaomi.com
+DOMAIN-SUFFIX,m.xiaomiyoupin.com
+DOMAIN-SUFFIX,kefu.mi.com
+DOMAIN-KEYWORD,fds.api.xiaomi.com
+DOMAIN-KEYWORD,fds.api.mi-img.com
+# > QQ
+DOMAIN,h.trace.qq.com
 
 
