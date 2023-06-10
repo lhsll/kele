@@ -83,6 +83,21 @@ DOMAIN,ts.amap.com
 DOMAIN,sync.amap.com
 DOMAIN,aos-cdn-image.amap.com
 DOMAIN,mapdownload.autonavi.com
+# > 王者营地
+DOMAIN,q.qlogo.cn
+DOMAIN,shp.qpic.cn
+DOMAIN,camp.qq.com:443
+DOMAIN,image.ttwz.qq.com:443
+DOMAIN,ttwzavatar.kohsocialapp.qq.com:443
+DOMAIN,aegis.qq.com:443
+DOMAIN,pvppic.kohsocialapp.qq.com
+DOMAIN,ts.qq.com:33445
+DOMAIN,kohcamp.qq.com:443
+DOMAIN,ssl.kohsocialapp.qq.com
+DOMAIN,tmfmazu.m.qq.com
+DOMAIN,h.trace.qq.com
+IP-CIDR,101.33.64.0/19,no-resolve
+IP-CIDR,43.128.224.0/19,no-resolve
 
 
 
