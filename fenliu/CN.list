@@ -205,5 +205,12 @@ DOMAIN-KEYWORD,fds.api.xiaomi.com
 DOMAIN-KEYWORD,fds.api.mi-img.com
 # > QQ
 DOMAIN,h.trace.qq.com
+# > UKi
+DOMAIN,burial-log.cn-hangzhou.log.aliyuncs.com
+DOMAIN,api.neoclub.cn
+DOMAIN,xiaoredpic.neoclub.cn
+DOMAIN,uki-video.neoclub.cn
+DOMAIN,dispatcher.is.autonavi.com
+
 
 
