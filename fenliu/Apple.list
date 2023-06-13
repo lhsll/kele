@@ -88,4 +88,4 @@ USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
 USER-AGENT,Music*
-IP-CIDR,17.0.0.0/8,no-resolve
+#IP-CIDR,17.0.0.0/8,no-resolve
