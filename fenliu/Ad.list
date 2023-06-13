@@ -11,6 +11,7 @@ DOMAIN,o33249.ingest.sentry.io
 DOMAIN,aop.meituan.com
 DOMAIN,httpdns.meituan.com
 # > 哔哩哔哩
+DOMAIN,live-trace.bilibili.com
 DOMAIN,mall.bilibili.com
 #DOMAIN,httpdns.bilivideo.com
 #IP-CIDR,203.107.1.0/24,no-resolve
