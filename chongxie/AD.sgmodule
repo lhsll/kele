@@ -135,6 +135,7 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 ^https:\/\/pvppic\.kohsocialapp\.qq\.com\/wzzs_pic\/0\/(fb|9c|d8)[0-9a-f]{16,28}(fd|a5|86)\/0 data="reject-200.txt"
 
 [Url Rewrite]
+^https?:\/\/live-trace\.bilibili\.com - reject
 ^https?:\/\/dataflow\.biliapi\.com - reject
 # > 识货 开屏广告
 ^https:\/\/sh-gateway\.shihuo\.cn\/v4\/services\/sh-adapi\/home\/ad\/ - reject
