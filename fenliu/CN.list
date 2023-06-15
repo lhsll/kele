@@ -1,3 +1,4 @@
+
 # > ping0
 DOMAIN,ping0.cc
 DOMAIN,ipv6.ping0.cc
@@ -34,6 +35,7 @@ DOMAIN-SUFFIX,caiyun.feixin.10086.cn
 DOMAIN-SUFFIX,shop.10086.cn
 DOMAIN-KEYWORD,chinamobile.com
 # > 哔哩哔哩弹幕网(粉色)
+DOMAIN,upos-tf-all-hw.bilivideo.com
 DOMAIN,app.bilibili.com
 DOMAIN,data.bilibili.com
 DOMAIN,api.bilibili.com
