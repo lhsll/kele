@@ -1,4 +1,5 @@
-
+# > 油价
+DOMAIN,api.tianapi.com
 # > ping0
 DOMAIN,ping0.cc
 DOMAIN,ipv6.ping0.cc
