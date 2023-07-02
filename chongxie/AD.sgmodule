@@ -192,6 +192,9 @@ dns\.jd\.com - reject
 
 [Script]
 
+# > 微信去广告[不包含公众号信息流AD、朋友圈AD]
+WeChat_official_account = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, timeout=60, argument="advertisement->ddgksf2013"
+
 # > BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
 bilibili_屏蔽直播页顶部轮播图 = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, requires-body=true, max-size=3145728, script-path=bilibili_json.js, timeout=60, script-update-interval=-1
 # > BiliBili_哔哩哔哩_热搜发现@ddgksf2013
