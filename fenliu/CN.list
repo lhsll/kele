@@ -370,6 +370,7 @@ DOMAIN,page.cainiao.com
 DOMAIN,abtest.alibaba.com
 DOMAIN,acs.m.taobao.com
 # > 招商银行
+DOMAIN,img.mb.cmbimg.com
 DOMAIN-KEYWORD,cmbchina.com
 DOMAIN-KEYWORD,cmbimg
 IP-CIDR,210.22.192.0/18,no-resolve
