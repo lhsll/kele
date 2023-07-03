@@ -371,6 +371,7 @@ DOMAIN,page.cainiao.com
 DOMAIN,abtest.alibaba.com
 DOMAIN,acs.m.taobao.com
 # > 招商银行
+DOMAIN,s3gw.cmbimg.com
 DOMAIN,img.mb.cmbimg.com
 DOMAIN-KEYWORD,cmbchina.com
 DOMAIN-KEYWORD,cmbimg
