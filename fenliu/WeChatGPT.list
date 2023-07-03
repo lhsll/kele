@@ -80,5 +80,6 @@ IP-CIDR,43.128.224.0/19,no-resolve
 IP-CIDR,124.156.0.0/16,no-resolve
 IP-CIDR,119.29.0.0/16,no-resolve
 IP-CIDR,61.170.0.0/18,no-resolve
+IP-CIDR,49.7.0.0/18,no-resolve
 USER-AGENT,WeChat
 USER-AGENT,MicroMessenger
