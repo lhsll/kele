@@ -55,9 +55,6 @@ hpd\.baidu\.com data="reject-dict.json"
 ^https:\/\/api\.neoclub\.cn\/v1\/friends\/indexBanner data="reject-dict.json"
 ^https:\/\/api\.neoclub\.cn\/v1\/friends\/(startInfo|advConf) data="reject-dict.json"
 
-# > 招商银行
-^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) data="reject-200.txt"
-
 # > 网易云
 ^http:\/\/pgdt\.ugdtimg\.com\/141\/20204\/s
 nscosdownload\/SZ\/reserved\/.+ data="reject-200.txt"
