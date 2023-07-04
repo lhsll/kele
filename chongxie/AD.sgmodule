@@ -2,6 +2,8 @@
 #!desc=kele
 
 [Map Local]
+# > 招商银行
+^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) data="reject-200.txt"
 
 # > 搜图神器
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/search\/hotword$ data="reject-dict.json"
