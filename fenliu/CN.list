@@ -389,3 +389,5 @@ DOMAIN,dfp.cmbyc.com
 DOMAIN-KEYWORD,cmbchina.com
 # > 其他
 IP-CIDR,120.46.128.0/17,no-resolve
+IP-CIDR,221.229.52.0/23,no-resolve
+IP-CIDR,221.224.0.0/13,no-resolve
