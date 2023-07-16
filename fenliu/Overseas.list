@@ -65,6 +65,7 @@ DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
+IP-CIDR,43.228.180.0/22,no-resolve
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
