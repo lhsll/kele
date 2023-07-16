@@ -136,12 +136,23 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 
 [Url Rewrite]
 
+# > 穿山甲/拼多多之类广告
+^https:\/\/(adim|images)\.pinduoduo\.com\/(.+\/toutiao|mrk\/.+) - reject
+^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/.+ - reject
+^http[s]?:\/\/.*\.gdt\.qq\.com\/gdt_mview.fcg - reject
+^http[s]?:\/\/api-access\.pangolin-sdk-toutiao.*\.com - reject
+^http[s]?:\/\/.*\.pglstatp-toutiao\.com\/.+ - reject
+^https?:\/\/adsmind\.gdtimg\.com\/ads_svp_video.+ - reject
+^https:\/\/pgdt\.gtimg\.cn - reject
+^https?:\/\/us\.l\.qq\.com\/exapp.+ - reject
+
 # > 识货 开屏广告
 ^https:\/\/sh-gateway\.shihuo\.cn\/v4\/services\/sh-adapi\/home\/ad\/ - reject
 ^https:\/\/sh-gateway\.shihuo\.cn\/v4\/services\/sh-adapi\/home\/screen\? - reject
 
 # >  禁京东DNS解析
 ^https?:\/\/dns\.jd\.com\/ - reject
+
 # >  禁京东直播小窗
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 - reject
 # >  禁京东直播(慎用！店铺页面无活动弹窗、无关注按钮、无法观看直播)
@@ -203,8 +214,11 @@ bilibili_热搜发现 = type=http-response, pattern=^https?:\/\/app\.bili(bili\.
 # > 微信去广告[不包含公众号信息流AD、朋友圈AD]
 replaceBody_weixin = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=replace-body.js, timeout=60, argument=""advertisement_num":\d,"advertisement_info":\[.+\],->"advertisement_num":0,"advertisement_info":[],"
 
-# > 京喜
-京喜 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show,requires-body=1,max-size=0,script-path=jingxi2.js
+# > 京喜/京喜特价/京东小家 去除开屏广告
+京东系列-净化 = type=http-response,script-path= https://raw.githubusercontent.com/chxm1023/Advertising/main/jhad.js,pattern= ^https?:\/\/api\..*\.jd\.com\/(client\.action\?functionId=lite_advertising|.+\/service\/getLoadingLinks),max-size=0,requires-body=true,timeout=10,script-update-interval=0,enable=true
+
+# > 555电影 去广告模块
+555电影去广告模块 = type=http-response,script-path= https://raw.githubusercontent.com/chxm1023/Advertising/main/555ad.js,pattern= ^https?:\/\/a\.weilai555\.com:1000\/api\/v\d\/movie\/(index_recommend.+|detail),max-size=0,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
 # > 美团外卖
 美团外卖_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo?,script-path=meituanwanmai.js,script-update-interval=-1
