@@ -5,6 +5,38 @@
 #规则数量:91
 #已排除的规则数量:0
 #---------------以下为解析后的规则---------------#
+# > 设备设置
+DOMAIN,albert.apple.com
+DOMAIN,captive.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,humb.apple.com
+DOMAIN,static.ips.apple.com
+DOMAIN,sq-device.apple.com
+DOMAIN,tbsc.apple.com
+# > 供设备用来设置日期和时间
+DOMAIN,time.apple.com
+DOMAIN,time-ios.apple.com
+# > 设备管理
+DOMAIN,deviceenrollment.apple.com
+DOMAIN,deviceservices-external.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,iprofiles.apple.com
+DOMAIN,mdmenrollment.apple.com
+DOMAIN,setup.icloud.com
+DOMAIN,vpp.itunes.apple.com
+DOMAIN,api.ent.apple.com
+DOMAIN,api.edu.apple.com
+DOMAIN,statici.icloud.com
+DOMAIN,www.apple.com.cn
+DOMAIN,ws-ee-maidsvc.icloud.com
+DOMAIN,appldnld.apple.com
+DOMAIN,gg.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,ns.itunes.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,xp.apple.com
 DOMAIN,amp-api.sandbox.apple.com
 DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
@@ -21,11 +53,13 @@ DOMAIN,ppq.apple.com
 DOMAIN,smp-device-content.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,testflight.apple.com
-DOMAIN,updates.cdn-apple.com
-DOMAIN,updates-http.cdn-apple.com
 DOMAIN,weather-analytics-events.apple.com
 DOMAIN,weather-data.apple.com
 DOMAIN,weather-map.apple.com
+DOMAIN,appldnld.apple.com.edgesuite.net
+DOMAIN,itunes.com
+DOMAIN-SUFFIX,appattest.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
@@ -33,15 +67,12 @@ DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
 DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,store.apple.com
-DOMAIN-SUFFIX,time.apple.com
 DOMAIN-KEYWORD,api.smoot.apple.cn
 DOMAIN-KEYWORD,api.smoot.apple.com
 DOMAIN-KEYWORD,api-adservices.apple.com
