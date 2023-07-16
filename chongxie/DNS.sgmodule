@@ -24,7 +24,7 @@ cdn.smoot.apple.com = 17.253.85.203,17.253.85.205
 gsp-ssl.ls.apple.com = 17.253.85.207,17.253.85.208
 
 # > Apple Store
-iosapps.itunes.apple.com = 17.253.29.195,17.253.85.202,17.253.117.201,17.253.118.201,184.26.127.18,223.109.107.1
+iosapps.itunes.apple.com = 17.253.29.195,17.253.85.202,17.253.117.201,17.253.118.201
 
 testflight.apple.com = server:syslib
 
