@@ -28,3 +28,4 @@ IP-CIDR,149.154.164.0/22,no-resolve // NL Amsterdam DC2 or DC4
 # AS211157 IPv4
 IP-CIDR,91.105.192.0/23,no-resolve // Helsinki Finland
 IP-CIDR,185.76.151.0/24,no-resolve // Helsinki Finland
+IP-CIDR,5.28.192.0/18,no-resolve
