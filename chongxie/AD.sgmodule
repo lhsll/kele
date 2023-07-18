@@ -4,7 +4,7 @@
 [Map Local]
 
 # > 什么值得买
-^https:\/\/s3\.zdmimg\.com\/cpm\/api\/v1\/advert_distribution\/get_all_advertise\? data="reject-dict.json"
+^https:\/\/qneimg\.smzdm\.com\/202307\/14\/64b0efe2adfae8396\.jpg data="reject-200.txt"
 
 # > 招商银行
 ^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) data="reject-200.txt"
