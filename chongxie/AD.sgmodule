@@ -6,7 +6,7 @@
 # > 什么值得买
 ^https:\/\/qneimg\.smzdm\.com\/202307\/14\/64b0efe2adfae8396\.jpg data="reject-200.txt"
 ^https:\/\/app-api\.smzdm\.com\/util\/update$ data="reject-dict.json"
-^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\? data="reject-dict.json"
+^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list.+ data="reject-dict.json"
 
 # > 招商银行
 ^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) data="reject-200.txt"
