@@ -46,6 +46,7 @@ DOMAIN,api.live.bilibili.com
 DOMAIN,member.bilibili.com
 DOMAIN,miniapp.bilibili.com
 DOMAIN,pay.bilibili.com
+DOMAIN,app.biliapi.net
 DOMAIN,passport.bilibili.com
 DOMAIN,dataflow.biliapi.com
 DOMAIN-SUFFIX,biligame.com
