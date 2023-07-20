@@ -50,6 +50,8 @@ DOMAIN,pay.bilibili.com
 DOMAIN,app.biliapi.net
 DOMAIN,passport.bilibili.com
 DOMAIN,dataflow.biliapi.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,billimg.com
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,chat.bilibili.com
 DOMAIN-SUFFIX,hdslb.com
@@ -398,3 +400,7 @@ DOMAIN-SUFFIX,qpic.cn
 IP-CIDR,120.46.128.0/17,no-resolve
 IP-CIDR,221.229.52.0/23,no-resolve
 IP-CIDR,221.224.0.0/13,no-resolve
+IP-CIDR,115.48.0.0/12,no-resolve
+IP-CIDR,114.224.0.0/12,no-resolve
+IP-CIDR,219.156.0.0/15,no-resolve
+IP-CIDR,42.80.0.0/15,no-resolve
