@@ -8,6 +8,7 @@ DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,sub-store.vercel.app
 DOMAIN,bb.aliyun.best
 DOMAIN,ocsp.digicert.com
+DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN,app.smartmailcloud.com
