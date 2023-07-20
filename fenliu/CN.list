@@ -161,6 +161,7 @@ DOMAIN,zj.122.gov.cn
 # > 阿里巴巴
 DOMAIN,cloudauth-device.aliyuncs.com
 DOMAIN,mgw.mpaas.cn-hangzhou.aliyuncs.com
+IP-CIDR,203.209.224.0/19,no-resolve
 IP-CIDR,47.100.0.0/14,no-resolve
 IP-CIDR,39.96.0.0/14,no-resolve
 IP-CIDR,59.82.16.0/21,no-resolve
