@@ -30,6 +30,7 @@ DOMAIN,app-sc.miguvideo.com
 DOMAIN,uem.migu.cn
 DOMAIN,sdk.migudm.cn
 DOMAIN,api.share.mob.com
+DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,hjq.komect.com
 DOMAIN-SUFFIX,caiyun.feixin.10086.cn
@@ -138,6 +139,7 @@ DOMAIN,mdap.alipay.com
 DOMAIN,gw.alipayobjects.com
 DOMAIN,render.alipay.com
 DOMAIN,guide-acs.m.taobao.com
+DOMAIN-SUFFIX,alipay.com.cn
 # > 微博
 DOMAIN,api.weibo.cn
 DOMAIN,weibointl.api.weibo.cn
@@ -167,6 +169,7 @@ IP-CIDR,39.96.0.0/14,no-resolve
 IP-CIDR,59.82.16.0/21,no-resolve
 IP-CIDR,39.96.0.0/14,no-resolve
 IP-CIDR,58.32.0.0/14,no-resolve
+IP-CIDR,203.209.224.0/19,no-resolve
 # > 搜图神器
 DOMAIN,img.hb.aicdn.com
 DOMAIN,api.huaban.com
@@ -390,6 +393,7 @@ DOMAIN-KEYWORD,icbc.com
 DOMAIN,dfp.cmbyc.com
 DOMAIN-KEYWORD,cmbchina.com
 # > 其他
+DOMAIN-SUFFIX,qpic.cn
 IP-CIDR,120.46.128.0/17,no-resolve
 IP-CIDR,221.229.52.0/23,no-resolve
 IP-CIDR,221.224.0.0/13,no-resolve
