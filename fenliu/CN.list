@@ -257,6 +257,7 @@ DOMAIN,gw.alipayobjects.com
 DOMAIN,atoken.m.taobao.com
 DOMAIN,msgacs.m.taobao.com
 DOMAIN,acs.m.taobao.com
+DOMAIN-SUFFIX,taobao.com
 IP-CIDR,39.128.0.0/10,no-resolve
 IP-CIDR,59.82.32.0/20,no-resolve
 # > 京东
