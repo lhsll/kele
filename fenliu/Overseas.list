@@ -65,6 +65,7 @@ DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
+IP-CIDR,203.209.224.0/19,no-resolve
 IP-CIDR,43.228.180.0/22,no-resolve
 IP-CIDR,172.65.240.0/20,no-resolve
 DOMAIN-SUFFIX,ytimg.com
