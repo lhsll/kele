@@ -3,6 +3,9 @@
 
 [Map Local]
 
+# > 微博国际版&热门视频&热推荐
+^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="reject-dict.json"
+
 # > 什么值得买
 ^https:\/\/qneimg\.smzdm\.com\/202307\/14\/64b0efe2adfae8396\.jpg data="reject-200.txt"
 ^https:\/\/app-api\.smzdm\.com\/util\/update$ data="reject-dict.json"
