@@ -5,7 +5,7 @@ IP-CIDR,120.24.0.0/14,no-resolve
 DOMAIN,api.tianapi.com
 # > ping0
 DOMAIN,ping0.cc
-DOMAIN,ipv6.ping0.cc
+#DOMAIN,ipv6.ping0.cc
 DOMAIN,maponline0.bdimg.com
 # > 中国移动营业厅APP
 DOMAIN,client.app.coc.10086.cn
