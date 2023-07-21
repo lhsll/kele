@@ -404,6 +404,7 @@ DOMAIN,starplucker.cyapi.cn
 DOMAIN,gather.colorfulclouds.net
 # > 其他
 DOMAIN-SUFFIX,qpic.cn
+DOMAIN,dualstack-logs.amap.com
 IP-CIDR,120.46.128.0/17,no-resolve
 IP-CIDR,221.229.52.0/23,no-resolve
 IP-CIDR,221.224.0.0/13,no-resolve
