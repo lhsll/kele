@@ -1,6 +1,7 @@
 # > Aliyun
 DOMAIN,device-api.xchanger.cn
 IP-CIDR,120.24.0.0/14,no-resolve
+DOMAIN,gm.mmstat.com
 # > 油价
 DOMAIN,api.tianapi.com
 # > ping0
@@ -329,6 +330,11 @@ DOMAIN,baichuan-sdk.alicdn.com
 DOMAIN,userlink.alicdn.com
 DOMAIN,pv.sohu.com
 # > 美团
+DOMAIN,s3.meituan.net
+DOMAIN,mars.meituan.com
+DOMAIN,static.meituan.net
+DOMAIN,s3plus.meituan.net
+DOMAIN,prism-report-web.dreport.meituan.net
 DOMAIN,appsec-mobile.meituan.com
 DOMAIN,metrics-picture.d.meituan.net
 DOMAIN,live-monitor-broker.sankuai.com
@@ -362,6 +368,7 @@ DOMAIN,awp-assets.meituan.net
 DOMAIN,api-unionid.meituan.com
 DOMAIN,ntp.nasa.gov
 DOMAIN-SUFFIX,d.meituan.net
+DOMAIN-SUFFIX,meituan.com
 IP-CIDR,103.37.152.0/21,no-resolve
 IP-CIDR,101.236.64.0/21,no-resolve
 IP-CIDR,202.90.108.0/22,no-resolve
