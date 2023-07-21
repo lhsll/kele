@@ -25,7 +25,7 @@
 
 # > 搜图神器
 
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig data="reject-dict.json"
+#^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig data="reject-dict.json"
 
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/search\/hotword$ data="reject-dict.json"
 
