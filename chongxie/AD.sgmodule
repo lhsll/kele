@@ -4,6 +4,7 @@
 [Map Local]
 
 # > 微博国际版&热门视频&热推荐
+
 ^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="reject-dict.json"
 
 # > 什么值得买
@@ -22,13 +23,13 @@
 
 # > 搜图神器
 
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig data="reject-dict.json"
+
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/search\/hotword$ data="reject-dict.json"
 
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/dialog$ data="reject-dict.json"
 
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner$ data="reject-dict.json"
-
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig data="reject-dict.json"
 
 # > 全球购骑士卡
 
