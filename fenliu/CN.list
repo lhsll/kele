@@ -402,6 +402,16 @@ DOMAIN,wrapper.cyapi.cn
 DOMAIN,caiyunapp.com
 DOMAIN,starplucker.cyapi.cn
 DOMAIN,gather.colorfulclouds.net
+# > 顺风快递
+DOMAIN,ubs.sf-express.com
+DOMAIN,s1.map.gtimg.com
+DOMAIN,p0.map.gtimg.com
+DOMAIN,cx-hub-static.sf-express.com
+DOMAIN,gis.sf-express.com
+DOMAIN,dualstack-logs.amap.com
+DOMAIN,zres.alicdn.com
+DOMAIN,ucmp-static.sf-express.com
+DOMAIN,ucmp.sf-express.com
 # > 其他
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN,dualstack-logs.amap.com
