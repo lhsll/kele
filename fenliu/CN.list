@@ -395,6 +395,13 @@ DOMAIN-KEYWORD,icbc.com
 # > 掌上生活
 DOMAIN,dfp.cmbyc.com
 DOMAIN-KEYWORD,cmbchina.com
+# > 彩云天气
+DOMAIN,biz.cyapi.cn
+DOMAIN,meteorology.caiyuncdn.com
+DOMAIN,wrapper.cyapi.cn
+DOMAIN,caiyunapp.com
+DOMAIN,starplucker.cyapi.cn
+DOMAIN,gather.colorfulclouds.net
 # > 其他
 DOMAIN-SUFFIX,qpic.cn
 IP-CIDR,120.46.128.0/17,no-resolve
