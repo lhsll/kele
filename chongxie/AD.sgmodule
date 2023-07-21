@@ -28,7 +28,7 @@
 
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner$ data="reject-dict.json"
 
-#^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig data="reject-dict.json"
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig data="reject-dict.json"
 
 # > 全球购骑士卡
 
