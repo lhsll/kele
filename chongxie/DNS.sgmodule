@@ -173,6 +173,8 @@ ghproxy.com = server:syslib
 
 # > 腾讯游戏手游(王者荣耀|金铲铲之战|和平精英)
 *.teg.tencent-cloud.net = server:syslib // 语音
+aqq.smoba.qq.com = server:119.29.29.29
+sqlobby.pg.qq.com = server:119.29.29.29
 
 # > 王者农药
 access1.tpns.tencent.com = 81.71.131.20,120.232.131.55,157.148.34.251,159.75.195.115,183.2.144.181
