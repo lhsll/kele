@@ -4,11 +4,15 @@
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #--------------以下为解析后的规则--------------#
+# > 机场
+DOMAIN,sub.ss-plane.com
+DOMAIN,getinfo.bigwatermelon.org
 DOMAIN,api.eflink.xyz
 DOMAIN,pqjc.site
+DOMAIN,bb.aliyun.best
+# > 其他
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,sub-store.vercel.app
-DOMAIN,bb.aliyun.best
 DOMAIN,ocsp.digicert.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,google.com
