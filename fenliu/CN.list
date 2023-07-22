@@ -1,5 +1,6 @@
 # > Aliyun
 DOMAIN,device-api.xchanger.cn
+DOMAIN,mssdk.volces.com
 IP-CIDR,120.24.0.0/14,no-resolve
 DOMAIN,gm.mmstat.com
 # > 油价
