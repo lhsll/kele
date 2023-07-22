@@ -175,7 +175,7 @@ ghproxy.com = server:syslib
 *.teg.tencent-cloud.net = server:syslib // 语音
 
 # > 王者农药
-access1.tpns.tencent.com = 183.2.144.181,81.71.131.20,120.232.131.55,157.148.34.251,159.75.195.115
+access1.tpns.tencent.com = 81.71.131.20,120.232.131.55,157.148.34.251,159.75.195.115,183.2.144.181
 ios.bugly.qq.com = 113.96.237.160,112.60.8.64,101.91.28.123,61.241.49.104,220.196.133.67,203.205.235.53
 cdn.wetest.qq.com = server:syslib
 iegab.qq.com = server:syslib
