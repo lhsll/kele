@@ -74,6 +74,7 @@ DOMAIN-SUFFIX,dlied1.cdntips.net
 IP-CIDR,182.254.0.0/16,no-resolve
 IP-CIDR,180.160.0.0/13,no-resolve
 # > 腾讯手游加速器
+DOMAIN,cdn-go.cn
 DOMAIN,wspeed.qq.com
 DOMAIN,dldir1.qq.com
 DOMAIN,control.vpn.qq.com
