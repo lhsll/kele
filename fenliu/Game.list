@@ -107,6 +107,7 @@ DOMAIN-KEYWORD,tc.gcloudgbs.com
 IP-CIDR,112.88.0.0/13,no-resolve
 IP-CIDR,43.154.192.0/18,no-resolve
 # > 和平精英
+DOMAIN,sqlobby.pg.qq.com
 DOMAIN,gpcloud.tgpa.qq.com
 DOMAIN,apm.wetest.qq.com
 DOMAIN,hpjy-op.tga.qq.com
