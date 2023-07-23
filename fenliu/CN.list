@@ -442,6 +442,7 @@ DOMAIN,ucmp.sf-express.com
 # > 其他
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN,dualstack-logs.amap.com
+DOMAIN,applog.uc.cn
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,skyengine.com.cn
 IP-CIDR,120.46.128.0/17,no-resolve
