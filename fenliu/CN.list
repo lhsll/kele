@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,shop.10086.cn
 DOMAIN-KEYWORD,chinamobile.com
 # > 哔哩哔哩弹幕网(粉色)
 DOMAIN,upos-tf-all-hw.bilivideo.com
+DOMAIN,album.biliimg.com
 DOMAIN,app.bilibili.com
 DOMAIN,data.bilibili.com
 DOMAIN,api.bilibili.com
