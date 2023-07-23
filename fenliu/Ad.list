@@ -118,9 +118,6 @@ DOMAIN,httpdns.yunxindns.com
 DOMAIN,iyes.youku.com
 # > 京东
 DOMAIN-SUFFIX,jddebug.com
-# > Apple
-DOMAIN,api-adservices.apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
 # > 中国电信
 DOMAIN,ad.21cn.com
 DOMAIN,ad.k.21cn.com
