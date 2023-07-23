@@ -89,5 +89,11 @@ IP-CIDR,61.170.0.0/18,no-resolve
 IP-CIDR,49.7.0.0/18,no-resolve
 IP-CIDR,116.128.128.0/18,no-resolve
 IP-CIDR,112.132.0.0/16,no-resolve
+IP-CIDR,36.106.0.0/16,no-resolve
+IP-CIDR,106.116.0.0/16,no-resolve
+IP-CIDR,27.40.0.0/13,no-resolve
+IP-CIDR,121.224.0.0/12,no-resolve
+IP-CIDR,171.116.0.0/14,no-resolve
+IP-CIDR,163.142.0.0/16,no-resolve
 USER-AGENT,WeChat
 USER-AGENT,MicroMessenger
