@@ -159,6 +159,7 @@ DOMAIN,gw.alipayobjects.com
 DOMAIN,render.alipay.com
 DOMAIN,guide-acs.m.taobao.com
 DOMAIN-SUFFIX,alipay.com.cn
+DOMAIN-SUFFIX,alipay.com
 # > 微博
 DOMAIN,api.weibo.cn
 DOMAIN,weibointl.api.weibo.cn
