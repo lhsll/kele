@@ -7,3 +7,6 @@
 DOMAIN,mesu.apple.com
 DOMAIN,gdmf.apple.com
 DOMAIN,updates-http.cdn-apple.com
+# > Apple
+DOMAIN,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
