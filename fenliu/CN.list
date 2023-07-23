@@ -126,6 +126,7 @@ DOMAIN-SUFFIX,game.qq.com
 IP-CIDR,101.33.64.0/19,no-resolve
 IP-CIDR,43.128.224.0/19,no-resolve
 # > Lynk&Co
+DOMAIN,lync-doutique-prod-webadmin-oss.oss-cn-hangzhou.aliyuncs.com
 DOMAIN,geely-admp-test-oss.oss-cn-hangzhou.aliyuncs.com
 DOMAIN,api.xchanger.cn
 DOMAIN,mktcs.lynkco.com
@@ -160,6 +161,7 @@ DOMAIN,cloudauth-device.aliyuncs.com
 DOMAIN,gri-cockpit-app-project-prod.(null)
 IP-CIDR,121.37.160.0/19,no-resolve
 IP-CIDR,123.60.0.0/17,no-resolve
+DOMAIN-KEYWORD,hangzhou
 # > 支付宝
 DOMAIN,umdc.alibabachengdun.com
 DOMAIN,cdn.ynuf.aliapp.org
