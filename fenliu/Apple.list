@@ -58,6 +58,8 @@ DOMAIN,weather-data.apple.com
 DOMAIN,weather-map.apple.com
 DOMAIN,appldnld.apple.com.edgesuite.net
 DOMAIN,itunes.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-KEYWORD,apple.com
 DOMAIN-SUFFIX,appattest.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,aaplimg.com
@@ -80,6 +82,7 @@ DOMAIN-KEYWORD,buy.itunes.apple.com
 DOMAIN-KEYWORD,ess.apple.com
 DOMAIN-KEYWORD,gsa.apple.com
 DOMAIN-KEYWORD,humb.apple.com
+DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,icloud
 DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,ls.apple.com
