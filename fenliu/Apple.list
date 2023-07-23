@@ -61,15 +61,12 @@ DOMAIN,itunes.com
 DOMAIN-SUFFIX,appattest.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
-DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,store.apple.com
@@ -87,23 +84,9 @@ DOMAIN-KEYWORD,icloud
 DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,ls.apple.com
 DOMAIN-KEYWORD,ssl.apple.com
-DOMAIN-KEYWORD,testflight
 DOMAIN-KEYWORD,time
 DOMAIN-KEYWORD,weather-adge.apple.com
 DOMAIN-KEYWORD,weather-edge.apple.com
-DOMAIN-KEYWORD,apple
-#IP-CIDR,139.178.128.0/18,no-resolve
-#IP-CIDR,144.178.0.0/19,no-resolve
-#IP-CIDR,144.178.36.0/22,no-resolve
-#IP-CIDR,144.178.48.0/20,no-resolve
-#IP-CIDR,17.188.128.0/20,no-resolve
-#IP-CIDR,17.188.180.0/22,no-resolve
-#IP-CIDR,17.252.192.0/20,no-resolve
-#IP-CIDR,192.35.50.0/24,no-resolve
-#IP-CIDR,198.183.17.0/24,no-resolve
-#IP-CIDR,205.180.175.0/24,no-resolve
-#IP-CIDR,63.92.224.0/19,no-resolve
-#IP-CIDR,65.199.22.0/23,no-resolve
 PROCESS-NAME,com.apple.geod
 PROCESS-NAME,lookupviewservice
 PROCESS-NAME,music
@@ -119,5 +102,3 @@ USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
 USER-AGENT,Music*
-#IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,17.253.116.125/32,no-resolve
