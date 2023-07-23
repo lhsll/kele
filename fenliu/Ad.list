@@ -16,16 +16,14 @@ DOMAIN,aop.meituan.com
 DOMAIN,httpdns.meituan.com
 # > 哔哩哔哩
 DOMAIN,live-trace.bilibili.com
-DOMAIN,mall.bilibili.com
 DOMAIN,httpdns.bilivideo.com
-IP-CIDR,203.107.1.0/24,no-resolve
-#DOMAIN,passport.bilibili.com
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-KEYWORD,api.sobot.com
 DOMAIN-SUFFIX,cm.ad.bilibili.com
 DOMAIN-SUFFIX,cm.adcommon.bilibili.com
 DOMAIN-SUFFIX,cm.game.bilibili.com
 DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
+IP-CIDR,203.107.1.0/24,no-resolve
 # > 酷安–>头条
 DOMAIN,dm.toutiao.com
 DOMAIN,tr.byteurl.cn
@@ -120,3 +118,11 @@ DOMAIN,httpdns.yunxindns.com
 DOMAIN,iyes.youku.com
 # > 京东
 DOMAIN-SUFFIX,jddebug.com
+# > Apple
+DOMAIN,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+# > 中国电信
+DOMAIN,ad.21cn.com
+DOMAIN,ad.k.21cn.com
+DOMAIN,admarket.21cn.com
+DOMAIN,adshows.21cn.com
