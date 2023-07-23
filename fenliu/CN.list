@@ -453,3 +453,7 @@ IP-CIDR,60.176.0.0/12,no-resolve
 # > 拼多多
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pinduoduo.com
+# > 闲鱼
+DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyundrive.net
