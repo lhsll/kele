@@ -129,6 +129,7 @@ IP-CIDR,43.128.224.0/19,no-resolve
 DOMAIN,lync-doutique-prod-webadmin-oss.oss-cn-hangzhou.aliyuncs.com
 DOMAIN,geely-admp-test-oss.oss-cn-hangzhou.aliyuncs.com
 DOMAIN,vlog-api.xchanger.cn
+DOMAIN,ivotrace.geely.com
 DOMAIN,api.xchanger.cn
 DOMAIN,mktcs.lynkco.com
 DOMAIN,cdn.dcloud.net.cn
