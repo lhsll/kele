@@ -445,6 +445,8 @@ DOMAIN,wrapper.cyapi.cn
 DOMAIN,caiyunapp.com
 DOMAIN,starplucker.cyapi.cn
 DOMAIN,gather.colorfulclouds.net
+# > 阿里云盘
+DOMAIN-SUFFIX,aliyundrive.com
 # > 顺风快递
 DOMAIN,ubs.sf-express.com
 DOMAIN,s1.map.gtimg.com
