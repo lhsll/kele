@@ -165,6 +165,7 @@ IP-CIDR,122.9.96.0/19,no-resolve
 IP-CIDR,121.37.160.0/19,no-resolve
 IP-CIDR,123.60.0.0/17,no-resolve
 IP-CIDR,124.70.192.0/19,no-resolve
+IP-CIDR,121.36.0.0/17,no-resolve
 DOMAIN-KEYWORD,hangzhou
 # > 支付宝
 DOMAIN,umdc.alibabachengdun.com
