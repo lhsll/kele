@@ -152,7 +152,6 @@ applog-andriod.cn-hangzhou.log.aliyuncs.com = server:syslib
 api.im.qcloud.com = server:syslib
 apmplus.volces.com = server:syslib
 *.lynkco.com = server:syslib
-lynkco-app-log-release.* = server:223.5.5.5
 
 # > 艾锋科技
 ai.aifengkeji.com = server:syslib
@@ -168,8 +167,6 @@ ghproxy.com = server:syslib
 *.bytecdn.com = server:syslib
 *mmbiz* = server:syslib
 *qlogo* = server:syslib
-*.chinaz.com = server:223.5.5.5
-*.cmbchina.com = server:223.5.5.5
 
 # > 腾讯游戏手游(王者荣耀|金铲铲之战|和平精英)
 *.teg.tencent-cloud.net = server:syslib // 语音
