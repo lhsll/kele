@@ -464,6 +464,7 @@ DOMAIN,dualstack-logs.amap.com
 DOMAIN,applog.uc.cn
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,skyengine.com.cn
+DOMAIN,www.ikandy2.fun
 IP-CIDR,120.46.128.0/17,no-resolve
 IP-CIDR,221.229.52.0/23,no-resolve
 IP-CIDR,221.224.0.0/13,no-resolve
