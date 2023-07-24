@@ -124,3 +124,8 @@ DOMAIN,ad.21cn.com
 DOMAIN,ad.k.21cn.com
 DOMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
+# > SUOL
+IP-CIDR,47.110.187.87/32
+IP-CIDR,47.96.15.52/32
+IP-CIDR,116.62.220.39/32
+DOMAIN,ssp.soulapp.cn
