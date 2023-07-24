@@ -96,4 +96,4 @@ DOMAIN-SUFFIX,bingsandbox.com
 DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
 # > Porn Hub
-DOMAIN,cn.pornhub.com
+DOMAIN-SUFFIX,pornhub.com
