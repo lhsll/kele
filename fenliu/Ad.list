@@ -28,6 +28,7 @@ IP-CIDR,203.107.1.0/24,no-resolve
 DOMAIN,dm.toutiao.com
 DOMAIN,tr.byteurl.cn
 DOMAIN,toblog.ctobsnssdk.com
+DOMAIN,api-access.pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
