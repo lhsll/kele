@@ -121,6 +121,7 @@ DOMAIN,iegab.qq.com
 DOMAIN,ts.qq.com
 DOMAIN,pvp.qq.com
 DOMAIN,smoba.ams.game.qq.com
+DOMAIN,ssl.kohsocialapp.qq.com
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,game.qq.com
 IP-CIDR,101.33.64.0/19,no-resolve
