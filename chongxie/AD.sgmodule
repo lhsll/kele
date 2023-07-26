@@ -124,15 +124,9 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="reject-dict.json"
 ^http:\/\/oc\.umeng\.com\/v2\/check_config_update data="reject-200.txt"
 
-# > 微博
-#^https:\/\/api\.weibo\.cn\/2\/ug\/checkin\/list\?gsid= data="reject-dict.json"
-
 # > 阿里云盘会员
 ^https?:\/\/api\.aliyundrive\.com\/business\/.
 +\users\/vip\/info data="SVIPInfo.json"
-
-# > 51信用卡管家
-^https?:\/\/api\.u51\.com\/(generic-config-gateway|rs-resys)\/api\/v\d\/(creditpage-config|recommend) data="reject-200.txt"
 
 # > 浙里办
 ^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data="reject-200.txt"
@@ -142,12 +136,6 @@ sq\.bls\.mdt\.qq\.com data="reject-dict.json"
 
 # > 天翼云盘弹窗广告
 ^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 data="reject-200.txt"
-
-# > LING Club
-^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode data="reject-200.txt"
-
-# > 转转右下角悬浮广告
-^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/userred\?scene=homePage data="reject-200.txt"
 
 # > 中国电信
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data="reject-img.gif"
@@ -270,28 +258,15 @@ replaceBody_weixin = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com
 # >  百度防跳转
 移除百度搜索首页广告= type=http-response,pattern=^https?:\/\/boxer\.baidu\.com\/scheme\?scheme,requires-body=1,max-size=0,script-path=RemoveBaiduSearchRedirect.js
 
-# > 51信用卡管家 去首页横幅广告 @RuCu6
-51xykgj = type=http-response,pattern=^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline,requires-body=1,max-size=0,script-path=51xykgj.js
-
-# > 51信用卡管家 去我的里面的各种广告 @Nachonya @RuCu6   
-51xykgj = type=http-response,pattern=^https?:\/\/api\.u51\.com\/generic-config-gateway\/api\/v\d\/guanjia\/me-tab2\/config,requires-body=1,max-size=0,script-path=51xykgj.js
-
 # > 京东搜索栏
 京东搜索栏 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords,requires-body=1,max-size=0,script-path=jd_json.js,script-update-interval=-1
 京东搜索栏 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms,requires-body=1,max-size=0,script-path=jd_json.js,script-update-interval=-1
-
-# > 瑞幸咖啡
-瑞幸咖啡 = type=http-response,pattern=^https:\/\/m\.lkcoffee\.com\/ecapi\/resource\/m\/member\/exchange\/page,requires-body=1,max-size=3145728,script-path=replace-body.js,argument="\{.+\}->{"status":"SUCCESS"}"
-replaceBody_4 = type=http-response,pattern=^https:\/\/m\.lkcoffee\.com\/capi\/resource\/m\/growUp\/main,requires-body=1,max-size=3145728,script-path=replace-body.js,argument=""popTitle":".+?"->"popTitle":"""
 
 # > 爱思
 Aisi_37 = type=http-response, pattern=^https?:\/\/list-app-m\.i4\.cn\/(getAppList|getHotSearchList)\.xhtml, requires-body=true, max-size=3145728, script-path=Aisi.js, timeout=60
 
 # > 12306去开屏广告倒计时去首页顶部广告
 12306开屏 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, requires-body=true, max-size=3145728, script-path=Ad12306.js
-
-# > IT之家 去广告
-iT之家 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/(napi|api|m)\.ithome\.com\/(api|json)\/(news|topmenu|listpage|newslist|slide)\/(getfeeds|index|slide),script-path=ithome.ad.js,script-update-interval=-1
 
 # > 小程序_去广告
 xcx_22 = type=http-response, pattern=^(https?://)?([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\.)+[a-zA-Z]{2,}(:\d+)?/wp-json/[a-zA-Z0-9_-]+/(mp\/)?v\d/posts, requires-body=true, max-size=3145728, script-path=xcx.js, timeout=60, script-update-interval=-1
