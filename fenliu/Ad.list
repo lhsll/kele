@@ -130,5 +130,4 @@ DOMAIN,adshows.21cn.com
 #IP-CIDR,116.62.220.39/32
 DOMAIN,ssp.soulapp.cn
 # > 王者营地
-DOMAIN,ssl.kohsocialapp.qq.com
 IP-CIDR,112.53.42.162/32,no-resolve
