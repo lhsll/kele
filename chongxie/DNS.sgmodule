@@ -15,9 +15,9 @@ amp-api.sandbox.apple.com = 17.56.138.66,17.36.202.106
 
 identity.apple.com = 17.179.244.134
 
-time.apple.com = 17.253.84.123,17.253.84.125,17.253.84.253
+time.apple.com = server:syslib
 
-time.asia.apple.com = 17.253.84.123,17.253.84.125,17.253.84.253
+time.asia.apple.com = server:syslib
 
 cdn.smoot.apple.com = 17.253.85.203,17.253.85.205
 
