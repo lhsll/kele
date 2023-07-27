@@ -18,16 +18,13 @@ DOMAIN,ocsp.digicert.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,youtube.com
-DOMAIN,app.smartmailcloud.com
 DOMAIN-SUFFIX,tch.poe.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
 #DOMAIN-SUFFIX,api.revenuecat.com
-DOMAIN-SUFFIX,api2.amplitude.com
 DOMAIN-SUFFIX,api3.misaka.io
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
