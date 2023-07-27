@@ -1,8 +1,9 @@
 # NAME:GitHub
-#规则数量:13
-#不支持的规则数量:0
-#已排除的规则数量:0
-#更新时间：2023-3-25 15:43:33
+#DEST-PORT类规则数量 : 0
+#DOMAIN类规则数量 : 15
+#IP-CIDR类规则数量 : 0
+#USER-AGENT类规则数量 : 0
+#总规则数量 : 15
 #--------------以下为解析后的规则--------------#
 DOMAIN-SUFFIX,api2.branch.io
 DOMAIN-SUFFIX,atom.io
