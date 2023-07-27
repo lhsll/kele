@@ -1,9 +1,0 @@
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.com.cn
-DOMAIN-SUFFIX,bing.net
-DOMAIN-SUFFIX,bingads.com
-DOMAIN-SUFFIX,bingagencyawards.com
-DOMAIN-SUFFIX,bingapistatistics.com
-DOMAIN-SUFFIX,bingsandbox.com
-DOMAIN-SUFFIX,bingvisualsearch.com
-DOMAIN-SUFFIX,bingworld.com
