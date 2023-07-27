@@ -1,8 +1,9 @@
-# NAME: Apple 推送通知服务 (APNS)
-#规则数量:8
-#不支持的规则数量:0
-#已排除的规则数量:0
-#更新时间：2023-3-25 15:43:33
+# > NAME: Apple 推送通知服务 (APNS)
+#DEST-PORT类规则数量 : 2
+#DOMAIN类规则数量 : 6
+#IP-CIDR类规则数量 : 1
+#USER-AGENT类规则数量 : 0
+#总规则数量 : 9
 #---------------以下为解析后的规则---------------#
 DOMAIN,identity.apple.com
 DOMAIN-SUFFIX,api.push.apple.com
