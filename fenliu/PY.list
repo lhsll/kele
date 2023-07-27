@@ -1,35 +1,29 @@
 # NAME: 海外
-#规则数量:91
+#规则数量:100+
 #不支持的规则数量:0
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #--------------以下为解析后的规则--------------#
 # > 机场
-DOMAIN,sub.ss-plane.com
-DOMAIN,getinfo.bigwatermelon.org
 DOMAIN,api.eflink.xyz
-DOMAIN,pqjc.site
 DOMAIN,bb.aliyun.best
+DOMAIN,getinfo.bigwatermelon.org
+DOMAIN,pqjc.site
+DOMAIN,sub.ss-plane.com
 # > 其他
 DOMAIN,in.appcenter.ms
 DOMAIN,mozilla.cloudflare-dns.com
-DOMAIN,sub-store.vercel.app
 DOMAIN,ocsp.digicert.com
-DOMAIN-SUFFIX,vercel.app
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,tch.poe.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,sentry.io
+DOMAIN,sub-store.vercel.app
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
-#DOMAIN-SUFFIX,api.revenuecat.com
 DOMAIN-SUFFIX,api3.misaka.io
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,bigbus.me
 DOMAIN-SUFFIX,bigbus.work
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,deepnudeonline.com
 DOMAIN-SUFFIX,facebook.com
@@ -37,6 +31,7 @@ DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google.com.hk
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
@@ -55,10 +50,12 @@ DOMAIN-SUFFIX,papago-chrome.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,ping.sx
 DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sparkmailapp.com
 DOMAIN-SUFFIX,ssl.gstatic.com
 DOMAIN-SUFFIX,sub.sharecentre.online
 DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tch.poe.com
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,tellapart.com
 DOMAIN-SUFFIX,theb.ai
@@ -67,12 +64,12 @@ DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,yt.be
-IP-CIDR,43.228.180.0/22,no-resolve
-IP-CIDR,172.65.240.0/20,no-resolve
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
@@ -83,6 +80,8 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,twimg
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
+IP-CIDR,172.65.240.0/20,no-resolve
+IP-CIDR,43.228.180.0/22,no-resolve
 # > Bing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.com.cn
