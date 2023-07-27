@@ -1,3 +1,9 @@
+#DEST-PORT类规则数量 : 0
+#DOMAIN类规则数量 : 117
+#IP-CIDR类规则数量 : 4
+#USER-AGENT类规则数量 : 0
+#总规则数量 : 121
+#--------------以下为解析后的规则--------------#
 # > 王者荣耀
 DOMAIN,access1.tpns.sh.tencent.com
 DOMAIN,app.ingame.qq.com
