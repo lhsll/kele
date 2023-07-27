@@ -1,5 +1,9 @@
 # > NAME: Spotify@FuFenNan-KeLe
-
+#DEST-PORT类规则数量 : 0
+#DOMAIN类规则数量 : 26
+#IP-CIDR类规则数量 : 2
+#USER-AGENT类规则数量 : 1
+#总规则数量 : 29
 #--------------以下为解析后的规则--------------#
 DOMAIN,audio4-ak-spotify-com.akamaized.net
 DOMAIN,heads-ak-spotify-com.akamaized.net
