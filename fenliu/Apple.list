@@ -14,7 +14,6 @@ DOMAIN,static.ips.apple.com
 DOMAIN,sq-device.apple.com
 DOMAIN,tbsc.apple.com
 # > 供设备用来设置日期和时间
-DOMAIN,time.apple.com
 DOMAIN,time-ios.apple.com
 # > 设备管理
 DOMAIN,deviceenrollment.apple.com
