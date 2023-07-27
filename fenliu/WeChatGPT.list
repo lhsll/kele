@@ -1,5 +1,9 @@
-# > 微信
-# 规则数量103条
+# > Surge微信分流@FuFenNan-KeLe
+#DEST-PORT类规则数量: 0,
+#DOMAIN类规则数量: 51,
+#IP-CIDR类规则数量: 50,
+#USER-AGENT类规则数量: 2,
+#总规则数量: 103
 DOMAIN,appcfg.v.qq.com
 DOMAIN,bsy.resstatic.tcdnos.com
 DOMAIN,cube.weixinbridge.com
