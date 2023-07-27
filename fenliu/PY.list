@@ -1,9 +1,9 @@
 # > NAME: 海外
 #DEST-PORT类规则数量 : 0
-#DOMAIN类规则数量 : 85
+#DOMAIN类规则数量 : 86
 #IP-CIDR类规则数量 : 2
 #USER-AGENT类规则数量 : 0
-#总规则数量 : 87
+#总规则数量 : 88
 #--------------以下为解析后的规则--------------#
 # > 应用内购买和订阅服务
 DOMAIN,api.revenuecat.com
