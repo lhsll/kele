@@ -1,14 +1,14 @@
 # NAME: Apple 推送通知服务 (APNS)
-#规则数量:13
+#规则数量:8
 #不支持的规则数量:0
 #已排除的规则数量:0
 #更新时间：2023-3-25 15:43:33
 #---------------以下为解析后的规则---------------#
-DOMAIN-SUFFIX,push.apple.com //推送通知
-DOMAIN-SUFFIX,api.sandbox.push.apple.com
+DOMAIN,identity.apple.com
 DOMAIN-SUFFIX,api.push.apple.com
-DOMAIN,identity.apple.com //APNs 证书请求门户
-DOMAIN-KEYWORD,push //APP推送通知
-DOMAIN-SUFFIX,time.apple.com //时间
-DEST-PORT,5223
+DOMAIN-SUFFIX,api.sandbox.push.apple.com
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,time.apple.com
+DOMAIN-KEYWORD,push
 DEST-PORT,2197
+DEST-PORT,5223
