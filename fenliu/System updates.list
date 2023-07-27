@@ -1,9 +1,9 @@
-# NAME: Apple系统更新
+# > NAME: Apple系统更新@FuFenNan-KeLe
 #规则数量:3
 #不支持的规则数量:0
 #已排除的规则数量:0
 #更新时间：2023-4-9 05:15:06
 #--------------以下为解析后的规则--------------#
-DOMAIN,mesu.apple.com
 DOMAIN,gdmf.apple.com
+DOMAIN,mesu.apple.com
 DOMAIN,updates-http.cdn-apple.com
