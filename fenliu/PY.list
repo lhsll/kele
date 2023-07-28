@@ -97,4 +97,4 @@ DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
 # > Porn Hub
 DOMAIN-SUFFIX,pornhub.com
-DOMAIN,em-h.phncdn.com
+DOMAIN-SUFFIX,phncdn.com
