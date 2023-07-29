@@ -205,14 +205,6 @@ dns\.jd\.com - reject
 ^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+ - reject
 ^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\?? - reject
 
-# > 瑞幸咖啡
-^https:\/\/(ec|c)api\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList - reject
-
-# > 中国电信开屏
-^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
-^https?:\/\/ii\.gdt\.qq\.com\/.+ - reject
-^https:\/\/app-measurement\.com\/config\/app\/1?(.*?)*$ - reject
-
 # >  建设银行
 ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/nf\/newfin\/activity\/xjr_\w+\.png$ - reject
 ^http:\/\/imageadv\.ccb\.com\/adpic\/(nctm\/ad|sszserver\/upload\/activity)\/\d{8}\/\w+\.(gif|png|jpg)$ - reject
@@ -224,22 +216,13 @@ dns\.jd\.com - reject
 ^https:\/\/fuss10.elemecdn.com\/.+\.mp4 - reject
 ^https:\/\/www1.elecfans.com\/www\/delivery - reject
 ^https:\/\/fb\.fbstatic\.cn\/api\/ape-images - reject
-# > 微信去广告
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/(advertisement_report|cps_product_info|wapcommreport|jsreport|jsmonitor|getappmsgext) - reject
-^https?:\/\/wxa\.wxs\.qq\.com\/tmpl\/kf\/base_tmpl\.html - reject
 
 [Script]
-
-# > 微信去广告[不包含公众号信息流AD、朋友圈AD]
-WeChat_official_account = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, timeout=60, argument="advertisement->ddgksf2013"
 
 # > BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
 bilibili_屏蔽直播页顶部轮播图 = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed, requires-body=true, max-size=3145728, script-path=bilibili_json.js, timeout=60, script-update-interval=-1
 # > BiliBili_哔哩哔哩_热搜发现@ddgksf2013
 bilibili_热搜发现 = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/search\/square, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js, timeout=60, script-update-interval=-1
-
-# > 微信去广告[不包含公众号信息流AD、朋友圈AD]
-replaceBody_weixin = type=http-response, pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, requires-body=true, max-size=3145728, script-path=replace-body.js, timeout=60, argument=""advertisement_num":\d,"advertisement_info":\[.+\],->"advertisement_num":0,"advertisement_info":[],"
 
 # > 京喜/京喜特价/京东小家 去除开屏广告
 京东系列-净化 = type=http-response,script-path= https://raw.githubusercontent.com/chxm1023/Advertising/main/jhad.js,pattern= ^https?:\/\/api\..*\.jd\.com\/(client\.action\?functionId=lite_advertising|.+\/service\/getLoadingLinks),max-size=0,requires-body=true,timeout=10,script-update-interval=0,enable=true
