@@ -174,8 +174,8 @@ aqq.smoba.qq.com = server:119.29.29.29
 sqlobby.pg.qq.com = server:119.29.29.29
 
 # > 王者农药
-stat.tpns.tencent.com = 1.14.225.56,1.14.225.74,113.96.17.117,120.232.196.69,163.177.1.125
-access1.tpns.tencent.com = 81.71.131.20,120.232.131.55,157.148.34.251,159.75.195.115,183.2.144.181
+stat.tpns.tencent.com = server:syslib
+access1.tpns.tencent.com = server:syslib
 ios.bugly.qq.com = 113.96.237.160,112.60.8.64,101.91.28.123,61.241.49.104,220.196.133.67,203.205.235.53
 cdn.wetest.qq.com = server:syslib
 iegab.qq.com = server:syslib
