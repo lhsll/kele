@@ -390,6 +390,7 @@ DOMAIN,s3plus.meituan.net
 DOMAIN,static.meituan.net
 DOMAIN,tte.meituan.com
 DOMAIN,w.meituan.net
+DOMAIN-SUFFIX,d.meituan.net
 IP-CIDR,101.236.64.0/21,no-resolve
 IP-CIDR,103.37.152.0/21,no-resolve
 IP-CIDR,202.90.108.0/22,no-resolve
