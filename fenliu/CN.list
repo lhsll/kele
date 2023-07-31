@@ -86,6 +86,7 @@ IP-CIDR,58.248.0.0/13,no-resolve
 DOMAIN,avatar.coolapk.com
 DOMAIN,image.coolapk.com
 DOMAIN,api.coolapk.com
+DOMAIN,api2.coolapk.com
 # > 高德地图
 DOMAIN,1117_ios_kingkong_xml_default_icon
 DOMAIN,m5-x.amap.com
