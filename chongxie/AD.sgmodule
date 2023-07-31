@@ -3,6 +3,9 @@
 #更新时间: 2023年07月29日 01:12:18
 [Map Local]
 
+# 移除公众号中的推广内容
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data="reject-dict.json"
+
 # > spotify 音乐
 ^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data="reject-img.gif"
 
