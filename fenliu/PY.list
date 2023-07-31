@@ -19,6 +19,7 @@ DOMAIN,keywos.cf
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,ocsp.digicert.com
 DOMAIN,sub-store.vercel.app
+DOMAIN,api.statsig.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,api3.misaka.io
