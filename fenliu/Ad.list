@@ -14,6 +14,11 @@ DOMAIN,o33249.ingest.sentry.io
 # > 美团
 DOMAIN,aop.meituan.com
 DOMAIN,httpdns.meituan.com
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,al-log.d.meituan.net
+DOMAIN,babel-statistics-android.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
 # > 哔哩哔哩
 DOMAIN,live-trace.bilibili.com
 DOMAIN,httpdns.bilivideo.com
