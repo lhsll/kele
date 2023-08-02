@@ -473,3 +473,5 @@ DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyundrive.net
+# > tencent
+DOMAIN,pingma.qq.com
