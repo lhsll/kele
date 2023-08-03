@@ -1,0 +1,7 @@
+# >ChatGPT
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,challenges.cloudflare.com
+DOMAIN,cdn.auth0.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,ai.com
