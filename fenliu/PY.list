@@ -84,6 +84,7 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,twimg
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
+IP-CIDR,107.155.0.0/18,no-resolve
 IP-CIDR,172.65.240.0/20,no-resolve
 IP-CIDR,43.228.180.0/22,no-resolve
 # > Bing
