@@ -477,4 +477,5 @@ DOMAIN-SUFFIX,aliyundrive.net
 DOMAIN,pingma.qq.com
 # > User-Agent
 USER-AGENT,Bili*
-USER-AGENT,grpc-objc-cfstream
+USER-AGENT,grpc-objc-cfstream*
+USER-AGENT,Uki*
