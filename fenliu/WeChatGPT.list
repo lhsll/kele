@@ -1,9 +1,9 @@
 # > NAME: Surge微信分流@FuFenNan-KeLe
 #DEST-PORT类规则数量 : 0
 #DOMAIN类规则数量 : 52
-#IP-CIDR类规则数量 : 51
+#IP-CIDR类规则数量 : 49
 #USER-AGENT类规则数量 : 2
-#总规则数量 : 105
+#总规则数量 : 103
 #--------------以下为解析后的规则--------------#
 DOMAIN,q.qlogo.cn
 DOMAIN,appcfg.v.qq.com
@@ -100,12 +100,10 @@ IP-CIDR,42.187.128.0/17,no-resolve
 IP-CIDR,42.202.0.0/15,no-resolve
 IP-CIDR,43.128.224.0/19,no-resolve
 IP-CIDR,43.129.192.0/18,no-resolve
-IP-CIDR,43.130.0.0/18,no-resolve
 IP-CIDR,43.140.0.0/14,no-resolve
 IP-CIDR,43.156.192.0/18,no-resolve
 IP-CIDR,49.7.0.0/18,no-resolve
 IP-CIDR,49.7.192.0/18,no-resolve
-IP-CIDR,49.51.0.0/19,no-resolve
 IP-CIDR,61.151.0.0/16,no-resolve
 IP-CIDR,61.170.0.0/18,no-resolve
 IP-CIDR,61.174.0.0/15,no-resolve
