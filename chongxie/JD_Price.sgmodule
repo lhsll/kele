@@ -1,8 +1,9 @@
-#!name= 京东比价转链
-#!desc= 京东比价   2022-11-15 16:58:42
+#!name=京东联盟
+#!desc=商品详情触发转链 更新时间 2023/08/04 04:47:31
 #!system=ios
 
 [Script]
-京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jf_Convert.js,use-local-host-item-for-proxy = true,script-update-interval=0
-[MITM]
-hostname = %APPEND% api.m.jd.com,me-api.jd.com,*.jd.com, *.*.jd.com
+京东转链 = type=http-request,pattern=https:\/\/.+\.jd\.com\/graphext\/draw\?sku=(\d+).*,requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js,script-update-interval=-1
+京喜转链 = type=http-request,pattern=https:\/\/.+\.jd\.com\/product\/.*\/(\d+)\.html,requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js,script-update-interval=-1
+极速转链 = type=http-request,pattern=https:\/\/wqsitem\.jd\.com/\detail/\d+.+normal\.html,requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js,script-update-interval=-1
+京东比价 = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js,script-update-interval=-1
