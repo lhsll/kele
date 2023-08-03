@@ -13,3 +13,5 @@ DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-SUFFIX,sparkmailapp.com
 # >DNS服务器
 DOMAIN,dns.tex0n.net
+# >Claude
+DOMAIN-SUFFIX,claude.ai
