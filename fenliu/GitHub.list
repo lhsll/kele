@@ -1,9 +1,9 @@
 # > NAME:GitHub
 #DEST-PORT类规则数量 : 0
-#DOMAIN类规则数量 : 15
+#DOMAIN类规则数量 : 30
 #IP-CIDR类规则数量 : 0
 #USER-AGENT类规则数量 : 0
-#总规则数量 : 15
+#总规则数量 : 30
 #--------------以下为解析后的规则--------------#
 DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,dependabot.com
