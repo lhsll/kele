@@ -24,3 +24,5 @@ IP-CIDR,49.51.0.0/19,no-resolve
 DOMAIN,keywos.eu.org
 # >AI
 DOMAIN,chat.claudeai.ai
+DOMAIN,email.claudeai.ai
+DOMAIN,widget.intercom.io
