@@ -16,3 +16,5 @@ DOMAIN,dns.tex0n.net
 # >Tencent Building
 IP-CIDR,43.130.0.0/18,no-resolve
 IP-CIDR,49.51.0.0/19,no-resolve
+# >Sub Store
+DOMAIN,keywos.eu.org
