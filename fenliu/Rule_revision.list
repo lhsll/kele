@@ -4,6 +4,7 @@
 DOMAIN,rewards.bing.com
 # >Spark
 DOMAIN,imap.gmail.com
+DOMAIN,smtp.gmail.com
 DOMAIN,in.appcenter.ms
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
