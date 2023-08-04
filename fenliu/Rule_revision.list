@@ -6,6 +6,8 @@ DOMAIN,rewards.bing.com
 DOMAIN,imap.gmail.com
 DOMAIN,smtp.gmail.com
 DOMAIN,in.appcenter.ms
+DOMAIN,sdk.fra-01.braze.eu
+DOMAIN,launches.appsflyer.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,hockeyapp.net
