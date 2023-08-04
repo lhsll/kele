@@ -129,3 +129,6 @@ DOMAIN,sqlobby.pg.qq.com
 DOMAIN-SUFFIX,cg.qq.com
 DOMAIN-KEYWORD,gcloudpg.qq.com
 DOMAIN-KEYWORD,teg.tencent-cloud.net
+# >飞智游戏厅
+DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,flydigi.com
