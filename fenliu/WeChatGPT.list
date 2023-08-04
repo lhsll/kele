@@ -55,6 +55,7 @@ DOMAIN,wxpay.qpic.cn
 DOMAIN,wxpaylogo.qpic.cn
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-KEYWORD,video.qq.com
 IP-CIDR,101.224.0.0/13,no-resolve
 IP-CIDR,101.33.64.0/19,no-resolve
