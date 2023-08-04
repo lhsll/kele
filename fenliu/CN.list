@@ -450,7 +450,6 @@ DOMAIN,zres.alicdn.com
 DOMAIN,ucmp-static.sf-express.com
 DOMAIN,ucmp.sf-express.com
 # > 其他
-DOMAIN,chat.claudeai.ai
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN,dualstack-logs.amap.com
 DOMAIN,applog.uc.cn
