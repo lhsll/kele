@@ -333,7 +333,12 @@ DOMAIN,foundation.95516.com
 DOMAIN,tongzhi.95516.com
 DOMAIN,dualstack-restios.amap.com
 DOMAIN,analytics.95516.com
+DOMAIN,hotpatch.95516.com
+DOMAIN,antifraud.95516.com
+DOMAIN,article.95516.com
+DOMAIN,content.95516.com
 DOMAIN-SUFFIX,getui.com
+DOMAIN-KEYWORD,hotpatch.95516.com
 # > 什么值得买
 DOMAIN,shence-import.smzdm.com
 DOMAIN,haojia-cdn.smzdm.com
