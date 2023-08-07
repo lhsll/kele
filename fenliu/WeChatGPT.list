@@ -5,6 +5,7 @@
 #USER-AGENT类规则数量 : 2
 #总规则数量 : 103
 #--------------以下为解析后的规则--------------#
+DOMAIN,wxa.wxs.qq.com
 DOMAIN,sjy.resstatic.tcdnos.com
 DOMAIN,dp3.qq.com
 DOMAIN,q.qlogo.cn
