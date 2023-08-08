@@ -18,8 +18,9 @@ DOMAIN-SUFFIX,sparkmailapp.com
 # >DNS服务器
 DOMAIN,dns.tex0n.net
 # >Tencent Buildin
-IP-CIDR,43.156.192.0/18,no-resolve
+IP-CIDR,43.128.224.0/19,no-resolve
 IP-CIDR,43.130.0.0/18,no-resolve
+IP-CIDR,43.156.192.0/18,no-resolve
 IP-CIDR,49.51.0.0/19,no-resolve
 # >Sub Store
 DOMAIN,keywos.eu.org
