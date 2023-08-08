@@ -12,9 +12,9 @@ DOMAIN,api.eflink.xyz
 DOMAIN,bb.aliyun.best
 DOMAIN,getinfo.bigwatermelon.org
 DOMAIN,pqjc.site
-DOMAIN,sub.ss-plane.com
 DOMAIN,sub.91unicorn.club
 DOMAIN,keywos.cf
+DOMAIN-SUFFIX,ss-plane.com
 # > 其他
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,ocsp.digicert.com
