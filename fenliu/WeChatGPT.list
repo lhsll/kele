@@ -101,7 +101,6 @@ IP-CIDR,36.128.0.0/10,no-resolve
 IP-CIDR,39.128.0.0/10,no-resolve
 IP-CIDR,42.187.128.0/17,no-resolve
 IP-CIDR,42.202.0.0/15,no-resolve
-IP-CIDR,43.128.224.0/19,no-resolve
 IP-CIDR,43.129.192.0/18,no-resolve
 IP-CIDR,43.140.0.0/14,no-resolve
 IP-CIDR,43.156.192.0/18,no-resolve
