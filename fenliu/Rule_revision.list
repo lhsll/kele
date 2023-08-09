@@ -28,3 +28,5 @@ DOMAIN,keywos.eu.org
 DOMAIN,chat.claudeai.ai
 DOMAIN,email.claudeai.ai
 DOMAIN,widget.intercom.io
+# > 应用内购买和订阅服务
+DOMAIN,api.revenuecat.com
