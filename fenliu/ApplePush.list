@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,api.push.apple.com
 DOMAIN-SUFFIX,api.sandbox.push.apple.com
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,time.apple.com
+DOMAIN-KEYWORD,getui
 DOMAIN-KEYWORD,tpns
 DOMAIN-KEYWORD,push
 IP-CIDR,17.57.145.172/32,no-resolve
