@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,api.push.apple.com
 DOMAIN-SUFFIX,api.sandbox.push.apple.com
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,time.apple.com
+URL-REGEX,^https:\/\/api\.bilibili\.com\/x\/push\/callback\/ios$
 DOMAIN-KEYWORD,getui
 DOMAIN-KEYWORD,tpns
 DOMAIN-KEYWORD,push
