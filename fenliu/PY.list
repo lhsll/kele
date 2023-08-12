@@ -16,7 +16,6 @@ DOMAIN-SUFFIX,ss-plane.com
 # > 其他
 DOMAIN,mozilla.cloudflare-dns.com
 DOMAIN,ocsp.digicert.com
-DOMAIN,sub-store.vercel.app
 DOMAIN,api.statsig.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
@@ -66,7 +65,6 @@ DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twvid.com
-DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,youtu.be
