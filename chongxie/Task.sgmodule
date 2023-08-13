@@ -1,9 +1,0 @@
-#!name=定时脚本
-#!desc=最后更新时间 2022-12-21 08:13:16
-#!system=ios
-
-# 分割线——————————————————————————
-
-[Script]
-# > 美团
-美团签到 = type=cron,cronexp=0 1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
