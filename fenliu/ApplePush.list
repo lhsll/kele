@@ -6,6 +6,7 @@
 #总规则数量 : 9
 #---------------以下为解析后的规则---------------#
 DOMAIN,identity.apple.com
+DOMAIN,apac-china-courier-4.push-apple.com.akadns.net
 DOMAIN-SUFFIX,api.push.apple.com
 DOMAIN-SUFFIX,api.sandbox.push.apple.com
 DOMAIN-SUFFIX,push.apple.com
