@@ -1,0 +1,29 @@
+[Script]
+# >高德地图
+高德地图_1 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+高德地图_2 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(mps|search\/sp|sug|tips_operation_location)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+# 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
+高德地图_3 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+高德地图_4 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+# 我的页面,推广卡片
+高德地图_5 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+# 附近页
+高德地图_6 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+# 开屏广告
+高德地图_7 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+高德地图_8 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+高德地图_9 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, timeout=60, script-update-interval=0
+
+[Map Local]
+# >高德地图
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# 导航详情页,路线规划,地点详情页,搜索详情页
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# 打车页,红点角标,弹窗,推广卡片
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/order(_web\/friendly_information|\/car\/king_toolbox_car_bubble)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
