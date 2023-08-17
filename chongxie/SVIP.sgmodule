@@ -17,13 +17,13 @@ iTunes解锁系列 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\
 彩云天气解锁 = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user),requires-body=1,max-size=3145728,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/caiyun.js, timeout=60, script-update-interval=0
 
 # >扫描全能王
-扫描全能王订阅 = type=http-response, pattern=^https:\/\/.*\.(intsig\.net|camscanner\.com), requires-body=true, max-size=3145728, script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js/_end_/CamScanner.js?type=qx-script&target=surge-script&wrap_response=true, timeout=60, script-update-interval=0
+扫描全能王订阅 = type=http-response, pattern=^https:\/\/.*\.(intsig\.net|camscanner\.com), requires-body=true, max-size=3145728, script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js/_end_/CamScanner.js?type=qx-script&target=surge-script, timeout=60, script-update-interval=0
 
 # >百度网盘
 百度网盘解锁 = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js, timeout=60, script-update-interval=0
 
 # >阿里云盘
-阿里云盘订阅 = type=http-response, pattern=^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)), requires-body=true, max-size=3145728, script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js/_end_/alidrive.js?type=qx-script&target=surge-script&wrap_response=true, timeout=60, script-update-interval=0
+阿里云盘订阅 = type=http-response, pattern=^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)), requires-body=true, max-size=3145728, script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js/_end_/alidrive.js?type=qx-script&target=surge-script, timeout=60, script-update-interval=0
 
 # >轻图解锁永久专业版
 轻图解锁 = type=http-response, pattern=^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PhotoVisionProCrack.js, timeout=60, script-update-interval=0
