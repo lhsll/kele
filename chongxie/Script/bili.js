@@ -14,8 +14,8 @@ if (url.includes("/x/resource/show/skin")) {
   if (obj.data.tab) {
     obj.data.tab = obj.data.tab.filter(
       (item) =>
-        item.name === "推荐" ||
         item.name === "直播" ||
+        item.name === "推荐" 
     );
     fixPos(obj.data.tab);
   }
