@@ -40,6 +40,7 @@
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="Scripts/RuCu6去广告合集/reject-dict.json"
 ^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="Scripts/RuCu6去广告合集/reject-dict.json"
 ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/order(_web\/friendly_information|\/car\/king_toolbox_car_bubble)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+^https://m5-zb\.amap\.com/ws/boss/car/order/content_info data="Scripts/RuCu6去广告合集/reject-dict.json"
 
 # >菜鸟
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data="Scripts/RuCu6去广告合集/reject-dict.json"
