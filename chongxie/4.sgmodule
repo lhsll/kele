@@ -35,17 +35,27 @@ amap_33 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtri
 
 [Map Local]
 # >高德地图
-#^https:\/\/mps\.amap\.com\/ws\/mps\/scene\? data="Scripts/RuCu6去广告合集/reject-dict.json"
 ^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
+# 导航详情页,路线规划,地点详情页,搜索详情页
 ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
 ^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/order(_web\/friendly_information|\/car\/king_toolbox_car_bubble)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-^https://m5-zb\.amap\.com/ws/boss/car/order/content_info data="Scripts/RuCu6去广告合集/reject-dict.json"
+
+# 打车页,红点角标,弹窗,天气图标,推广卡片
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
 
 # >菜鸟
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data="Scripts/RuCu6去广告合集/reject-dict.json"
