@@ -1,5 +1,16 @@
 #!name =❏  RuCu6去广告合集
-#!desc = 高德/菜鸟/小红书/百度输入法
+#!desc = 高德/菜鸟/小红书/百度输入法/酷安/QQ音乐
+
+[URL Rewrite]
+
+# >酷安头条
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk - reject
+
+# >QQ音乐
+^https?:\/\/us\.l\.qq\.com\/exapp - reject
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
+^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
 
 [Script]
 
@@ -81,6 +92,11 @@
 # >酷安
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="Scripts/RuCu6去广告合集/reject-dict.json"
 ^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew data="Scripts/RuCu6去广告合集/reject-200.txt"
+
+# >QQ音乐
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="Scripts/RuCu6去广告合集/reject-img.gif"
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/RuCu6去广告合集/reject-img.gif"
+
 
 [MITM]
 hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com
