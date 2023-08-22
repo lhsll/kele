@@ -16,7 +16,9 @@
 京东商城 = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # >中国电信[http://u3v.cn/5uwtIP]
-中国电信 Cookie = type=http-request,pattern=^https:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do),requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js,script-update-interval=0
+中国电信 Cookie = type=http-request,pattern=^https:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do),requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js
 
+# >Bing
+Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path= https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js
 [MITM]
-hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn
+hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com
