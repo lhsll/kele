@@ -20,5 +20,7 @@
 
 # >Bing
 Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js
+
+
 [MITM]
 hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com
