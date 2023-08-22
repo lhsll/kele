@@ -2,18 +2,15 @@
 #!desc = 高德/菜鸟/小红书
 
 [Script]
+
 # >高德地图
 amap_11 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/routePlan\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 amap_13 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 amap_15 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-# 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
 amap_17 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 amap_20 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-# 我的页面,推广卡片
 amap_24 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-# 附近页
 amap_26 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-# 开屏广告
 amap_28 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 amap_32 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 amap_33 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
@@ -33,28 +30,21 @@ amap_33 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtri
 小红书 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 小红书 = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/(followfeed|homefeed|note\/(feed|videofeed))\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 
+# >百度输入法
+百度输入法 = type=http-response,pattern=^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)),requires-body=1,max-size=0,script-update-interval=-1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/bdsrf.js
+
 [Map Local]
+
 # >高德地图
 ^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
-# 导航详情页,路线规划,地点详情页,搜索详情页
 ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
 ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
 ^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
 ^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
-# 打车页,红点角标,弹窗,天气图标,推广卡片
 ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-
 ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? data="Scripts/RuCu6去广告合集/reject-dict.json"
 
 # >菜鸟
@@ -75,7 +65,15 @@ amap_33 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtri
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data="Scripts/RuCu6去广告合集/reject-dict.json"
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? data="Scripts/RuCu6去广告合集/reject-dict.json"
 
+# >百度输入法
+^https?:\/\/mime\.baidu\.com\/v5\/start_screen_ads/list data="Scripts/RuCu6去广告合集/reject-dict.json"
+^https?:\/\/mime\.baidu\.com\/sapi\/v1\/lccorpus\/(applist|pannellist) data="Scripts/RuCu6去广告合集/mime.json"
+^https?:\/\/mime\.baidu\.com\/sapi\/v1\/(circle\/joinedlist|lccorpus\/usercorpussync|aihelpactivity\/aihelpresource) data="Scripts/RuCu6去广告合集/mime.json"
+^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list data="Scripts/RuCu6去广告合集/mime.json"
+^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input data="Scripts/RuCu6去广告合集/bd.json"
+^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info) data="Scripts/RuCu6去广告合集/mime.json"
+
 [MITM]
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com
 
 
