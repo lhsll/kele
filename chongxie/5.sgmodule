@@ -13,4 +13,4 @@
 
 [MITM]
 
-hostname = %APPEND% api.m.jd.com,in.m.jd.com
+hostname = %APPEND% api.m.jd.com, in.m.jd.com, wqs.jd.com, lite-in.m.jd.com, me-api.jd.com
