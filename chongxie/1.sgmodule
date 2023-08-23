@@ -6,7 +6,7 @@
 # >测速
 NetSpeed = script-name=NetSpeed,update-interval=-1
 # >ChatGPT
-CFGPT = script-name=CFGPT,update-interval=-1
+#CFGPT = script-name=CFGPT,update-interval=-1
 # >网络连通性测试
 Connectivity_Test = script-name=Connectivity_Test,update-interval=1
 # >快速切换节点
@@ -43,7 +43,7 @@ FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
 # >显示Surge的启动时间
 SurgePro_ReloadProfile = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Surge-Pro/Moore/SurgePro.js,argument=icon=paperplane.circle&color=#f6c970
 Connectivity_Test = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,argument=title=Connectivity Test&icon=icloud.and.arrow.down&color=#FF9F0A&server=false
-CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/CFGPT_2.js,argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
+#CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/CFGPT_2.js,argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
 # >参数注释:
 # 先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[encode后的机场节点链接]
 # 可选参数 &reset_day，后面的数字替换成流量每月重置的日期，如1号就写1，8号就写8。如"&reset_day=8",不加该参数不显示流量重置信息。
