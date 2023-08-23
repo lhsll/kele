@@ -5,6 +5,7 @@
 [Panel]
 # >测速
 NetSpeed = script-name=NetSpeed,update-interval=-1
+# >ChatGPT
 CFGPT = script-name=CFGPT,update-interval=-1
 # >网络连通性测试
 Connectivity_Test = script-name=Connectivity_Test,update-interval=1
