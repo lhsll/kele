@@ -87,12 +87,16 @@ $httpClient.get(url, function(error, response, data){
 
 // 获取国旗 Emoji 函数
 function getCountryFlagEmoji(countryCode) {
-  if (countryCode.toUpperCase() == 'TW') {
+  if (countryCode && countryCode.toUpperCase() == 'TW') {
     countryCode = 'CN';
   }
-  const codePoints = countryCode
-    .toUpperCase()
-    .split('')
-    .map(char => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
+  if (countryCode) {
+    const codePoints = countryCode
+      .toUpperCase()
+      .split('')
+      .map(char => 127397 + char.charCodeAt());
+    return String.fromCodePoint(...codePoints);
+  } else {
+    return '';
+  }
 }
