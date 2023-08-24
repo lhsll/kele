@@ -4,13 +4,13 @@
 [Script]
 
 # 商品id获取, 查看商品详情触发通知
-京东返利 = type=http-request, pattern=https:\/\/.+\.jd\.com\/graphext\/draw\?sku=(\d+).*, script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js
+京东返利id = type=http-request, pattern=https:\/\/.+\.jd\.com\/graphext\/draw\?sku=(\d+).*, script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js
 
-京东返利 = type=http-request, pattern=https:\/\/.+\.jd\.com\/product\/.*\/(\d+)\.html, script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js
+京东返利通知 = type=http-request, pattern=https:\/\/.+\.jd\.com\/product\/.*\/(\d+)\.html, script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js
 
 # > 京东App 历史价格 
 京东比价 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
 
 [MITM]
 
-hostname = %APPEND% api.m.jd.com, in.m.jd.com, wqs.jd.com, lite-in.m.jd.com, me-api.jd.com, me-api.jd.com, gia.jd.com, uranus.jd.com, h5speed.m.jd.com, ex.m.jd.com, rjsb-token-m.jd.com, sh.jd.com, u.jd.com, item.jd.com
+hostname = %APPEND% api.m.jd.com, in.m.jd.com, *.jd.com, *.*.jd.com
