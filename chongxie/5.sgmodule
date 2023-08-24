@@ -13,4 +13,4 @@
 
 [MITM]
 
-hostname = %APPEND% -mars.jd.com, api.m.jd.com, in.m.jd.com, wqs.jd.com, lite-in.m.jd.com, me-api.jd.com, *.m.jd.com, me-api.jd.com, *.jd.com
+hostname = %APPEND% api.m.jd.com, in.m.jd.com, wqs.jd.com, lite-in.m.jd.com, me-api.jd.com, me-api.jd.com, gia.jd.com, uranus.jd.com, h5speed.m.jd.com, ex.m.jd.com, rjsb-token-m.jd.com, sh.jd.com
