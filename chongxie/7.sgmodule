@@ -191,7 +191,7 @@
 ^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
 # >招商银行
-^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png).*\.(jpg|png) data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) data="Scripts/KeLe广告订阅合集/reject-200.txt"
 
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data="Scripts/KeLe广告订阅合集/reject-200.txt"
 
