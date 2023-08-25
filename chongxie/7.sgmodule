@@ -1,0 +1,104 @@
+#!name=KeLe广告订阅合集
+#!desc=其他Ad合集
+
+[URL Rewrite]
+
+# >爱思助手
+^https:\/\/list-app-m\.i4\.cn\/(adclickcb|getHotSearchList|getopfstadinfo)\.xhtml - reject
+# >阿里巴巴
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources - reject
+# >CSDN
+^https:\/\/app-gw\.csdn\.net\/cms-app\/v\d\/home_page\/open_advertisement - reject
+# >饿了么
+^https:\/\/elemecdn.com\/.+\/sitemap - reject
+^https:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} - reject
+^https:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} - reject
+^https:\/\/fuss10.elemecdn.com\/.+\.mp4 - reject
+^https:\/\/www1.elecfans.com\/www\/delivery - reject
+# >建设银行
+^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/nf\/newfin\/activity\/xjr_\w+\.png$ - reject
+^http:\/\/imageadv\.ccb\.com\/adpic\/(nctm\/ad|sszserver\/upload\/activity)\/\d{8}\/\w+\.(gif|png|jpg)$ - reject
+# >京东
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
+# >交管12123
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
+# >肯德基
+^https:\/\/res\.kfc\.com\.cn\/advertisement - reject
+# >拼多多
+^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+# >闲鱼
+^https:\/\/gw\.alicdn\.com\/mt\/ - reject
+^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} - reject
+^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} - reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome - reject
+# >云闪付
+^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
+# >中国移动
+^https:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
+^https:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query - reject
+
+[Script]
+
+# >12306开屏广告
+12306开屏Ad = type=http-request, pattern=^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js
+
+# >爱奇艺
+爱奇艺Ad = type=http-response, pattern=^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
+# >阿里云盘
+阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+
+阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+
+# >百度云
+百度云Ad = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/api\/getsyscfg\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
+# >京东极速版
+京东极速版Ad = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, timeout=60, argument="jdLiteAdvertisingVO->rucu6"
+
+# >微信跳过微信中转页面,解除被封禁链接
+微信跳过中转页面 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
+
+[Map Local]
+
+# >阿里云盘
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+# >阿里巴巴
+^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-(702-758|1080-2430) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+# >百度云
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+^https?:\/\/update\.pan\.baidu\.com\/statistics\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+# >飞猪
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+# >美团 & 美团外卖
+^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+# >微信移除公众号中的推广内容
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+# >米家
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+[MITM]
+
+hostname = %APPEND% ad.12306.cn,t7z.cupid.iqiyi.com,list-app-m.i4.cn,api.alipan.com,member.alipan.com,acs.m.taobao.com,gw.alicdn.com,heic.alicdn.com,pan.baidu.com,update.pan.baidu.com,app-gw.csdn.net,elemecdn.com,fuss10.elemecdn.com,www1.elecfans.com,acs.m.taobao.com,image1.ccb.com,imageadv.ccb.com,api.m.jd.com,gab.122.gov.cn,res.kfc.com.cn,flowplus.meituan.net,img.meituan.net,s3plus.meituan.net,api.pinduoduo.com,api.yangkeduo.com,mp.weixin.qq.com,weixin110.qq.com,security.wechat.com,gw.alicdn.com,acs.m.taobao.com,home.mi.com,wallet.95516.com,clientaccess.10086.cn,wap.js.10086.cn
