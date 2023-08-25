@@ -86,14 +86,13 @@ if ($request.url.indexOf(hengtiao) != -1){
   body = JSON.stringify(chxm1023);
 }
 
-if ($request.url.indexOf("guolv") != -1) {
-  if (chxm1023.coreFeatures && chxm1023.coreFeatures.items) {
-    chxm1023.coreFeatures.items = chxm1023.coreFeatures.items.filter(item => item.code !== "AI_ASSISTANT");  //图搜
-  }
-  delete chxm1023.signIn;         //登录
-  delete chxm1023.banners;        //横幅
-  delete chxm1023.minorBackup;    //设备列表
-  delete chxm1023.mainBackup;     //备份还原
+if ($request.url.indexOf(guolv) != -1){
+  chxm1023.coreFeatures.items = chxm1023.coreFeatures.items.filter(item => item.code !== "AI_ASSISTANT");  //图搜
+  delete chxm1023.signIn;  //登录
+  delete chxm1023.banners; //横幅
+  delete chxm1023.minorBackup;  //设备列表
+  delete chxm1023.mainBackup;  //备份还原
+  delete chxm1023.coreFeatures;  //横版图标
   body = JSON.stringify(chxm1023);
 }
 
