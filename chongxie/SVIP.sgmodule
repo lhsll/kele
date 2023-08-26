@@ -29,8 +29,11 @@ iTunes = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyR
 轻图解锁 = type=http-response, pattern=^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PhotoVisionProCrack.js
 
 # >ChatGPT 解锁 Plus 订阅
-ChatGPT解锁 = type=http-response, pattern=^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js
+#ChatGPT解锁 = type=http-response, pattern=^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, app-measurement.com, *.camscanner.com, *.intsig.net, wallpaper.soutushenqi.com, biz.caiyunapp.com, pan.baidu.com, *.aliyundrive.com, *.alipan.com, purchase-qingtu-api.b612kaji.com, ios.chat.openai.com, biz.cyapi.cn, wrapper.cyapi.cn
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, app-measurement.com, *.camscanner.com, *.intsig.net, wallpaper.soutushenqi.com, biz.caiyunapp.com, pan.baidu.com, *.aliyundrive.com, *.alipan.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, wrapper.cyapi.cn
+
+
+#ios.chat.openai.com
