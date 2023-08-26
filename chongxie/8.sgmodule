@@ -4,7 +4,7 @@
 [Script]
 
 # >酷安我的页面去横幅
-酷安我的页面 = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/Scripts/自写脚本订阅合集/酷安我的页面.js
+酷安我的页面 = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/酷安我的页面.js
 
 # >搜图神器去升级弹窗
 搜图神器去升级 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/搜图神器去升级.js
