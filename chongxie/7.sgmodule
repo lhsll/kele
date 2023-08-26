@@ -95,8 +95,6 @@
 # >淘宝去广告
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d{13}\/[A-Za-z0-9]{23,24}\_!!\d{13}\.(jpg|png|gif|mp4|wepb)\_\d{2,4}\x\d{2,4}\q\d{2,3}\.(jpg|png|gif|mp4|wepb)\_.heic - reject
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]{23}\_!!\d{13}\-\d\-tps\-\d{4}\-\d{4}\.jpg\_\d{4}x\d{4}\q90\.jpg\_\.heic - reject
-# >腾讯视频
-^http:\/\/[0-9\.:]*\/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ - reject
 
 [Script]
 
@@ -381,6 +379,8 @@
 
 # >腾讯视频
 ^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
+^http:\/\/[0-9\.:]*\/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
 [MITM]
 
