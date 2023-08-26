@@ -10,46 +10,46 @@
 搜图神器去升级 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/搜图神器去升级.js
 
 # >搜图神器开屏
-搜图神器开屏 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v2\/dateSignature\/random\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/stsqAD.js
+搜图神器开屏 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v2\/dateSignature\/random\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/搜图神器开屏.js
 
 # >什么值得买Apple推销开屏
-什么值得买Apple开屏 = type=http-response,pattern=^https:\/\/s3\.zdmimg\.com\/cpm\/api\/v1\/advert_distribution\/get_all_advertise\?,requires-body=1,,max-size=0,script-path=Scripts/自写脚本订阅合集/smzdmApple.js
+什么值得买Apple开屏 = type=http-response,pattern=^https:\/\/s3\.zdmimg\.com\/cpm\/api\/v1\/advert_distribution\/get_all_advertise\?,requires-body=1,,max-size=0,script-path=Scripts/自写脚本订阅合集/什么值得买Apple开屏.js
 
 # >什么值得买社区(关键词:暗影精灵)
-什么值得买社区 = type=http-response,pattern=^https:\/\/article-api\.smzdm\.com\/shequ\/index\?.+$,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/smzdm02.js
+什么值得买社区 = type=http-response,pattern=^https:\/\/article-api\.smzdm\.com\/shequ\/index\?.+$,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/什么值得买社区.js
 
 # >什么值得买我的页面
-什么值得买我的页面 = type=http-response,pattern=^https:\/\/user-api\.smzdm\.com\/vip$,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/smzdm01.js
+什么值得买我的页面 = type=http-response,pattern=^https:\/\/user-api\.smzdm\.com\/vip$,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/什么值得买我的页面.js
 
 # >UKi娱乐
-UKi娱乐 = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/party\/getAmusementNav,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/UKiYule.js
+UKi娱乐 = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/party\/getAmusementNav,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/UKi娱乐.js
 
 # >UKi娱乐Ui
 UKi娱乐UI = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/party\/config,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/ukiUi.js
 
 # >UKi首页
-UKi首页 = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/UKi.js
+UKi首页 = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/UKi首页.js
 
 # >Lynk&Co设置
-领克设置 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/getPicInfo,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/LynkCoSZ.js
+领克设置 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/getPicInfo,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/领克设置.js
 
 # >Lynk&Co搜索框
-领克搜索框 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/LynkCoAd.js
+领克搜索框 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/领克搜索框.js
 
 # >Lynk&Co首页
-领克首页 = type=http-response,pattern=^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/info\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/LynkCo.js
+领克首页 = type=http-response,pattern=^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/info\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/领克首页.js
 
 # >香山电子秤开屏
-香山电子秤开屏 = type=http-response,pattern=^https:\/\/shealthyapi\.senssun\.com\/v1\/app\/banner\/findByType\?type=bottom,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/xiangshan.js
+香山电子秤开屏 = type=http-response,pattern=^https:\/\/shealthyapi\.senssun\.com\/v1\/app\/banner\/findByType\?type=bottom,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/香山电子秤开屏.js
 
 # >米家广告图片
-米家广告图片 = type=http-response,pattern=^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/carousel\/banners\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/MIUI.js
+米家广告图片 = type=http-response,pattern=^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/carousel\/banners\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/米家广告图片.js
 
 # >王者营地开屏
-王者营地开屏 = type=http-response,pattern=^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/wzyd.js
+王者营地开屏 = type=http-response,pattern=^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/王者营地开屏.js
 
 # >飞智游戏厅开屏
-飞智游戏厅开屏 = type=http-response,pattern=^https:\/\/api\.flydigi\.com\/android\/v2\/ad\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/flydigi.js
+飞智游戏厅开屏 = type=http-response,pattern=^https:\/\/api\.flydigi\.com\/android\/v2\/ad\?,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/飞智游戏厅开屏.js
 
 # >台州人才网
-台州人才网 = type=http-response,pattern=^https:\/\/api\.tzrl\.net\/person\/v5\/ad\/banner,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/tzrcw.js
+台州人才网 = type=http-response,pattern=^https:\/\/api\.tzrl\.net\/person\/v5\/ad\/banner,requires-body=1,max-size=0,script-path=Scripts/自写脚本订阅合集/台州人才网.js
