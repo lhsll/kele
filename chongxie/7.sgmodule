@@ -95,6 +95,8 @@
 # >淘宝去广告
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d{13}\/[A-Za-z0-9]{23,24}\_!!\d{13}\.(jpg|png|gif|mp4|wepb)\_\d{2,4}\x\d{2,4}\q\d{2,3}\.(jpg|png|gif|mp4|wepb)\_.heic - reject
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]{23}\_!!\d{13}\-\d\-tps\-\d{4}\-\d{4}\.jpg\_\d{4}x\d{4}\q90\.jpg\_\.heic - reject
+# >腾讯视频
+^http:\/\/[0-9\.:]*\/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ - reject
 
 [Script]
 
@@ -139,6 +141,12 @@
 
 # >小程序_掌上公交
 小程序_掌上公交 = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do, requires-body=true, max-size=3145728, script-path=Scripts/KeLe广告订阅合集/zhangshanggongjiao.js
+
+# >爱奇艺
+爱奇艺Ad = type=http-response, pattern=^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
+# >优酷
+优酷Ad = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 
 [Map Local]
 
@@ -368,6 +376,9 @@
 
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="Scripts/KeLe广告订阅合集/reject-img.gif"
 
+# >腾讯视频
+^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+
 [MITM]
 
-hostname = %APPEND% ad.12306.cn, t7z.cupid.iqiyi.com, list-app-m.i4.cn, api.alipan.com, member.alipan.com, acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, pan.baidu.com, update.pan.baidu.com, app-gw.csdn.net, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, acs.m.taobao.com, image1.ccb.com, imageadv.ccb.com, api.m.jd.com, gab.122.gov.cn, res.kfc.com.cn, flowplus.meituan.net, img.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, acs.m.taobao.com, home.mi.com, wallet.95516.com, clientaccess.10086.cn, wap.js.10086.cn, adim.pinduoduoadim, images.pinduoduo.com, video-dsp.pddpic.com, *.gdt.qq.com, api-access.pangolin-sdk-toutiao.*.com, *.pglstatp-toutiao.com, adsmind.gdtimg.com, pgdt.gtimg.cn, us.l.qq.com, sh-gateway.shihuo.cn, dns.jd.com, xiaoredpic.neoclub.cn, m.qianbao.qq.com, data-collector.soulapp.cn, heic.alicdn.com, qt.qq.com, *.beacon.qq.com, mi.gdt.qq.com, *.l.qq.com, *.gdt.qq.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, afd.baidu.com, mobads.baidu.com, als.baidu.com, log.*baidu.com, www.baidu.com, mlol.qt.qq.com, pvppic.kohsocialapp.qq.com, spclient.wg.spotify.com, api*.musical.ly, api.weibo.cn, app-api.smzdm.com, user-api.smzdm.com, s-api.smzdm.com, article-api.smzdm.com, s3gw.cmbimg.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, wallpaper.soutushenqi.com, app-services.lynkco.com, *.shuzilm.cn, api.neoclub.cn, dldir1.qq.com, member.tmga.qq.com, alive-interact.alicdn.com, lban.spdb.com, oc.umeng.com, portal.zjzwfw.gov.cn, api.cloud.189.cn, zt-app.go189.cn, wxsnsdythumb.wxs.qq.com, *.i4.cn, api.flydigi.com, tianqi.2345.com, baichuan.baidu.com, api*.tuisong.baidu.com, issuecdn.baidupcs.com, *.baidu.com, wrapper.cyapi.cn, pt-starimg.didistatic.com, omgup*.xiaojukeji.com, pv.elife.icbc.com.cn, elife.icbc.com.cn, *.googleapis.com, pagead2.googlesyndication.com, res.cc.cmbimg.com, client.app.coc.10086.cn, api.zhihu.com, ossweb-img.qq.com, btrace.qq.com, api2.helper.qq.com, lives.l.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, ssl.kohsocialapp.qq.com:10001, 3gimg.qq.com, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, res.app.coc.10086.cn
+hostname = %APPEND% ad.12306.cn, t7z.cupid.iqiyi.com, list-app-m.i4.cn, api.alipan.com, member.alipan.com, acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, pan.baidu.com, update.pan.baidu.com, app-gw.csdn.net, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, acs.m.taobao.com, image1.ccb.com, imageadv.ccb.com, api.m.jd.com, gab.122.gov.cn, res.kfc.com.cn, flowplus.meituan.net, img.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, acs.m.taobao.com, home.mi.com, wallet.95516.com, clientaccess.10086.cn, wap.js.10086.cn, adim.pinduoduoadim, images.pinduoduo.com, video-dsp.pddpic.com, *.gdt.qq.com, api-access.pangolin-sdk-toutiao.*.com, *.pglstatp-toutiao.com, adsmind.gdtimg.com, pgdt.gtimg.cn, us.l.qq.com, sh-gateway.shihuo.cn, dns.jd.com, xiaoredpic.neoclub.cn, m.qianbao.qq.com, data-collector.soulapp.cn, heic.alicdn.com, qt.qq.com, *.beacon.qq.com, mi.gdt.qq.com, *.l.qq.com, *.gdt.qq.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, afd.baidu.com, mobads.baidu.com, als.baidu.com, log.*baidu.com, www.baidu.com, mlol.qt.qq.com, pvppic.kohsocialapp.qq.com, spclient.wg.spotify.com, api*.musical.ly, api.weibo.cn, app-api.smzdm.com, user-api.smzdm.com, s-api.smzdm.com, article-api.smzdm.com, s3gw.cmbimg.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, wallpaper.soutushenqi.com, app-services.lynkco.com, *.shuzilm.cn, api.neoclub.cn, dldir1.qq.com, member.tmga.qq.com, alive-interact.alicdn.com, lban.spdb.com, oc.umeng.com, portal.zjzwfw.gov.cn, api.cloud.189.cn, zt-app.go189.cn, wxsnsdythumb.wxs.qq.com, *.i4.cn, api.flydigi.com, tianqi.2345.com, baichuan.baidu.com, api*.tuisong.baidu.com, issuecdn.baidupcs.com, *.baidu.com, wrapper.cyapi.cn, pt-starimg.didistatic.com, omgup*.xiaojukeji.com, pv.elife.icbc.com.cn, elife.icbc.com.cn, *.googleapis.com, pagead2.googlesyndication.com, res.cc.cmbimg.com, client.app.coc.10086.cn, api.zhihu.com, ossweb-img.qq.com, btrace.qq.com, api2.helper.qq.com, lives.l.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, ssl.kohsocialapp.qq.com:10001, 3gimg.qq.com, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, res.app.coc.10086.cn, un-acs.youku.com, t7z.cupid.iqiyi.com, apd-vlive.apdcdn.tc.qq.com, 
