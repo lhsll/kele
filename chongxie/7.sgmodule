@@ -146,9 +146,6 @@
 # >优酷
 优酷Ad = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 
-# >腾讯视频
-腾讯视频Ad = type=http-request,pattern=^(https:\/\/i\.video|http:\/\/iacc)\.qq\.com\/$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Tx.js
-
 [Map Local]
 
 # >阿里云盘
