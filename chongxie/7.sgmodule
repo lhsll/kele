@@ -2,6 +2,8 @@
 #!desc=其他Ad合集
 
 [URL Rewrite]
+# >香山电子秤
+^https:\/\/shealthyapi\.senssun\.com\/v1\/userMeals\/list - reject
 # >Lynk&Co
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/car\/listThreeDimensionalMedia - reject
 # >爱思助手
