@@ -150,6 +150,8 @@
 优酷Ad = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 
 [Map Local]
+# >ChatGPT
+^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
 # >阿里云盘
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="Scripts/KeLe广告订阅合集/reject-dict.json"
