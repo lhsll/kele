@@ -1,5 +1,5 @@
 #!name =❏  RuCu6广告订阅合集
-#!desc = 高德/菜鸟/小红书/百度输入法/酷安/QQ音乐/阿里云盘
+#!desc = 高德/菜鸟/小红书/百度输入法/酷安/QQ音乐/阿里云盘/爱奇艺/腾讯视频/优酷/芒果tv
 
 [URL Rewrite]
 
@@ -11,6 +11,9 @@
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
 ^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
+
+# >腾讯视频
+^http:\/\/[0-9\.:]*\/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ - reject
 
 [Script]
 
@@ -52,6 +55,16 @@
 # >阿里云盘
 阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+
+# >爱奇艺
+爱奇艺 = type=http-response, pattern=^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
+# >芒果tv
+芒果tv = type=http-response, pattern=^http:\/\/dc\.bz\.mgtv\.com\/dynamic\/v1\/channel\/index\/.+, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Crazy-Z7/AdGuard/main/NoAdMgTV.conf
+芒果tv = type=http-response, pattern=^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v1\/channel\/vrsList, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, timeout=60, argument=".%2B->%7B%7D"
+
+# >优酷
+优酷 = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 
 [Map Local]
 
@@ -101,6 +114,35 @@
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="Scripts/RuCu6广告订阅合集/reject-img.gif"
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/RuCu6广告订阅合集/reject-img.gif"
 
+# >芒果tv
+^http:\/\/dflow\.bz\.mgtv\.com\/flow\/getExtensionPosition data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^http:\/\/iphone\.v0\.mgtv\.com\/show\.php\?abroad\.\+ data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^http:\/\/rc-topic-api\.bz\.mgtv\.com\/rc\/topic\/rank data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/credits\.bz\.mgtv\.com\/credits\/selectedToast data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/credits\.bz\.mgtv\.com\/credits\/url data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/floor\.bz\.mgtv\.com\/floor\/detail\.+ data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/img\.da\.mgtv\.com\/mediafiles\/wiad_creative\/1008\/\*\.gif data="Scripts/RuCu6广告订阅合集/reject-img.gif"
+^https:\/\/layer\.bz\.mgtv\.com\/layer\/conf\.\* data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/layer\.bz\.mgtv\.com\/layer\/confv2 data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/layer\.bz\.mgtv\.com\/layer\/report data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/me\.bz\.mgtv\.com\/v3\/module\/list data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/me2\.bz\.mgtv\.com\/v3\/module\/list\.+ data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/skin\/config data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/mobile\.api\.mgtv\.com\/v2\/mobile\/checkUpdate data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/mobile\.da\.mgtv\.com\/app\/el data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/mobile\.da\.mgtv\.com\/creative\/list data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/mobile\.da\.mgtv\.com\/m\/page data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/pcvideoaliyun\.titan\.mgtv\.com data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/playgift\.api\.mgtv\.com\/play\/gift\/api\/play\/config data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https:\/\/video\.da\.mgtv\.com data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/vipcdn\.mgtv\.com\/act_ugc\/billing\/20220825\/tmp\/acf2efcc245911edbe6e00163e308875\.png data="Scripts/RuCu6广告订阅合集/reject-img.gif"
+^https?:\/\/recom\.api\.mgtv\.com\/xyt\/banner.+ data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https?:\/\/vip\.bz\.mgtv\.com\/client\/dynamic_entry.+ data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+
+# >腾讯视频
+^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ data="Scripts/RuCu6广告订阅合集/reject-dict.json"
 
 [MITM]
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, un-acs.youku.com, t7z.cupid.iqiyi.com, apd-vlive.apdcdn.tc.qq.com, dflow.bz.mgtv.com, iphone.v0.mgtv.com, rc-topic-api.bz.mgtv.com, credits.bz.mgtv.com, floor.bz.mgtv.com, img.da.mgtv.com, layer.bz.mgtv.com, me.bz.mgtv.com, me2.bz.mgtv.com, mob.bz.mgtv.com, mobile.api.mgtv.com, mobile.da.mgtv.com, playgift.api.mgtv.com, pcvideoaliyun.titan.mgtv.com, video.da.mgtv.com, vipcdn.mgtv.com, recom.api.mgtv.com, vip.bz.mgtv.com, dc.bz.mgtv.com
