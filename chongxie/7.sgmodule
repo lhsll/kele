@@ -104,9 +104,6 @@
 # >12306开屏广告
 12306开屏Ad = type=http-request, pattern=^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js
 
-# >爱奇艺
-爱奇艺Ad = type=http-response, pattern=^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-
 # >阿里云盘
 阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 
@@ -142,12 +139,6 @@
 
 # >小程序_掌上公交
 小程序_掌上公交 = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do, requires-body=true, max-size=3145728, script-path=Scripts/KeLe广告订阅合集/zhangshanggongjiao.js
-
-# >爱奇艺
-爱奇艺Ad = type=http-response, pattern=^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-
-# >优酷
-优酷Ad = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 
 [Map Local]
 # >ChatGPT
@@ -378,11 +369,6 @@
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
 
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="Scripts/KeLe广告订阅合集/reject-img.gif"
-
-# >腾讯视频
-^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ data="Scripts/KeLe广告订阅合集/reject-dict.json"
-
-^http:\/\/[0-9\.:]*\/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
 [MITM]
 
