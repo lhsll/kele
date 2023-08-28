@@ -33,7 +33,4 @@ iTunes = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyR
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, app-measurement.com, *.camscanner.com, *.intsig.net, wallpaper.soutushenqi.com, biz.caiyunapp.com, pan.baidu.com, *.aliyundrive.com, *.alipan.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, wrapper.cyapi.cn
-
-
-#ios.chat.openai.com
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, *.camscanner.com, *.intsig.net, wallpaper.soutushenqi.com, biz.caiyunapp.com, pan.baidu.com, *.aliyundrive.com, *.alipan.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, wrapper.cyapi.cn
