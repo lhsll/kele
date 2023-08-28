@@ -57,17 +57,24 @@
 阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 
 # >爱奇艺
-爱奇艺 = type=http-response, pattern=^http:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/iqiyi.js
-爱奇艺 = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/iqiyi.js
-爱奇艺 = type=http-response, pattern=^https:\/\/iface2\.iqiyi\.com\/control\/3\.0\/init_proxy\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/iqiyi.js
-爱奇艺 = type=http-response, pattern=^https:\/\/search\.video\.iqiyi\.com\/q\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/iqiyi.js
+爱奇艺 = type=http-response, pattern=^http:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^http:\/\/[0-9\.]+\/3f1\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^http:\/\/access\.if\.iqiyi\.com\/3f1\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/iface2\.iqiyi\.com\/aggregate\/3\.0\/getMyMenus\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/iface2\.iqiyi\.com\/control\/3\.0\/init_proxy\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/iface2\.iqiyi\.com\/views\/3\.0\/(bottom_theme|home_top_menu)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/views_plt\/3\.0\/player_tabs_v2\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/cards\.iqiyi\.com\/views_search\/3\.0\/(hot_query_)?search\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/search\.video\.iqiyi\.com\/q\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+爱奇艺 = type=http-response, pattern=^https:\/\/comment-card\.iqiyi\.com\/views_comment\/3\.0\/long_video_comments\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 
 # >芒果tv
-芒果tv = type=http-response, pattern=^http:\/\/dc\.bz\.mgtv\.com\/dynamic\/v1\/channel\/index\/.+, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Crazy-Z7/AdGuard/main/NoAdMgTV.conf
-芒果tv = type=http-response, pattern=^https:\/\/dc\.bz\.mgtv\.com\/dynamic\/v1\/channel\/vrsList, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, timeout=60, argument=".%2B->%7B%7D"
+芒果tv = type=http-response, pattern=^http://dc.bz.mgtv.com/dynamic/v1/channel/index/.+, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+芒果tv = type=http-response, pattern=^https://dc.bz.mgtv.com/dynamic/v1/channel/vrsList, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, timeout=60, argument=".%2B->%7B%7D"
 
 # >优酷
-优酷 = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+优酷 = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 
 [Map Local]
 
@@ -117,6 +124,10 @@
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="Scripts/RuCu6广告订阅合集/reject-img.gif"
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/RuCu6广告订阅合集/reject-img.gif"
 
+# >爱奇艺
+^https:\/\/iface2\.iqiyi\.com\/views_pop\/3\.0\/pop_control\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+^https:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+
 # >芒果tv
 ^http:\/\/dflow\.bz\.mgtv\.com\/flow\/getExtensionPosition data="Scripts/RuCu6广告订阅合集/reject-200.txt"
 ^http:\/\/iphone\.v0\.mgtv\.com\/show\.php\?abroad\.\+ data="Scripts/RuCu6广告订阅合集/reject-200.txt"
@@ -149,4 +160,4 @@
 
 [MITM]
 
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, -i.vip.iqiyi.com, un-acs.youku.com, apd-vlive.apdcdn.tc.qq.com, dflow.bz.mgtv.com, iphone.v0.mgtv.com, rc-topic-api.bz.mgtv.com, credits.bz.mgtv.com, floor.bz.mgtv.com, img.da.mgtv.com, layer.bz.mgtv.com, me.bz.mgtv.com, me2.bz.mgtv.com, mob.bz.mgtv.com, mobile.api.mgtv.com, mobile.da.mgtv.com, playgift.api.mgtv.com, pcvideoaliyun.titan.mgtv.com, video.da.mgtv.com, vipcdn.mgtv.com, recom.api.mgtv.com, vip.bz.mgtv.com, dc.bz.mgtv.com, kjp.cupid.iqiyi.com, t7z.cupid.iqiyi.com, cards.iqiyi.com, iface2.iqiyi.com, search.video.iqiyi.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, -i.vip.iqiyi.com, un-acs.youku.com, apd-vlive.apdcdn.tc.qq.com, dflow.bz.mgtv.com, iphone.v0.mgtv.com, rc-topic-api.bz.mgtv.com, credits.bz.mgtv.com, floor.bz.mgtv.com, img.da.mgtv.com, layer.bz.mgtv.com, me.bz.mgtv.com, me2.bz.mgtv.com, mob.bz.mgtv.com, mobile.api.mgtv.com, mobile.da.mgtv.com, playgift.api.mgtv.com, pcvideoaliyun.titan.mgtv.com, video.da.mgtv.com, vipcdn.mgtv.com, recom.api.mgtv.com, vip.bz.mgtv.com, dc.bz.mgtv.com, kjp.cupid.iqiyi.com, t7z.cupid.iqiyi.com, *cards.iqiyi.com, access.if.iqiyi.com, iface2.iqiyi.com, cards.iqiyi.com, search.video.iqiyi.com, comment-card.iqiyi.com, *.tc.qq.com
