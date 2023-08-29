@@ -121,17 +121,6 @@
 # 京喜/京喜特价/京东小家 去除开屏广告
 京东系列-净化 = type=http-response,script-path= Scripts/KeLe广告订阅合集/jhad.js,pattern= ^https?:\/\/api\..*\.jd\.com\/(client\.action\?functionId=lite_advertising|.+\/service\/getLoadingLinks),max-size=0,requires-body=true,timeout=10,enable=true
 
-# >移除百度知道搜索广告
-移除百度知道搜索广告= type=http-response,pattern=^https?:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word),requires-body=1,max-size=0,script-path=Scripts/KeLe广告订阅合集/BaiduZhidao_remove_ads.js
-
-# >移除百度搜索首页广告
-移除百度搜索首页广告= type=http-response,pattern=^https?:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*),requires-body=1,max-size=0,script-path=Scripts/KeLe广告订阅合集/BaiduSearchHomePage_remove_ads.js
-
-移除百度搜索首页广告01= type=http-response,pattern=^https?:\/\/(www|m)\.baidu\.com\/.*word=.*,requires-body=1,max-size=0,script-path=Scripts/KeLe广告订阅合集/BaiduSearchResults_remove_ads.js
-
-# >百度防跳转
-移除百度搜索首页广告= type=http-response,pattern=^https?:\/\/boxer\.baidu\.com\/scheme\?scheme,requires-body=1,max-size=0,script-path=Scripts/KeLe广告订阅合集/RemoveBaiduSearchRedirect.js
-
 # >京东搜索栏
 京东搜索栏 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords,requires-body=1,max-size=0,script-path=Scripts/KeLe广告订阅合集/jd_json.js
 
