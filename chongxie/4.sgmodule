@@ -137,8 +137,8 @@
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/RuCu6广告订阅合集/reject-img.gif"
 
 # >爱奇艺
-^https:\/\/iface2\.iqiyi\.com\/views_pop\/3\.0\/pop_control\? data="Scripts/RuCu6去广告合集/reject-dict.json"
-^https:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show\? data="Scripts/RuCu6去广告合集/reject-dict.json"
+^https:\/\/iface2\.iqiyi\.com\/views_pop\/3\.0\/pop_control\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
 
 # >芒果tv
 ^http:\/\/dflow\.bz\.mgtv\.com\/flow\/getExtensionPosition data="Scripts/RuCu6广告订阅合集/reject-200.txt"
