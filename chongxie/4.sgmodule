@@ -76,6 +76,18 @@
 # >优酷
 优酷 = type=http-response, pattern=^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 
+# >百度知道搜索广告
+知道搜索广告 = type=http-response, pattern=^https:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
+
+# >百度搜索首页广告
+搜索首页广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-index.js
+
+# >百度搜索结果广告
+搜索结果广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com\/.*word=.*, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu.js
+
+# >百度防跳转
+百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduNoRedirect.js
+
 [Map Local]
 
 # >高德地图
@@ -160,4 +172,4 @@
 
 [MITM]
 
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, -i.vip.iqiyi.com, un-acs.youku.com, apd-vlive.apdcdn.tc.qq.com, dflow.bz.mgtv.com, iphone.v0.mgtv.com, rc-topic-api.bz.mgtv.com, credits.bz.mgtv.com, floor.bz.mgtv.com, img.da.mgtv.com, layer.bz.mgtv.com, me.bz.mgtv.com, me2.bz.mgtv.com, mob.bz.mgtv.com, mobile.api.mgtv.com, mobile.da.mgtv.com, playgift.api.mgtv.com, pcvideoaliyun.titan.mgtv.com, video.da.mgtv.com, vipcdn.mgtv.com, recom.api.mgtv.com, vip.bz.mgtv.com, dc.bz.mgtv.com, kjp.cupid.iqiyi.com, t7z.cupid.iqiyi.com, *cards.iqiyi.com, access.if.iqiyi.com, iface2.iqiyi.com, cards.iqiyi.com, search.video.iqiyi.com, comment-card.iqiyi.com, *.tc.qq.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, -i.vip.iqiyi.com, un-acs.youku.com, apd-vlive.apdcdn.tc.qq.com, dflow.bz.mgtv.com, iphone.v0.mgtv.com, rc-topic-api.bz.mgtv.com, credits.bz.mgtv.com, floor.bz.mgtv.com, img.da.mgtv.com, layer.bz.mgtv.com, me.bz.mgtv.com, me2.bz.mgtv.com, mob.bz.mgtv.com, mobile.api.mgtv.com, mobile.da.mgtv.com, playgift.api.mgtv.com, pcvideoaliyun.titan.mgtv.com, video.da.mgtv.com, vipcdn.mgtv.com, recom.api.mgtv.com, vip.bz.mgtv.com, dc.bz.mgtv.com, kjp.cupid.iqiyi.com, t7z.cupid.iqiyi.com, *cards.iqiyi.com, access.if.iqiyi.com, iface2.iqiyi.com, cards.iqiyi.com, search.video.iqiyi.com, comment-card.iqiyi.com, *.tc.qq.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com
