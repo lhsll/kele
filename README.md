@@ -13,7 +13,6 @@
 |--------|-----------|
 |[Q-Search](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/3.sgmodule)|[RuCu6广告订阅合集](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/4.sgmodule)|
 |[京东联盟](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/5.sgmodule)| [Billbili](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/6.sgmodule)|
-|--------|-----------|
 [KeLe广告订阅合集](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/7.sgmodule)|[自写脚本订阅合集](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/8.sgmodule)
 
 ## 贡献
