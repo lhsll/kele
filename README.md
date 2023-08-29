@@ -8,7 +8,6 @@
 - 优化流量路由，帮助您实现更快速、更稳定的网络连接。
 - 可根据需要自定义分流规则，以满足特定应用场景下的需求。
 
-## 导航
 ## 脚本模块
 - [面板](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/1.sgmodule)
 - [Cookie获取](https://raw.githubusercontent.com/lhsll/kele/main/chongxie/2.sgmodule)
