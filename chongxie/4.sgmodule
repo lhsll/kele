@@ -12,9 +12,6 @@
 ^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
 
-# >腾讯视频
-#^http:\/\/[0-9\.:]*\/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ - reject
-
 [Script]
 
 # >高德地图
@@ -167,9 +164,6 @@
 ^https?:\/\/recom\.api\.mgtv\.com\/xyt\/banner.+ data="Scripts/RuCu6广告订阅合集/reject-200.txt"
 ^https?:\/\/vip\.bz\.mgtv\.com\/client\/dynamic_entry.+ data="Scripts/RuCu6广告订阅合集/reject-200.txt"
 
-# >腾讯视频
-^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-
 [MITM]
 
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, -i.vip.iqiyi.com, un-acs.youku.com, apd-vlive.apdcdn.tc.qq.com, dflow.bz.mgtv.com, iphone.v0.mgtv.com, rc-topic-api.bz.mgtv.com, credits.bz.mgtv.com, floor.bz.mgtv.com, img.da.mgtv.com, layer.bz.mgtv.com, me.bz.mgtv.com, me2.bz.mgtv.com, mob.bz.mgtv.com, mobile.api.mgtv.com, mobile.da.mgtv.com, playgift.api.mgtv.com, pcvideoaliyun.titan.mgtv.com, video.da.mgtv.com, vipcdn.mgtv.com, recom.api.mgtv.com, vip.bz.mgtv.com, dc.bz.mgtv.com, kjp.cupid.iqiyi.com, t7z.cupid.iqiyi.com, *cards.iqiyi.com, access.if.iqiyi.com, iface2.iqiyi.com, cards.iqiyi.com, search.video.iqiyi.com, comment-card.iqiyi.com, *.tc.qq.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, -i.vip.iqiyi.com, un-acs.youku.com, dflow.bz.mgtv.com, iphone.v0.mgtv.com, rc-topic-api.bz.mgtv.com, credits.bz.mgtv.com, floor.bz.mgtv.com, img.da.mgtv.com, layer.bz.mgtv.com, me.bz.mgtv.com, me2.bz.mgtv.com, mob.bz.mgtv.com, mobile.api.mgtv.com, mobile.da.mgtv.com, playgift.api.mgtv.com, pcvideoaliyun.titan.mgtv.com, video.da.mgtv.com, vipcdn.mgtv.com, recom.api.mgtv.com, vip.bz.mgtv.com, dc.bz.mgtv.com, kjp.cupid.iqiyi.com, t7z.cupid.iqiyi.com, *cards.iqiyi.com, access.if.iqiyi.com, iface2.iqiyi.com, cards.iqiyi.com, search.video.iqiyi.com, comment-card.iqiyi.com, *.tc.qq.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com
