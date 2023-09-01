@@ -286,7 +286,7 @@
 ^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
 
 # >掌上生活（设置打不开,8.5.10以上版本很多功能打不开,添加主机名生效）
-^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png).*\.(jpg|png) data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png).*\.(jpg|png|jpeg|GIF) data="Scripts/KeLe广告订阅合集/reject-200.txt"
 
 # >中国移动
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data="Scripts/KeLe广告订阅合集/reject-200.txt"
