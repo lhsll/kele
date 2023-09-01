@@ -1,5 +1,5 @@
-#!name=❏  功能 & 模块
-#!desc=Sub Store/BoxJs/TestFlight账户管理/
+#!name=功能 & 模块
+#!desc=Sub Store/BoxJs/TestFlight账户管理/Quantumult X资源预览
 
 [Script]
 
@@ -12,9 +12,10 @@ Sub-Store Simple=type=http-request,pattern=^https?:\/\/sub\.store,script-path=ht
 Rewrite: BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 
 # >TestFlight账户管理
+TestFlight账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 
-
-
+# >Quantumult X资源预览
+预览qx一键资源 = type=http-request,pattern=^https:\/\/quantumult\.app\/x\/open-app\/add-resource\?remote-resource=,requires-body=0,script-path=https://github.com/chengkongyiban/shadowrocket/raw/main/scripts/qx-resource-preview.js
 
 
 
@@ -23,9 +24,10 @@ Rewrite: BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),s
 
 [MITM]
 
-hostname = %APPEND% sub.store, boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, 
-
+hostname = %APPEND% sub.store, boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, testflight.apple.com, quantumult.app
 
 [General]
 
-force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, testflight.apple.com
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
