@@ -11,6 +11,8 @@
 
 ^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png|ae[a-z0-9]{28}fc\.png).*\.(jpg|png|jpeg|gif) - reject
 
+^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ContentVideo\/[0-9a-z]{32}\.m3u8 - reject
+
 ^https:\/\/shealthyapi\.senssun\.com\/v1\/userMeals\/list - reject
 
 #^https:\/\/app-services\.lynkco\.com\.cn\/app\/car\/listThreeDimensionalMedia - reject
