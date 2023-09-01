@@ -3,6 +3,14 @@
 
 [URL Rewrite]
 
+^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) - reject
+
+^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig - reject
+
+^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic - reject
+
+^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png).*\.(jpg|png|jpeg|GIF) - reject
+
 ^https:\/\/shealthyapi\.senssun\.com\/v1\/userMeals\/list - reject
 
 #^https:\/\/app-services\.lynkco\.com\.cn\/app\/car\/listThreeDimensionalMedia - reject
@@ -171,13 +179,6 @@
 
 ^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
-# >招商银行
-^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) data="Scripts/KeLe广告订阅合集/reject-200.txt"
-
-^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data="Scripts/KeLe广告订阅合集/reject-200.txt"
-
-^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic data="Scripts/KeLe广告订阅合集/reject-dict.json"
-
 # >搜图神器
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
@@ -284,9 +285,6 @@
 ^https?:\/\/.+\.googleapis.com/adsmeasurement data="Scripts/KeLe广告订阅合集/reject-img.gif"
 
 ^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
-
-# >掌上生活（设置打不开,8.5.10以上版本很多功能打不开,添加主机名生效）
-^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png).*\.(jpg|png|jpeg|GIF) data="Scripts/KeLe广告订阅合集/reject-200.txt"
 
 # >中国移动
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data="Scripts/KeLe广告订阅合集/reject-200.txt"
