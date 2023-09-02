@@ -13,6 +13,8 @@
 
 ^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ContentVideo\/[0-9a-z]{32}\.m3u8 - reject
 
+^https?:\/\/wxsnsdythumb\.wxs\.qq\.com - reject
+
 ^https:\/\/shealthyapi\.senssun\.com\/v1\/userMeals\/list - reject
 
 #^https:\/\/app-services\.lynkco\.com\.cn\/app\/car\/listThreeDimensionalMedia - reject
@@ -248,9 +250,6 @@
 
 # >中国电信
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data="Scripts/KeLe广告订阅合集/reject-img.gif"
-
-# >通用公众号小程序屏蔽广告
-^https?:\/\/wxsnsdythumb\.wxs\.qq\.com data="Scripts/KeLe广告订阅合集/reject-200.txt"
 
 # >爱思去除精选顶部广告
 ^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data="Scripts/KeLe广告订阅合集/reject-200.txt"
