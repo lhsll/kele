@@ -9,7 +9,7 @@
 
 ^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic - reject
 
-^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png|ae[a-z0-9]{28}fc\.png).*\.(jpg|png|jpeg|gif) - reject
+^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/(?!19[a-z0-9]{28}cb\.png|ff[a-z0-9]{28}17\.png|7a[a-z0-9]{28}ec\.png|ae[a-z0-9]{28}fc\.png|f2[a-z0-9]{28}0c\.png).*\.(jpg|png|jpeg|gif) - reject
 
 ^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ContentVideo\/[0-9a-z]{32}\.m3u8 - reject
 
