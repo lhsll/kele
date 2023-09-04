@@ -3,8 +3,6 @@
 
 [URL Rewrite]
 
-^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index\.js\?random=1405867736 - reject
-
 ^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) - reject
 
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig - reject
@@ -332,6 +330,8 @@
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
 
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="Scripts/KeLe广告订阅合集/reject-img.gif"
+
+^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
 [MITM]
 
