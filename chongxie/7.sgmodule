@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 
-^https?:\/\/flowplus\.meituan\.net\/v1\/[a-z\d]{32}\/linglong\/\d+\.(jpg|jpeg|png|gif|webp)$ - reject
+^https:\/\/flowplus\.meituan\.net\/v1\/\w+\/linglong\/\d+\.(jpg|jpeg|png|gif|webp)$ - reject
 
 ^https:\/\/h5\.sinaimg\.cn\/upload\/\d+\/\d+\/\d+\/\d+\/(banner_icons_vip|banner_pdf_intlvip|banner_intlvip2)\.png - reject
 
@@ -158,7 +158,7 @@
 # >美团 & 美团外卖
 ^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
-^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg data="Scripts/KeLe广告订阅合集/reject-dict.json"
+#^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
 ^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg data="Scripts/KeLe广告订阅合集/reject-dict.json"
 
