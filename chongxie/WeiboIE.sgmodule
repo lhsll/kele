@@ -11,7 +11,7 @@
 [Script]
 
 # 趋势页 | 开屏广告 | 用户中心 | 热搜置顶 | 我的页面 尊享专属 | 瀑布流去广告
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth)) requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)) requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
 http-response ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
 http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
 
