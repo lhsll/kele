@@ -22,9 +22,9 @@
 
 [Script]
 
-哔哩哔哩_标签栏 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/bubble\?,requires-body=1,script-update-interval=-1,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bili.js
+哔哩哔哩_标签栏 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/bubble\?,requires-body=1,script-update-interval=-1,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/kelebili.js
 
-哔哩哔哩_我的页面 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine\?,requires-body=1,script-update-interval=-1,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bili.js
+哔哩哔哩_我的页面 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine\?,requires-body=1,script-update-interval=-1,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/kelebili.js
 
 # 开屏广告 | 推荐页banner和广告 | 我的页面 | 1080P | 热搜 | 标签栏 | 下发皮肤
 哔哩哔哩_jsons = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index|account\/(mine(\/ipad)?|myinfo\?)|search\/square)|resource\/show\/(tab|skin\?)),requires-body=1,script-update-interval=-1,script-path=https://github.com/Keywos/rule/raw/main/JS/bjson.js
@@ -33,7 +33,7 @@
 哔哩哔哩_lives = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom,requires-body=1,script-update-interval=-1,script-path=https://github.com/Keywos/rule/raw/main/JS/bjson.js
 
 # 番剧页 & 观影页广告
-哔哩哔哩_bangumis = type=http-response,pattern=^https?:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?),requires-body=1,script-update-interval=-1,script-path=https://github.com/Keywos/rule/raw/main/JS/bjson.js
+哔哩哔哩_bangumis = type=http-response, pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js
 
 哔哩哔哩_视频播放页 = type=http-response, pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|TFInfo), requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js
 
