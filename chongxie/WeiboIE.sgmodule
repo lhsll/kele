@@ -1,13 +1,11 @@
 #!name=净化 & 微博国际版
 #!desc=微博去广告
 
-#!name=微博国际版
-#!desc= @key @kokoryh 2023-09-06 17:05:41
-
 [Map Local]
 
 # 热门视频 | 热推荐
 ^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/净化 & 微博国际版/reject-dict.json"
+
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users data="Scripts/净化 & 微博国际版/reject-dict.json"
 
 [Script]
