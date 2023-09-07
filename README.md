@@ -1,5 +1,7 @@
 # Surge 仓库说明
 
+![访问人数](https://visitor-badge.laobi.icu/badge?page_id=lhsll.kele)
+
 ## 机场推荐
 欢迎来到本仓库，这里为您推荐一家优质的网络机场：[夜煞云](https://www.night-furyx.com/index.php#/register?code=YABUkNXp)
 
