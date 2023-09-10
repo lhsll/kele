@@ -8,6 +8,8 @@
 
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users data="Scripts/净化 & 微博国际版/reject-dict.json"
 
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?ct=feed&a=search_topic data="Scripts/净化 & 微博国际版/weibo_search_topic.json" header="Content-Type: text/html"
+
 [Script]
 
 # 趋势页 | 开屏广告 | 用户中心 | 热搜置顶 | 我的页面 尊享专属 | 瀑布流去广告
