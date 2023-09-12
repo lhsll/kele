@@ -83,55 +83,55 @@ http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php re
 [Map Local]
 
 # >高德地图
-^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? data="Scripts/Mock/reject-dict.json"
 
 # >菜鸟
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|index)\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend\.cpc\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cnactivitycenter data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|index)\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend\.cpc\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cnactivitycenter data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data="Scripts/Mock/reject-dict.json"
 
 # >小红书
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? data="Scripts/RuCu6广告订阅合集/reject-dict.json"
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data="Scripts/Mock/reject-dict.json"
+^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? data="Scripts/Mock/reject-dict.json"
 
 # >百度输入法
-^https?:\/\/mime\.baidu\.com\/v5\/start_screen_ads/list data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https?:\/\/mime\.baidu\.com\/sapi\/v1\/lccorpus\/(applist|pannellist) data="Scripts/RuCu6广告订阅合集/mime.json"
-^https?:\/\/mime\.baidu\.com\/sapi\/v1\/(circle\/joinedlist|lccorpus\/usercorpussync|aihelpactivity\/aihelpresource) data="Scripts/RuCu6广告订阅合集/mime.json"
-^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list data="Scripts/RuCu6广告订阅合集/mime.json"
-^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input data="Scripts/RuCu6广告订阅合集/bd.json"
-^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info) data="Scripts/RuCu6广告订阅合集/mime.json"
+^https?:\/\/mime\.baidu\.com\/v5\/start_screen_ads/list data="Scripts/Mock/reject-dict.json"
+^https?:\/\/mime\.baidu\.com\/sapi\/v1\/lccorpus\/(applist|pannellist) data="Scripts/Mock/mime.json"
+^https?:\/\/mime\.baidu\.com\/sapi\/v1\/(circle\/joinedlist|lccorpus\/usercorpussync|aihelpactivity\/aihelpresource) data="Scripts/Mock/mime.json"
+^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list data="Scripts/Mock/mime.json"
+^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input data="Scripts/Mock/bd.json"
+^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info) data="Scripts/Mock/mime.json"
 
 # >酷安
-^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="Scripts/RuCu6广告订阅合集/reject-dict.json"
-^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew data="Scripts/RuCu6广告订阅合集/reject-200.txt"
+^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="Scripts/Mock/reject-dict.json"
+^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew data="Scripts/Mock/reject-200.txt"
 
 # >QQ音乐
-^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="Scripts/RuCu6广告订阅合集/reject-img.gif"
-^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/RuCu6广告订阅合集/reject-img.gif"
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="Scripts/Mock/reject-img.gif"
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/Mock/reject-img.gif"
 
 # >微博轻享版
-^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/净化 & 微博国际版/reject-dict.json"
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users data="Scripts/净化 & 微博国际版/reject-dict.json"
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?ct=feed&a=search_topic data="Scripts/净化 & 微博国际版/weibo_search_topic.json" header="Content-Type: text/html"
+^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/Mock/reject-dict.json"
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users data="Scripts/Mock/reject-dict.json"
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?ct=feed&a=search_topic data="Scripts/Mock/weibo_search_topic.json" header="Content-Type: text/html"
 
 [MITM]
 
