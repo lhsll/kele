@@ -128,214 +128,214 @@
 京东系列-净化 = type=http-response,script-path= Scripts/KeLe广告订阅合集/jhad.js,pattern= ^https?:\/\/api\..*\.jd\.com\/(client\.action\?functionId=lite_advertising|.+\/service\/getLoadingLinks),max-size=0,requires-body=true,timeout=10,enable=true
 
 # >京东搜索栏
-京东搜索栏 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords,requires-body=1,max-size=0,script-path=Scripts/KeLe广告订阅合集/jd_json.js
+京东搜索栏 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords,requires-body=1,max-size=0,script-path=Scripts/功能 & 可乐Ad/jd_json.js
 
-京东搜索栏 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms,requires-body=1,max-size=0,script-path=Scripts/KeLe广告订阅合集/jd_json.js
+京东搜索栏 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms,requires-body=1,max-size=0,script-path=Scripts/功能 & 可乐Ad/jd_json.js
 
 # >小程序_掌上公交
-小程序_掌上公交 = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do, requires-body=true, max-size=3145728, script-path=Scripts/KeLe广告订阅合集/zhangshanggongjiao.js
+小程序_掌上公交 = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do, requires-body=true, max-size=3145728, script-path=Scripts/功能 & 可乐Ad/zhangshanggongjiao.js
 
 [Map Local]
 # >ChatGPT
-^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data="Scripts/Mock/reject-dict.json"
 
 # >阿里云盘
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="Scripts/Mock/reject-dict.json"
 
 # >阿里巴巴
-^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-(702-758|1080-2430) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-(702-758|1080-2430) data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="Scripts/Mock/reject-dict.json"
 
 # >百度云
-^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data="Scripts/Mock/reject-dict.json"
 
-^https?:\/\/update\.pan\.baidu\.com\/statistics\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https?:\/\/update\.pan\.baidu\.com\/statistics\? data="Scripts/Mock/reject-dict.json"
 
 # >飞猪
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="Scripts/Mock/reject-dict.json"
 
 # >美团 & 美团外卖
-^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="Scripts/Mock/reject-dict.json"
 
-#^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg data="Scripts/KeLe广告订阅合集/reject-dict.json"
+#^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ data="Scripts/Mock/reject-dict.json"
 
 # >微信移除公众号中的推广内容
-^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data="Scripts/Mock/reject-dict.json"
 
 # >米家
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data="Scripts/Mock/reject-dict.json"
 
 # >spotify 音乐
-^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data="Scripts/Mock/reject-img.gif"
 
 # >微博国际版&热门视频&热推荐
-^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/Mock/reject-dict.json"
 
 # >什么值得买
-^https:\/\/app-api\.smzdm\.com\/util\/update$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/app-api\.smzdm\.com\/util\/update$ data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list.+ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list.+ data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/s-api\.smzdm\.com\/sou\/search_keyword_redirect_urls.+ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/s-api\.smzdm\.com\/sou\/search_keyword_redirect_urls.+ data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data="Scripts/Mock/reject-dict.json"
 
 # >搜图神器
-^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data="Scripts/Mock/reject-dict.json"
 
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data="Scripts/Mock/reject-dict.json"
 
-^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data="Scripts/Mock/reject-dict.json"
 
 # >Lynk&Co
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/searching\/hot\/recommend\/list data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/searching\/hot\/recommend\/list data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/topic\/together\/hot data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/topic\/together\/hot data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/page\/detail\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/page\/detail\? data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/relation\/getTotalRelationCount data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/relation\/getTotalRelationCount data="Scripts/Mock/reject-dict.json"
 
 # >数字联盟
-^https?:\/\/.+?\.shuzilm\.cn data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/.+?\.shuzilm\.cn data="Scripts/Mock/reject-200.txt"
 
 # >UKi
-^https:\/\/api\.neoclub\.cn\/uki\/v1\/chatPartyFeed data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/uki\/v1\/chatPartyFeed data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/friends\/rechargePack\/config data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/friends\/rechargePack\/config data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/post\/squareTopRecommend data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/post\/squareTopRecommend data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/party\/chatRoomNew\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/party\/chatRoomNew\? data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/party\/config data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/party\/config data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/party\/recommend\/uFriend data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/party\/recommend\/uFriend data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/party\/squareRecommend data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/party\/squareRecommend data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/friends\/indexBanner data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/friends\/indexBanner data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.neoclub\.cn\/v1\/friends\/(startInfo|advConf) data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.neoclub\.cn\/v1\/friends\/(startInfo|advConf) data="Scripts/Mock/reject-dict.json"
 
 # >腾讯手游加速器
-^http:\/\/dldir1\.qq\.com\/INO\/img\/(?!.*(video-cover|tmga|icon)).*\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^http:\/\/dldir1\.qq\.com\/INO\/img\/(?!.*(video-cover|tmga|icon)).*\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="Scripts/Mock/reject-200.txt"
 
-^https:\/\/member\.tmga\.qq\.com\/h5Activity\/info data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/member\.tmga\.qq\.com\/h5Activity\/info data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/member\.tmga\.qq\.com\/member data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/member\.tmga\.qq\.com\/member data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/member\.tmga\.qq\.com\/intelDelivery data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/member\.tmga\.qq\.com\/intelDelivery data="Scripts/Mock/reject-dict.json"
 
 # >淘宝广告
-^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data="Scripts/Mock/reject-200.txt"
 
-^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data="Scripts/Mock/reject-dict.json"
 
 # >其他
-^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="Scripts/Mock/reject-dict.json"
 
-^http:\/\/oc\.umeng\.com\/v2\/check_config_update data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^http:\/\/oc\.umeng\.com\/v2\/check_config_update data="Scripts/Mock/reject-200.txt"
 
 # >浙里办
-^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data="Scripts/Mock/reject-200.txt"
 
 # >天翼云盘弹窗广告
-^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 data="Scripts/Mock/reject-200.txt"
 
 # >中国电信
-^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data="Scripts/Mock/reject-img.gif"
 
 # >爱思去除精选顶部广告
-^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data="Scripts/Mock/reject-200.txt"
 
 # >飞智游戏
-^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data="Scripts/Mock/reject-dict.json"
 
 # >2345天气王
-^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php data="Scripts/Mock/reject-dict.json"
 
 # >彩云天气
-^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? data="Scripts/Mock/reject-200.txt"
 
 # >滴滴青桔
-^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/omgup*\.xiaojukeji\.com\/api data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/omgup*\.xiaojukeji\.com\/api data="Scripts/Mock/reject-200.txt"
 
 # >工银E生活
-^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data="Scripts/Mock/reject-200.txt"
 
 # >工银e生活小程序
-^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do data="Scripts/Mock/reject-200.txt"
 
 # >谷歌
-^https?:\/\/.+\.googleapis.com/.+ad_break data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/.+\.googleapis.com/.+ad_break data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/.+\.googleapis.com/.+log_event data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/.+\.googleapis.com/.+log_event data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/.+\.googleapis.com/adsmeasurement data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/.+\.googleapis.com/adsmeasurement data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ data="Scripts/Mock/reject-img.gif"
 
 # >中国移动
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data="Scripts/Mock/reject-200.txt"
 
 # >知乎网页版去广告
-^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data="Scripts/Mock/reject-dict.json"
 
 # >掌上英雄联盟
-^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) data="Scripts/Mock/reject-200.txt"
 
 # >腾讯广告
-^https?:\/\/btrace\.qq\.com data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/btrace\.qq\.com data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/imgcache\.qq\.com\/qqlive\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/imgcache\.qq\.com\/qqlive\/ data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/mtteve\.beacon\.qq\.com\/analytics data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/mtteve\.beacon\.qq\.com\/analytics data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data="Scripts/KeLe广告订阅合集/reject-200.txt"
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data="Scripts/Mock/reject-200.txt"
 
-^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="Scripts/KeLe广告订阅合集/reject-img.gif"
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="Scripts/Mock/reject-img.gif"
 
-^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index data="Scripts/KeLe广告订阅合集/reject-dict.json"
+^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index data="Scripts/Mock/reject-dict.json"
 
 [MITM]
 
