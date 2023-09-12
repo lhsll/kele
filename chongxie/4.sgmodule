@@ -71,7 +71,7 @@
 什么值得买好价Ad = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 什么值得买好价详细页 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 什么值得买首页去广告 = type=http-response, pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
-什么值得买搜索标签去广告 = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=Scripts/什么值得买/什么值得买搜索标签去广告.js
+什么值得买搜索标签去广告 = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/什么值得买搜索标签去广告.js
 什么值得买list_v10 = type=http-response, pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 
