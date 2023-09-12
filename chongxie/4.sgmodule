@@ -1,5 +1,5 @@
 #!name =❏  RuCu6广告订阅合集
-#!desc = 高德/菜鸟/小红书/百度输入法/酷安/QQ音乐/阿里云盘/爱奇艺/网页百度
+#!desc = 高德&菜鸟&小红书&百度输入法&酷安&QQ音乐&阿里云盘&网页百度&什么值得买
 
 [URL Rewrite]
 
@@ -13,58 +13,67 @@
 
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
 
+^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/(other|user_related|wiki_related)_modul - reject
+
 [Script]
 
 # >高德地图
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/routePlan\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
-高德地图Ad = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/routePlan\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+高德地图Ad = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 
 # >菜鸟
-菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
-菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
-菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
-菜鸟Ad = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+菜鸟Ad = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
 
 # >小红书
-小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
-小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_lis, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
-小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
-小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
-小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
-小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
-小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/(followfeed|homefeed|note\/(feed|videofeed))\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_lis,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/(followfeed|homefeed|note\/(feed|videofeed))\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 
 # >百度输入法
 百度输入法Ad = type=http-response,pattern=^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)),requires-body=1,max-size=0,script-update-interval=-1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/bdsrf.js
 
 # >酷安
-酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
-酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
-酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
 
 # >阿里云盘
-阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
-阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 
-# >百度知道搜索广告
-知道搜索广告 = type=http-response, pattern=^https:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
-
+# >百度
+知道搜索广告 = type=http-response, pattern=^https:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
 # >百度搜索首页广告
-搜索首页广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-index.js
-
+搜索首页广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-index.js
 # >百度搜索结果广告
-搜索结果广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com\/.*word=.*, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu.js
-
+搜索结果广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com\/.*word=.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu.js
 # >百度防跳转
 百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduNoRedirect.js
+
+# >什么值得买
+什么值得买开屏Ad = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
+什么值得买百科Ad = type=http-response, pattern=^https:\/\/baike-api\.smzdm\.com\/home_v3\/list,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
+什么值得买好价Ad = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
+什么值得买好价详细页 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
+什么值得买首页去广告 = type=http-response, pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
+什么值得买搜索标签去广告 = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=什么值得买搜索标签去广告.js
+什么值得买list_v10 = type=http-response, pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
+什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
 
 [Map Local]
 
@@ -116,4 +125,4 @@
 
 [MITM]
 
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, app-api.smzdm.com, baike-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, homepage-api.smzdm.com, s-api.smzdm.com, zhiyou.m.smzdm.com
