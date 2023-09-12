@@ -1,5 +1,5 @@
 #!name =❏  RuCu6广告订阅合集
-#!desc = 高德&菜鸟&小红书&百度输入法&酷安&QQ音乐&阿里云盘&网页百度&什么值得买
+#!desc = 高德&菜鸟&小红书&百度输入法&酷安&QQ音乐&阿里云盘&网页百度&什么值得买&微博轻享版
 
 [URL Rewrite]
 
@@ -75,6 +75,11 @@
 什么值得买list_v10 = type=http-response, pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
 什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/什么值得买/smzdm.js
 
+# >微博轻享版
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)) requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+http-response ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+
 [Map Local]
 
 # >高德地图
@@ -123,6 +128,11 @@
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="Scripts/RuCu6广告订阅合集/reject-img.gif"
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/RuCu6广告订阅合集/reject-img.gif"
 
+# >微博轻享版
+^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/净化 & 微博国际版/reject-dict.json"
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users data="Scripts/净化 & 微博国际版/reject-dict.json"
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?ct=feed&a=search_topic data="Scripts/净化 & 微博国际版/weibo_search_topic.json" header="Content-Type: text/html"
+
 [MITM]
 
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, app-api.smzdm.com, baike-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, homepage-api.smzdm.com, s-api.smzdm.com, zhiyou.m.smzdm.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, edith.xiaohongshu.com, www.xiaohongshu.com, imeres.baidu.com, mbd.baidu.com, mime.baidu.com, h2tcbox.baidu.com, api.coolapk.com, api-access.pangolin-sdk-toutiao.com, y.gtimg.cn, us.l.qq.com, api.alipan.com, member.alipan.com, kepler.jd.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, app-api.smzdm.com, baike-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, homepage-api.smzdm.com, s-api.smzdm.com, zhiyou.m.smzdm.com, *api.weibo.cn, sdkapp.uve.weibo.com
