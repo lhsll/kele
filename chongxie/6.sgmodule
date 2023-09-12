@@ -12,13 +12,13 @@
 [Map Local]
 
 # 可能的一些推广
-^https?:\/\/api\.bili(bili\.com|api\.net)\/pgc\/season\/app\/related\/recommend\? data="Scripts/bilibili/reject-dict.json"
+^https?:\/\/api\.bili(bili\.com|api\.net)\/pgc\/season\/app\/related\/recommend\? data="Scripts/Mock/reject-dict.json"
 # 屏蔽直播间广告浮窗
-^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="Scripts/bilibili/reject-dict.json"
+^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="Scripts/Mock/reject-dict.json"
 # BiliBili漫画去广告
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash|GetActivityTab) data="Scripts/bilibili/reject-dict.json"
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash|GetActivityTab) data="Scripts/Mock/reject-dict.json"
 # 屏蔽首页右上活动
-^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity data="Scripts/bilibili/biliactivity.json"
+^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity data="Scripts/Mock/biliactivity.json"
 
 [Script]
 
