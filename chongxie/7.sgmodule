@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 
-^https:\/\/lx0\.meituan\.com\/＄  - reject
+^https:\/\/lx0\.meituan\.com\/ - reject
 
 ^https?:\/\/flowplus\.meituan\.net\/v1\/\w+\/linglong\/\d+\.(jpg|jpeg|png|gif|webp)$ - reject
 
