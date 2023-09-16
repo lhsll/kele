@@ -9,7 +9,7 @@ if (url.includes("/x/resource/show/skin")) {
   if (obj.data?.common_equip) {
     delete obj.data.common_equip;
   }
-} else if (url.includes("/x/resource/show/tab/v2")) {
+} else if (url.includes("/x/resource/show/tab")) {
   // 标签页
   if (obj.data.tab) {
     obj.data.tab = obj.data.tab.filter(
