@@ -50,7 +50,7 @@ if (url.includes("/x/resource/show/skin")) {
     ttl: 1,
     data: null
   };
-} else if (url.includes("/x/v2/account/mine?")) {
+} else if (url.includes("/x/v2/account/mine")) {
   // 我的页面
   // 标准版：
   // 396离线缓存 397历史记录 398我的收藏 399稍后再看 171个性装扮 172我的钱包 407联系客服 410设置
