@@ -4,11 +4,20 @@
 
 [Panel]
 
+# >节假日信息
+Timecard = script-name=Timecard,update-interval=3600
+
+# >油价
+YJ = script-name=油价,update-interval=604,800
+
 # >测速
 NetSpeed = script-name=NetSpeed,update-interval=-1
 
 # >快速切换节点
 Group-Panel = script-name=Group-Panel,update-interval=-1
+
+# >NetISP 面板
+NetISP = script-name=NetISP,update-interval=43200
 
 # >机场流量
 #策略面板 = script-name=备用机场,update-interval=1800
@@ -17,17 +26,8 @@ Group-Panel = script-name=Group-Panel,update-interval=-1
 # >电信余量
 #Telecom_panel = title="电信余量",content="余量信息面板",style=info,script-name=Telecom_panel
 
-# >节假日信息
-Timecard = script-name=Timecard,update-interval=3600
-
-# >油价
-YJ = script-name=油价,update-interval=604,800
-
 # >详细的显示你当前的网络信息
 #NetInfoPanel=title="",content="",style=info,script-name=net-info-panel.js,update-interval=1
-
-# >NetISP 面板
-NetISP = script-name=NetISP,update-interval=43200
 
 # >快速清除Surge的DNS缓存
 FlushDNS = script-name=FlushDNS,update-interval=600
