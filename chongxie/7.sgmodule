@@ -3,6 +3,8 @@
 
 [URL Rewrite]
 
+^https:\/\/m5\.amap\.com\/ws\/shield\/performance\/updatable\/init\?
+
 ^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
 
 ^https?:\/\/flowplus\.meituan\.net\/v1\/\w+\/linglong\/\d+\.(jpg|jpeg|png|gif|webp)$ - reject
