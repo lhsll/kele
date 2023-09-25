@@ -96,15 +96,26 @@ http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php re
 [Map Local]
 
 # >高德地图
-^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="Scripts/Mock/reject-dict.json"
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan)\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="Scripts/Mock/reject-dict.json"
+
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="Scripts/Mock/reject-dict.json"
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? data="Scripts/Mock/reject-dict.json"
 
 # >菜鸟
