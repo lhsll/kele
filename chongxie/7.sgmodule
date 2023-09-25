@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/performance\/updatable\/init\?
+^https:\/\/m5\.amap\.com\/ws\/shield\/performance\/updatable\/init\? - reject
 
 ^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
 
