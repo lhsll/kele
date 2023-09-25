@@ -3,8 +3,6 @@
 
 [URL Rewrite]
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/performance\/updatable\/init\? - reject
-
 ^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
 
 ^https?:\/\/flowplus\.meituan\.net\/v1\/\w+\/linglong\/\d+\.(jpg|jpeg|png|gif|webp)$ - reject
@@ -345,6 +343,8 @@
 ^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index data="Scripts/Mock/reject-dict.json"
 
 ^https?:\/\/kohcamp\.qq\.com\/app\/button\/get data="Scripts/Mock/reject-dict.json"
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data="Scripts/Mock/reject-dict.json"
 
 [MITM]
 
