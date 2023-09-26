@@ -85,18 +85,13 @@
 ^http:\/\/xiaoredpic\.neoclub\.cn/backend\/activityPack\/.+.png - reject
 
 ^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible - reject
-# >soul
+
 ^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
 
 ^https:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.jpg_\.heic$ - reject
 
 ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons - reject
 ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
-
-^https?:\/\/\w+\.beacon\.qq\.com - reject
-^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
-^https?:\/\/.+?\.l\.qq\.com - reject
-^https?:\/\/\w+\.gdt\.qq\.com - reject
 
 ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend - reject
 
