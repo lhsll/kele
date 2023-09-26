@@ -169,6 +169,8 @@ http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php re
 
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/relation\/getTotalRelationCount data="Scripts/Mock/reject-dict.json"
 
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/topic\/together\/list\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index data="Scripts/Mock/reject-dict.json"
 
 [MITM]
