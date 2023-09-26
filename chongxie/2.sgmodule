@@ -4,28 +4,28 @@
 
 [Script]
 # > 什么值得买 app获取
-什么值得买 = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,type=http-request,requires-body=false,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$
+什么值得买 Cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,type=http-request,requires-body=false,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$
 
 # > 阿里云盘 app获取
-阿里云盘 = requires-body=1,type=http-response,pattern=https:\/\/auth\.alipan\.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+阿里云盘 Cookie = requires-body=1,type=http-response,pattern=https:\/\/auth\.alipan\.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 
 # > 建行生活 app获取
-建行生活 = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=A3341A040,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+建行生活 Cookie = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=A3341A040,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
 
 # > 京东CK 签到日历获取
-京东商城 = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+京东商城 Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # >中国电信[http://u3v.cn/5uwtIP]
 中国电信 Cookie = type=http-request,pattern=^https:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do),requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js
 
 # >Bing
-Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js
+Bing积分 Cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js
 
 # >TestFlight
 TF信息获取 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$,requires-body=0,script-path=https://raw.githubusercontent.com/DecoAri/JavaScript/main/Surge/TF_keys.js
 
 # >途虎养车
-途虎养车 = type=http-request, pattern=https://api.tuhu.cn/User/GetInternalCenterInfo, script-path=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js
+途虎养车 Cookie = type=http-request, pattern=https://api.tuhu.cn/User/GetInternalCenterInfo, script-path=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js
 
 [MITM]
-hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com
+hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com, api.tuhu.cn
