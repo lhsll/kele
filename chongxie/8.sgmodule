@@ -30,15 +30,6 @@ UKi娱乐UI = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/party\
 # >UKi首页
 UKi首页 = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/UKi首页.js
 
-# >Lynk&Co设置
-#领克设置 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/getPicInfo,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/领克设置.js
-
-# >Lynk&Co搜索框
-领克搜索框 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\?,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/领克搜索框.js
-
-# >Lynk&Co首页
-领克首页 = type=http-response,pattern=^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/info\?,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/领克首页.js
-
 # >香山电子秤开屏
 香山电子秤开屏 = type=http-response,pattern=^https:\/\/shealthyapi\.senssun\.com\/v1\/app\/banner\/findByType\?type=bottom,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/香山电子秤开屏.js
 
