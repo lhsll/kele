@@ -3,8 +3,6 @@
 
 [URL Rewrite]
 
-^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
-
 ^https?:\/\/flowplus\.meituan\.net\/v1\/\w+\/linglong\/\d+\.(jpg|jpeg|png|gif|webp)$ - reject
 
 ^https:\/\/h5\.sinaimg\.cn\/upload\/\d+\/\d+\/\d+\/\d+\/(banner_icons_vip|banner_pdf_intlvip|banner_intlvip2)\.png - reject
@@ -24,8 +22,6 @@
 ^https?:\/\/wxsnsdythumb\.wxs\.qq\.com - reject
 
 ^https:\/\/shealthyapi\.senssun\.com\/v1\/userMeals\/list - reject
-
-#^https:\/\/app-services\.lynkco\.com\.cn\/app\/car\/listThreeDimensionalMedia - reject
 
 ^https:\/\/list-app-m\.i4\.cn\/(adclickcb|getHotSearchList|getopfstadinfo)\.xhtml - reject
 
