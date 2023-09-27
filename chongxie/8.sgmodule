@@ -21,15 +21,6 @@
 # >什么值得买我的页面
 什么值得买我的页面 = type=http-response,pattern=^https:\/\/user-api\.smzdm\.com\/vip$,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/什么值得买我的页面.js
 
-# >UKi娱乐
-UKi娱乐 = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/party\/getAmusementNav,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/UKi娱乐.js
-
-# >UKi娱乐Ui
-UKi娱乐UI = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/party\/config,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/UKi娱乐UI.js
-
-# >UKi首页
-UKi首页 = type=http-response,pattern=^https:\/\/api\.neoclub\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/UKi首页.js
-
 # >香山电子秤开屏
 香山电子秤开屏 = type=http-response,pattern=^https:\/\/shealthyapi\.senssun\.com\/v1\/app\/banner\/findByType\?type=bottom,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/香山电子秤开屏.js
 
