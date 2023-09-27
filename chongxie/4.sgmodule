@@ -102,9 +102,11 @@ http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php re
 领克精选轮播图&精选研究社 = type=http-response,pattern=^https:\/\/app-services\.lynkco\.com\.cn\/app\/shopping\/mall\/v2\/site\/home\/page,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/LynkComarket.js
 
 # >Uki
-Uki_YuLe = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_YuLe.js
+Uki_娱乐 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_YuLe.js
 
-Uki_home = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_home.js
+Uki_首页 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_home.js
+
+Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/advConf ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_Ad.js
 
 [Map Local]
 
