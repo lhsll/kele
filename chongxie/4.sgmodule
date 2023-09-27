@@ -104,7 +104,7 @@ http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php re
 # >Uki
 Uki_YuLe = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_YuLe.js
 
-Uki_home = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_home .js
+Uki_home = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_home.js
 
 [Map Local]
 
@@ -182,13 +182,14 @@ Uki_home = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/frie
 ^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index data="Scripts/Mock/reject-dict.json"
 
 # >Uki
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/advConf data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/(advConf|\/rechargePack\/config
+) data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/(squareTopRecommend|theme) data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/party\/(recommend\/uFriend|squareRecommend|config|recommendPartyList|getRankTopList) data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/party\/(recommend\/uFriend|squareRecommend|config|recommendPartyList|getRankTopList|\/chatRoomNew\?) data="Scripts/Mock/reject-dict.json"
 
 [MITM]
 
