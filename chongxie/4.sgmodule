@@ -182,8 +182,7 @@ Uki_home = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/frie
 ^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new\/index data="Scripts/Mock/reject-dict.json"
 
 # >Uki
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/(advConf|\/rechargePack\/config
-) data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/rechargePack\/config data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed data="Scripts/Mock/reject-dict.json"
 
