@@ -196,6 +196,8 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/getPicInfo data="Scripts/Mock/reject-dict.json"
 
+^https:\/\/community-opt-app\.lynkco\.com\/api\/v1\/biz\/zone\/(recommend|topic\/recommend) data="Scripts/Mock/reject-dict.json"
+
 # >Uki
 ^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/rechargePack\/config data="Scripts/Mock/reject-dict.json"
 
