@@ -86,9 +86,15 @@
 什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 
 # >微博轻享版
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)) requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
-http-response ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
-http-response ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+微博轻享版 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+
+微博轻享版 = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+
+微博轻享版 = type=http-response,pattern=^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+
+微博轻享版分组 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/WeBo_allgroups.js
+
+微博轻享版搜索结果 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/page\/get_search_suggest\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/WeiBo_Light.js
 
 # >Lynk&Co
 领克搜索框 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/LynkCosearch.js
