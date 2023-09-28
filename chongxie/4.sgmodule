@@ -1,5 +1,6 @@
 #!name =❏  功能 & 合集Ad
 #!desc = 去广告合集(高德地图|菜鸟|小红书|百度输入法|酷安|QQ音乐|阿里云盘|网页百度|什么值得买|微博轻享版|Lynk&Co|Uki)
+#!author = @RuCu6|@Keywos|@kokoryh|@mieqq|@lhsll
 
 [URL Rewrite]
 
@@ -39,19 +40,30 @@
 
 # >菜鸟
 菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+
 菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+
 菜鸟Ad = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+
 菜鸟Ad = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
 
 # >小红书
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_list, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+
 小红书Ad = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 
 # >百度输入法
@@ -59,30 +71,43 @@
 
 # >酷安
 酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+
 酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+
 酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
 
 # >阿里云盘
 阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+
 阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 
 # >百度
 知道搜索广告 = type=http-response, pattern=^https:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
+
 # >百度搜索首页广告
 搜索首页广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-index.js
+
 # >百度搜索结果广告
 搜索结果广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com\/.*word=.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu.js
+
 # >百度防跳转
 百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduNoRedirect.js
 
 # >什么值得买
 什么值得买开屏Ad = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+
 什么值得买百科Ad = type=http-response, pattern=^https:\/\/baike-api\.smzdm\.com\/home_v3\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+
 什么值得买好价Ad = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+
 什么值得买好价详细页 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+
 什么值得买首页去广告 = type=http-response, pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+
 什么值得买搜索标签去广告 = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/什么值得买搜索标签去广告.js
+
 什么值得买list_v10 = type=http-response, pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+
 什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 
 # >微博轻享版
@@ -141,28 +166,45 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 
 # >菜鸟
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|index)\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend\.cpc\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cnactivitycenter data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data="Scripts/Mock/reject-dict.json"
 
 # >小红书
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? data="Scripts/Mock/reject-dict.json"
 
 # >百度输入法
 ^https?:\/\/mime\.baidu\.com\/v5\/start_screen_ads/list data="Scripts/Mock/reject-dict.json"
+
 ^https?:\/\/mime\.baidu\.com\/sapi\/v1\/lccorpus\/(applist|pannellist) data="Scripts/Mock/mime.json"
+
 ^https?:\/\/mime\.baidu\.com\/sapi\/v1\/(circle\/joinedlist|lccorpus\/usercorpussync|aihelpactivity\/aihelpresource) data="Scripts/Mock/mime.json"
+
 ^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list data="Scripts/Mock/mime.json"
+
 ^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input data="Scripts/Mock/bd.json"
+
 ^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info) data="Scripts/Mock/mime.json"
 
 # >酷安
