@@ -181,7 +181,7 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/relation\/getTotalRelationCount data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/(user\/invite-new|login) data="Scripts/Mock/reject-dict.json"
+^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/user\/invite-new data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/getPicInfo data="Scripts/Mock/reject-dict.json"
 
