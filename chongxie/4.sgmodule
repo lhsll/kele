@@ -168,9 +168,11 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/Mock/reject-img.gif"
 
 # >微博轻享版
-^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/Mock/reject-dict.json"
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users data="Scripts/Mock/reject-dict.json"
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?ct=feed&a=search_topic data="Scripts/Mock/weibo_search_topic.json" header="Content-Type: text/html"
+^https?:\/\/api\.weibo\.c(n|om)\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="Scripts/Mock/reject-dict.json"
+
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users data="Scripts/Mock/reject-dict.json"
+
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?ct=feed&a=search_topic data="Scripts/Mock/weibo_search_topic.json" header="Content-Type: text/html"
 
 # >Lynk&Co
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/searching\/hot\/recommend\/list data="Scripts/Mock/reject-dict.json"
