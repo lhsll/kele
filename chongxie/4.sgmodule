@@ -252,7 +252,7 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 # >美团系
 ^http:\/\/wmapi\.meituan\.(com|net)\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/flowplus\.meituan\.(com|net)\/v1\/mss_\w+\/linglong\/\d+\.jpg data="Scripts/Mock/reject-dict.json"
+^https:\/\/flowplus\.meituan\.(com|net|cn)\/v1\/mss_\w+\/linglong\/\d+\.(jpg|jpeg|png|gif|webp) data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/img\.meituan\.(com|net)\/bizad\/bizad_brandCpt_\d+\.jpg data="Scripts/Mock/reject-dict.json"
 
