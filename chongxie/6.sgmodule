@@ -18,7 +18,7 @@
 # BiliBili漫画去广告
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash|GetActivityTab) data="Scripts/Mock/reject-dict.json"
 # 屏蔽首页右上活动
-^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity data="Scripts/Mock/biliactivity.json"
+^https?:\/\/(app\.bilibili\.com|(grpc|app)\.biliapi\.net)\/x\/resource\/top\/activity data="Scripts/Mock/biliactivity.json"
 
 [Script]
 
