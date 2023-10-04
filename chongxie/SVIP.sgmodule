@@ -14,7 +14,7 @@
 彩云天气解锁 = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user),requires-body=1,max-size=3145728,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/caiyun.js
 
 # >扫描全能王
-扫描全能王 = type=http-response,pattern=^https?:\/\/.*\.(intsig\.net|camscanner\.com),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js
+扫描全能王 = type=http-response,pattern=^https?:\/\/(api|api-cs)\.(intsig\.net|camscanner\.com),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js
 
 # >百度网盘
 百度网盘解锁 = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js
