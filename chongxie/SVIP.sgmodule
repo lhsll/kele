@@ -35,4 +35,4 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 
 [MITM]
 
-hostname = %APPEND% *.camscanner.com, *.intsig.net, wallpaper.soutushenqi.com, biz.caiyunapp.com, pan.baidu.com, *.aliyundrive.com, *.alipan.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, wrapper.cyapi.cn, spclient.wg.spotify.com
+hostname = %APPEND% api-cs.camscanner.com, api-cs.intsig.net, wallpaper.soutushenqi.com, biz.caiyunapp.com, pan.baidu.com, *.aliyundrive.com, *.alipan.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, wrapper.cyapi.cn, spclient.wg.spotify.com, api.camscanner.com, api.intsig.net
