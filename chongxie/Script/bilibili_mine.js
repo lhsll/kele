@@ -19,7 +19,7 @@ if (url.includes("/x/v2/account/mine")) {
       section.be_up_title = "";
       section.tip_title = "";
 
-      if (["推荐服务", "更多服务", "创作中心"].includes(section.title)) {
+      if (["推荐服务", "更多服务", "创作中心","成为大会员"].includes(section.title)) {
         section.title = "";
         section.type = "";
       }
