@@ -5,9 +5,6 @@
 
 [URL Rewrite]
 
-(?=resource\?resourceUrl|upos\-sz\-staticcos) - reject
-(?=.*(hdslb\.com.*(\.zip|\.mp4)))^((?!(hdslb\.com\/bfs\/app-static\/)).)*$ - reject
-
 ^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/bilibili\.app\.interface\.v1\.Search\/DefaultWords - reject
 
 ^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/resource\/ip - reject
