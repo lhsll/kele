@@ -54,5 +54,8 @@ Blprotos = type=http-response, pattern=^https?:\/\/grpc\.biliapi\.net\/bilibili\
 # 搜索去广告
 哔哩哔哩_搜索去广告 = type=http-response, pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$, requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
 
+bililive_A = type=http-response,pattern=^https:\/\/api\.live\.bilibili\.com\/xlive\/app-ucenter\/v2\/livePanel\/tabs\?,requires-body=1,max-size=0,script-path=biliZB.js
+
+bililive_B = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom,requires-body=1,max-size=0,script-path=biliZB.js
 [MITM]
 hostname = %APPEND% manga.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, app.bilibili.com, app.bilibili.net, api.bilibili.com, api.bilibili.net, grpc.bilibili.com, grpc.bilibili.net, app.biliapi.com, app.biliapi.net, api.biliapi.com, api.biliapi.net, grpc.biliapi.com, grpc.biliapi.net
