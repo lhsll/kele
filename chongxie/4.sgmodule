@@ -1,5 +1,5 @@
 #!name =❏  功能 & 合集Ad
-#!desc = 去广告合集(高德地图|菜鸟|小红书|百度输入法|酷安|QQ音乐|阿里云盘|网页百度|什么值得买|微博轻享版|Lynk&Co|Uki|淘宝)
+#!desc = 去广告合集(高德地图|菜鸟|小红书|百度输入法|酷安|QQ音乐|阿里云盘|网页百度|什么值得买|微博轻享版|Lynk&Co|Uki|淘宝|京东)
 #!author = @RuCu6|@Keywos|@kokoryh|@mieqq|@lhsll|@可莉
 
 [URL Rewrite]
@@ -144,6 +144,9 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 
 移除淘宝开屏广告_20 = type=http-response, pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script//Taobao/Taobao_remove_ads.js, requires-body=true, max-size=3145728, timeout=30
 
+# >京东
+移除京东广告_14 = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(personinfoBusiness|start), script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/JD/JD_remove_ads.js, requires-body=true, max-size=3145728, timeout=30
+
 [Map Local]
 
 # >高德地图
@@ -272,6 +275,9 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) data="Scripts/Mock/reject-dict.json"
+
+# >京东
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=uniformRecommend data="Scripts/Mock/reject-dict.json"
 
 [MITM]
 
