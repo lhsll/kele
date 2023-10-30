@@ -1,5 +1,5 @@
 #!name =❏  功能 & 合集Ad
-#!desc = 去广告合集(高德地图|菜鸟|小红书|百度输入法|酷安|QQ音乐|阿里云盘|网页百度|什么值得买|微博轻享版|Lynk&Co|Uki|阿里巴巴)
+#!desc = 去广告合集(高德地图|菜鸟|小红书|百度输入法|酷安|QQ音乐|阿里云盘|网页百度|什么值得买|微博轻享版|Lynk&Co|Uki|淘宝)
 #!author = @RuCu6|@Keywos|@kokoryh|@mieqq|@lhsll|@可莉
 
 [URL Rewrite]
@@ -139,10 +139,10 @@ Uki_首页 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 
 Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/advConf,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_Ad.js
 
-# >阿里巴巴
-阿里巴巴 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+# >淘宝
+移除淘宝开屏广告_19 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get), script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script//Taobao/Taobao_remove_ads.js, requires-body=true, max-size=3145728, timeout=30
 
-阿里巴巴 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+移除淘宝开屏广告_20 = type=http-response, pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script//Taobao/Taobao_remove_ads.js, requires-body=true, max-size=3145728, timeout=30
 
 [Map Local]
 
@@ -254,7 +254,7 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/(recommend\/uFriend|squareRecommend|config|recommendPartyList|getRankTopList|\/chatRoomNew\?) data="Scripts/Mock/reject-dict.json"
 
-# >阿里巴巴
+# >淘宝
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise data="Scripts/Mock/reject-dict.json"
