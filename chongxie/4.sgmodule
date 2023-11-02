@@ -274,6 +274,8 @@ Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/fr
 
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources data="Scripts/Mock/reject-dict.json"
 
+^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) data="Scripts/Mock/reject-dict.json"
 
 # >京东
