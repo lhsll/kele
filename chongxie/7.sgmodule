@@ -3,6 +3,8 @@
 
 [URL Rewrite]
 
+^https:\/\/docs2\.gtimg\.com\/components\/img\/1px\.gif\?  - reject
+
 ^https:\/\/h5\.sinaimg\.cn\/upload\/\d+\/\d+\/\d+\/\d+\/(banner_icons_vip|banner_pdf_intlvip|banner_intlvip2)\.png - reject
 
 ^https:\/\/s3gw\.cmbimg\.com\/mbappinitads\/.*.(jpg|png) - reject
