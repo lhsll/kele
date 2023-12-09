@@ -127,6 +127,9 @@
 小程序_掌上公交 = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do,requires-body=1,max-size=0,script-path=Scripts/功能 & 可乐Ad/zhangshanggongjiao.js
 
 [Map Local]
+# >美团
+^https:\/\/wx-shangou\.meituan\.com\/quickbuy\/v2\/activity\/supersale\/bigPromotionProductsRender\? data="Scripts/Mock/reject-dict.json"
+
 # >ChatGPT
 ^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data="Scripts/Mock/reject-dict.json"
 
