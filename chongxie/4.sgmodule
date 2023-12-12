@@ -287,7 +287,7 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="Scripts/Mock/reject-dict.json"
+#^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get data="Scripts/Mock/reject-dict.json"
 
