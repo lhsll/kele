@@ -14,11 +14,11 @@
 
 [Map Local]
 
-^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="reject-dict.json"
+^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data="reject-dict.json"
+^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ data="reject-200.txt"
+^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ data="Scripts/Mock/reject-200.txt"
 
 [Script]
 
