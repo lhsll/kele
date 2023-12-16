@@ -272,6 +272,8 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 ^https:\/\/collection-apigw\.halvie\.com\/halvie-mall-lynkco-app\/v1\/search\/hot\/words data="Scripts/Mock/reject-dict.json"
 
 # >Uki
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo data="Scripts/Mock/reject-dict.json"
+
 ^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/getPopup\?openAppTime=0&protocolVersion=1\.0\.5&firstOpen=1&pageStopTime=0&type=ios&page=homePage data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/rechargePack\/config data="Scripts/Mock/reject-dict.json"
