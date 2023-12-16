@@ -20,7 +20,7 @@
 百度网盘解锁 = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js
 
 # >阿里云盘
-阿里云盘 = type=http-response,pattern=^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/alidrive.js
+#阿里云盘 = type=http-response,pattern=^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/alidrive.js
 
 # >轻图解锁永久专业版
 轻图解锁 = type=http-response, pattern=^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PhotoVisionProCrack.js
