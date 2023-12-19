@@ -20,9 +20,3 @@ TestFlight账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\
 [MITM]
 
 hostname = %APPEND% sub.store, boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, testflight.apple.com, quantumult.app
-
-[General]
-
-skip-proxy = %APPEND% iosapps.itunes.apple.com
-
-force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
