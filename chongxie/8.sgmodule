@@ -35,3 +35,6 @@
 
 # >台州人才网
 台州人才网 = type=http-response,pattern=^https:\/\/api\.tzrl\.net\/person\/v5\/ad\/banner,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/台州人才网.js
+
+# >微信跳转
+微信跳转 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=Scripts/功能 & 本地/weixin110.js, requires-body=true, max-size=-1, timeout=60
