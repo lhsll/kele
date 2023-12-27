@@ -3,6 +3,12 @@
 
 [URL Rewrite]
 
+^http(s)?:\/\/(\d{1,3}\.){3}\d{1,3}(:[0-9]+)?\/upgcxcode https://upos-sz-mirrorcos.bilivideo.com/upgcxcode header
+
+^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random - reject
+
+^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
+
 ^https:\/\/docs2\.gtimg\.com\/components\/img\/1px\.gif\?  - reject
 
 ^https:\/\/h5\.sinaimg\.cn\/upload\/\d+\/\d+\/\d+\/\d+\/(banner_icons_vip|banner_pdf_intlvip|banner_intlvip2)\.png - reject
