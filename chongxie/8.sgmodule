@@ -9,9 +9,6 @@
 # >搜图神器去升级弹窗
 搜图神器去升级 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/搜图神器去升级.js
 
-# >搜图神器开屏
-#搜图神器开屏 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v2\/dateSignature\/random\?,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/搜图神器开屏.js
-
 # >什么值得买Apple推销开屏
 什么值得买Apple开屏 = type=http-response,pattern=^https:\/\/s3\.zdmimg\.com\/cpm\/api\/v1\/advert_distribution\/get_all_advertise\?,requires-body=1,,max-size=0,script-path=Scripts/功能 & 本地/什么值得买Apple开屏.js
 
