@@ -3,6 +3,10 @@
 
 [URL Rewrite]
 
+(^https:\/\/(www|m)\.bilibili\.com\/video\/BV\w{10})((\/\?buvid=.*)|(\/\?share_source=.*)) $1 302
+
+(^https:\/\/live\.bilibili\.com\/\d+)((\?broadcast_type.*)|(\?launch_id.*)) $1 302
+
 ^http(s)?:\/\/(\d{1,3}\.){3}\d{1,3}(:[0-9]+)?\/upgcxcode https://upos-sz-mirrorcos.bilivideo.com/upgcxcode header
 
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random - reject
