@@ -315,7 +315,7 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="Scripts/Mock/reject-dict.json"
 
-^https:\/\/api\.wfdata\.club\/v1\/search\/hot\?order=min&page=1&pageCount=10 data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.wfdata\.club\/v1\/search\/hot\?order=min&page=\d{1}&pageCount=10 data="Scripts/Mock/reject-dict.json"
 
 [MITM]
 
