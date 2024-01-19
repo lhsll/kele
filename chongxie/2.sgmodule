@@ -7,7 +7,7 @@
 什么值得买 Cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,type=http-request,requires-body=false,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$
 
 # > 阿里云盘 app获取
-阿里云盘 Cookie = requires-body=1,type=http-response,pattern=https:\/\/auth\.alipan\.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+阿里云盘 Cookie = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, requires-body=true, max-size=-1, timeout=60
 
 # > 建行生活 app获取
 建行生活 Cookie = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=A3341A040,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
@@ -28,4 +28,4 @@ TF信息获取 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v3
 途虎养车 Cookie = type=http-request, pattern=https://api.tuhu.cn/User/GetInternalCenterInfo, script-path=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js
 
 [MITM]
-hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com, api.tuhu.cn
+hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, auth.aliyundrive.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com, api.tuhu.cn
