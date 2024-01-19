@@ -1,5 +1,5 @@
-#!name=脚本
-#!desc=阿里云盘丨
+#!name=功能 & 脚本
+#!desc=阿里云盘
 
 [Script]
 阿里云签到 = type=cron, cronexp="0 7,11,17 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
