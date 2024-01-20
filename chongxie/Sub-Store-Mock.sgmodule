@@ -1,6 +1,7 @@
 #!name=Sub-Store Mock-PWA
 #!desc=前端页面加速模块: 提升加载速度/减少资源使用/新主题 需要搭配 SubStore 主程序使用 @key
 #!icon = https://raw.githubusercontent.com/Keywos/rule/main/tv/app/144px/substore.png
+#!category=订阅
 
 # 关于： Sub Store https://github.com/Keywos/Sub-Store-PWA
 # 前端： V 2.14.6
