@@ -1,6 +1,7 @@
 #!name=Surge Pro面板
 #!desc=信息面板
 #!system=ios
+#!category=面板
 
 [Panel]
 
