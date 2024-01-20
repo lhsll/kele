@@ -1,6 +1,7 @@
 #!name=Cookie获取
 #!desc=自用合集
 #!system=ios
+#!category=cookie
 
 [Script]
 # > 什么值得买 app获取
