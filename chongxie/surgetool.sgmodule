@@ -1,0 +1,18 @@
+#!name=Troubleshoot
+#!desc=故障排除/规则统计 访问 http://trouble.shoot  http://surge.tool 查看
+#!author=@xream @key
+#!category=功能
+//@xream https://raw.githubusercontent.com/xream/scripts/main/surge/modules/troubleshoot/troubleshoot.js
+
+[Panel]
+troubleshootPanpel = script-name=troubleshootPanpel,update-interval=-1
+
+[MITM]
+hostname = %APPEND% trouble.shoot, *.trouble.shoot, surge.tool
+
+[Script]
+// Web
+troubleshoot = type=http-request, pattern=^https?:\/\/(trouble\.shoot|surge\.tool), timeout=300, script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/surgeTroubleshoot.js
+
+// argument=icon=heart.text.square&color=                                                                                                         #6699FF&type&list
+troubleshootPanpel = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/surgeTroubleshoot.js,argument=type
