@@ -4,17 +4,9 @@
 #!author=ZenmoFeiShi RuCu6 可莉🅥
 
 
-[Rule]
-# 地理位置 - 影响注册账号时的属地判断
-IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
-IP-CIDR,47.56.131.76/32,DIRECT,no-resolve
-IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
-# 开屏广告下发
-IP-CIDR,47.110.187.87/32,REJECT,no-resolve
-
 [Map Local]
 # 开屏广告
-^https:\/\/ssp\.soulapp\.cn\/api\/q data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/ssp\.soulapp\.cn\/api\/q data="Scripts/Mock/reject-dict.json"
 
 [Script]
 移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
