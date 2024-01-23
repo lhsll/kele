@@ -1,47 +1,34 @@
-#!name=Soul去广告
-#!desc=移除开屏广告、移除话题页面热Soul话题、移除评论区礼物榜、移除更新提示、移除青少年弹窗、移除我的页面推广、移除悬浮部件。
+#!name=Soul净化,解锁部分功能
+#!desc=Soul
 #!category=广告
-#!author=ZenmoFeiShi RuCu6 可莉🅥
+#!author=怎么肥事  感谢@可莉对去除开屏广告提供的帮助
+#!update=2024-01-23 21:44
 
-
-[URL Rewrite]
-^https:\/\/ssp\.soulapp\.cn\/api\/q - reject
-^https?://ad-h5-station-cdn.soulapp.cn/station/dist.zip - reject
-^https?://soul-ad.soulapp.cn/material/prod/video - reject
-^https?://ad-r.soulapp.cn/api/v2/report - reject
-^https?://ossgw.alicdn.com/creatives-assets/prod/feupload/user - reject
-^https?://a1.alibabausercontent.com/prod/feupload/user - reject
-
-^https?://fingerprint.soulapp.cn/fingerprint/iosUpload - reject
-^https://api-user.soulapp.cn/user/chat/sensitiveUrl - reject
-^https://apmplus.volces.com/settings/get - reject
-^https://media-service.soulapp.cn/api/app/cdnSource - reject
-^https://api-user.soulapp.cn/v6/account/fastLogin/protobuf - reject
-^https://insight.soulapp.cn/mobile/insight/log/stat/dau - reject
-^https?://api-a.soulapp.cn/official/scene/module - reject
-^https?://data-collector.soulapp.cn/api/data/report/v2 - reject
-^https?://ssp.soulapp.cn/api/q - reject
-^https?://api-user.soulapp.cn/account/open/app/upload - reject
-^https?:\/\/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/winterfell/v2/getIpByDomain - reject
-^https?:\/\/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/winterfell/getIpByDomain - reject
-
+[Map Local]
+^https:\/\/ssp\.soulapp\.cn\/api\/q data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
-移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-移除Soul广告 = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-移除Soul广告 = type=http-response, pattern=^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-移除Soul广告 = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-移除Soul广告 = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-移除Soul广告 = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-移除Soul广告 = type=http-response, pattern=^https:\/\/api-account\.soulapp\.cn\/teenager\/config, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/api-account\.soulapp\.cn\/teenager\/config, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
-移除Soul广告 = type=http-response, pattern=^https:\/\/47\.110\.187\.87\/winterfell\/v2\/getIpByDomain, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
+Soul = type=http-response, pattern=^https:\/\/47\.110\.187\.87\/winterfell\/v2\/getIpByDomain, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+
+Soul = type=http-response, pattern=^https:\/\/api-pay\.soulapp\.cn\/vip\/meet\/userInfo, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+
+Soul = type=http-response, pattern=^https:\/\/api-pay\.soulapp\.cn\/privilege\/supervip\/status, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+
+Soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/official\/scene\/module, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% ssp.soulapp.cn, api-a.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-chat.soulapp.cn, post.soulapp.cn, api-user.soulapp.cn, api-account.soulapp.cn
+hostname = %APPEND% api-account.soulapp.cn, api-a.soulapp.cn, api-pay.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-chat.soulapp.cn, 8.210.3.170, 47.75.72.47, post.soulapp.cn, api-user.soulapp.cn, ssp.soulapp.cn, 47.110.187.87
