@@ -4,9 +4,27 @@
 #!author=ZenmoFeiShi RuCu6 可莉🅥
 
 
-[Map Local]
-# 开屏广告
-^https:\/\/ssp\.soulapp\.cn\/api\/q data="Scripts/Mock/reject-dict.json"
+[URL Rewrite]
+^https:\/\/ssp\.soulapp\.cn\/api\/q - reject
+^https?://ad-h5-station-cdn.soulapp.cn/station/dist.zip - reject
+^https?://soul-ad.soulapp.cn/material/prod/video - reject
+^https?://ad-r.soulapp.cn/api/v2/report - reject
+^https?://ossgw.alicdn.com/creatives-assets/prod/feupload/user - reject
+^https?://a1.alibabausercontent.com/prod/feupload/user - reject
+
+^https?://fingerprint.soulapp.cn/fingerprint/iosUpload - reject
+^https://api-user.soulapp.cn/user/chat/sensitiveUrl - reject
+^https://apmplus.volces.com/settings/get - reject
+^https://media-service.soulapp.cn/api/app/cdnSource - reject
+^https://api-user.soulapp.cn/v6/account/fastLogin/protobuf - reject
+^https://insight.soulapp.cn/mobile/insight/log/stat/dau - reject
+^https?://api-a.soulapp.cn/official/scene/module - reject
+^https?://data-collector.soulapp.cn/api/data/report/v2 - reject
+^https?://ssp.soulapp.cn/api/q - reject
+^https?://api-user.soulapp.cn/account/open/app/upload - reject
+^https?:\/\/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/winterfell/v2/getIpByDomain - reject
+^https?:\/\/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/winterfell/getIpByDomain - reject
+
 
 [Script]
 移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
