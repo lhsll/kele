@@ -1,28 +1,37 @@
-#!name=Soul净化,解锁部分功能
-#!desc=Soul
+#!name=Soul去广告
+#!desc=移除开屏广告、移除话题页面热Soul话题、移除评论区礼物榜、移除更新提示、移除青少年弹窗、移除我的页面推广、移除悬浮部件。
 #!category=广告
-#!author=怎么肥事 @可莉
-#!update=2024-01-22 16:57
+#!author=ZenmoFeiShi RuCu6 可莉🅥
+
+
+[Rule]
+# 地理位置 - 影响注册账号时的属地判断
+IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
+IP-CIDR,47.56.131.76/32,DIRECT,no-resolve
+IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
+# 开屏广告下发
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
 
 [Map Local]
+# 开屏广告
 ^https:\/\/ssp\.soulapp\.cn\/api\/q data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
-Soul = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
-Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
-Soul = type=http-response, pattern=^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
-Soul = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
-Soul = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
-Soul = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
-Soul = type=http-response, pattern=^https:\/\/api-account\.soulapp\.cn\/teenager\/config, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/api-account\.soulapp\.cn\/teenager\/config, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
-Soul = type=http-response, pattern=^https:\/\/47\.110\.187\.87\/winterfell\/v2\/getIpByDomain, script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js, requires-body=true, max-size=-1, timeout=60
+移除Soul广告 = type=http-response, pattern=^https:\/\/47\.110\.187\.87\/winterfell\/v2\/getIpByDomain, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% api-account.soulapp.cn, api-a.soulapp.cn, api-pay.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-chat.soulapp.cn, 8.210.3.170, 47.75.72.47, post.soulapp.cn, api-user.soulapp.cn, ssp.soulapp.cn, 47.110.187.87, 47.99.42.29, 47.97.215.55, 120.27.235.201
+hostname = %APPEND% ssp.soulapp.cn, api-a.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-chat.soulapp.cn, post.soulapp.cn, api-user.soulapp.cn, api-account.soulapp.cn
