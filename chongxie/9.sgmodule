@@ -3,4 +3,4 @@
 #!category=脚本
 
 [Script]
-阿里云盘签到 = type=cron, cronexp="0 7,11,17 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
+阿里云盘签到 = type=cron, cronexp="30 18 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
