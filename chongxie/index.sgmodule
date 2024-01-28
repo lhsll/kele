@@ -1,5 +1,6 @@
 #!name=打断请求
 #!desc=谨慎启用. 自动刷新面板. 点击面板按钮或请求 kill-active-requests.com 手动打断请求. WiFi 断开时自动执行.
+#!category=FuFenNan-KeLe
 
 [MITM]
 hostname = %APPEND% kill-active-requests.com
