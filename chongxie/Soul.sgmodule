@@ -7,7 +7,7 @@
 [Map Local]
 # 开屏广告[Map Local]
 # 开屏广告
-^https:\/\/ssp\.soulapp\.cn\/api\/q data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/ssp\.soulapp\.cn\/api\/q data="Scripts/Mock/reject-dict.json"
 
 [Script]
 移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
