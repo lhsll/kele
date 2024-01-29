@@ -1,10 +1,11 @@
-#!name=Soul净化,解锁部分功能
-#!desc=Soul
+#!name=Soul去广告
+#!desc=移除开屏广告、移除话题页面热Soul话题、移除评论区礼物榜、移除更新提示、移除青少年弹窗、移除我的页面推广、移除悬浮部件。
 #!category=广告
-#!author=怎么肥事  感谢@可莉对去除开屏广告提供的帮助
-#!update=2024-01-23 21:44
+#!author=#!author=ZenmoFeiShi RuCu6 可莉🅥
+#!update=2024-01-26 22:57:44
 
 [Map Local]
+# 开屏广告[Map Local]
 # 开屏广告
 ^https:\/\/ssp\.soulapp\.cn\/api\/q data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
