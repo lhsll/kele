@@ -241,8 +241,7 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 ^https:\/\/imeres\.baidu\.com\/common\/image2fjpeg.+\.png data="Scripts/Mock/reject-img.gif"
 
-^https:\/\/imeres\.baidu\.com\/imeres\/ime-res\/activity_advertisement\/files\/\w+\.png$
-data="Scripts/Mock/reject-img.gif"
+^https:\/\/imeres\.baidu\.com\/imeres\/ime-res\/activity_advertisement\/files\/\w+\.png$ data="Scripts/Mock/reject-img.gif"
 
 # >酷安
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="Scripts/Mock/reject-dict.json"
