@@ -237,6 +237,13 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 ^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info) data="Scripts/Mock/mime.json"
 
+^https?:\/\/imeres\.baidu\.com\/imeres\/(emot-pack-test|imemmi-public)(\/\/)?\/upload\/imags\/.+\.(mp4|png|jpg|gif|jpeg) data="Scripts/Mock/reject-img.gif"
+
+^https:\/\/imeres\.baidu\.com\/common\/image2fjpeg.+\.png data="Scripts/Mock/reject-img.gif"
+
+^https:\/\/imeres\.baidu\.com\/imeres\/ime-res\/activity_advertisement\/files\/\w+\.png$
+data="Scripts/Mock/reject-img.gif"
+
 # >酷安
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="Scripts/Mock/reject-dict.json"
 ^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew data="Scripts/Mock/reject-200.txt"
