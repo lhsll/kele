@@ -85,6 +85,11 @@ red_book_live_v2 = type=http-response, pattern=https://edith.xiaohongshu.com/api
 酷安Ad = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
 
 # >阿里云盘
+
+阿里云盘本地VIP图标 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/me,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/阿里云盘本地VIP图标.js
+
+阿里云盘本地VIP = type=http-response,pattern=^https:\/\/api\.alipan\.com\/business\/v1\.1\/users\/me\/vip\/info,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/阿里云盘本地VIP.js
+
 阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 
 阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
@@ -106,7 +111,7 @@ red_book_live_v2 = type=http-response, pattern=https://edith.xiaohongshu.com/api
 
 什么值得买百科Ad = type=http-response, pattern=^https:\/\/baike-api\.smzdm\.com\/home_v3\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 
-#什么值得买好价Ad = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+什么值得买好价 = type=http-response,pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/什么值得买好价.js,timeout=60
 
 什么值得买好价详细页 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
 
