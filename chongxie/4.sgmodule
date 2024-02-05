@@ -1,23 +1,7 @@
-#!name =广告 & 合集Ad
+#!name =❏  广告 & 合集Ad
 #!desc = 去广告合集(高德地图|菜鸟|小红书|百度输入法|酷安|QQ音乐|阿里云盘|网页百度|什么值得买|Lynk&Co|Uki|淘宝|京东|云闪付|VVebo|京东极速版|威锋)
-#!author = @RuCu6|@Keywos|@kokoryh|@mieqq|@lhsll|@可莉
 #!category=广告
-
-[URL Rewrite]
-
-^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
-
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk - reject
-
-^https?:\/\/us\.l\.qq\.com\/exapp - reject
-
-^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
-
-^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ - reject
-
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
-
-^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/(other|user_related|wiki_related)_modul - reject
+#!author = @RuCu6|@Keywos|@kokoryh|@mieqq|@lhsll|@可莉
 
 [Script]
 
@@ -313,6 +297,22 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 ^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords data="Scripts/Mock/reject-dict.json"
 
 ^https:\/\/api\.wfdata\.club\/v1\/search\/hot\?order=min&page=\d{1}&pageCount=10 data="Scripts/Mock/reject-dict.json"
+
+[URL Rewrite]
+
+^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
+
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk - reject
+
+^https?:\/\/us\.l\.qq\.com\/exapp - reject
+
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
+
+^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ - reject
+
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
+
+^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/(other|user_related|wiki_related)_modul - reject
 
 [MITM]
 
