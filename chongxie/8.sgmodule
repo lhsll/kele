@@ -5,34 +5,34 @@
 [Script]
 
 # >酷安我的页面去横幅
-酷安我的页面 = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/酷安我的页面.js
+酷安我的页面 = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/酷安我的页面.js
 
 # >搜图神器去升级弹窗
-搜图神器去升级 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/搜图神器去升级.js
+搜图神器去升级 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/搜图神器去升级.js
 
 # >什么值得买Apple推销开屏
-什么值得买Apple开屏 = type=http-response,pattern=^https:\/\/s3\.zdmimg\.com\/cpm\/api\/v1\/advert_distribution\/get_all_advertise\?,requires-body=1,,max-size=0,script-path=Scripts/功能 & 本地/什么值得买Apple开屏.js
+什么值得买Apple开屏 = type=http-response,pattern=^https:\/\/s3\.zdmimg\.com\/cpm\/api\/v1\/advert_distribution\/get_all_advertise\?,requires-body=1,,max-size=0,script-path=Scripts/广告 & 本地/什么值得买Apple开屏.js
 
 # >什么值得买社区(关键词:暗影精灵)
-什么值得买社区 = type=http-response,pattern=^https:\/\/article-api\.smzdm\.com\/shequ\/index\?.+$,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/什么值得买社区.js
+什么值得买社区 = type=http-response,pattern=^https:\/\/article-api\.smzdm\.com\/shequ\/index\?.+$,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/什么值得买社区.js
 
 # >什么值得买我的页面
-什么值得买我的页面 = type=http-response,pattern=^https:\/\/user-api\.smzdm\.com\/vip$,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/什么值得买我的页面.js
+什么值得买我的页面 = type=http-response,pattern=^https:\/\/user-api\.smzdm\.com\/vip$,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/什么值得买我的页面.js
 
 # >香山电子秤开屏
-香山电子秤开屏 = type=http-response,pattern=^https:\/\/shealthyapi\.senssun\.com\/v1\/app\/banner\/findByType\?type=bottom,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/香山电子秤开屏.js
+香山电子秤开屏 = type=http-response,pattern=^https:\/\/shealthyapi\.senssun\.com\/v1\/app\/banner\/findByType\?type=bottom,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/香山电子秤开屏.js
 
 # >米家广告图片
-米家广告图片 = type=http-response,pattern=^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/carousel\/banners\?,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/米家广告图片.js
+米家广告图片 = type=http-response,pattern=^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/carousel\/banners\?,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/米家广告图片.js
 
 # >王者营地开屏
-王者营地开屏 = type=http-response,pattern=^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/王者营地开屏.js
+王者营地开屏 = type=http-response,pattern=^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/王者营地开屏.js
 
 # >飞智游戏厅开屏
-飞智游戏厅开屏 = type=http-response,pattern=^https:\/\/api\.flydigi\.com\/android\/v2\/ad\?,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/飞智游戏厅开屏.js
+飞智游戏厅开屏 = type=http-response,pattern=^https:\/\/api\.flydigi\.com\/android\/v2\/ad\?,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/飞智游戏厅开屏.js
 
 # >台州人才网
-台州人才网 = type=http-response,pattern=^https:\/\/api\.tzrl\.net\/person\/v5\/ad\/banner,requires-body=1,max-size=0,script-path=Scripts/功能 & 本地/台州人才网.js
+台州人才网 = type=http-response,pattern=^https:\/\/api\.tzrl\.net\/person\/v5\/ad\/banner,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/台州人才网.js
 
 # >微信跳转
-微信跳转 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=Scripts/功能 & 本地/weixin110.js, requires-body=true, max-size=-1, timeout=60
+微信跳转 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=Scripts/广告 & 本地/weixin110.js, requires-body=true, max-size=-1, timeout=60
