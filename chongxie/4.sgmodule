@@ -70,9 +70,9 @@ red_book_live_v2 = type=http-response, pattern=https://edith.xiaohongshu.com/api
 
 # >阿里云盘
 
-阿里云盘本地VIP图标 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/me,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/阿里云盘本地VIP图标.js
+阿里云盘本地VIP图标 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/me,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/阿里云盘本地VIP图标.js
 
-阿里云盘本地VIP = type=http-response,pattern=^https:\/\/api\.alipan\.com\/business\/v1\.1\/users\/me\/vip\/info,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/阿里云盘本地VIP.js
+阿里云盘本地VIP = type=http-response,pattern=^https:\/\/api\.alipan\.com\/business\/v1\.1\/users\/me\/vip\/info,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/阿里云盘本地VIP.js
 
 阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
 
@@ -91,21 +91,21 @@ red_book_live_v2 = type=http-response, pattern=https://edith.xiaohongshu.com/api
 百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduNoRedirect.js
 
 # >什么值得买
-什么值得买开屏Ad = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+什么值得买开屏Ad = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/smzdm.js
 
-什么值得买百科Ad = type=http-response, pattern=^https:\/\/baike-api\.smzdm\.com\/home_v3\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+什么值得买百科Ad = type=http-response, pattern=^https:\/\/baike-api\.smzdm\.com\/home_v3\/list,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/smzdm.js
 
-什么值得买好价 = type=http-response,pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/什么值得买好价.js,timeout=60
+什么值得买好价 = type=http-response,pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/什么值得买好价.js,timeout=60
 
-什么值得买好价详细页 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+什么值得买好价详细页 = type=http-response, pattern=^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/smzdm.js
 
-什么值得买首页去广告 = type=http-response, pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+什么值得买首页去广告 = type=http-response, pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/smzdm.js
 
-什么值得买搜索标签去广告 = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/什么值得买搜索标签去广告.js
+什么值得买搜索标签去广告 = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/什么值得买搜索标签去广告.js
 
-什么值得买list_v10 = type=http-response, pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+什么值得买list_v10 = type=http-response, pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/smzdm.js
 
-什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/功能 & 合集Ad/smzdm.js
+什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/smzdm.js
 
 #微博轻享版分组 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/WeBo_allgroups.js
 
