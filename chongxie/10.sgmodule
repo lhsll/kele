@@ -1,0 +1,19 @@
+#!name=❏  应用 & 自写脚本
+#!desc=域名
+#!category=应用
+
+[Script]
+
+规则数量统计 = type=generic,script-path=Scripts/应用 & 自写脚本/规则数量统计.js
+
+域名规则排序 = type=generic,script-path=Scripts/应用 & 自写脚本/域名规则排序.js
+
+统计字符 = type=generic,script-path=Scripts/应用 & 自写脚本/统计字符.js
+
+主机名去重 = type=generic,script-path=Scripts/应用 & 自写脚本/主机名去重.js
+
+MitM域名去重 = type=generic,script-path=Scripts/应用 & 自写脚本/MitM域名去重.js
+
+脚本 = type=generic,script-path=Scripts/应用 & 自写脚本/脚本.js
+
+DNS脚本示例 = type=dns,script-path=Scripts/应用 & 自写脚本/DNS脚本示例.js
