@@ -1,7 +1,7 @@
-#!name=Cookie获取
+#!name=服务 & 密匙获取
 #!desc=自用合集
 #!system=ios
-#!category=cookie
+#!category=服务
 
 [Script]
 # > 什么值得买 app获取
