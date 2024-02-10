@@ -19,6 +19,9 @@ spotify-json = type=http-request, pattern=^https:\/\/spclient\.wg\.spotify\.com\
 
 spotify-proto = type=http-response, pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, max-size=0, script-update-interval=0
 
+# >扫描全能王
+扫描全能 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/camscanner.js,type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,script-update-interval=0
+
 [MITM]
 
-hostname = %APPEND% wallpaper.soutushenqi.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, spclient.wg.spotify.com
+hostname = %APPEND% wallpaper.soutushenqi.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, spclient.wg.spotify.com, api.intsig.net, api-cs.intsig.net
