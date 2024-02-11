@@ -1,0 +1,20 @@
+function letterDecode(e) {
+    const t = new Uint8Array(4 * e.length);
+    let n = 0;
+    for (const o of e) {
+        const i = "XKNWSPRMCTGZVDHF".indexOf(o);
+        let r = 8;
+        for (let o = 0; o < 4; o++) t[n++] = i & r ? 1 : 0, r >>= 1;
+    }
+    const i = new Uint8Array(Math.floor(t.length / 8));
+    t.forEach((e, t) => {
+        const n = Math.floor(t / 8);
+        n < i.length && (i[n] = i[n] << 1 | e);
+    });
+    const decodedResult = String.fromCharCode(...i);
+    console.log(decodedResult);
+    return decodedResult;
+}
+
+letterDecode("WTWCWRWRWMWPWWWR");
+$done();
