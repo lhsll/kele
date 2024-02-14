@@ -28,7 +28,7 @@ NetSpeed = script-name=NetSpeed,update-interval=-1
 #NetInfoPanel=title="",content="",style=info,script-name=net-info-panel.js,update-interval=1
 
 # >快速清除Surge的DNS缓存
-FlushDNS = script-name=FlushDNS,update-interval=1000
+FlushDNS = script-name=FlushDNS,update-interval=1800
 
 # >显示Surge的启动时间
 SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
