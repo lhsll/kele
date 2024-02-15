@@ -4,6 +4,8 @@
 
 [URL Rewrite]
 
+^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/\w+!!\d{13}-0-tps-(1080|2160|1124)-\d{4}\.jpg$ - reject
+
 (^https:\/\/(www|m)\.bilibili\.com\/video\/BV\w{10})((\/\?buvid=.*)|(\/\?share_source=.*)) $1 302
 
 (^https:\/\/live\.bilibili\.com\/\d+)((\?broadcast_type.*)|(\?launch_id.*)) $1 302
