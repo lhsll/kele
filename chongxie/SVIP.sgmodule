@@ -3,6 +3,7 @@
 #!category=服务
 
 [Script]
+
 # >SparkMail
 SparkMail = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$), script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/SparkMail.js, requires-body=true, max-size=-1, timeout=60
 
@@ -26,4 +27,4 @@ spotify-proto = type=http-response, pattern=^https:\/\/spclient\.wg\.spotify\.co
 
 [MITM]
 
-hostname = %APPEND% wallpaper.soutushenqi.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, spclient.wg.spotify.com, api.intsig.net, api-cs.intsig.net
+hostname = %APPEND% wallpaper.soutushenqi.com, purchase-qingtu-api.b612kaji.com, biz.cyapi.cn, spclient.wg.spotify.com, api.intsig.net, api-cs.intsig.net, api.revenuecat.com
