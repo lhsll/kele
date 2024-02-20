@@ -3,6 +3,8 @@
 #!category=服务
 
 [Script]
+# >SparkMail
+SparkMail = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$), script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/SparkMail.js, requires-body=true, max-size=-1, timeout=60
 
 # >搜图神器
 搜图神器解锁 = type=http-response,pattern=http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/SearchArtifact.js
