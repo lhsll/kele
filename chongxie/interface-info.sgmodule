@@ -7,7 +7,7 @@
 
 [Script]
 # Panel
-网络接口信息面板 = type=generic,timeout=120,script-path=Scripts/面板 & 网络接口/interface-info.js,argument="icon={{{ICON}}}&icon-color={{{ICON-COLOR}}}&STYLE={{{STYLE}}}"
+网络接口信息面板 = type=generic,timeout=120,script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/interface-info/interface-info.js,argument="icon={{{ICON}}}&icon-color={{{ICON-COLOR}}}&STYLE={{{STYLE}}}"
 
 [Panel]
 网络接口信息面板 = script-name=网络接口信息面板,update-interval={{{UPDATE-INTERVAL}}}
