@@ -13,6 +13,8 @@
 ^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ - reject
 
 [Map Local]
+# 去除搜索中的搜索推荐
+^https:\/\/app\.bilibili\.com\/x\/v2\/search\/recommend\? data="Scripts/Mock/reject-dict.json"
 # 去除搜索中的大家都在搜
 ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words data="Scripts/Mock/reject-dict.json"
 # 去除动态中的话题
