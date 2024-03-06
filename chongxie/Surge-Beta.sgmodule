@@ -1,15 +1,10 @@
-#!name=应用 & Sub Store
-#!desc=支持最新 Surge iOS TestFlight 版本的参数设置功能. 测落地功能 ability: http-client-policy, 同步配置的定时 cronexp: 0 0 * * *
-#!category=应用
-#!arguments=ability:http-client-policy,cronexp:0 0 * * *,sync:"Sub-Store Sync"
-#!arguments-desc="\n1️⃣ ability\n默认已开启测落地能力\n需要配合脚本操作\n如 https://raw.githubusercontent.com/Keywos/rule/main/cname.js\n⚠️ Surge 上时候可能会爆内存\n不需要使用的时候应该关闭\n填写任意其他值关闭\n\n2️⃣ cronexp\n同步配置定时任务\n默认为每天 0 点\n\n3️⃣ sync\n自定义定时任务名\n便于在脚本编辑器中选择\n若设为 # 可取消定时任务"
+#!name=Sub-Store
+#!desc=高级订阅管理工具 @Peng-YM  带 ability 参数版本, 可能会爆内存, 如果不需要使用指定节点功能 例如[加旗帜脚本或者cname脚本] 可以用不带 ability 参数版本. 定时任务默认为每天 23 点 55 分
+#!category=订阅管理
 
 [MITM]
 hostname = %APPEND% sub.store
 
 [Script]
-Sub-Store Core=type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120,ability="{{{ability}}}"
-
+Sub-Store Core=type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120,ability=http-client-policy
 Sub-Store Simple=type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js,requires-body=true
-
-{{{sync}}}=type=cron,cronexp="{{{cronexp}}}",wake-system=1,timeout=120,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
