@@ -167,9 +167,9 @@
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data-type=text data="{}"
 
 # >spotify 音乐
-^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data="Scripts/Mock/reject-img.gif"
+^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data-type=tiny-gif data="{}"
 
-^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data="Scripts/Mock/reject-img.gif"
+^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data-type=tiny-gif data="{}"
 
 # >什么值得买
 ^https:\/\/app-api\.smzdm\.com\/util\/update$ data-type=text data="{}"
@@ -188,10 +188,10 @@
 ^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}"
 
 # >数字联盟
-^https?:\/\/.+?\.shuzilm\.cn data="Scripts/Mock/reject-200.txt"
+^https?:\/\/.+?\.shuzilm\.cn data-type=text data="{}"
 
 # >腾讯手游加速器
-^http:\/\/dldir1\.qq\.com\/INO\/img\/(?!.*(video-cover|tmga|icon)).*\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="Scripts/Mock/reject-200.txt"
+^http:\/\/dldir1\.qq\.com\/INO\/img\/(?!.*(video-cover|tmga|icon)).*\/.+\.(jpg|jpeg|png|gif|webp|mp4) data-type=text data="{}"
 
 ^https:\/\/member\.tmga\.qq\.com\/h5Activity\/info data-type=text data="{}"
 
@@ -200,33 +200,33 @@
 ^https:\/\/member\.tmga\.qq\.com\/intelDelivery data-type=text data="{}"
 
 # > SOUL
-^https:\/\/ssp\.soulapp\.cn\/api\/q\?bi data="Scripts/Mock/reject-200.txt"
+^https:\/\/ssp\.soulapp\.cn\/api\/q\?bi data-type=text data="{}"
 
 # >淘宝广告
 ^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data-type=text data="{}"
 
-^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data="Scripts/Mock/reject-200.txt"
+^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data-type=text data="{}"
 
 ^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data-type=text data="{}"
 
 # >其他
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data-type=text data="{}"
 
-^http:\/\/oc\.umeng\.com\/v2\/check_config_update data="Scripts/Mock/reject-200.txt"
+^http:\/\/oc\.umeng\.com\/v2\/check_config_update data-type=text data="{}"
 
 # >浙里办
-^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data="Scripts/Mock/reject-200.txt"
+^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data-type=text data="{}"
 
 # >天翼云盘弹窗广告
-^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 data="Scripts/Mock/reject-200.txt"
+^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 data-type=text data="{}"
 
 # >中国电信
-^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data="Scripts/Mock/reject-img.gif"
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data-type=tiny-gif data="{}"
 
 # >爱思去除精选顶部广告
-^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data="Scripts/Mock/reject-200.txt"
+^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data-type=text data="{}"
 
-^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data="Scripts/Mock/reject-200.txt"
+^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data-type=text data="{}"
 
 # >飞智游戏
 ^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}"
@@ -235,64 +235,64 @@
 ^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php data-type=text data="{}"
 
 # >彩云天气
-^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? data="Scripts/Mock/reject-200.txt"
+^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? data-type=text data="{}"
 
 # >滴滴青桔
-^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) data="Scripts/Mock/reject-200.txt"
+^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) data-type=text data="{}"
 
-^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api data="Scripts/Mock/reject-200.txt"
+^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api data-type=text data="{}"
 
-^https?:\/\/omgup*\.xiaojukeji\.com\/api data="Scripts/Mock/reject-200.txt"
+^https?:\/\/omgup*\.xiaojukeji\.com\/api data-type=text data="{}"
 
 # >工银E生活
-^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data="Scripts/Mock/reject-200.txt"
+^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data-type=text data="{}"
 
 # >工银e生活小程序
-^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do data="Scripts/Mock/reject-200.txt"
+^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do data-type=text data="{}"
 
 # >中国移动
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data="Scripts/Mock/reject-200.txt"
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data-type=text data="{}"
 
 # >知乎网页版去广告
 ^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data-type=text data="{}"
 
 # >掌上英雄联盟
-^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) data="Scripts/Mock/reject-200.txt"
+^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) data-type=text data="{}"
 
 # >腾讯广告
-^https?:\/\/btrace\.qq\.com data="Scripts/Mock/reject-200.txt"
+^https?:\/\/btrace\.qq\.com data-type=text data="{}"
 
-^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data="Scripts/Mock/reject-img.gif"
+^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data-type=tiny-gif data="{}"
 
-^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= data="Scripts/Mock/reject-img.gif"
+^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= data-type=tiny-gif data="{}"
 
-^https?:\/\/imgcache\.qq\.com\/qqlive\/ data="Scripts/Mock/reject-img.gif"
+^https?:\/\/imgcache\.qq\.com\/qqlive\/ data-type=tiny-gif data="{}"
 
-^https?:\/\/mtteve\.beacon\.qq\.com\/analytics data="Scripts/Mock/reject-img.gif"
+^https?:\/\/mtteve\.beacon\.qq\.com\/analytics data-type=tiny-gif data="{}"
 
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? data="Scripts/Mock/reject-200.txt"
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? data-type=text data="{}"
 
-^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons data="Scripts/Mock/reject-200.txt"
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons data-type=text data="{}"
 
-^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data="Scripts/Mock/reject-200.txt"
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data-type=text data="{}"
 
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data="Scripts/Mock/reject-200.txt"
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data-type=text data="{}"
 
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data="Scripts/Mock/reject-200.txt"
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data-type=text data="{}"
 
-^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data="Scripts/Mock/reject-img.gif"
+^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data-type=tiny-gif data="{}"
 
-^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data="Scripts/Mock/reject-img.gif"
+^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data-type=tiny-gif data="{}"
 
-^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data="Scripts/Mock/reject-img.gif"
+^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data-type=tiny-gif data="{}"
 
-^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js data="Scripts/Mock/reject-img.gif"
+^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js data-type=tiny-gif data="{}"
 
-^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data="Scripts/Mock/reject-img.gif"
+^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data-type=tiny-gif data="{}"
 
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data="Scripts/Mock/reject-img.gif"
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data-type=tiny-gif data="{}"
 
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="Scripts/Mock/reject-img.gif"
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif data="{}"
 
 ^https?:\/\/kohcamp\.qq\.com\/app\/button\/get data-type=text data="{}"
 
