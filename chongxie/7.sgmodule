@@ -139,32 +139,32 @@
 
 [Map Local]
 # >美团
-^https:\/\/wx-shangou\.meituan\.com\/quickbuy\/v2\/activity\/supersale\/bigPromotionProductsRender\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/wx-shangou\.meituan\.com\/quickbuy\/v2\/activity\/supersale\/bigPromotionProductsRender\? data-type=text data="{}"
 
 # >ChatGPT
-^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data="Scripts/Mock/reject-dict.json"
+^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data-type=text data="{}"
 
 # >阿里云盘
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}"
 
 # >阿里巴巴
-#^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-(702-758|1080-2430) data="Scripts/Mock/reject-dict.json"
+#^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-(702-758|1080-2430) data-type=text data="{}"
 
-^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="Scripts/Mock/reject-dict.json"
+^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data-type=text data="{}"
 
 # >百度云
-^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data-type=text data="{}"
 
-^https?:\/\/update\.pan\.baidu\.com\/statistics\? data="Scripts/Mock/reject-dict.json"
+^https?:\/\/update\.pan\.baidu\.com\/statistics\? data-type=text data="{}"
 
 # >飞猪
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}"
 
 # >微信移除公众号中的推广内容
-^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data-type=text data="{}"
 
 # >米家
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data="Scripts/Mock/reject-dict.json"
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data-type=text data="{}"
 
 # >spotify 音乐
 ^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data="Scripts/Mock/reject-img.gif"
@@ -172,20 +172,20 @@
 ^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data="Scripts/Mock/reject-img.gif"
 
 # >什么值得买
-^https:\/\/app-api\.smzdm\.com\/util\/update$ data="Scripts/Mock/reject-dict.json"
+^https:\/\/app-api\.smzdm\.com\/util\/update$ data-type=text data="{}"
 
-^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list.+ data="Scripts/Mock/reject-dict.json"
+^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list.+ data-type=text data="{}"
 
-^https:\/\/s-api\.smzdm\.com\/sou\/search_keyword_redirect_urls.+ data="Scripts/Mock/reject-dict.json"
+^https:\/\/s-api\.smzdm\.com\/sou\/search_keyword_redirect_urls.+ data-type=text data="{}"
 
-^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data-type=text data="{}"
 
 # >搜图神器
-^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data="Scripts/Mock/reject-dict.json"
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data-type=text data="{}"
 
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data="Scripts/Mock/reject-dict.json"
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data-type=text data="{}"
 
-^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data="Scripts/Mock/reject-dict.json"
+^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}"
 
 # >数字联盟
 ^https?:\/\/.+?\.shuzilm\.cn data="Scripts/Mock/reject-200.txt"
@@ -193,24 +193,24 @@
 # >腾讯手游加速器
 ^http:\/\/dldir1\.qq\.com\/INO\/img\/(?!.*(video-cover|tmga|icon)).*\/.+\.(jpg|jpeg|png|gif|webp|mp4) data="Scripts/Mock/reject-200.txt"
 
-^https:\/\/member\.tmga\.qq\.com\/h5Activity\/info data="Scripts/Mock/reject-dict.json"
+^https:\/\/member\.tmga\.qq\.com\/h5Activity\/info data-type=text data="{}"
 
-^https:\/\/member\.tmga\.qq\.com\/member data="Scripts/Mock/reject-dict.json"
+^https:\/\/member\.tmga\.qq\.com\/member data-type=text data="{}"
 
-^https:\/\/member\.tmga\.qq\.com\/intelDelivery data="Scripts/Mock/reject-dict.json"
+^https:\/\/member\.tmga\.qq\.com\/intelDelivery data-type=text data="{}"
 
 # > SOUL
 ^https:\/\/ssp\.soulapp\.cn\/api\/q\?bi data="Scripts/Mock/reject-200.txt"
 
 # >淘宝广告
-^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data="Scripts/Mock/reject-dict.json"
+^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data-type=text data="{}"
 
 ^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data="Scripts/Mock/reject-200.txt"
 
-^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data="Scripts/Mock/reject-dict.json"
+^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data-type=text data="{}"
 
 # >其他
-^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data="Scripts/Mock/reject-dict.json"
+^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data-type=text data="{}"
 
 ^http:\/\/oc\.umeng\.com\/v2\/check_config_update data="Scripts/Mock/reject-200.txt"
 
@@ -229,10 +229,10 @@
 ^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data="Scripts/Mock/reject-200.txt"
 
 # >飞智游戏
-^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}"
 
 # >2345天气王
-^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php data="Scripts/Mock/reject-dict.json"
+^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php data-type=text data="{}"
 
 # >彩云天气
 ^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? data="Scripts/Mock/reject-200.txt"
@@ -254,7 +254,7 @@
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data="Scripts/Mock/reject-200.txt"
 
 # >知乎网页版去广告
-^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data-type=text data="{}"
 
 # >掌上英雄联盟
 ^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) data="Scripts/Mock/reject-200.txt"
@@ -294,17 +294,17 @@
 
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="Scripts/Mock/reject-img.gif"
 
-^https?:\/\/kohcamp\.qq\.com\/app\/button\/get data="Scripts/Mock/reject-dict.json"
+^https?:\/\/kohcamp\.qq\.com\/app\/button\/get data-type=text data="{}"
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data-type=text data="{}"
 
-^https:\/\/mobads\.baidu\.com\/cpro\/ui\/mads\.php\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/mobads\.baidu\.com\/cpro\/ui\/mads\.php\? data-type=text data="{}"
 
-^https:\/\/huodong-ssr\.taobao\.com\/wow\/tessera\/trending-center-page\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/huodong-ssr\.taobao\.com\/wow\/tessera\/trending-center-page\? data-type=text data="{}"
 
-^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data="Scripts/Mock/reject-dict.json"
+^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}"
 
-^https:\/\/qiye\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules data="Scripts/Mock/reject-dict.json"
+^https:\/\/qiye\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules data-type=text data="{}"
 
 [MITM]
 
