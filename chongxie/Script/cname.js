@@ -478,6 +478,12 @@ async function operator(e = [], targetPlatform, env) {
     var eout = e.length;
     if (eout > 3 && isSurge){
       const allsame = newnode.every((value, index, arr) => value === arr[0]);
+      if(allsame){
+          klog(`未使用带指定节点功能的 SubStore, 或所有节点落地IP相同`);
+          $.notify('CNAME：点击以安装对应版本','未使用带指定节点功能的 SubStore，或所有节点落地IP相同','',{url: "https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge-ability.sgmodule",})
+          return e;
+      }
+    }
     if (inapi >= 1) {
       retryi++;
       timeout = rawtime;
