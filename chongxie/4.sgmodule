@@ -192,54 +192,54 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 [Map Local]
 
 # >高德地图
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan)\? data-type=text data="{}"
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data-type=text data="{}"
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data-type=text data="{}"
 
-^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data-type=text data="{}"
 
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data-type=text data="{}"
 
-^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data-type=text data="{}"
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data-type=text data="{}"
 
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data-type=text data="{}"
 
-^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data-type=text data="{}"
 
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization)\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization)\? data-type=text data="{}"
 
 # >菜鸟
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|index)\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|index)\.cn data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend\.cpc\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend\.cpc\.cn data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(homepage\.merge|tabbar\.marketing)\.get\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(homepage\.merge|tabbar\.marketing)\.get\.cn data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cnactivitycenter data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cnactivitycenter data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn data-type=text data="{}"
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn data="Scripts/Mock/reject-dict.json"
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn data-type=text data="{}"
 
 # >小红书
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data="Scripts/Mock/reject-dict.json"
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data-type=text data="{}"
 
-^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data-type=text data="{}"
 
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data-type=text data="{}"
 
-^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery) data="Scripts/Mock/reject-dict.json"
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery) data-type=text data="{}"
 
 # >百度输入法
 # ▿▿ 模拟数据 避免反复请求
@@ -276,7 +276,7 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 ^https:\/\/api-access\.pangolin-sdk-toutiao(\d|-\w)?\.com\/api\/ad\/union\/sdk\/get_ads data-type=text data="{}"
 
 # >酷安
-^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="Scripts/Mock/reject-dict.json"
+^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data-type=text data="{}"
 ^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew data="Scripts/Mock/reject-200.txt"
 
 # >QQ音乐
@@ -284,71 +284,71 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/Mock/reject-img.gif"
 
 # >Lynk&Co
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/searching\/hot\/recommend\/list data="Scripts/Mock/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/searching\/hot\/recommend\/list data-type=text data="{}"
 
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/topic\/together\/hot data="Scripts/Mock/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/topic\/together\/hot data-type=text data="{}"
 
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/page\/detail\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/page\/detail\? data-type=text data="{}"
 
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/relation\/getTotalRelationCount data="Scripts/Mock/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/relation\/getTotalRelationCount data-type=text data="{}"
 
-^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/(user\/invite-new|login) data="Scripts/Mock/reject-dict.json"
+^https:\/\/lynk-capp-prod\.oss-cn-hangzhou\.aliyuncs\.com\/lynkco2-prod\/pages\/(user\/invite-new|login) data-type=text data="{}"
 
-^https:\/\/app-services\.lynkco\.com\.cn\/app\/getPicInfo data="Scripts/Mock/reject-dict.json"
+^https:\/\/app-services\.lynkco\.com\.cn\/app\/getPicInfo data-type=text data="{}"
 
-^https:\/\/community-opt-app\.lynkco\.com\/api\/v1\/biz\/zone\/(recommend|topic\/recommend) data="Scripts/Mock/reject-dict.json"
+^https:\/\/community-opt-app\.lynkco\.com\/api\/v1\/biz\/zone\/(recommend|topic\/recommend) data-type=text data="{}"
 
-^https:\/\/collection-apigw\.halvie\.com\/halvie-mall-lynkco-app\/v1\/search\/hot\/words data="Scripts/Mock/reject-dict.json"
+^https:\/\/collection-apigw\.halvie\.com\/halvie-mall-lynkco-app\/v1\/search\/hot\/words data-type=text data="{}"
 
 # >Uki
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo data-type=text data="{}"
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/getPopup\?openAppTime=0&protocolVersion=1\.0\.5&firstOpen=1&pageStopTime=0&type=ios&page=homePage data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/getPopup\?openAppTime=0&protocolVersion=1\.0\.5&firstOpen=1&pageStopTime=0&type=ios&page=homePage data-type=text data="{}"
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/rechargePack\/config data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/rechargePack\/config data-type=text data="{}"
 
-^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed data-type=text data="{}"
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/post\/(squareTopRecommend|theme) data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/post\/(squareTopRecommend|theme) data-type=text data="{}"
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/party\/(recommend\/uFriend|squareRecommend|config|recommendPartyList|getRankTopList|\/chatRoomNew\?) data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/party\/(recommend\/uFriend|squareRecommend|config|recommendPartyList|getRankTopList|\/chatRoomNew\?) data-type=text data="{}"
 
 # >淘宝
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome data-type=text data="{}"
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources data="Scripts/Mock/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources data-type=text data="{}"
 
-^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="Scripts/Mock/reject-dict.json"
+^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data-type=text data="{}"
 
-^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data="Scripts/Mock/reject-dict.json"
+^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data-type=text data="{}"
 
-^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) data="Scripts/Mock/reject-dict.json"
+^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) data-type=text data="{}"
 
 # >京东
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) data-type=text data="{}"
 
 # >阿里云盘
-^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle data="Scripts/Mock/reject-dict.json"
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle data-type=text data="{}"
 
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}"
 
-^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords data-type=text data="{}"
 
-^https:\/\/api\.wfdata\.club\/v1\/search\/hot\?order=min&page=\d{1}&pageCount=10 data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.wfdata\.club\/v1\/search\/hot\?order=min&page=\d{1}&pageCount=10 data-type=text data="{}"
 
 [URL Rewrite]
 
