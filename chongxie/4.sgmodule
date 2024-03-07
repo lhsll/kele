@@ -277,11 +277,11 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 # >酷安
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data-type=text data="{}"
-^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew data="Scripts/Mock/reject-200.txt"
+^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew data-type=text data="{}"
 
 # >QQ音乐
-^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="Scripts/Mock/reject-img.gif"
-^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="Scripts/Mock/reject-img.gif"
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data-type=tiny-gif data="{}"
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data-type=tiny-gif data="{}"
 
 # >Lynk&Co
 ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/searching\/hot\/recommend\/list data-type=text data="{}"
