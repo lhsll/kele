@@ -4,24 +4,24 @@
 
 [Map Local]
 
-^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data-type=text data="{}"
 
-^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords data="Scripts/Mock/reject-dict.json"
+^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords data-type=text data="{}"
 
 # 满意度调研
-^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? data-type=text data="{}"
 
 # 开屏广告 //app.bilibili.com
-^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH data="Scripts/Mock/reject-dict.json"
+^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH data-type=text data="{}"
 
-^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH data="Scripts/Mock/reject-dict.json"
+^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH data-type=text data="{}"
 
-^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data-type=text data="{}"
 
 # IP请求,地理位置请求 //api.bilibili.com
-^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp data="Scripts/Mock/reject-dict.json"
+^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp data-type=text data="{}"
 
-^https:\/\/app\.bilibili\.com\/x\/resource\/ip data="Scripts/Mock/reject-dict.json"
+^https:\/\/app\.bilibili\.com\/x\/resource\/ip data-type=text data="{}"
 
 [Script]
 
