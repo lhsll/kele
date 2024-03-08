@@ -4,6 +4,8 @@
 
 [Script]
 
+京粉 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/\?functionId=union_exhibition_bff&client=apple&clientVersion=3\.13\.4&appid=u_jfapp&loginType,requires-body=1,max-size=0,script-path=京粉.js,binary-body-mode=0
+
 # >bilibilibanner
 bilibilibanner = type=http-response,pattern=^https:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed\?,requires-body=1,max-size=0,script-path=Scripts/广告 & bilibili/bilibilibanner.js
 
