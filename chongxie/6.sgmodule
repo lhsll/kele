@@ -4,34 +4,34 @@
 
 [Map Local]
 
-^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data-type=text data="{}"
+^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data-type=text data="{}" status-code=200
 
-^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords data-type=text data="{}"
+^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords data-type=text data="{}" status-code=200
 
 # 满意度调研
-^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? data-type=text data="{}"
+^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? data-type=text data="{}" status-code=200
 
 # 开屏广告 //app.bilibili.com
-^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH data-type=text data="{}"
+^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH data-type=text data="{}" status-code=200
 
-^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH data-type=text data="{}"
+^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH data-type=text data="{}" status-code=200
 
-^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data-type=text data="{}"
+^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data-type=text data="{}" status-code=200
 
 # IP请求,地理位置请求 //api.bilibili.com
-^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp data-type=text data="{}"
+^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp data-type=text data="{}" status-code=200
 
-^https:\/\/app\.bilibili\.com\/x\/resource\/ip data-type=text data="{}"
+^https:\/\/app\.bilibili\.com\/x\/resource\/ip data-type=text data="{}" status-code=200
 
 [Script]
 
-哔哩哔哩_标签栏 = type=http-response,pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/resource\/show\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_TAP.js
+哔哩哔哩_标签栏 = type=http-response, pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/resource\/show\/tab, script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_TAP.js, requires-body=true, max-size=0
 
-哔哩哔哩_我的页面 = type=http-response,pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/account\/mine,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_mine.js
+哔哩哔哩_我的页面 = type=http-response, pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/account\/mine, script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_mine.js, requires-body=true, max-size=0
 
-哔哩哔哩_推荐页banner和广告 = type=http-response,pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/feed\/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_banner.js
+哔哩哔哩_推荐页banner和广告 = type=http-response, pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/feed\/index, script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_banner.js, requires-body=true, max-size=0
 
-bilibili_proto_beta = type=http-response, pattern=^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js, requires-body=true, binary-body-mode=true, max-size=-1, timeout=60
+#bilibili_proto_beta = type=http-response, pattern=^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js, requires-body=true, binary-body-mode=true, max-size=-1, timeout=60
 
 # Proto 动态广告,后台播放限制,播放页广告 //app.bilibili.com
 protoA = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js, requires-body=true, binary-body-mode=true, max-size=-1, timeout=60
@@ -57,7 +57,7 @@ json = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/(
 
 json = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(brand\/list|event\/list2|list|show)\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js, requires-body=true, max-size=-1, timeout=60
 
-# 我的页面 解锁1080P高码率,4K画质,皮肤推送 //app.bilibili.com
+# 我的页面 伪装会员,皮肤推送 //app.bilibili.com
 json = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine(\/ipad)?|myinfo)\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js, requires-body=true, max-size=-1, timeout=60
 
 json = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js, requires-body=true, max-size=-1, timeout=60
