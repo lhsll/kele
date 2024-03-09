@@ -5,9 +5,8 @@
 #!update=2024-01-26 22:57:44
 
 [Map Local]
-# 开屏广告[Map Local]
 # 开屏广告
-^https:\/\/ssp\.soulapp\.cn\/api\/q data-type=text data="{}"
+^https:\/\/ssp\.soulapp\.cn\/api\/q data-type=text data="{}" status-code=200
 
 [Script]
 移除Soul广告 = type=http-response, pattern=^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true
