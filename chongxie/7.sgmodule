@@ -137,169 +137,169 @@
 
 [Map Local]
 # >美团
-^https:\/\/wx-shangou\.meituan\.com\/quickbuy\/v2\/activity\/supersale\/bigPromotionProductsRender\? data-type=text data="{}"
+^https:\/\/wx-shangou\.meituan\.com\/quickbuy\/v2\/activity\/supersale\/bigPromotionProductsRender\? data-type=text data="{}" status-code=200
 
 # >ChatGPT
-^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data-type=text data="{}"
+^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data-type=text data="{}" status-code=200
 
 # >阿里云盘
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}"
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}" status-code=200
 
 # >阿里巴巴
-#^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-(702-758|1080-2430) data-type=text data="{}"
+#^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-(702-758|1080-2430) data-type=text data="{}" status-code=200
 
-^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data-type=text data="{}"
+^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data-type=text data="{}" status-code=200
 
 # >百度云
-^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data-type=text data="{}"
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data-type=text data="{}" status-code=200
 
-^https?:\/\/update\.pan\.baidu\.com\/statistics\? data-type=text data="{}"
+^https?:\/\/update\.pan\.baidu\.com\/statistics\? data-type=text data="{}" status-code=200
 
 # >飞猪
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}" status-code=200
 
 # >微信移除公众号中的推广内容
-^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data-type=text data="{}"
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data-type=text data="{}" status-code=200
 
 # >米家
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data-type=text data="{}"
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) data-type=text data="{}" status-code=200
 
 # >spotify 音乐
-^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data-type=tiny-gif data="{}"
+^https?:\/\/spclient\.wg\.spotify\.com\/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data-type=tiny-gif data="{}" status-code=200 status-code=200
 
-^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data-type=tiny-gif data="{}"
+^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data-type=tiny-gif data="{}" status-code=200
 
 # >什么值得买
-^https:\/\/app-api\.smzdm\.com\/util\/update$ data-type=text data="{}"
+^https:\/\/app-api\.smzdm\.com\/util\/update$ data-type=text data="{}" status-code=200
 
-^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list.+ data-type=text data="{}"
+^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list.+ data-type=text data="{}" status-code=200
 
-^https:\/\/s-api\.smzdm\.com\/sou\/search_keyword_redirect_urls.+ data-type=text data="{}"
+^https:\/\/s-api\.smzdm\.com\/sou\/search_keyword_redirect_urls.+ data-type=text data="{}" status-code=200
 
-^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data-type=text data="{}"
+^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data-type=text data="{}" status-code=200
 
 # >搜图神器
-^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data-type=text data="{}"
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data-type=text data="{}" status-code=200
 
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data-type=text data="{}"
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data-type=text data="{}" status-code=200
 
-^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}"
+^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}" status-code=200
 
 # >数字联盟
-^https?:\/\/.+?\.shuzilm\.cn data-type=text data="{}"
+^https?:\/\/.+?\.shuzilm\.cn data-type=text data="{}" status-code=200
 
 # >腾讯手游加速器
-^http:\/\/dldir1\.qq\.com\/INO\/img\/(?!.*(video-cover|tmga|icon)).*\/.+\.(jpg|jpeg|png|gif|webp|mp4) data-type=text data="{}"
+^http:\/\/dldir1\.qq\.com\/INO\/img\/(?!.*(video-cover|tmga|icon)).*\/.+\.(jpg|jpeg|png|gif|webp|mp4) data-type=text data="{}" status-code=200
 
-^https:\/\/member\.tmga\.qq\.com\/h5Activity\/info data-type=text data="{}"
+^https:\/\/member\.tmga\.qq\.com\/h5Activity\/info data-type=text data="{}" status-code=200
 
-^https:\/\/member\.tmga\.qq\.com\/member data-type=text data="{}"
+^https:\/\/member\.tmga\.qq\.com\/member data-type=text data="{}" status-code=200
 
-^https:\/\/member\.tmga\.qq\.com\/intelDelivery data-type=text data="{}"
+^https:\/\/member\.tmga\.qq\.com\/intelDelivery data-type=text data="{}" status-code=200
 
 # >淘宝广告
-^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data-type=text data="{}"
+^https?:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/\w{23,24}_!!\d{13}-\d-tps-\d{2,4}-\d{2,4}\.(jpg|png|gif|mp4|wepb)_\d{2,4}x\d{2,4}q\d{2,4}\.(jpg|png|gif|mp4|wepb)_.heic$ data-type=text data="{}" status-code=200
 
-^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data-type=text data="{}"
+^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) data-type=text data="{}" status-code=200
 
-^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data-type=text data="{}"
+^https:\/\/alive-interact\.alicdn\.com\/livedetail\/common\/\/402181649471\?bizCode=TAOBAO_DETAIL data-type=text data="{}" status-code=200
 
 # >其他
-^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data-type=text data="{}"
+^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah data-type=text data="{}" status-code=200
 
-^http:\/\/oc\.umeng\.com\/v2\/check_config_update data-type=text data="{}"
+^http:\/\/oc\.umeng\.com\/v2\/check_config_update data-type=text data="{}" status-code=200
 
 # >浙里办
-^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data-type=text data="{}"
+^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data-type=text data="{}" status-code=200
 
 # >天翼云盘弹窗广告
-^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 data-type=text data="{}"
+^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 data-type=text data="{}" status-code=200
 
 # >中国电信
-^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data-type=tiny-gif data="{}"
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data-type=tiny-gif data="{}" status-code=200
 
 # >爱思去除精选顶部广告
-^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data-type=text data="{}"
+^https?:\/\/.*\.i4\.cn\/getopfstadinfo\.* data-type=text data="{}" status-code=200
 
-^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data-type=text data="{}"
+^https?:\/\/list-app-m\.i4\.cn\/getHotSearchList\.xhtml data-type=text data="{}" status-code=200
 
 # >飞智游戏
-^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}"
+^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}" status-code=200
 
 # >2345天气王
-^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php data-type=text data="{}"
+^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php data-type=text data="{}" status-code=200
 
 # >彩云天气
-^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? data-type=text data="{}"
+^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? data-type=text data="{}" status-code=200
 
 # >滴滴青桔
-^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) data-type=text data="{}"
+^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) data-type=text data="{}" status-code=200
 
-^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api data-type=text data="{}"
+^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api data-type=text data="{}" status-code=200
 
-^https?:\/\/omgup*\.xiaojukeji\.com\/api data-type=text data="{}"
+^https?:\/\/omgup*\.xiaojukeji\.com\/api data-type=text data="{}" status-code=200
 
 # >工银E生活
-^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data-type=text data="{}"
+^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data-type=text data="{}" status-code=200
 
 # >工银e生活小程序
-^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do data-type=text data="{}"
+^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do data-type=text data="{}" status-code=200
 
 # >中国移动
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data-type=text data="{}"
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data-type=text data="{}" status-code=200
 
 # >知乎网页版去广告
-^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data-type=text data="{}"
+^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data-type=text data="{}" status-code=200
 
 # >掌上英雄联盟
-^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) data-type=text data="{}"
+^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) data-type=text data="{}" status-code=200
 
 # >腾讯广告
-^https?:\/\/btrace\.qq\.com data-type=text data="{}"
+^https?:\/\/btrace\.qq\.com data-type=text data="{}" status-code=200
 
-^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data-type=tiny-gif data="{}"
+^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= data-type=tiny-gif data="{}"
+^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/imgcache\.qq\.com\/qqlive\/ data-type=tiny-gif data="{}"
+^https?:\/\/imgcache\.qq\.com\/qqlive\/ data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/mtteve\.beacon\.qq\.com\/analytics data-type=tiny-gif data="{}"
+^https?:\/\/mtteve\.beacon\.qq\.com\/analytics data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? data-type=text data="{}"
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? data-type=text data="{}" status-code=200
 
-^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons data-type=text data="{}"
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons data-type=text data="{}" status-code=200
 
-^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data-type=text data="{}"
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data-type=text data="{}" status-code=200
 
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data-type=text data="{}"
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data-type=text data="{}" status-code=200
 
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data-type=text data="{}"
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data-type=text data="{}" status-code=200
 
-^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data-type=tiny-gif data="{}"
+^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data-type=tiny-gif data="{}"
+^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data-type=tiny-gif data="{}"
+^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js data-type=tiny-gif data="{}"
+^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data-type=tiny-gif data="{}"
+^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data-type=tiny-gif data="{}"
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif data="{}"
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif data="{}" status-code=200
 
-^https?:\/\/kohcamp\.qq\.com\/app\/button\/get data-type=text data="{}"
+^https?:\/\/kohcamp\.qq\.com\/app\/button\/get data-type=text data="{}" status-code=200
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data-type=text data="{}"
+^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? data-type=text data="{}" status-code=200
 
-^https:\/\/mobads\.baidu\.com\/cpro\/ui\/mads\.php\? data-type=text data="{}"
+^https:\/\/mobads\.baidu\.com\/cpro\/ui\/mads\.php\? data-type=text data="{}" status-code=200
 
-^https:\/\/huodong-ssr\.taobao\.com\/wow\/tessera\/trending-center-page\? data-type=text data="{}"
+^https:\/\/huodong-ssr\.taobao\.com\/wow\/tessera\/trending-center-page\? data-type=text data="{}" status-code=200
 
-^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}"
+^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}" status-code=200
 
-^https:\/\/qiye\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules data-type=text data="{}"
+^https:\/\/qiye\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules data-type=text data="{}" status-code=200
 
 [MITM]
 
