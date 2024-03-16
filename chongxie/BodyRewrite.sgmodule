@@ -1,3 +1,7 @@
-[Body Rewrite]
+#!name=❏  Surge订阅功能
+#!desc=Body Rewrite
+#!category=功能
 
+[Body Rewrite]
+# >TestFlight
 http-request ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ (\"storefrontId\")\s?:\s?\".+?\" $1:"143441-19,29"
