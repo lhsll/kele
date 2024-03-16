@@ -1,0 +1,3 @@
+[Body Rewrite]
+
+http-request ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ (\"storefrontId\")\s?:\s?\".+?\" $1:"143441-19,29"
