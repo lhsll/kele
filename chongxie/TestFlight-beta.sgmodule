@@ -1,5 +1,6 @@
 #!name=TestFlight账户管理(@xream 修改版)
 #!desc=修改: 可调超时参数, 开启缓存. 自动存储/合并多个TestFlight账户列表, 并可导出/分享TestFlight APP.
+#!category=应用
 #!arguments=超时:120,缓存:1
 #!arguments-desc=1 = 开启, 0 = 关闭
 
