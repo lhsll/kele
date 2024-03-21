@@ -1,9 +1,13 @@
-#!name=TestFlight账户管理
-#!desc=自动存储/合并多个TestFlight账户列表, 并可导出/分享TestFlight APP.
-#!category=应用
+#!name=TestFlight账户管理(@xream 修改版)
+#!desc=修改: 可调超时参数, 开启缓存. 自动存储/合并多个TestFlight账户列表, 并可导出/分享TestFlight APP.
+#!arguments=超时:120,缓存:1
+#!arguments-desc=1 = 开启, 0 = 关闭
+
+[General]
+skip-proxy = %APPEND% iosapps.itunes.apple.com
 
 [Script]
-TestFlight账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,timeout=120,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
+TestFlight账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,timeout=240,script-path=Scripts/应用 & TestFlight/TestFlightAccount.js, argument="timeout={{{超时}}}&cacheEnabled={{{缓存}}}"
 
 [MITM]
 hostname = %APPEND% testflight.apple.com
