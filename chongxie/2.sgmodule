@@ -4,6 +4,9 @@
 #!category=服务
 
 [Script]
+# >蜜雪冰城
+http-response ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60, tag=蜜雪冰城获取token
+
 # > 什么值得买 app获取
 什么值得买 Cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,type=http-request,requires-body=false,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$
 
@@ -35,4 +38,4 @@ TF信息获取 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v3
 微付金币² = type=http-response, pattern=https:\/\/payapp\.weixin\.qq\.com\/coupon-center-user\/home\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js
 
 [MITM]
-hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, auth.aliyundrive.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com, api.tuhu.cn, sytgate.jslife.com.cn,payapp.weixin.qq.com
+hostname = %APPEND% user-api.smzdm.com, auth.alipan.com, auth.aliyundrive.com, yunbusiness.ccb.com, ms.jr.jd.com, me-api.jd.com, e.189.cn, open.e.189.cn, rewards.bing.com, api.tuhu.cn, sytgate.jslife.com.cn,payapp.weixin.qq.com, mxsa.mxbc.net
