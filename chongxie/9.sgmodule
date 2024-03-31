@@ -8,6 +8,6 @@
 
 摸鱼来啦 = type=cron,cronexp=0 6 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/moyu.js, timeout=60
 
-微付金币 = type=cron,cronexp=30 9 * * 0, timeout=60, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js, script-update-interval=0
+微付金币 = type=cron,cronexp=0 13 * * *, timeout=60, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js, script-update-interval=0
 
 蜜雪冰城 = type=cron,cronexp=30 1 * * *, timeout=60, script-path=^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, script-update-interval=0
