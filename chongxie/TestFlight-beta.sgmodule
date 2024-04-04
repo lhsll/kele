@@ -7,10 +7,6 @@
 [General]
 skip-proxy = %APPEND% iosapps.itunes.apple.com
 
-[Header Rewrite]
-http-request https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*?/apps header-del user-agent
-http-request https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*?/apps header-add user-agent Oasis/3.5.1 OasisBuild/425.2 iOS/17.4 model/iPhone16,2 hwp/t8130 build/21E219 (6; dt:311) AMS/1 TSE/0
-
 [Body Rewrite]
 http-request ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ (\"storefrontId\")\s?:\s?\".+?\" $1:"143441-19,29"
 
