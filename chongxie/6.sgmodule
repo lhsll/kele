@@ -3,6 +3,8 @@
 #!category=广告
 
 [Map Local]
+# >搜索
+^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square\? data-type=file data="EE4F9DB0.json"
 
 ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data-type=text data="{}" status-code=200
 
