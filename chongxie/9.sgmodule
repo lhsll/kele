@@ -13,4 +13,4 @@
 蜜雪冰城 = type=cron,cronexp=30 1 * * *, timeout=60, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, script-update-interval=0
 
 # > BoxJs 会话切换
-# 会话切换 = type=cron,cronexp=0 0 25 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0,timeout=30,engine=jsc
+#会话切换 = type=cron,cronexp=0 0 25 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0,timeout=30,engine=jsc
