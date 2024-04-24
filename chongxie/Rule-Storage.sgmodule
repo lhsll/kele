@@ -1,0 +1,9 @@
+#!name=❏  应用 & 获取分流
+#!desc=获取分流
+#!category=功能
+
+[Script]
+
+Save-Final-Rule = type=rule,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Rule-Storage/Rule-Storage.js,argument=region=global
+
+Save-China-Rule = type=rule,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Rule-Storage/Rule-Storage.js,argument=region=china&matched=1
