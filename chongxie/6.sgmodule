@@ -18,7 +18,7 @@
 
 ^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH data-type=text data="{}" status-code=200
 
-^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data-type=text data="{}" status-code=200
+^https:\/\/(api\.bilibili\.com\/x\/mengqi\/v1\/resource|app\.bilibili\.com\/x\/resource\/peak\/download)\? data-type=text data="{}" status-code=200
 
 # IP请求,地理位置请求 //api.bilibili.com
 ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp data-type=text data="{}" status-code=200
