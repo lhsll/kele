@@ -46,7 +46,7 @@ protoA = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliap
 
 protoA = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js, requires-body=true, binary-body-mode=true, engine=webview, max-size=-1, timeout=60
 
-protoA = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js, requires-body=true, binary-body-mode=true, engine=webview, engine=webview, max-size=-1, timeout=60
+protoA = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js, requires-body=true, binary-body-mode=true, engine=webview, max-size=-1, timeout=60
 
 # 观影页,直播间商品广告浮窗,搜索框填充词,首页信息流,热搜发现,右上角活动,标签页
 json = type=http-response, pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js, requires-body=true, max-size=-1, timeout=60, engine=webview
