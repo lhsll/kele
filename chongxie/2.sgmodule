@@ -4,6 +4,8 @@
 #!category=服务
 
 [Script]
+金多多商城_获取cookie = type=http-response,pattern=^https:\/\/www\.jindd\.shop\/addons\/yun_shop\/api.php\?i=12&uuid=0&type=1&mid=(\d+)&version=v1.1.137&basic_info=1&route=member.member.wxJsSdkConfig,script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/JinDD/JinDD.js,requires-body=1,max-size=0
+
 # >蜜雪冰城
 http-response ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60, tag=蜜雪冰城获取token
 
