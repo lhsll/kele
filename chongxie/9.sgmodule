@@ -15,4 +15,4 @@
 # > BoxJs 会话切换
 #会话切换 = type=cron,cronexp=0 0 25 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0,timeout=30,engine=jsc
 
-金多多商城 = type=cron,cronexp="33 0,14 * * *",script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/JinDD/JinDD.js,script-update-interval=0,timeout=3600,wake-system=1,engine=jsc
+#金多多商城 = type=cron,cronexp="33 0,14 * * *",script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/JinDD/JinDD.js,script-update-interval=0,timeout=3600,wake-system=1,engine=jsc
