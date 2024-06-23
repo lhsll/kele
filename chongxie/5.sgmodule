@@ -1,17 +1,12 @@
 #!name=功能 & 比价
-#!desc=京东返利+比价
+#!desc=比价
 #!category=功能
 
 [Script]
-
-# 商品id获取, 查看商品详情触发通知
-京东返利id = type=http-request, pattern=https:\/\/.+\.jd\.com\/graphext\/draw\?sku=(\d+).*, script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js
-
-京东返利通知 = type=http-request, pattern=https:\/\/.+\.jd\.com\/product\/.*\/(\d+)\.html, script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jdapp_to_union.js
 
 # > 京东App 历史价格 
 京东比价 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
 
 [MITM]
 
-hostname = %APPEND% api.m.jd.com, in.m.jd.com, h5speed.m.jd.com
+hostname = %APPEND% api.m.jd.com
