@@ -1,138 +1,155 @@
-# AUTHOR: @KeLe
-# NAME: Advertisement
-#规则数量:
-#不支持的规则数量:0
-#已排除的规则数量:0
-#更新时间：2023-4-6 07:56:47
-#--------------以下为解析后的规则--------------#
-# > ping0
-DOMAIN,ipv6.ping0.cc
-# > 彩云天气
+# >talkone
+DOMAIN-KEYWORD,adsystem.com
+DOMAIN-KEYWORD,cdn.jampp.com
+DOMAIN-KEYWORD,ads
+DOMAIN,supply.inmobicdn.net
+DOMAIN,i.l-dsp.inmobicdn.net
+DOMAIN,i.sng.link
+DOMAIN,t.pubmatic.com
+DOMAIN,creatives.smadex.com
+DOMAIN,static-content-1.smadex.com
+DOMAIN,got.iad3rs0zone2.pubnative.net
+DOMAIN,q.adrta.com
+DOMAIN,pix.adrta.com
+DOMAIN,wv.inner-active.mobi
+DOMAIN,ipv6.adrta.com
+DOMAIN,adrta.com
+# >阿里巴巴
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
+DOMAIN-SUFFIX,ut.taobao.com
+# >阿里云盘
+IP-CIDR,203.107.1.1/24
+# >安全浏览限制解除
+DOMAIN,lookup.api.bsb.baidu.com
+DOMAIN-SUFFIX,u3.ucweb.com
+DOMAIN-KEYWORD,safebrowsing.
+# >百度
+DOMAIN,mobads.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN,afd.baidu.com
+DOMAIN,afdconf.baidu.com
+DOMAIN,lc.map.baidu.com
+# >淘宝
+DOMAIN,adashx.m.taobao.com
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,ut.taobao.com
+# >字节跳动
+DOMAIN,ad.zijieapi.com
+DOMAIN-KEYWORD,-ad-sign.byteimg.com
+# >什么值得买
+DOMAIN,aaid.uyunad.com
+DOMAIN,acs4baichuan.m.taobao.com
+DOMAIN,adashxgc.ut.taobao.com
+DOMAIN,analytics-api.smzdm.com
+DOMAIN,baichuan-sdk.alicdn.com
+DOMAIN,dgstatic.jd.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,sec.umeng.com
+DOMAIN,ulogs.umeng.com
+DOMAIN,ynuf.aliapp.org
+# >广告联盟
+DOMAIN,is.snssdk.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,open.e.kuaishou.com
+# 工商银行
+DOMAIN,image.mybank.icbc.com.cn
+DOMAIN,pageviewp.icbc.com.cn
+DOMAIN-SUFFIX,mall.icbc.com.cn
+# >中国建设银行
+DOMAIN-KEYWORD,adv.ccb.com
+# >Clue 智库
+DOMAIN,api.helloclue.com
+DOMAIN,brahe.apptimize.com
+DOMAIN,collector.clue.run
+DOMAIN,images.ctfassets.net
+DOMAIN,mapi.apptimize.com
+DOMAIN,md-i-s.apptimize.com
+# >菜鸟&优酷
+DOMAIN,acs4baichuan.m.taobao.com
+DOMAIN,adsmind.ugdtimg.com
+DOMAIN,amdc.m.youku.com
+DOMAIN,api.sm.cn
+DOMAIN,apiv4-iyes.youku.com
+DOMAIN,baichuan-sdk.alicdn.com
+DOMAIN,cad.youku.com
+DOMAIN,huichuan-mc.sm.cn
+DOMAIN,huichuan.sm.cn
+DOMAIN,iyes.youku.com
+DOMAIN,m-vali.cp31.ott.cibntv.net
+DOMAIN,mc.atm.youku.com
+DOMAIN,nbsdk-baichuan.alicdn.com
+DOMAIN,pre-acs.youku.com
+DOMAIN,vali-g1.cp31.ott.cibntv.net
+DOMAIN,vali-ugc.cp31.ott.cibntv.net
+DOMAIN,yk-ssp.ad.youku.com
+DOMAIN,ykad-data.youku.com
+DOMAIN,youku-acs.m.taobao.com
+# >彩云天气
 DOMAIN,ad.cyapi.cn
-# > Openai
-DOMAIN,o33249.ingest.sentry.io
-# > 美团
-DOMAIN,aop.meituan.com
-DOMAIN,httpdns.meituan.com
-DOMAIN,metrics-picture.d.meituan.net
-DOMAIN,maplocatesdksnapshot.d.meituan.net
-DOMAIN,al-log.d.meituan.net
-DOMAIN,babel-statistics-android.d.meituan.net
-DOMAIN,route-stats.d.meituan.net
-# > 哔哩哔哩
-DOMAIN,live-trace.bilibili.com
-DOMAIN,httpdns.bilivideo.com
-DOMAIN-SUFFIX,cm.bilibili.com
-DOMAIN-KEYWORD,api.sobot.com
-DOMAIN-SUFFIX,cm.ad.bilibili.com
-DOMAIN-SUFFIX,cm.adcommon.bilibili.com
-DOMAIN-SUFFIX,cm.game.bilibili.com
-DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
-IP-CIDR,203.107.1.0/24,no-resolve
-# > 酷安–>头条
+# >头条
+DOMAIN,is.snssdk.com
 DOMAIN,dm.toutiao.com
 DOMAIN,tr.byteurl.cn
 DOMAIN,toblog.ctobsnssdk.com
-DOMAIN,api-access.pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
-DOMAIN-SUFFIX,zijieapi.com
-# > 交管12123
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+# >交管12123
 DOMAIN,static.122.gov.cn
 DOMAIN-SUFFIX,v3.fstats.xyz
 DOMAIN-SUFFIX,wss.haoyundmn.com
 DOMAIN-SUFFIX,new.xiongzhangad.com
 DOMAIN-SUFFIX,alexametrics.com
-DOMAIN-KEYWORD,in-page-push
-# > 谷歌
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN,safebrowsing.googleapis.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleadsserving.cn
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
-DOMAIN-SUFFIX,tpc.googlesyndication.com
-DOMAIN-SUFFIX,pagead.google.com
-DOMAIN-SUFFIX,pagead.l.google.com
-DOMAIN-SUFFIX,pagead2.googlesyndication.com
-DOMAIN-SUFFIX,pagead-tpc.l.google.com
-DOMAIN-SUFFIX,mobileads.google.com
-DOMAIN-SUFFIX,googlecommerce.com
-DOMAIN-SUFFIX,blaaaa12.googlecode.com
-DOMAIN-SUFFIX,badad.googleplex.com
-DOMAIN-SUFFIX,afs.googlesyndication.com
-DOMAIN-SUFFIX,afd.l.google.com
-DOMAIN-SUFFIX,www.googleadservices.com
-DOMAIN-SUFFIX,www.google-analytics.com
-DOMAIN,ads.youtube.com,reject
-# > 美团
-DOMAIN-SUFFIX,analytics.meituan.net
-DOMAIN-SUFFIX,meituan.xn--io0a7i
-DOMAIN-SUFFIX,meituan.yoga
-DOMAIN-SUFFIX,meituangov.cn
-DOMAIN-SUFFIX,report.meituan.com
-DOMAIN-SUFFIX,wmlog.meituan.com
-# > QQ音乐广告
-DOMAIN,tmeadcomm.y.qq.com
-DOMAIN,ad.tencentmusic.com
-DOMAIN,adstats.tencentmusic.com
-DOMAIN,tmead.y.qq.com
-DOMAIN,us.l.qq.com
-DOMAIN-SUFFIX,rqd.qq.com
-DOMAIN-SUFFIX,wup.imtt.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,android.rqd.qq.com
-DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,beacon.qq.com
-DOMAIN-SUFFIX,v.gdt.qq.com
-# > 云闪付
+# >谷歌
+DOMAIN,adservice.google.com
+DOMAIN,ads.youtube.com
+# >云闪付
 DOMAIN,ads.95516.com
 DOMAIN,cm-10-138.getui.com
 DOMAIN,sdk.open.talk.getui.net
 DOMAIN,sdk-conf.getui.com
 DOMAIN,switch.cup.com.cn
 DOMAIN,tysdk.95516.com
-URL-REGEX,^https:\/\/pvppic\.kohsocialapp\.qq\.com\/wzzs_pic\/0\/8248c706927336a84895485dd3a2b702\/0$
-# >中国移动
-URL-REGEX,^https:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/00\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{30}\.(png|jpg)
-URL-REGEX,^https:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/00\/54\/[A-Za-z0-9]{24}\_[A-Za-z0-9]{5}.(jpg|png)
-URL-REGEX,^https:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/00\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{25}\-[A-Za-z0-9]{4}\.(png|jpg)
-# > 腾讯QQ
-URL-REGEX,^http:\/\/.+\/analytics\/upload
-DOMAIN,sq.bls.mdt.qq.com
-# > 微信
-URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),REJECT
-# > 淘宝去广告
-URL-REGEX,^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d{13}\/[A-Za-z0-9]{23,24}\_!!\d{13}\.(jpg|png|gif|mp4|wepb)\_\d{2,4}\x\d{2,4}\q\d{2,3}\.(jpg|png|gif|mp4|wepb)\_.heic
-URL-REGEX,^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/[A-Za-z0-9]{23}\_!!\d{13}\-\d\-tps\-\d{4}\-\d{4}\.jpg\_\d{4}x\d{4}\q90\.jpg\_\.heic
-#URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/.{1,52}\.(jpg|gif)
-URL-REGEX,^https:\/\/data\.bilibili\.com\/log\/mobile\?ios$
-# > 美团
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg)
-URL-REGEX,^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$
-URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp
-# > 米家
+# >米家
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,httpdns.yunxindns.com
-DOMAIN,iyes.youku.com
-# > 京东
+# >京东
 DOMAIN-SUFFIX,jddebug.com
-# > 中国电信
+DOMAIN,dns.jd.com
+IP-CIDR,101.124.19.122/32
+# >中国电信
 DOMAIN,ad.21cn.com
 DOMAIN,ad.k.21cn.com
 DOMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
-# > SUOL
-#IP-CIDR,47.110.187.87/32
-#IP-CIDR,47.96.15.52/32
-#IP-CIDR,116.62.220.39/32
-DOMAIN,ssp.soulapp.cn
-# > 王者营地
-IP-CIDR,112.53.42.162/32,no-resolve
+# >腾讯
+DOMAIN,btrace.qq.com
+DOMAIN,ii.gdt.qq.com
+# >IP-ASN
+DOMAIN,www.he.net
+# >钉钉
+DOMAIN,h-adashx.ut.dingtalk.com
+#URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/\w+!!\d{13}-0-tps-(1080|2160|1124)-\d{4}\.jpg$
+#URL-REGEX,^https:\/\/down-cdn\.dingtalk\.com\/ddmedia\/\w+\.png_4000x4000\.jpg$
+DOMAIN,kgb-ifs.tanx.com
+DOMAIN,domain.glass
+# >QQ音乐广告
+#DOMAIN,tmeadcomm.y.qq.com
+#DOMAIN,ad.tencentmusic.com
+#DOMAIN,adstats.tencentmusic.com
+#DOMAIN,tmead.y.qq.com
+#DOMAIN-SUFFIX,rqd.qq.com
+#DOMAIN-SUFFIX,wup.imtt.qq.com
+#DOMAIN-SUFFIX,gdt.qq.com
+#DOMAIN-SUFFIX,android.rqd.qq.com
+#DOMAIN-SUFFIX,e.qq.com
+#DOMAIN-SUFFIX,beacon.qq.com
+#DOMAIN-SUFFIX,v.gdt.qq.com
+# >美团
+IP-CIDR,119.29.126.219/32
