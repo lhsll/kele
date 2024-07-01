@@ -1,0 +1,10 @@
+DOMAIN,sdk-hb-cfg.smaato.net
+DOMAIN,xmpp4.tktn.be
+DOMAIN,ow.pubmatic.com
+DOMAIN,gum.criteo.com
+DOMAIN,ssp.api.tappx.com
+DOMAIN,bidder.criteo.com
+DOMAIN-SUFFIX,inner-active.mobi
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,track.smaato.net
+DOMAIN-SUFFIX,pubmatic.com
