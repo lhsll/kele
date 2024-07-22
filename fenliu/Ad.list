@@ -264,7 +264,7 @@ DOMAIN-KEYWORD,trace.video.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,ugdtimg.com
-IP-CIDR,47.110.187.87/32,no-resolve
+IP-CIDR,47.110.187.87/32
 DOMAIN-SUFFIX,openinstall.io
 DOMAIN-SUFFIX,mobileservice.cn
 DOMAIN-SUFFIX,getui.com
