@@ -142,10 +142,6 @@ red_book_live_v2 = type=http-response, pattern=https://edith.xiaohongshu.com/api
 
 什么值得买会员权益中心Ad = type=http-response, pattern=^https:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/smzdm.js
 
-#微博轻享版分组 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/WeBo_allgroups.js
-
-#微博轻享版搜索结果 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/page\/get_search_suggest\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/WeiBo_Light.js
-
 # >Lynk&Co
 领克搜索框 = type=http-response,pattern=https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/LynkCosearch.js
 
@@ -191,6 +187,10 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 # >广告联盟
 广告联盟 = type=http-response,pattern=^https:\/\/api-access\.pangolin-sdk-toutiao(\d|-\w)??\.com\/api\/ad\/union\/sdk\/settings,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/adsdk_chj.js
+
+
+# >彩云天气
+彩云天气去广告 = type=http-response, pattern=^https:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com)\/v1\/activity\?, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/ColorfulClouds/ColorfulClouds_remove_ads.js, requires-body=true
 
 彩云天气 = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js, requires-body=true, max-size=-1, timeout=60
 
