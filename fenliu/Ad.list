@@ -306,3 +306,10 @@ DOMAIN,route-stats.d.meituan.net
 DOMAIN,dsp-x.jd.com
 DOMAIN,xlog.jd.com
 DOMAIN,janapi.jd.com
+# 个推
+DOMAIN, sdk-open-phone.getui.com, REJECT
+DOMAIN, c-hzgt2.getui.com, REJECT
+DOMAIN, sdk-conf.getui.com, REJECT
+DOMAIN-SUFFIX, mobileservice.cn, REJECT
+DOMAIN-SUFFIX, getui.com, REJECT
+DOMAIN-SUFFIX, igexin.com, REJECT
