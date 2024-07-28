@@ -8,9 +8,9 @@
 
 [Rule]
 # YY语音
-DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT
-DOMAIN,union-httpdns.gslb.yy.com,REJECT
-DOMAIN,httpdns-v6.gslb.yy.com,REJECT
+DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT,extended-matching
+DOMAIN,union-httpdns.gslb.yy.com,REJECT,extended-matching
+DOMAIN,httpdns-v6.gslb.yy.com,REJECT,extended-matching
 # 抖音
 AND,((DOMAIN-KEYWORD, api100-core-quic-), (DOMAIN-SUFFIX, amemv.com)),REJECT
 AND,((DOMAIN-KEYWORD, api100-normal-quic-), (DOMAIN-SUFFIX, amemv.com)),REJECT
@@ -23,17 +23,17 @@ AND,((DOMAIN-KEYWORD, ma5-normal-), (DOMAIN-SUFFIX, zijieapi.com)),REJECT
 AND,((DOMAIN-KEYWORD, polaris5-normal-), (DOMAIN-SUFFIX, zijieapi.com)),REJECT
 AND,((DOMAIN-KEYWORD, webcast100-ws-c-), (DOMAIN-SUFFIX, amemv.com)),REJECT
 AND,((DOMAIN-KEYWORD, tnc), (AND, ((OR, ((DOMAIN-KEYWORD, -bjlgy), (DOMAIN-KEYWORD, -alisc), (DOMAIN-KEYWORD, -aliec), (DOMAIN-KEYWORD, -alisg))), (OR, ((DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, zijieapi.com)))))),REJECT
-DOMAIN,frontier-aweme-hl.snssdk.com,REJECT
-DOMAIN,frontier-aweme.snssdk.com,REJECT
-DOMAIN,frontier-quic-test.bytedance.com,REJECT
+DOMAIN,frontier-aweme-hl.snssdk.com,REJECT,extended-matching
+DOMAIN,frontier-aweme.snssdk.com,REJECT,extended-matching
+DOMAIN,frontier-quic-test.bytedance.com,REJECT,extended-matching
 AND,((IP-CIDR, 110.249.199.75/32,no-resolve), (DEST-PORT, 6443)),REJECT
 AND,((IP-CIDR, 111.225.147.191/32,no-resolve), (DEST-PORT, 6443)),REJECT
 AND,((IP-CIDR, 111.63.61.101/32,no-resolve), (DEST-PORT, 6443)),REJECT
 AND,((IP-CIDR, 220.243.141.0/32,no-resolve), (DEST-PORT, 6443)),REJECT
 # 微信
-DOMAIN,dns.weixin.qq.com,REJECT
-DOMAIN,dns.weixin.qq.com.cn,REJECT
-DOMAIN,aedns.weixin.qq.com,REJECT
+DOMAIN,dns.weixin.qq.com,REJECT,extended-matching
+DOMAIN,dns.weixin.qq.com.cn,REJECT,extended-matching
+DOMAIN,aedns.weixin.qq.com,REJECT,extended-matching
 IP-CIDR,39.156.140.30/32,REJECT,no-resolve
 IP-CIDR,39.156.140.47/32,REJECT,no-resolve
 IP-CIDR,39.156.140.245/32,REJECT,no-resolve
@@ -78,10 +78,10 @@ IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,REJECT,no-resolve
 IP-CIDR6,2408:8711:10:10::20/128,REJECT,no-resolve
 IP-CIDR6,2409:8702:4860:10::4d/128,REJECT,no-resolve
 # QQ音乐
-DOMAIN,httpdns.kg.qq.com,REJECT
+DOMAIN,httpdns.kg.qq.com,REJECT,extended-matching
 URL-REGEX,^http:\/\/182\.256\.116\.116\/d,REJECT
 # 哔哩哔哩
-DOMAIN,httpdns.bilivideo.com,REJECT
+DOMAIN,httpdns.bilivideo.com,REJECT,extended-matching
 # KEY_EXT_P2P_HTTPDNS_BILI_IP
 URL-REGEX,^http:\/\/47\.101\.175\.206\/resolve,REJECT
 URL-REGEX,^http:\/\/47\.100\.123\.169\/resolve,REJECT
@@ -103,24 +103,24 @@ URL-REGEX,^http:\/\/112\.64\.218\.119\/resolve,REJECT
 URL-REGEX,^http:\/\/114\.116\.215\.110\/resolve,REJECT
 URL-REGEX,^http:\/\/116\.63\.10\.31\/resolve,REJECT
 # 阿里巴巴
-DOMAIN,httpdns.alicdn.com,REJECT
+DOMAIN,httpdns.alicdn.com,REJECT,extended-matching
 # 阿里云
-DOMAIN,httpdns-api.aliyuncs.com,REJECT
-DOMAIN,httpdns-sc.aliyuncs.com,REJECT
+DOMAIN,httpdns-api.aliyuncs.com,REJECT,extended-matching
+DOMAIN,httpdns-sc.aliyuncs.com,REJECT,extended-matching
 IP-CIDR,203.107.1.0/24,REJECT,no-resolve
 # 百度
-DOMAIN,httpdns.baidu.com,REJECT
-DOMAIN,httpsdns.baidu.com,REJECT
+DOMAIN,httpdns.baidu.com,REJECT,extended-matching
+DOMAIN,httpsdns.baidu.com,REJECT,extended-matching
 URL-REGEX,^http:\/\/180\.76\.76\.112\/v\d\/,REJECT
 URL-REGEX,^http:\/\/180\.76\.76\.112\/v\d\/resolve,REJECT
 URL-REGEX,^http:\/\/180\.76\.76\.220\/v\d\/resolve,REJECT
 # 百度智能云
-DOMAIN,httpdns.baidubce.com,REJECT
+DOMAIN,httpdns.baidubce.com,REJECT,extended-matching
 IP-CIDR,186.76.76.200/32,REJECT,no-resolve
 # 华为
-DOMAIN,httpdns.c.cdnhwc2.com,REJECT
+DOMAIN,httpdns.c.cdnhwc2.com,REJECT,extended-matching
 # 京东
-DOMAIN,dns.jd.com,REJECT
+DOMAIN,dns.jd.com,REJECT,extended-matching
 IP-CIDR,101.124.19.122/32,REJECT,no-resolve
 IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
 # 京东云
@@ -130,15 +130,15 @@ IP-CIDR,119.29.29.98/32,REJECT,no-resolve
 IP-CIDR,119.29.29.99/32,REJECT,no-resolve
 URL-REGEX,^http:\/\/182\.254\.116\.116\/d,REJECT
 # 字节跳动
-DOMAIN,httpdns.volcengineapi.com,REJECT
-DOMAIN,dig.bdurl.net,REJECT
-DOMAIN,dig.zjurl.cn,REJECT
+DOMAIN,httpdns.volcengineapi.com,REJECT,extended-matching
+DOMAIN,dig.bdurl.net,REJECT,extended-matching
+DOMAIN,dig.zjurl.cn,REJECT,extended-matching
 # OPPO
-DOMAIN,httpdns.push.oppomobile.com,REJECT
+DOMAIN,httpdns.push.oppomobile.com,REJECT,extended-matching
 # 快手
-DOMAIN,kuaishou.httpdns.pro,REJECT
+DOMAIN,kuaishou.httpdns.pro,REJECT,extended-matching
 # 美团
-DOMAIN,httpdns.meituan.com,REJECT
+DOMAIN,httpdns.meituan.com,REJECT,extended-matching
 URL-REGEX,^http:\/\/103\.37\.155\.60\/fetch,REJECT
 # 拼多多
 URL-REGEX,^http:\/\/101\.35\.204\.35\/d,REJECT
@@ -146,17 +146,17 @@ URL-REGEX,^http:\/\/101\.35\.212\.35\/d,REJECT
 URL-REGEX,^http:\/\/114\.110\.96\.26\/d,REJECT
 URL-REGEX,^http:\/\/114\.110\.97\.97\/d,REJECT
 # 网易
-DOMAIN,httpdns.music.163.com,REJECT
-DOMAIN,httpdns.n.netease.com,REJECT
-DOMAIN,httpdns.yunxindns.com,REJECT
-DOMAIN,lofter.httpdns.c.163.com,REJECT
-DOMAIN,music.httpdns.c.163.com,REJECT
+DOMAIN,httpdns.music.163.com,REJECT,extended-matching
+DOMAIN,httpdns.n.netease.com,REJECT,extended-matching
+DOMAIN,httpdns.yunxindns.com,REJECT,extended-matching
+DOMAIN,lofter.httpdns.c.163.com,REJECT,extended-matching
+DOMAIN,music.httpdns.c.163.com,REJECT,extended-matching
 IP-CIDR,59.111.239.61/32,REJECT,no-resolve
 IP-CIDR,59.111.239.62/32,REJECT,no-resolve
 IP-CIDR,115.236.121.51/32,REJECT,no-resolve
 IP-CIDR,115.236.121.195/32,REJECT,no-resolve
 # 微博
-DOMAIN,dns.weibo.cn,REJECT
+DOMAIN,dns.weibo.cn,REJECT,extended-matching
 IP-CIDR,39.97.130.51/32,REJECT,no-resolve
 IP-CIDR,39.97.128.148/32,REJECT,no-resolve
 URL-REGEX,^http:\/\/api\.weibo\.cn\/2\/httpdns\/config,REJECT
