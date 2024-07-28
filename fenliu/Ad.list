@@ -52,10 +52,6 @@ DOMAIN,msg.umengcloud.com
 DOMAIN,sec.umeng.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,ynuf.aliapp.org
-# >广告联盟
-DOMAIN,is.snssdk.com
-DOMAIN,mi.gdt.qq.com
-DOMAIN,open.e.kuaishou.com
 # 工商银行
 DOMAIN,image.mybank.icbc.com.cn
 DOMAIN,pageviewp.icbc.com.cn
