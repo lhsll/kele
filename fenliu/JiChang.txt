@@ -1,0 +1,30 @@
+# >EF机场官网(代理)
+DOMAIN,www.efcloud.dev
+# >黑暗森林机场官网(代理)
+DOMAIN,darkforest.cloud
+DOMAIN,darkforest.icu
+# >黑暗森林机场官网(直连)
+#DOMAIN,a1.darkforest.cloud
+#DOMAIN,a1.darkforest.icu
+# >独角兽机场官网(代理)
+DOMAIN,https://91unicorn.cloud
+# >独角兽机场官网(直连)
+#DOMAIN,https://du9so.com
+# >夜煞云机场官网(代理)
+DOMAIN,my.night-furyx.com
+# >夜煞云机场官网(直连)
+#DOMAIN,go.night-furyx.com
+#DOMAIN,u.night-furyx.com
+# >赔钱机场官网(代理)
+DOMAIN,xn--mes358aby2apfg.site
+# >AcA机场官网(代理)
+DOMAIN,ww1.12345.al
+DOMAIN,www.aca.dog
+
+# >订阅地址
+DOMAIN,vase.bengalj.com
+DOMAIN,cxk.lol
+DOMAIN,mail1.9wan.win
+DOMAIN,sub4.download-hiccup.xyz
+DOMAIN,xn--cp3a08l.com
+DOMAIN,api.acaisbest.online
