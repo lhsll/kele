@@ -7,9 +7,9 @@ DOMAIN,darkforest.icu
 #DOMAIN,a1.darkforest.cloud
 #DOMAIN,a1.darkforest.icu
 # >独角兽机场官网(代理)
-DOMAIN,https://91unicorn.cloud
+DOMAIN,91unicorn.cloud
 # >独角兽机场官网(直连)
-#DOMAIN,https://du9so.com
+#DOMAIN,du9so.com
 # >夜煞云机场官网(代理)
 DOMAIN,my.night-furyx.com
 # >夜煞云机场官网(直连)
