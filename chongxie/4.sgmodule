@@ -3,7 +3,7 @@
 #!category= 广告
 #!author = @RuCu6|@Keywos|@kokoryh|@mieqq|@lhsll|@可莉|@ZenmoFeiShi
 #!remark = 高德地图 2024年08月24日
-#!remark = 菜鸟 2024年02月11日
+#!remark = 菜鸟 2024年08月24日
 #!remark = 小红书 2023年12月31日
 #!remark = 百度输入法 2024年03月07日
 #!remark = 酷安 2024年02月11日
@@ -65,10 +65,14 @@ amap = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-we
 amap = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
 # >菜鸟
+# 其他
+header = type=http-response, pattern=^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js, timeout=60
+
 cainiao = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js, requires-body=true, max-size=-1, timeout=60
 
 cainiao = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js, requires-body=true, max-size=-1, timeout=60
 
+# 消息中心
 cainiao = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js, requires-body=true, max-size=-1, timeout=60
 
 # >小红书
@@ -236,11 +240,12 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 # >菜鸟
 
+# 首页 好物推荐,商品推广,底部标签页,快递详情页,问卷调查,主页图标
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn data-type=text data="{}" status-code=200
 
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn data-type=text data="{}" status-code=200
 
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|index)\.cn data-type=text data="{}" status-code=200
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|expose\.mreply|index)\.cn data-type=text data="{}" status-code=200
 
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend\.cpc\.cn data-type=text data="{}" status-code=200
 
@@ -248,6 +253,7 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(homepage\.merge|tabbar\.marketing)\.get\.cn data-type=text data="{}" status-code=200
 
+# 发现页 数字角标 裹裹券
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cnactivitycenter data-type=text data="{}" status-code=200
 
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn data-type=text data="{}" status-code=200
