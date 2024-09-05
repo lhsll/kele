@@ -4,15 +4,9 @@
 
 [Script]
 
-#阿里云盘签到 = type=cron, cronexp="30 18 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
-
 摸鱼来啦 = type=cron,cronexp=0 6 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/moyu.js, timeout=60
-
-#微付金币 = type=cron,cronexp=0 13 * * *, timeout=60, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js, script-update-interval=0
 
 蜜雪冰城 = type=cron,cronexp=30 1 * * *, timeout=60, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, script-update-interval=0
 
 # > BoxJs 会话切换
 #会话切换 = type=cron,cronexp=0 0 25 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0,timeout=30,engine=jsc
-
-#金多多商城 = type=cron,cronexp="33 0,14 * * *",script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/JinDD/JinDD.js,script-update-interval=0,timeout=3600,wake-system=1,engine=jsc
