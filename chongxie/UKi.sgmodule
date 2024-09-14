@@ -19,9 +19,11 @@
 ^https?:\/\/2401:b180:2000:20::10\/\d+\/d - reject
 
 [Map Local]
+# >首页
+^https://api.chenlongtech.cn/v1/friends/homePageTabs data-type=file data="0C6A8C1A.json"
 
 # >娱乐
-https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav$ data-type=text data="{}" status-code=200
 
 # >广场推荐广告
 ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend$ data-type=text data="{}" status-code=200
