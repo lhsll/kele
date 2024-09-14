@@ -19,6 +19,10 @@
 ^https?:\/\/2401:b180:2000:20::10\/\d+\/d - reject
 
 [Map Local]
+
+# >消息页面广告
+^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed$ data-type=text data="{}" status-code=200
+
 #首页扩列人员
 ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/recommend\/uFriend$ data-type=text data="{}" status-code=200
 
