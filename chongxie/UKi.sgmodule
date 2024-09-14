@@ -20,6 +20,12 @@
 
 [Map Local]
 
+# >娱乐
+^https:\/\/api\.chenlongtech\.cn\/v1\/party\/category\?type=0$ data-type=text data="{}" status-code=200
+
+# >广场推荐广告
+^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend$ data-type=text data="{}" status-code=200
+
 # >消息页面广告
 ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed$ data-type=text data="{}" status-code=200
 
