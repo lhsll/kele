@@ -20,7 +20,7 @@
 
 [Map Local]
 # >首页
-^https://api.chenlongtech.cn/v1/friends/homePageTabs data-type=file data="0C6A8C1A.json"
+^https://api.chenlongtech.cn/v1/friends/homePageTabs data-type=file data="Scripts/广告 & UKi/0C6A8C1A.json"
 
 # >娱乐
 ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav$ data-type=text data="{}" status-code=200
