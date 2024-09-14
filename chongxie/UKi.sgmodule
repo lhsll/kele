@@ -19,19 +19,23 @@
 ^https?:\/\/2401:b180:2000:20::10\/\d+\/d - reject
 
 [Map Local]
-# >首页
+
+# >我的页面净化
+^https:\/\/api\.chenlongtech\.cn\/v1\/user\/userCenterProjects\? data-type=file data="Scripts/广告 & UKi/9506C66A.json" status-code=200
+
+# >首页净化
 ^https://api.chenlongtech.cn/v1/friends/homePageTabs data-type=file data="Scripts/广告 & UKi/0C6A8C1A.json"
 
-# >娱乐
+# >娱乐净化
 ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav$ data-type=text data="{}" status-code=200
 
-# >广场推荐广告
+# >广场推荐净化
 ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend$ data-type=text data="{}" status-code=200
 
-# >消息页面广告
+# >消息页面净化
 ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed$ data-type=text data="{}" status-code=200
 
-#首页扩列人员
+#首页扩列人员净化
 ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/recommend\/uFriend$ data-type=text data="{}" status-code=200
 
 # 首页悬浮窗
