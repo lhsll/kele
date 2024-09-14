@@ -19,6 +19,9 @@
 ^https?:\/\/2401:b180:2000:20::10\/\d+\/d - reject
 
 [Map Local]
+#首页扩列人员
+^https:\/\/api\.chenlongtech\.cn\/v1\/party\/recommend\/uFriend$ data-type=text data="{}" status-code=200
+
 # 首页悬浮窗
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
 
