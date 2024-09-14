@@ -172,13 +172,6 @@ red_book_live_v2 = type=http-response, pattern=https://edith.xiaohongshu.com/api
 
 领克精选轮播图&精选研究社 = type=http-response,pattern=^https:\/\/app-services\.lynkco\.com\.cn\/app\/shopping\/mall\/v2\/site\/home\/page,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/LynkComarket.js
 
-# >Uki
-Uki_娱乐 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_YuLe.js
-
-Uki_首页 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_home.js
-
-Uki_开屏 = type=http-response,pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/advConf,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/Uki/Uki_Ad.js
-
 # >淘宝
 淘宝Ad_1 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js, requires-body=true, max-size=-1, timeout=60
 
@@ -327,19 +320,6 @@ Vvebo_response = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profil
 ^https:\/\/community-opt-app\.lynkco\.com\/api\/v1\/biz\/zone\/(recommend|topic\/recommend) data-type=text data="{}" status-code=200
 
 ^https:\/\/collection-apigw\.halvie\.com\/halvie-mall-lynkco-app\/v1\/search\/hot\/words data-type=text data="{}" status-code=200
-
-# >Uki
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo data-type=text data="{}" status-code=200
-
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/getPopup\?openAppTime=0&protocolVersion=1\.0\.5&firstOpen=1&pageStopTime=0&type=ios&page=homePage data-type=text data="{}" status-code=200
-
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/rechargePack\/config data-type=text data="{}" status-code=200
-
-^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed data-type=text data="{}" status-code=200
-
-^https:\/\/api\.chenlongtech\.cn\/v1\/post\/(squareTopRecommend|theme) data-type=text data="{}" status-code=200
-
-^https:\/\/api\.chenlongtech\.cn\/v1\/party\/(recommend\/uFriend|squareRecommend|config|recommendPartyList|getRankTopList|\/chatRoomNew\?) data-type=text data="{}" status-code=200
 
 # >淘宝
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data-type=text data="{}" status-code=200
