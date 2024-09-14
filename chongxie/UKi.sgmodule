@@ -1,0 +1,53 @@
+#!name=Uki去广告
+#!desc=移除开屏广告、应用内悬浮窗，各类横幅、信息流广告、搜索填充词、我的页面广告。
+#!author=可莉🅥[https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md]
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Uki.png
+#!openUrl=https://apps.apple.com/app/id1298912284
+#!tag=去广告
+#!loon_version=3.2.1(745)
+#!homepage=https://gitlab.com/lodepuly/vpn_tool/-/blob/master/README.md
+#!date=2024-07-26 19:09:38
+
+[URL Rewrite]
+# 小川在线HTTPDNS
+^https?:\/\/203\.107\.1\.1/\d+/ss - reject
+^https?:\/\/203\.107\.1\.33/\d+/ss - reject
+^https?:\/\/203\.107\.1\.66/\d+/ss - reject
+^https?:\/\/203\.107\.1\.67/\d+/ss - reject
+^https?:\/\/203\.107\.1\.97/\d+/ss - reject
+^https?:\/\/2401:b180:2000:30::1c\/\d+\/d - reject
+^https?:\/\/2401:b180:2000:20::10\/\d+\/d - reject
+
+[Map Local]
+# 首页悬浮窗
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
+
+# 首页横幅
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/indexBanner$ data-type=text data="{}" status-code=200
+
+# 弹窗配置
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/getPopup data-type=text data="{}" status-code=200
+
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/allPopUpConfig$ data-type=text data="{}" status-code=200
+
+# 广告配置
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/advConf$ data-type=text data="{}" status-code=200
+
+# 私聊交友护航弹窗
+^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$ data-type=text data="{}" status-code=200
+
+[Script]
+# 匹配卡横幅
+移除匹配卡横幅 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
+
+# 密友横幅
+移除密友横幅 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
+
+# 娱乐页面横幅和悬浮窗配置
+移除娱乐页面横幅和悬浮窗配置 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
+
+# 广场搜索填充词
+移除广场搜索填充词 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
+
+[MITM]
+hostname = %APPEND% api.chenlongtech.cn, 203.107.1.1, 203.107.1.33, 203.107.1.66, 203.107.1.67, 203.107.1.97, 2401:b180:2000:30::1c, 2401:b180:2000:20::10
