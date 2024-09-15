@@ -135,3 +135,7 @@ DOMAIN,domain.glass
 #DOMAIN-SUFFIX,v.gdt.qq.com
 # >美团
 IP-CIDR,119.29.126.219/32
+# >缺德地图
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,awaken.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
