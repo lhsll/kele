@@ -1,0 +1,28 @@
+#!name=菜鸟
+#!desc=移除推广模块
+#!author=RuCu6 Keywos
+#!icon=https://raw.githubusercontent.com/RuCu6/Loon/main/Icons/plugin/cainiao.png
+#!update=2023-05-06 16:05
+#!homepage=https://github.com/RuCu6/Loon/tree/main/Plugins
+
+[Map Local]
+# 首页 今日好物推荐
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn\/1\.0\? data-type=text data="{}" status-code=200
+
+# 首页 底部商品推广
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn\/1\.0\? data-type=text data="{}" status-code=200
+
+# 首页 问卷调查
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn\/1\.0\? data-type=text data="{}" status-code=200
+
+[Script]
+# 首页
+底部标签页 = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn\/1\.0\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js
+
+# 首页
+主页图标 = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn\/1\.0\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js
+
+主页图标 = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn\/1\.0\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js
+
+[MITM]
+hostname = %APPEND% cn-acs.m.cainiao.com
