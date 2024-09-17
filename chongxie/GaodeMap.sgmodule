@@ -1,66 +1,68 @@
 #!name=高德地图
 #!desc=缺德地图有治了
 #!author=RuCu6 kokoryh
-#!icon=https://raw.githubusercontent.com/RuCu6/Loon/main/Icons/plugin/amap.png
-#!update=2023-05-05 08:50
-#!homepage=https://github.com/RuCu6/Loon/tree/main/Plugins
+#!update=2024-09-12 10:40
 
 [Map Local]
-# 其他
-^https:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution\? data-type=text data="{}" status-code=200
-
-^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data-type=text data="{}" status-code=200
-
-# 导航详情页 路线规划,地点详情页,搜索详情页
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? data-type=text data="{}" status-code=200
-
-^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data-type=text data="{}" status-code=200
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan) data-type=text data="{}" status-code=200
 
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data-type=text data="{}" status-code=200
 
-# 首页 推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data-type=text data="{}" status-code=200
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data-type=text data="{}" status-code=200
 
-^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data-type=text data="{}" status-code=200
+# 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
+^https:\/\/m5\.amap\.com\/ws\/aos\/main\/page\/product\/list\? data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(main-page-assets|main-page-location|ridewalk-end-fc) data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword) data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data-type=text data="{}" status-code=200
 
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data-type=text data="{}" status-code=200
 
-^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull(_mp)?\? data-type=text data="{}" status-code=200
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data-type=text data="{}" status-code=200
 
-# 打车页
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/order(_web\/friendly_information|\/car\/king_toolbox_car_bubble)\? data-type=text data="{}" status-code=200
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization) data-type=text data="{}" status-code=200
 
 [Script]
 
-# 搜索页
-搜索结果详情 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+# 导航详情页,路线规划,地点详情页,搜索详情页,导航结束页
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-搜索结果预览 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(city_feed|mps|search\/sp|tips_operation_location)\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-搜索列表 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search(_poi)?\/sug\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/c3frontend\/af-(hotel|launch)\/page\/main\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-# 首页
-首页底部卡片 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(routeInfo|routePlan), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-搜索详情页 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/mapapi\/poi\/infolite\/\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-# 我的页面 个人主页,推广卡片
-我的页面主页详情 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/usr-profile-fc\/(highlightV2|home)\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_bff\/hotword\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-我的页面组件 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
+
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
+
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(card-service-plan-home|main-page), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
+
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
+
+# 我的页面,推广卡片
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
 # 附近页
-附近页面 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
 # 开屏广告
-开屏广告 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-# 打车页 红点角标,弹窗,推广卡片
-打车页面横幅 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource\??, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+# 打车页,红点角标,弹窗,天气图标,推广卡片
+amap = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order_web\/friendly_information), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-打车订单详情 = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
-通用图层 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?, script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/amap.js
+amap = type=http-response, pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% m5.amap.com, m5-zb.amap.com, sns.amap.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, oss.amap.com, sns.amap.com
