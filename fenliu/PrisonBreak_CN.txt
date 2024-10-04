@@ -1,4 +1,3 @@
-DOMAIN,geo.havoc.app
 DOMAIN,joker.huayuarc.cn
 DOMAIN,apt.tinyapps.cn
 DOMAIN,rootless.002599.xyz
