@@ -168,18 +168,18 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,pre-matching,no-resolve
 
 [URLRewrite]
 #腾讯DNS
-^https?:\/\/119\.29\.29\.29\/d-reject
+^https?:\/\/119\.29\.29\.29\/d - reject
 #小川在线HTTPDNS
-^https?:\/\/203\.107\.1\.1/\d+/ss-reject
-^https?:\/\/203\.107\.1\.33/\d+/ss-reject
-^https?:\/\/203\.107\.1\.66/\d+/ss-reject
-^https?:\/\/203\.107\.1\.67/\d+/ss-reject
-^https?:\/\/203\.107\.1\.97/\d+/ss-reject
-^https?:\/\/2401:b180:2000:30::1c\/\d+\/d-reject
-^https?:\/\/2401:b180:2000:20::10\/\d+\/d-reject
+^https?:\/\/203\.107\.1\.1/\d+/ss - reject
+^https?:\/\/203\.107\.1\.33/\d+/ss - reject
+^https?:\/\/203\.107\.1\.66/\d+/ss - reject
+^https?:\/\/203\.107\.1\.67/\d+/ss - reject
+^https?:\/\/203\.107\.1\.97/\d+/ss - reject
+^https?:\/\/2401:b180:2000:30::1c\/\d+\/d - reject
+^https?:\/\/2401:b180:2000:20::10\/\d+\/d - reject
 #百度网盘
-^https?:\/\/180\.76\.76\.200\/v\d\/resolve-reject
-^https?:\/\/180\.76\.76\.112\/v\d\/resolve-reject
+^https?:\/\/180\.76\.76\.200\/v\d\/resolve - reject
+^https?:\/\/180\.76\.76\.112\/v\d\/resolve - reject
 
 [MapLocal]
 #网易邮箱
