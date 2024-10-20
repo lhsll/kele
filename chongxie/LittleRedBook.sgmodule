@@ -5,7 +5,7 @@
 #!date=2024-10-15 10:45
 
 [Rule]
-AND, ((PROTOCOL, UDP), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT-NO-DROP,pre-matching
+AND, ((PROTOCOL, UDP), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT-NO-DROP
 
 [Map Local]
 # 惊喜弹窗
