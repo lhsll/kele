@@ -17,7 +17,7 @@
 [Script]
 # >酷安
 
-酷安574 = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/(?:feed\/detail|feed\/replyList|page\/dataList|main\/dataList|main\/indexV8|main\/init), script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/coolapk.js, requires-body=true
+酷安574 = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/(?:feed\/detail|feed\/replyList|page\/dataList|main\/dataList|main\/indexV8|main\/init), script-path=Scripts/广告 & 合集Ad/coolapk.js, requires-body=true
 
 # >阿里云盘
 
@@ -25,38 +25,38 @@
 
 阿里云盘本地VIP = type=http-response,pattern=^https:\/\/api\.alipan\.com\/business\/v1\.1\/users\/me\/vip\/info,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/阿里云盘本地VIP.js
 
-阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+阿里云盘Ad = type=http-response, pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/adrive.js
 
-阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+阿里云盘Ad = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/adrive.js
 
 # >百度
-知道搜索广告 = type=http-response, pattern=^https:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
+知道搜索广告 = type=http-response, pattern=^https:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word),requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/baidu-zhidao.js
 
 # >百度搜索首页广告
-搜索首页广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-index.js
+搜索首页广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com(\/$|\/\?(ref|from).*),requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/baidu-index.js
 
 # >百度搜索结果广告
-搜索结果广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com\/.*word=.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu.js, engine=webview
+搜索结果广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com\/.*word=.*,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/baidu.js, engine=webview
 
 # >百度防跳转
-百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduNoRedirect.js
+百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=Scripts/广告 & 合集Ad/baidu/baiduNoRedirect.js
 
 # >什么值得买
-什么值得买 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
-什么值得买 = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
-什么值得买 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/update, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/update, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
-什么值得买 = type=http-response, pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
-什么值得买 = type=http-response, pattern=^https:\/\/user-api\.smzdm\.com\/vip, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/user-api\.smzdm\.com\/vip, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
-什么值得买 = type=http-response, pattern=^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
-什么值得买 = type=http-response, pattern=^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
-什么值得买 = type=http-response, pattern=^https:\/\/qianbao\.smzdm\.com\/v\d\/app\/home, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
+什么值得买 = type=http-response, pattern=^https:\/\/qianbao\.smzdm\.com\/v\d\/app\/home, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
 
 什么值得买搜索标签去广告 = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/什么值得买搜索标签去广告.js
 
@@ -76,24 +76,24 @@
 领克精选轮播图&精选研究社 = type=http-response,pattern=^https:\/\/app-services\.lynkco\.com\.cn\/app\/shopping\/mall\/v2\/site\/home\/page,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/LynkComarket.js
 
 # >淘宝
-淘宝Ad_1 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js, requires-body=true, max-size=-1, timeout=60
+淘宝Ad_1 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow, script-path=Scripts/广告 & 合集Ad/cainiao.js, requires-body=true, max-size=-1, timeout=60
 
-淘宝Ad_2 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js, requires-body=true, max-size=-1, timeout=60
+淘宝Ad_2 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get), script-path=Scripts/广告 & 合集Ad/myBlockAds.js, requires-body=true, max-size=-1, timeout=60
 
-淘宝Ad_3 = type=http-response, pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js, requires-body=true, max-size=-1, timeout=60
+淘宝Ad_3 = type=http-response, pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json, script-path=Scripts/广告 & 合集Ad/myBlockAds.js, requires-body=true, max-size=-1, timeout=60
 
 # >京东
-京东广告 = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome), requires-body=true, max-size=0, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
+京东广告 = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome), requires-body=true, max-size=0, script-path=Scripts/广告 & 合集Ad/jingdong.js
 
 # 京东极速版
 京东极速版 = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising, requires-body=true, max-size=0, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, timeout=60, argument="jdLiteAdvertisingVO->rucu6"
 
 # >云闪付
-breakssl = type=http-response, pattern=^https:\/\/account\.95516\.com\/fortune\/inApp\/common\/, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/breakssl.js, requires-body=true, max-size=-1, timeout=60
+breakssl = type=http-response, pattern=^https:\/\/account\.95516\.com\/fortune\/inApp\/common\/, script-path=Scripts/广告 & 合集Ad/breakssl.js, requires-body=true, max-size=-1, timeout=60
 
-breakssl = type=http-response, pattern=^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/breakssl.js, requires-body=true, max-size=-1, timeout=60
+breakssl = type=http-response, pattern=^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/, script-path=Scripts/广告 & 合集Ad/breakssl.js, requires-body=true, max-size=-1, timeout=60
 
-breakssl = type=http-response, pattern=^https:\/\/content\.95516\.com\/koala-pre\/koala\/(recommend\/hotList|right\/queryAllRights), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/breakssl.js, requires-body=true, max-size=-1, timeout=60
+breakssl = type=http-response, pattern=^https:\/\/content\.95516\.com\/koala-pre\/koala\/(recommend\/hotList|right\/queryAllRights), script-path=Scripts/广告 & 合集Ad/breakssl.js, requires-body=true, max-size=-1, timeout=60
 
 # >Vvebo
 Vvebo-request = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/(users\/show\?|statuses\/user_timeline\?),requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/vv.js
