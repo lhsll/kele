@@ -1,55 +1,107 @@
-#!name=📺 BiliBili: 🛡️ ADBlock β
-#!desc=(BETA) 哔哩哔哩：去广告
-#!openUrl=http://boxjs.com/#/app/BiliBili.ADBlock.beta
-#!author=ClydeTime
-#!references=VirgilClyne、app2smile、RuCu6、Maasea
-#!homepage=https://adblock.biliuniverse.io
-#!manual=https://manual.biliuniverse.io
-#!icon=https://github.com/BiliUniverse/ADBlock/raw/main/database/icon_rounded.png
+#!name=广告 & bilibili
+#!desc=没有广告的bilibili更值得干杯
 #!category=广告
-#!arguments=[开屏]去除广告:true,[推荐]去除广告:true,[推荐]去除“活动大图”:false,[首页]去除短视频流广告:true,[番剧电影]去除广告:true,[用户投稿]去除视频广告:true,[搜索]去除广告:true,[弹幕]去除交互式弹幕:false,[弹幕]替换大会员弹幕:false,[评论区]去除广告:true,[直播]去除广告:true,[搜索]去除“热搜”:true,[动态]去除“热门话题”:true,[动态]去除“最常访问”:true,[动态]去除广告动态:true
+
+[Rule]
+# 开屏广告
+
+URL-REGEX,^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH,REJECT-TINYGIF
+
+URL-REGEX,^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH,REJECT-TINYGIF
 
 [URL Rewrite]
-# 去除搜索中的默认关键词
-^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ - reject
+
+# 移除视频链接跟踪参数
+(^https:\/\/(?:www|m)\.bilibili\.com\/video\/(?:BV\w{10}|av\d{9}))(\/?\?.*) $1 302
+
+# 移除直播间链接跟踪参数
+(^https:\/\/live\.bilibili\.com\/\d+)(\/?\?.*) $1 302
 
 [Map Local]
-# 去除搜索中的搜索推荐
-^https:\/\/app\.bilibili\.com\/x\/v2\/search\/recommend\? data="Scripts/Mock/reject-dict.json"
-# 去除搜索中的大家都在搜
-^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words data="Scripts/Mock/reject-dict.json"
-# 去除动态中的话题
-^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr data="Scripts/Mock/reject-dict.json"
-# 去除动态中的最常访问
-^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist data="Scripts/Mock/reject-dict.json"
-# 可能的一些推广(beta)
-^https?:\/\/api\.bili(bili\.com|api\.net)\/pgc\/season\/app\/related\/recommend\? data="Scripts/Mock/reject-dict.json"
-# BiliBili漫画去广告
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash data="Scripts/Mock/reject-dict.json"
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash data="Scripts/Mock/reject-dict.json"
-^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="Scripts/Mock/reject-dict.json"
+# >搜索
+^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square\? data-type=file data="EE4F9DB0.json"
+
+# 开屏广告
+^https:\/\/(?:api\.bilibili\.com\/x\/mengqi\/v1\/resource|app\.bilibili\.com\/x\/resource\/peak\/download) data-type=text data="{}" status-code=200
+
+# 满意度调研
+^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? data-type=text data="{}" status-code=200
+
+# 大会员广告
+^https:\/\/api\.bilibili\.com\/x\/vip\/ads\/materials\? data-type=text data="{}" status-code=200
+
+# 直播广告
+^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data-type=text data="{}" status-code=200
+
+# 屏蔽默认搜索框关键词
+^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords data-type=text data="{}" status-code=200
+
+# 流量卡推荐
+^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.view\.v1\.View\/TFInfo data-type=text data="{}" status-code=200
+
+# IP请求、地理位置请求 //api.bilibili.com
+^https:\/\/app\.bilibili\.com\/x\/resource\/ip data-type=text data="{}" status-code=200
+
+^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp data-type=text data="{}" status-code=200
 
 [Script]
-哔哩哔哩_标签栏 = type=http-response,pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/resource\/show\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_TAP.js
 
-哔哩哔哩_我的页面 = type=http-response,pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/account\/mine,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_mine.js
+哔哩哔哩_标签栏 = type=http-response, pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/resource\/show\/tab, script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_TAP.js, requires-body=true, max-size=0, engine=webview
 
-哔哩哔哩_推荐页banner和广告 = type=http-response,pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/feed\/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_banner.js
+哔哩哔哩_我的页面 = type=http-response, pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/account\/mine, script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_mine.js, requires-body=true, max-size=0, engine=webview
 
-bilibili搜索 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square\?,requires-body=1,max-size=0,binary-body-mode=0,script-path=bilibili搜索.js
+哔哩哔哩_推荐页banner和广告 = type=http-response, pattern=^https?:\/\/((app|api|grpc)\.bilibili\.(com|net)|(app|api|grpc)\.biliapi\.(com|net))\/x\/v2\/feed\/index, script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/bilibili_banner.js, requires-body=true, max-size=0, engine=webview
 
-BiliBili.ADBlock.request.json = type=http-request, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/feed\/index\?, requires-body=0, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.request.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.json = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/(splash\/(brand\/list|event\/list2|list|show)|feed\/index(\/story)?|search\/square), requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.respons.json = type=http-response, pattern=^https?:\/\/api\.bilibili\.com\/x\/web-interface\/wbi\/index\/top\/feed\/rcmd\?, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.json = type=http-response, pattern=^https?:\/\/api\.bili(bili\.com|api\.net)\/pgc\/page\/(bangumi|cinema\/tab\?), requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.json = type=http-response, pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.grpc = type=http-response, pattern=^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|TFInfo)$, requires-body=1, binary-body-mode=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.grpc = type=http-response, pattern=^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.dynamic\.v2\.Dynamic\/Dyn(All|Video)$, requires-body=1, binary-body-mode=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.grpc = type=http-response, pattern=^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.playurl\.v1\.PlayURL\/PlayView$, requires-body=1, binary-body-mode=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.grpc = type=http-response, pattern=^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$, requires-body=1, binary-body-mode=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.grpc = type=http-response, pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.community\.service\.dm\.v1\.DM\/(DmView|DmSegMobile), requires-body=1, binary-body-mode=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.grpc = type=http-response, pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus, requires-body=1, binary-body-mode=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
-BiliBili.ADBlock.response.grpc = type=http-response, pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList, requires-body=1, binary-body-mode=1, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/ADBlock/beta/js/BiliBili.ADBlock.response.beta.js, argument=Detail.splash={{{[开屏]去除广告}}}&Detail.feed={{{[推荐]去除广告}}}&Detail.activity={{{[推荐]去除“活动大图”}}}&Detail.story={{{[首页]去除短视频流广告}}}&Detail.cinema={{{[番剧电影]去除广告}}}&Detail.view={{{[用户投稿]去除视频广告}}}&Detail.search={{{[搜索]去除广告}}}&Detail.commandDms={{{[弹幕]去除交互式弹幕}}}&Detail.colorfulDms={{{[弹幕]替换大会员弹幕}}}&Detail.MainList={{{[评论区]去除广告}}}&Detail.xlive={{{[直播]去除广告}}}&Detail.Hot_search={{{[搜索]去除“热搜”}}}&Detail.Hot_topics={{{[动态]去除“热门话题”}}}&Detail.Most_visited={{{[动态]去除“最常访问”}}}&Detail.Dynamic_adcard={{{[动态]去除广告动态}}}
+# 移除播放页面视频列表广告
+移除播放页面视频列表广告 = type=http-response, pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(?:view|viewunite)\.v1\.View\/(?:View|ViewProgress)$, script-path=Scripts/广告 & bilibili/protoC.js, requires-body=true, binary-body-mode=true, engine=webview
+
+# 移除搜索结果广告
+移除搜索结果广告 = type=http-response, pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$, script-path=Scripts/广告 & bilibili/protoC.js, requires-body=true, binary-body-mode=true, engine=webview
+
+# 移除评论区广告
+移除评论区广告 = type=http-response, pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList, script-path=Scripts/广告 & bilibili/protoC.js, requires-body=true, binary-body-mode=true, engine=webview
+
+# 移除动态页面广告
+移除动态页面广告 = type=http-response, pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$, script-path=Scripts/广告 & bilibili/protoC.js, requires-body=true, binary-body-mode=true, engine=webview
+
+# 会员特效弹幕处理
+会员特效弹幕处理 = type=http-response, pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile, script-path=Scripts/广告 & bilibili/protoC.js, requires-body=true, binary-body-mode=true, engine=webview
+
+# 移除交互式弹幕
+移除交互式弹幕 = type=http-response, pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmView, script-path=Scripts/广告 & bilibili/protoC.js, requires-body=true, binary-body-mode=true, engine=webview
+
+# 移除青少年模式弹窗
+移除青少年模式弹窗 = type=http-response, pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus, script-path=Scripts/广告 & bilibili/protoC.js, requires-body=true, binary-body-mode=true, engine=webview
+
+# 移除开屏广告
+移除开屏广告 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:brand\/list|event\/list2|list|show), script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 移除首页推荐广告
+移除首页推荐广告 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\?, script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 移除右上角活动入口
+移除右上角活动入口 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\?, script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 移除直播内容和大会员专享
+移除直播内容和大会员专享 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story, script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 精简首页顶部标签
+精简首页顶部标签 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\?, script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 移除热搜广告
+移除热搜广告 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square, script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 移除观影页广告
+移除观影页广告 = type=http-response, pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/(?:bangumi|cinema\/tab), script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 移除直播间广告
+移除直播间广告 = type=http-response, pattern=^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom\?, script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 移除皮肤推送
+移除皮肤推送 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?, script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
+
+# 精简我的页面
+精简我的页面 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(?:mine(\/ipad)?|myinfo), script-path=Scripts/广告 & bilibili/json.js, requires-body=true, engine=webview
 
 [MITM]
-hostname = %APPEND% manga.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, app.bilibili.com, app.biliapi.net, api.bilibili.com, api.biliapi.net, grpc.biliapi.net
+hostname = %APPEND% manga.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, app.bilibili.com, app.bilibili.net, api.bilibili.com, api.bilibili.net, grpc.bilibili.com, grpc.bilibili.net, app.biliapi.com, app.biliapi.net, api.biliapi.com, api.biliapi.net, grpc.biliapi.com, grpc.biliapi.net
