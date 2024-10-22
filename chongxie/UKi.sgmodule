@@ -10,6 +10,14 @@
 #!date=2024-07-26 19:09:38
 
 [Map Local]
+# 其他
+^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend$ data-type=text data="{}" status-code=200
+
+^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav$ data-type=text data="{}" status-code=200
+
+^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed$ data-type=text data="{}" status-code=200
+
+
 # 首页悬浮窗
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
 
