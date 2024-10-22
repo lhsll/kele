@@ -17,6 +17,9 @@
 
 ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed$ data-type=text data="{}" status-code=200
 
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs$ data-type=file data="Script/广告 & UKi/0C6A8C1A.json"
+
+^https://api\.chenlongtech\.cn/v1/user/userCenterProjects\?ukiDevice=[\w-]+&osVer=\d+\.\d+\.\d+&type=\w+&v=\d+\.\d+\.\d+ data-type=file data="Script/广告 & UKi/9506C66A.json"
 
 # 首页悬浮窗
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
@@ -36,6 +39,7 @@
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$ data-type=text data="{}" status-code=200
 
 [Script]
+
 # 匹配卡横幅
 移除匹配卡横幅 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList, script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
 
