@@ -19,6 +19,10 @@ IP-CIDR,203.107.1.1/24,REJECT,no-resolve,pre-matching
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}" status-code=200
 
 [Script]
+阿里云盘本地VIP图标 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/me,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/阿里云盘本地VIP图标.js
+
+阿里云盘本地VIP = type=http-response,pattern=^https:\/\/api\.alipan\.com\/business\/v1\.1\/users\/me\/vip\/info,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/阿里云盘本地VIP.js
+
 移除阿里云盘广告 = type=http-response, pattern=^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets), script-path=https://kelee.one/Resource/Script/AliYunDrive/AliYunDrive_remove_ads.js, requires-body=true
 
 移除阿里云盘广告 = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, script-path=https://kelee.one/Resource/Script/AliYunDrive/AliYunDrive_remove_ads.js, requires-body=true
