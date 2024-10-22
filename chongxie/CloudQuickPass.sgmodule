@@ -11,9 +11,9 @@
 
 [Rule]
 # 开屏广告
-DOMAIN,ads.95516.com,REJECT,extended-matching,pre-matching
-DOMAIN,switch.cup.com.cn,REJECT,extended-matching,pre-matching
-DOMAIN,tysdk.95516.com,REJECT,extended-matching,pre-matching
+DOMAIN,ads.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,switch.cup.com.cn,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,tysdk.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
 
 [URL Rewrite]
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
