@@ -6,6 +6,8 @@
 [Rule]
 DOMAIN-SUFFIX,udpolimenew.baidu.com,REJECT-NO-DROP,pre-matching,extended-matching
 
+DOMAIN,gromore.pangolin-sdk-toutiao.com,REJECT-NO-DROP,pre-matching,extended-matching
+
 [Map Local]
 # ▿▿ 模拟数据 避免反复请求
 ^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input data="{"errno": 0,"logid": "3617169806","data": {"control": {},"service": {},"pubparam": {"bd_version": "12.2.4.16","device_ua": "iphone"}}}" data-type=text
@@ -35,8 +37,6 @@ DOMAIN-SUFFIX,udpolimenew.baidu.com,REJECT-NO-DROP,pre-matching,extended-matchin
 ^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info|hotpatch\/check|fb\/custom) data-type=text data="{}"
 
 ^https?:\/\/mobads\.baidu\.com\/(cpro\/ui\/mads\.php\?|ads\/) data-type=text data="{}"
-
-^https?:\/\/.+?\.pangolin-sdk-toutiao.*?\.com\/api\/ad data-type=text data="{}"
 
 ^https?:\/\/api-access\.pangolin-sdk-toutiao(\d|-\w)?\.com\/api\/ad\/union\/sdk\/stats\/batch\/\? data-type=text data="{}"
 
