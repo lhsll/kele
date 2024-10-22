@@ -11,6 +11,8 @@
 
 [Map Local]
 # 其他
+^https:\/\/api\.chenlongtech\.cn\/v1\/party\/squareRecommend$ data-type=text data="{}" status-code=200
+
 ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/recommend\/uFriend$ data-type=text data="{}" status-code=200
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend$ data-type=text data="{}" status-code=200
