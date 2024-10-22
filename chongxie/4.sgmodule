@@ -39,7 +39,7 @@
 搜索结果广告 = type=http-response, pattern=^https:\/\/(www|m)\.baidu\.com\/.*word=.*,requires-body=1,max-size=0,script-path=Scripts/广告 & 合集Ad/baidu.js, engine=webview
 
 # >百度防跳转
-百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=Scripts/广告 & 合集Ad/baidu/baiduNoRedirect.js
+百度防跳转 = type=http-response, pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme, script-path=Scripts/广告 & 合集Ad/baiduNoRedirect.js
 
 # >什么值得买
 什么值得买 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading, script-path=Scripts/广告 & 合集Ad/smzdm_remove_ads.js, requires-body=true
