@@ -10,10 +10,10 @@
 #!date=2024-04-21 15:41:21
 
 [Rule]
-DOMAIN,dns.jd.com,REJECT,pre-matching
-URL-REGEX,^http:\/\/\w{32}\.jddebug\.com\/diagnose\?,REJECT
-IP-CIDR,101.124.19.122/32,REJECT,no-resolve,pre-matching
-IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve,pre-matching
+DOMAIN,dns.jd.com,REJECT-NO-DROP,extended-matching,pre-matching
+URL-REGEX,^http:\/\/\w{32}\.jddebug\.com\/diagnose\?,REJECT-NO-DROP
+IP-CIDR,101.124.19.122/32,REJECT-NO-DROP,no-resolve,pre-matching
+IP-CIDR6,2402:db40:5100:1011::5/128,REJECT-NO-DROP,no-resolve,pre-matching
 
 [Map Local]
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) data-type=text data="{}" status-code=200
