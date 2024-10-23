@@ -11,9 +11,9 @@
 
 [Rule]
 # 地理位置 - 影响注册账号时的属地判断
-DOMAIN-SUFFIX,soulapp.cn,DIRECT,extended-matching,pre-matching
-IP-CIDR,8.210.3.170/32,DIRECT,no-resolve,pre-matching
-IP-CIDR,47.75.72.47/32,DIRECT,no-resolve,pre-matching
+DOMAIN-SUFFIX,soulapp.cn,DIRECT,extended-matching
+IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
+IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
 # 广告下发
 DOMAIN,ad-h5-cdn.soulapp.cn,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN,ad-h5-station-cdn.soulapp.cn,REJECT-NO-DROP,extended-matching,pre-matching
