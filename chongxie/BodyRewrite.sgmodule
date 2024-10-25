@@ -5,3 +5,6 @@
 [Body Rewrite]
 # >TestFlight
 http-request-jq ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ '.storefrontId = "143441-19,29"'
+
+# >阿里云盘
+http-response-jq ^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords$ ’items = []‘
