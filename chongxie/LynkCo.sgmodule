@@ -6,7 +6,7 @@
 #!date=2024-10-26
 
 [Body Rewrite]
-http-response-jq ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/info\? '.data.appTabAppDetailDTOList |= map(select(.tabName == "首页")) | .data.searchBaseInfoItemDTOList |= []'
+http-response-jq ^https:\/\/(h5-api\.lynkco\.com|app-services\.lynkco\.com\.cn)\/app\/explore\/home-page\/v3\/info\? '.data.appTabAppDetailDTOList |= map(select(.tabName == "首页")) | .data.searchBaseInfoItemDTOList |= []'
 
 
 
