@@ -8,7 +8,7 @@
 [Body Rewrite]
 http-response-jq ^https:\/\/(h5-api\.lynkco\.com|app-services\.lynkco\.com\.cn)\/app\/explore\/home-page\/v3\/info\? '.data.appTabAppDetailDTOList |= map(select(.tabName == "首页")) | .data.searchBaseInfoItemDTOList |= []'
 
-http-response-jq ^https:\/\/h5-api\.lynkco\.com\/app\/explore\/searching\/hot\/recommend\/list '.data = []'
+http-response-jq ^https:\/\/h5-api\.lynkco\.com\/app\/(topic\/together\/hot|explore\/searching\/hot\/recommend\/list) '.data = []'
 
 [MITM]
 hostname = %APPEND% app-services.lynkco.com.cn, h5-api.lynkco.com
