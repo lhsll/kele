@@ -7,3 +7,8 @@
 
 [Body Rewrite]
 http-response-jq ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/info\? '.data.appTabAppDetailDTOList |= map(select(.tabName == "首页"))'
+
+
+
+[MITM]
+hostname = %APPEND% app-services.lynkco.com.cn
