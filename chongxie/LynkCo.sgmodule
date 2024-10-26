@@ -10,5 +10,7 @@ http-response-jq ^https:\/\/(h5-api\.lynkco\.com|app-services\.lynkco\.com\.cn)\
 
 http-response-jq ^https:\/\/h5-api\.lynkco\.com\/app\/(topic\/together\/hot|explore\/searching\/hot\/recommend\/list) '.data = []'
 
+http-response-jq ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\? '.data.pageDetailList = []'
+
 [MITM]
 hostname = %APPEND% app-services.lynkco.com.cn, h5-api.lynkco.com
