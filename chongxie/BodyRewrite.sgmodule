@@ -8,3 +8,5 @@ http-request-jq ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ '.sto
 
 # >阿里云盘
 http-response-jq ^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords$ ’items = []‘
+
+http-response-jq ^ https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting '.games[0].menuInfo |= map(select(.name != "新游预约" and .name != "KPL" and .name != "社区"))'
