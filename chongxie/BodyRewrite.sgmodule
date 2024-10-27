@@ -22,5 +22,5 @@ http-request-jq ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ '.sto
 http-response-jq ^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords$ ’items = []‘
 
 # >王者营地
-http-response-jq ^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting 'del(.data.playerShare.KPL2023S1[].title, .data.games[].menuInfo[] | select(.name == "社区"), del(.data.games[].menuInfo[] | select(.name_category == "资讯") | .channelParam[] | select(.channelName == "KPL" or .channelName == "新游预约"))'
+http-response-jq ^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting '.data.playerShare |= del(.KPL2023S1, .KIC2022) | .data.games[].menuInfo |= map(select(.channelName != "KPL" and .channelName != "新游预约")) | .data.games[].menuInfo |= map(select(.name_category2 != "社区"))'
 
