@@ -25,10 +25,10 @@ URL-REGEX,^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH,REJECT-TINYGIF
 (^https:\/\/live\.bilibili\.com\/\d+)(\/?\?.*) $1 302
 
 [Body Rewrite]
-http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? 'delpaths([["data","common_equip"]])'
+http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? "delpaths([["data","common_equip"]])"
 
 # >精简Tap栏
-http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\? '.data.tab |= map(select(.name == "直播" or .name == "推荐")) | .data.bottom |= map(select(.name == "首页" or .name == "动态" or .name == "我的"))'
+http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\? ".data.tab |= map(select(.name == "直播" or .name == "推荐")) | .data.bottom |= map(select(.name == "首页" or .name == "动态" or .name == "我的"))"
 
 [Map Local]
 # 开屏广告
