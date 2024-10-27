@@ -10,6 +10,4 @@ http-request-jq ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ '.sto
 http-response-jq ^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords$ ’items = []‘
 
 # >王者营地
-http-response-jq ^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting '.games[0].menuInfo |= map(select(.name != "新游预约" and .name != "KPL" and .name != "社区"))'
-
-# >其他
+http-response-jq ^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting 'del(.data.playerShare.KPL2023S1[].title, .data.games[].menuInfo[] | select(.name == "社区"), .data.games[].menuInfo[].channelParam[] | select(.channelName == "KPL" or .channelName == "新游预约"))'
