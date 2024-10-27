@@ -11,3 +11,5 @@ http-response-jq ^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords$ ’items 
 
 # >王者营地
 http-response-jq ^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting '.games[0].menuInfo |= map(select(.name != "新游预约" and .name != "KPL" and .name != "社区"))'
+
+# >其他
