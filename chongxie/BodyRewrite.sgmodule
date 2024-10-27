@@ -10,4 +10,4 @@ http-request-jq ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ '.sto
 http-response-jq ^https:\/\/api\.alipan\.com\/recommend\/v1\/hotWords$ ’items = []‘
 
 # >王者营地
-http-response-jq ^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting '.data.games |= map(select(.name_category2 != "资讯" and .name != "社区"))'
+http-response-jq ^https:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/setting '.games[].menuInfo |= map(select(.name_category2 != "资讯" and .name_category2 != "社区")) | .channelParam |= map(select(.channelId != 28509 and .channelId != 9115))'
