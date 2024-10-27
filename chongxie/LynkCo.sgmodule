@@ -7,13 +7,13 @@
 
 [Body Rewrite]
 # >搜索页Tap+搜索栏
-http-response-jq ^https:\/\/(h5-api\.lynkco\.com|app-services\.lynkco\.com\.cn)\/app\/explore\/home-page\/v3\/info\? '.data.appTabAppDetailDTOList |= map(select(.tabName == "首页")) | .data.searchBaseInfoItemDTOList |= []'
+http-response-jq ^https:\/\/(h5-api\.lynkco\.com|app-services\.lynkco\.com\.cn)\/app\/explore\/home-page\/v3\/info\? ".data.appTabAppDetailDTOList |= map(select(.tabName == "首页")) | .data.searchBaseInfoItemDTOList |= []"
 # >搜索栏关键词
-http-response-jq ^https:\/\/h5-api\.lynkco\.com\/app\/(topic\/together\/hot|explore\/searching\/hot\/recommend\/list) '.data = []'
+http-response-jq ^https:\/\/h5-api\.lynkco\.com\/app\/(topic\/together\/hot|explore\/searching\/hot\/recommend\/list) ".data = []"
 # >搜索页信息流
-http-response-jq ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\? '.data.pageDetailList = []'
+http-response-jq ^https:\/\/app-services\.lynkco\.com\.cn\/app\/explore\/home-page\/v3\/list\? ".data.pageDetailList = []"
 # >爱车车品好物
-http-response-jq ^https:\/\/app-services\.lynkco\.com\.cn\/app\/page\/detail\? '.data = []'
+http-response-jq ^https:\/\/app-services\.lynkco\.com\.cn\/app\/page\/detail\? ".data = []"
 
 
 [MITM]
