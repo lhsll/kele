@@ -4,6 +4,9 @@
 
 [URL Rewrite]
 
+# 设置栏目内广告
+^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
+
 ^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/\w+!!\d{13}-0-tps-(1080|2160|1124)-\d{4}\.jpg$ - reject
 
 (^https:\/\/(www|m)\.bilibili\.com\/video\/BV\w{10})((\/\?buvid=.*)|(\/\?share_source=.*)) $1 302
@@ -27,8 +30,6 @@
 ^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic - reject
 
 ^https?:\/\/az\dmbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject
-
-^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
 
 ^https:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ContentVideo\/[0-9a-z]{32}\.m3u8 - reject
 
@@ -136,6 +137,19 @@
 小程序_掌上公交 = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do,requires-body=1,max-size=0,script-path=Scripts/广告 & 可乐Ad/zhangshanggongjiao.js
 
 [Map Local]
+
+# 开屏广告
+^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data-type=text data=" " status-code=200
+
+# 首页横幅广告
+^https?:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic data-type=text data="{}" status-code=200
+
+# 开屏广告
+^https?:\/\/mbasecc\.(bas|bcs)\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}" status-code=200
+
+# 首页随机弹窗
+^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId data-type=text data="{}" status-code=200
+
 # >美团
 ^https:\/\/wx-shangou\.meituan\.com\/quickbuy\/v2\/activity\/supersale\/bigPromotionProductsRender\? data-type=text data="{}" status-code=200
 
@@ -296,8 +310,6 @@
 ^https:\/\/mobads\.baidu\.com\/cpro\/ui\/mads\.php\? data-type=text data="{}" status-code=200
 
 ^https:\/\/huodong-ssr\.taobao\.com\/wow\/tessera\/trending-center-page\? data-type=text data="{}" status-code=200
-
-^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}" status-code=200
 
 ^https:\/\/(www|qiye)\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules data-type=text data="{}" status-code=200
 
