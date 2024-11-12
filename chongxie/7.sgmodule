@@ -112,7 +112,7 @@
 京东极速版Ad = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, timeout=60, argument="jdLiteAdvertisingVO->rucu6"
 
 # >微信跳过微信中转页面,解除被封禁链接
-微信跳过中转页面 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
+微信跳过中转页面 = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=Scripts/广告 & 可乐Ad/wechat110.js
 
 # 京喜/京喜特价/京东小家 去除开屏广告
 京东系列-净化 = type=http-response,script-path= Scripts/广告 & 可乐Ad/jhad.js,pattern= ^https?:\/\/api\..*\.jd\.com\/(client\.action\?functionId=lite_advertising|.+\/service\/getLoadingLinks),max-size=0,requires-body=true,timeout=10,enable=true
