@@ -7,10 +7,27 @@
 [Rule]
 
 
+[Map Local]
+
+# >招商银行开屏广告
+^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data-type=text data=" " status-code=200
+
+# >招商银行首页横幅广告
+^https?:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic data-type=text data="{}" status-code=200
+
+# >掌上银行开屏广告
+^https?:\/\/mbasecc\.(bas|bcs)\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec data-type=text data="{}" status-code=200
+
+# >掌上银行首页随机弹窗
+^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId data-type=text data="{}" status-code=200
+
 [Script]
 
 
 [URL Rewrite]
 
+# 掌上银行设置栏目内广告
+^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
 
 [MITM]
+hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com
