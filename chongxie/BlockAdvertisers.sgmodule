@@ -173,7 +173,7 @@ DOMAIN,tpstelemetry.tencent.com,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN,ii.gdt.qq.com,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN-KEYWORD,trace.qq.com,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN-KEYWORD,trace.video.qq.com,REJECT-NO-DROP,extended-matching,pre-matching
-DOMAIN-SUFFIX,gdt.qq.com,REJECT-NO-DROP,extended-matching,pre-matching
+#DOMAIN-SUFFIX,gdt.qq.com,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,l.qq.com,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,ugdtimg.com,REJECT-NO-DROP,extended-matching,pre-matching
 IP-CIDR,47.110.187.87/32,REJECT-NO-DROP,no-resolve,pre-matching
