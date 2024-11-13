@@ -9,6 +9,9 @@
 
 [Map Local]
 
+# >京东底部通栏
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=xview2Config$ data-type=text data="{}" status-code=200
+
 # >招商银行开屏广告
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data-type=text data="{}" status-code=200
 
