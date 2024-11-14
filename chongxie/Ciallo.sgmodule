@@ -42,8 +42,13 @@
 
 [URL Rewrite]
 
-# 掌上银行设置栏目内广告
+# >掌上银行设置栏目内广告
 ^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
+
+# >捜图神器
+^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random - reject
+
+^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
 
 [MITM]
 hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, ios.chat.openai.com, wallpaper.soutushenqi.com, api.flydigi.com
