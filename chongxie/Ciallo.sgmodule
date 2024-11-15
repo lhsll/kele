@@ -37,6 +37,9 @@
 # >飞智游戏开屏
 ^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}" status-code=200
 
+# >微信公众号
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? data-type=text data="{}" status-code=200
+
 [Script]
 
 
@@ -51,4 +54,4 @@
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
 
 [MITM]
-hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, ios.chat.openai.com, wallpaper.soutushenqi.com, api.flydigi.com
+hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, ios.chat.openai.com, wallpaper.soutushenqi.com, api.flydigi.com, mp.weixin.qq.com
