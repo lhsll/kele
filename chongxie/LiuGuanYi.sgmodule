@@ -5,5 +5,7 @@
 [Script]
 JRSYXJ = type=http-response, pattern=^http[s]?:\/\/.+\/next\/app\/vip\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JRSYXJ.js, requires-body=true, max-size=-1, timeout=60
 
+JRSYXJ1 = type=http-response, pattern=^http[s]?:\/\/.+\/next/app/remove/watermark/counts, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JRSYXJ1.js, requires-body=true, max-size=-1, timeout=60
+
 [MITM]
 hostname = %APPEND% 47.112.75.234, today.xhey.top
