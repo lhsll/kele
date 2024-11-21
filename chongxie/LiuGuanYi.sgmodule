@@ -1,5 +1,6 @@
 #!name=JRSYXJ
 #!desc=Today's watermark camera ViP
+#!category=应用
 
 [Script]
 JRSYXJ = type=http-response, pattern=^http[s]?:\/\/.+\/next\/app\/vip\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JRSYXJ.js, requires-body=true, max-size=-1, timeout=60
