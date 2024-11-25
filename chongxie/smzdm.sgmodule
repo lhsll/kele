@@ -10,24 +10,19 @@
 #!date=2024-09-08 20:59:02
 
 [Rule]
-DOMAIN,aaid.uyunad.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,acs4baichuan.m.taobao.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,adashxgc.ut.taobao.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,analytics-api.smzdm.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,baichuan-sdk.alicdn.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,dgstatic.jd.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,msg.umengcloud.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,sec.umeng.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,ulogs.umeng.com,REJECT-NO-DROP,pre-matching,extended-matching
-DOMAIN,ynuf.aliapp.org,REJECT-NO-DROP,pre-matching,extended-matching
+DOMAIN,aaid.uyunad.com,REJECT,extended-matching,pre-matching
+DOMAIN,acs4baichuan.m.taobao.com,REJECT,extended-matching,pre-matching
+DOMAIN,adashxgc.ut.taobao.com,REJECT,extended-matching,pre-matching
+DOMAIN,analytics-api.smzdm.com,REJECT,extended-matching,pre-matching
+DOMAIN,baichuan-sdk.alicdn.com,REJECT,extended-matching,pre-matching
+DOMAIN,dgstatic.jd.com,REJECT,extended-matching,pre-matching
+DOMAIN,msg.umengcloud.com,REJECT,extended-matching,pre-matching
+DOMAIN,sec.umeng.com,REJECT,extended-matching,pre-matching
+DOMAIN,ulogs.umeng.com,REJECT,extended-matching,pre-matching
+DOMAIN,ynuf.aliapp.org,REJECT,extended-matching,pre-matching
 
 [Map Local]
 ^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/(other_modul|wiki_related_modul)|^https:\/\/s3\.zdmimg\.com\/third\/index|^https:\/\/app-api\.smzdm\.com\/util\/loading data-type=text data="{}" status-code=200
-
-[Body Rewrite]
-http-response-jq ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags ".data.search_faxian = {} | .data.search_hot = {} | .data.show_search_word = {} | .data.hongbao = {} | .data.brand_list = {} | .data.bangdan = {}"
-http-response-jq ^https:\/\/s-api\.smzdm\.com\/sou\/search_suggestion\? ".data.rows |= map(select(.cell_type != "25064" and .cell_type != "25070" and .cell_type != "25071"))"
-http-response-jq ^https:\/\/s\-api\.smzdm\.com\/sou\/list_v10\? del(.data.top_aladdin)
 
 [Script]
 移除广告 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading, script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
@@ -51,4 +46,4 @@ http-response-jq ^https:\/\/s\-api\.smzdm\.com\/sou\/list_v10\? del(.data.top_al
 移除广告 = type=http-response, pattern=^https:\/\/post\.m\.smzdm\.com\/ajax_app\/ajax_get_footer_list, script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% haojia-api.smzdm.com, homepage-api.smzdm.com, app-api.smzdm.com, user-api.smzdm.com, article-api.smzdm.com, qianbao.smzdm.com, s3.zdmimg.com, s-api.smzdm.com
+hostname = %APPEND% haojia-api.smzdm.com, homepage-api.smzdm.com, app-api.smzdm.com, user-api.smzdm.com, article-api.smzdm.com, qianbao.smzdm.com, s3.zdmimg.com
