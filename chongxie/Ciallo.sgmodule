@@ -8,8 +8,6 @@
 
 
 [Map Local]
-# >轻图
-^https:\/\/api-qingtu\.kajicam\.com\/xht\/api\/sys\/banner data-type=text data="{}" status-code=200
 
 # >京东底部通栏
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=xview2Config$ data-type=text data="{}" status-code=200
