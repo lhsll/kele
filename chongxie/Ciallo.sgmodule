@@ -56,4 +56,4 @@
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
 
 [MITM]
-hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, ios.chat.openai.com, wallpaper.soutushenqi.com, api.flydigi.com, mp.weixin.qq.com
+hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, ios.chat.openai.com, wallpaper.soutushenqi.com, api.flydigi.com, mp.weixin.qq.com, api-qingtu.kajicam.com
