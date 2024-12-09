@@ -1,13 +1,29 @@
-#!name=稿定设计页面优化
-#!desc=使用JQ精简界面
+#!name=稿定设计精简
+#!desc=清爽版界面
 #!category=广告
+#!time=2024-12-09
+#!author=KeLe
+#!app_version=稿定设计 v5.13.1
 
 [Body Rewrite]
-# >TAP会员页面banner广告横幅
-http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_mine\/resources ".pits |= map(select(.id != 19708 and .id != 20921))"
 
 # >开屏广告
 http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules del(.pit_modules[])
 
-# >TAP模板搜索栏里滚动词
-http-response-jq "^https:\/\/www\.gaoding\.com\/api\/v3\/cp\/search-words\/v2\/placeholder\?position=allpages" "[.[] | del(.word)]"
+# >Tap会员页面banner广告横幅
+http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_mine\/resources ".pits |= map(select(.id != 19708 and .id != 20921))"
+
+# >Tap创作页面精简
+http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/templates\/resources "del(.pits[] | select(.id == 25039 or .id == 25038 or .id == 21643 or .id == 17542 or .id == 21936 or .id == 17256 or .id == 17530 or .id == 17580))"
+
+# >搜索页面关联词&热门话题&滚动词
+http-response-jq "^https:\/\/www\.gaoding\.com\/api\/v3\/cp\/search-words\/v2\/(search-found|hot|placeholder)\?position=allpages" []
+
+# >Tap模板页面精简(保留图片&视频)
+http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_template_tab\/resources ".pits[1].materials |= map(select(.id != 36405))"
+
+# >Tap模板页面(图片&视频)精简
+http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/(app_picture_channel|app_video_channel)\/resources ".pits |= map(select(.id != 19591 and .id != 19563 and .id != 19589 and .id != 19562))"
+
+[MITM]
+hostname = %APPEND% www.gaoding.com
