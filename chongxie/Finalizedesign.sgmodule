@@ -25,7 +25,7 @@ http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_tem
 # >Tap模板页面(图片&视频)精简
 http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/(app_picture_channel|app_video_channel)\/resources ".pits |= map(select(.id != 19591 and .id != 19563 and .id != 19589 and .id != 19562))"
 
-# ># >TapAi页面精简
+# >TapAi页面精简
 http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/ai_tools_tab\/resources ".pits |= map(select(.id != 21525))"
 
 [MITM]
