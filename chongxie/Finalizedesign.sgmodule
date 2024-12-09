@@ -8,3 +8,6 @@ http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_min
 
 # >开屏广告
 http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules del(.pit_modules[])
+
+# >TAP模板搜索栏里滚动词
+http-response-jq "^https:\/\/www\.gaoding\.com\/api\/v3\/cp\/search-words\/v2\/placeholder\?position=allpages" "[.[] | del(.word)]"
