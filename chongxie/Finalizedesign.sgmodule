@@ -1,8 +1,10 @@
 #!name=稿定设计页面优化
-#!desc=精简界面
+#!desc=使用JQ精简界面
 #!category=广告
 
 [Body Rewrite]
 # >TAP会员页面banner广告横幅
 http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_mine\/resources ".pits |= map(select(.id != 19708 and .id != 20921))"
 
+# >开屏广告
+http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules del(.pit_modules[])
