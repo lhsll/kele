@@ -9,7 +9,7 @@
 [Body Rewrite]
 
 # >开屏广告
-http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/ios-splash\/modules$ del(.pit_modules[])
+http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/v3\/delivery-pits\/ios-splash\/modules\?is_new_user=0$ del(.pit_modules[])
 
 # >Tap会员页面banner广告横幅
 http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_mine\/resources$ ".pits |= map(select(.id != 19708 and .id != 20921))"
