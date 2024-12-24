@@ -15,7 +15,7 @@ http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/v2\/delivery-pits\/i
 http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/app_mine\/resources$ ".pits |= map(select(.id != 19708 and .id != 20921))"
 
 # >Tap创作页面精简
-http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/templates\/resources$ "del(.pits[] | select(.id == 25039 or .id == 25038 or .id == 21643 or .id == 17542 or .id == 21936 or .id == 17256 or .id == 17530 or .id == 17580))"
+http-response-jq ^https:\/\/www\.gaoding\.com\/api\/v3\/oc\/exhibitions\/templates\/resources\?is_new_user=0$ "del(.pits[] | select(.id == 25039 or .id == 25038 or .id == 21643 or .id == 17542 or .id == 21936 or .id == 17256 or .id == 17530 or .id == 17580))"
 
 # >搜索页面关联词&热门话题&滚动词
 http-response-jq "^https:\/\/www\.gaoding\.com\/api\/v3\/cp\/search-words\/v2\/(search-found|hot|placeholder)\?position=allpages$" []
