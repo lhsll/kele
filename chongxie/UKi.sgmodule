@@ -9,6 +9,15 @@
 #!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
 #!date=2024-11-28 00:00:00
 
+[Body Rewrite]
+http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/recommend\/uFriend {}
+http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/squareRecommend {}
+http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend {}
+http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav {}
+http-response-jq "^https:\/\/api\.chenlongtech\.cn\/v1\/party\/config\?page=amuse" {}
+http-response-jq ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed {}
+http-response-jq "^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo\?firstOpen=0" del(.data.blindBox)
+
 [Map Local]
 # 其他
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
