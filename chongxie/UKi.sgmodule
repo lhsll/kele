@@ -7,53 +7,34 @@
 #!tag=去广告
 #!loon_version=3.2.1(749)
 #!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
-#!date=2024-07-26 19:09:38
+#!date=2024-11-28 00:00:00
 
 [Map Local]
 # 其他
-^https:\/\/api\.chenlongtech\.cn\/v1\/party\/squareRecommend$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/party\/recommend\/uFriend$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/indexBanner$ data-type=text data="{}" status-code=200
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/getPopup data-type=text data="{}" status-code=200
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/allPopUpConfig$ data-type=text data="{}" status-code=200
 
-^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/advConf$ data-type=text data="{}" status-code=200
+
+^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$ data-type=text data="{}" status-code=200
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs data-type=file data="Scripts/广告 & UKi/0C6A8C1A.json"
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/user\/userCenterProjects\? data-type=file data="Scripts/广告 & UKi/9506C66A.json"
 
-# 首页悬浮窗
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
-
-# 首页横幅
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/indexBanner$ data-type=text data="{}" status-code=200
-
-# 弹窗配置
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/getPopup data-type=text data="{}" status-code=200
-
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/allPopUpConfig$ data-type=text data="{}" status-code=200
-
-# 广告配置
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/advConf$ data-type=text data="{}" status-code=200
-
-# 私聊交友护航弹窗
-^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$ data-type=text data="{}" status-code=200
-
 [Script]
 
-# 匹配卡横幅
 移除匹配卡横幅 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList, script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
 
-# 密友横幅
 移除密友横幅 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home, script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
 
-# 娱乐页面横幅和悬浮窗配置
 移除娱乐页面横幅和悬浮窗配置 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$, script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
 
-# 广场搜索填充词
 移除广场搜索填充词 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$, script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true
 
 [MITM]
