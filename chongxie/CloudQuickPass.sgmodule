@@ -15,6 +15,9 @@ DOMAIN,ads.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN,switch.cup.com.cn,REJECT-NO-DROP,extended-matching,pre-matching
 DOMAIN,tysdk.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
 
+[Body Rewrite]
+http-response-jq ^https:\/\/search\.95516\.com\/yunshan-search-service\/api\/v1\/hot-search {}
+
 [URL Rewrite]
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
 
@@ -26,4 +29,4 @@ DOMAIN,tysdk.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
 移除云闪付推广 = type=http-response, pattern=^https:\/\/content\.95516\.com\/koala-pre\/koala\/(recommend\/hotList|right\/queryAllRights), script-path=https://kelee.one/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% account.95516.com, base.95516.com, content.95516.com
+hostname = %APPEND% account.95516.com, base.95516.com, content.95516.com, search.95516.com
