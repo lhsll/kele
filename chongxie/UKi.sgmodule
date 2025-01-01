@@ -10,6 +10,7 @@
 #!date=2024-11-28 00:00:00
 
 [Body Rewrite]
+http-response-jq "^https:\/\/api\.chenlongtech\.cn\/v1\/party\/config\?page=chat" {}
 http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/recommend\/uFriend {}
 http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/squareRecommend {}
 http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend {}
