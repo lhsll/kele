@@ -7,7 +7,7 @@
 #!tag=去广告
 #!loon_version=3.2.1(749)
 #!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
-#!date=2024-09-08 20:59:02
+#!date=2025-01-02 03:03:35
 
 [Rule]
 DOMAIN,aaid.uyunad.com,REJECT,extended-matching,pre-matching
@@ -33,7 +33,7 @@ http-response-jq ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags ".da
 
 http-response-jq ^https:\/\/s-api\.smzdm\.com\/sou\/search_suggestion\? ".data.rows |= map(select(.cell_type != "25064" and .cell_type != "25070" and .cell_type != "25071"))"
 
-http-response-jq ^https:\/\/s\-api\.smzdm\.com\/sou\/list_v10\? "del(.data.top_aladdin)"
+http-response-jq ^https:\/\/s\-api\.smzdm\.com\/sou\/list_v10\? '.data.rows |= map(select(.cell_type != "23001")) | del(.data.top_aladdin)'
 
 [Script]
 移除广告 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading, script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
