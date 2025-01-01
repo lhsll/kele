@@ -15,12 +15,12 @@
 [Body Rewrite]
 http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/main\/indexV8\? 'if .data | length > 0 then .data |= map(select(.entityTemplate != "sponsorCard" and .entityId != 8639 and .entityId != 29349 and .entityId != 33006 and .entityId != 32557 and (.title | contains("值得买") | not) and (.title | contains("红包") | not) and .extraDataArr.cardPageName != "V8_APP_HEADLINE" and .extraDataArr.cardPageName != "V8_APP_HEADLINE_AD")) else . end'
 
+http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? 'del(.data[] | select(.entityTemplate == "iconLinkGridCard" or .entityTemplate == "capsuleListCard" or .entityTemplate == "iconMiniGridCard" or .entityTemplate == "imageCarouselCard_2" or .entityTemplate == "iconGridCard"))'
+
 [Script]
 移除酷安广告 = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?, script-path=https://kelee.one/Resource/Script/CoolApk/CoolApk_remove_ads.js, requires-body=true
 
 移除酷安广告 = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|init), script-path=https://kelee.one/Resource/Script/CoolApk/CoolApk_remove_ads.js, requires-body=true
-
-移除酷安广告 = type=http-response, pattern=^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?, script-path=https://kelee.one/Resource/Script/CoolApk/CoolApk_remove_ads.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.coolapk.com
