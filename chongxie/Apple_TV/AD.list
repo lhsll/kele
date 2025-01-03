@@ -1,0 +1,142 @@
+DOMAIN,ipv6.adrta.com
+DOMAIN,adrta.com
+# >阿里巴巴
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
+DOMAIN-SUFFIX,ut.taobao.com
+# >阿里云盘
+IP-CIDR,203.107.1.1/24
+# >安全浏览限制解除
+DOMAIN,lookup.api.bsb.baidu.com
+DOMAIN-SUFFIX,u3.ucweb.com
+DOMAIN-KEYWORD,safebrowsing.
+# >百度
+DOMAIN,mobads.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN,afd.baidu.com
+DOMAIN,afdconf.baidu.com
+DOMAIN,lc.map.baidu.com
+# >淘宝
+DOMAIN,adashx.m.taobao.com
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,ut.taobao.com
+# >字节跳动
+DOMAIN,ad.zijieapi.com
+DOMAIN-KEYWORD,-ad-sign.byteimg.com
+# >什么值得买
+DOMAIN,aaid.uyunad.com
+DOMAIN,acs4baichuan.m.taobao.com
+DOMAIN,adashxgc.ut.taobao.com
+DOMAIN,analytics-api.smzdm.com
+DOMAIN,baichuan-sdk.alicdn.com
+DOMAIN,dgstatic.jd.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,sec.umeng.com
+DOMAIN,ulogs.umeng.com
+DOMAIN,ynuf.aliapp.org
+# 工商银行
+DOMAIN,image.mybank.icbc.com.cn
+DOMAIN,pageviewp.icbc.com.cn
+DOMAIN-SUFFIX,mall.icbc.com.cn
+# >中国建设银行
+DOMAIN-KEYWORD,adv.ccb.com
+# >Clue 智库
+DOMAIN,api.helloclue.com
+DOMAIN,brahe.apptimize.com
+DOMAIN,collector.clue.run
+DOMAIN,images.ctfassets.net
+DOMAIN,mapi.apptimize.com
+DOMAIN,md-i-s.apptimize.com
+# >菜鸟&优酷
+DOMAIN,acs4baichuan.m.taobao.com
+DOMAIN,adsmind.ugdtimg.com
+DOMAIN,amdc.m.youku.com
+DOMAIN,api.sm.cn
+DOMAIN,apiv4-iyes.youku.com
+DOMAIN,baichuan-sdk.alicdn.com
+DOMAIN,cad.youku.com
+DOMAIN,huichuan-mc.sm.cn
+DOMAIN,huichuan.sm.cn
+DOMAIN,iyes.youku.com
+DOMAIN,m-vali.cp31.ott.cibntv.net
+DOMAIN,mc.atm.youku.com
+DOMAIN,nbsdk-baichuan.alicdn.com
+DOMAIN,pre-acs.youku.com
+DOMAIN,vali-g1.cp31.ott.cibntv.net
+DOMAIN,vali-ugc.cp31.ott.cibntv.net
+DOMAIN,yk-ssp.ad.youku.com
+DOMAIN,ykad-data.youku.com
+DOMAIN,youku-acs.m.taobao.com
+# >彩云天气
+DOMAIN,ad.cyapi.cn
+# >头条
+DOMAIN,is.snssdk.com
+DOMAIN,dm.toutiao.com
+DOMAIN,tr.byteurl.cn
+DOMAIN,toblog.ctobsnssdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+# >交管12123
+DOMAIN,static.122.gov.cn
+DOMAIN-SUFFIX,v3.fstats.xyz
+DOMAIN-SUFFIX,wss.haoyundmn.com
+DOMAIN-SUFFIX,new.xiongzhangad.com
+DOMAIN-SUFFIX,alexametrics.com
+# >谷歌
+DOMAIN,adservice.google.com
+DOMAIN,ads.youtube.com
+# >云闪付
+DOMAIN,ads.95516.com
+DOMAIN,cm-10-138.getui.com
+DOMAIN,sdk.open.talk.getui.net
+DOMAIN,sdk-conf.getui.com
+DOMAIN,switch.cup.com.cn
+DOMAIN,tysdk.95516.com
+# >米家
+DOMAIN,sdkconfig.ad.xiaomi.com
+DOMAIN,httpdns.yunxindns.com
+# >京东
+DOMAIN-SUFFIX,jddebug.com
+DOMAIN,dns.jd.com
+IP-CIDR,101.124.19.122/32
+# >中国电信
+DOMAIN,ad.21cn.com
+DOMAIN,ad.k.21cn.com
+DOMAIN,admarket.21cn.com
+DOMAIN,adshows.21cn.com
+# >腾讯
+DOMAIN,btrace.qq.com
+DOMAIN,ii.gdt.qq.com
+# >IP-ASN
+DOMAIN,www.he.net
+# >钉钉
+DOMAIN,h-adashx.ut.dingtalk.com
+#URL-REGEX,^https:\/\/gw\.alicdn\.com\/imgextra\/i\d{1}\/\w+!!\d{13}-0-tps-(1080|2160|1124)-\d{4}\.jpg$
+#URL-REGEX,^https:\/\/down-cdn\.dingtalk\.com\/ddmedia\/\w+\.png_4000x4000\.jpg$
+DOMAIN,kgb-ifs.tanx.com
+DOMAIN,domain.glass
+# >QQ音乐广告
+#DOMAIN,tmeadcomm.y.qq.com
+#DOMAIN,ad.tencentmusic.com
+#DOMAIN,adstats.tencentmusic.com
+#DOMAIN,tmead.y.qq.com
+#DOMAIN-SUFFIX,rqd.qq.com
+#DOMAIN-SUFFIX,wup.imtt.qq.com
+#DOMAIN-SUFFIX,gdt.qq.com
+#DOMAIN-SUFFIX,android.rqd.qq.com
+#DOMAIN-SUFFIX,e.qq.com
+#DOMAIN-SUFFIX,beacon.qq.com
+#DOMAIN-SUFFIX,v.gdt.qq.com
+# >美团
+IP-CIDR,119.29.126.219/32
+# >缺德地图
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,awaken.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+IP-CIDR,39.172.186.1/32 // Added for: 39.172.186.1:34854
