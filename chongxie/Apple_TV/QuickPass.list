@@ -1,0 +1,6 @@
+DOMAIN,szextshort.weixin.qq.com
+DOMAIN,szminorshort.weixin.qq.com
+IP-CIDR,183.0.0.0/8
+IP-CIDR,125.88.0.0/12
+IP-CIDR,222.184.0.0/13
+IP-CIDR,114.230.136.0/22
