@@ -1,0 +1,8 @@
+# >通知
+DOMAIN,identity.apple.com
+#DOMAIN-KEYWORD,getui
+DOMAIN-KEYWORD,tpns
+DOMAIN-KEYWORD,push
+DOMAIN,v.api.aa1.cn
+DOMAIN,a.api.mazh.top
+IP-CIDR,120.239.25.187/32
