@@ -1,0 +1,18 @@
+DOMAIN-KEYWORD,dns
+# >soul
+# 广告下发
+DOMAIN,ad-h5-cdn.soulapp.cn
+DOMAIN,ad-h5-station-cdn.soulapp.cn
+DOMAIN,ad-r.soulapp.cn
+DOMAIN,soul-ad.soulapp.cn
+# 广告域名IP查询
+IP-CIDR,47.56.131.76/32
+IP-CIDR,47.97.215.55/32
+IP-CIDR,47.99.42.29/32
+IP-CIDR,47.110.187.87/32
+IP-CIDR,47.243.147.125/32
+IP-CIDR,120.27.235.201/32
+IP-CIDR,121.196.197.147/32
+# >百度地图
+IP-CIDR,180.76.76.112/32
+IP-CIDR,180.76.76.200/32
