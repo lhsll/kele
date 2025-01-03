@@ -1,0 +1,8 @@
+DOMAIN-WILDCARD,*-courier.push.apple.com
+DOMAIN,init.push.apple.com
+DOMAIN,courier-ab-vs.push.apple.com
+IP-CIDR,17.249.0.0/16
+IP-CIDR,17.252.0.0/16
+IP-CIDR,17.57.144.0/22
+IP-CIDR,17.188.128.0/18
+IP-CIDR,17.188.20.0/23
