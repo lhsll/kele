@@ -1,0 +1,13 @@
+# >Spark
+DOMAIN,imap.gmail.com
+DOMAIN,smtp.gmail.com
+DOMAIN,in.appcenter.ms
+DOMAIN,www.gravatar.com
+DOMAIN,sdk.fra-01.braze.eu
+DOMAIN,app-beta.smartmailcloud.com
+DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,smartmailcloud.com
+DOMAIN,www.googleapis.com
