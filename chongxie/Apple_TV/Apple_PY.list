@@ -1,0 +1,12 @@
+# >Apple
+DOMAIN,r3.o.lencr.org
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,beta.apple.com,
+DOMAIN-KEYWORD,testflight
+# >应用内购买和订阅服务
+DOMAIN,api.revenuecat.com
+# >代理软件
+DOMAIN-SUFFIX,quantumult.app
+DOMAIN,surge.mitsea.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,surge-activation.com
