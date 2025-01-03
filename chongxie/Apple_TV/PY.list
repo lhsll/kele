@@ -1,0 +1,8 @@
+# >Bing
+DOMAIN,rewards.bing.com
+# >DNS服务器
+DOMAIN,dns.tex0n.net
+# >Cloudflare, Inc.
+DOMAIN,is.gd
+# >ProtonMail
+DOMAIN-SUFFIX,proton.me
