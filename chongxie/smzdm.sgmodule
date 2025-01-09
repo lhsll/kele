@@ -35,6 +35,8 @@ http-response-jq ^https:\/\/s-api\.smzdm\.com\/sou\/search_suggestion\? ".data.r
 
 http-response-jq ^https:\/\/s\-api\.smzdm\.com\/sou\/list_v10\? '.data.rows |= map(select(.cell_type != "23001" and .cell_type != "25081" and .cell_type != "25066" and .cell_type != "25012" and .cell_type != "25057" and .cell_type != "25013")) | del(.data.top_aladdin)'
 
+http-response-jq ^https:\/\/haojia-api\.smzdm\.com\/detail\/\d{9}\? 'del(.data.article_link_list[] | select(.direct_link_type == "hongbao"))'
+
 [Script]
 移除广告 = type=http-response, pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading, script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js, requires-body=true
 
