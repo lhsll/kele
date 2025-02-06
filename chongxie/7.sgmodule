@@ -182,11 +182,11 @@
 ^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? data-type=text data="{}" status-code=200
 
 # >搜图神器
-^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data-type=text data="{}" status-code=200
+#^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data-type=text data="{}" status-code=200
 
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data-type=text data="{}" status-code=200
+#^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data-type=text data="{}" status-code=200
 
-^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}" status-code=200
+#^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}" status-code=200
 
 # >数字联盟
 ^https?:\/\/.+?\.shuzilm\.cn data-type=text data="{}" status-code=200
