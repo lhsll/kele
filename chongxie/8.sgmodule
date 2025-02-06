@@ -13,7 +13,7 @@ bilibilibanner = type=http-response,pattern=^https:\/\/api\.live\.bilibili\.com\
 酷安我的页面 = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/酷安我的页面.js
 
 # >搜图神器去升级弹窗
-搜图神器去升级 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/搜图神器去升级.js
+#搜图神器去升级 = type=http-response,pattern=^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig,requires-body=1,max-size=0,script-path=Scripts/广告 & 本地/搜图神器去升级.js
 
 # >什么值得买Apple推销开屏
 什么值得买Apple开屏 = type=http-response,pattern=^https:\/\/s3\.zdmimg\.com\/cpm\/api\/v1\/advert_distribution\/get_all_advertise\?,requires-body=1,,max-size=0,script-path=Scripts/广告 & 本地/什么值得买Apple开屏.js
