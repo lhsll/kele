@@ -32,7 +32,7 @@
 
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/(article|shopping|search)\/(articleList|list|hotword)$ data-type=text data="{}" status-code=200
 
-^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}" status-code=200
+#^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}" status-code=200
 
 # >飞智游戏开屏
 ^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}" status-code=200
