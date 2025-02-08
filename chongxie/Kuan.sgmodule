@@ -13,6 +13,8 @@
 ^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data-type=text data="{}" status-code=200
 
 [Body Rewrite]
+http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\? "del(.data[] | select(.entityId == 14809 or .entityId == 1005 or .entityId == 1004 or .entityId == 1001))"
+
 http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/main\/indexV8\? 'if .data | length > 0 then .data |= map(select(.entityTemplate != "sponsorCard" and .entityId != 8639 and .entityId != 29349 and .entityId != 33006 and .entityId != 32557 and (.title | contains("值得买") | not) and (.title | contains("红包") | not) and .extraDataArr.cardPageName != "V8_APP_HEADLINE" and .extraDataArr.cardPageName != "V8_APP_HEADLINE_AD")) else . end'
 
 http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? 'del(.data[] | select(.entityTemplate == "iconLinkGridCard" or .entityTemplate == "capsuleListCard" or .entityTemplate == "iconMiniGridCard" or .entityTemplate == "imageCarouselCard_2" or .entityTemplate == "iconGridCard"))'
