@@ -2,11 +2,10 @@
 #!desc=拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作。
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md],VirgilClyne[https://github.com/VirgilClyne]
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/HTTPDNS.png
-#!category=广告
 #!tag=DNS
 #!loon_version=3.2.4(787)
 #!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
-#!date=2024-12-01 01:26:34
+#!date=2025-03-17 23:36:29
 
 [Rule]
 DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT,extended-matching,pre-matching
@@ -16,22 +15,10 @@ URL-REGEX,"^http:\/\/103\.44\.58\.64\/md\?",REJECT,extended-matching
 URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns",REJECT,extended-matching
 DOMAIN,dns2.q2cdn.com,REJECT,extended-matching,pre-matching
 URL-REGEX,"^http:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/",REJECT,extended-matching
-AND,((DOMAIN-KEYWORD,api100-core-quic-,extended-matching),(DOMAIN-SUFFIX,amemv.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,api100-normal-quic-,extended-matching),(DOMAIN-SUFFIX,amemv.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,api100-normal-quic-aweme-,extended-matching),(DOMAIN-SUFFIX,amemv.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,api100-quic-core-,extended-matching),(DOMAIN-SUFFIX,amemv.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,api100-quic-normal-,extended-matching),(DOMAIN-SUFFIX,amemv.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,frontier100-aweme,extended-matching),(DOMAIN-SUFFIX,amemv.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,ma5-normal-,extended-matching),(DOMAIN-SUFFIX,zijieapi.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,polaris5-normal-,extended-matching),(DOMAIN-SUFFIX,zijieapi.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,webcast100-ws-c-,extended-matching),(DOMAIN-SUFFIX,amemv.com,extended-matching)),REJECT,pre-matching
-AND,((DOMAIN-KEYWORD,tnc,extended-matching),(AND,((OR,((DOMAIN-KEYWORD,-bjlgy,extended-matching),(DOMAIN-KEYWORD,-alisc,extended-matching),(DOMAIN-KEYWORD,-aliec,extended-matching),(DOMAIN-KEYWORD,-alisg,extended-matching))),(OR,((DOMAIN-SUFFIX,snssdk.com,extended-matching),(DOMAIN-SUFFIX,isnssdk.com,extended-matching),(DOMAIN-SUFFIX,toutiaoapi.com,extended-matching),(DOMAIN-SUFFIX,bytedance.com,extended-matching),(DOMAIN-SUFFIX,zijieapi.com,extended-matching)))))),REJECT,pre-matching
-DOMAIN,frontier-aweme-hl.snssdk.com,REJECT,extended-matching,pre-matching
-DOMAIN,frontier-quic-test.bytedance.com,REJECT,extended-matching,pre-matching
-AND,((IP-CIDR,110.249.199.75/32,no-resolve),(DEST-PORT,6443)),REJECT,pre-matching
-AND,((IP-CIDR,111.225.147.191/32,no-resolve),(DEST-PORT,6443)),REJECT,pre-matching
-AND,((IP-CIDR,111.63.61.101/32,no-resolve),(DEST-PORT,6443)),REJECT,pre-matching
-AND,((IP-CIDR,220.243.141.0/32,no-resolve),(DEST-PORT,6443)),REJECT,pre-matching
+IP-CIDR,8.134.241.67/32,REJECT,no-resolve,pre-matching
+DOMAIN,httpdns.volcengineapi.com,REJECT,extended-matching,pre-matching
+DOMAIN,dig.bdurl.net,REJECT,extended-matching,pre-matching
+DOMAIN,dig.zjurl.cn,REJECT,extended-matching,pre-matching
 DOMAIN,dns.weixin.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,dns.weixin.qq.com.cn,REJECT,extended-matching,pre-matching
 DOMAIN,aedns.weixin.qq.com,REJECT,extended-matching,pre-matching
@@ -133,9 +120,6 @@ IP-CIDR,103.224.222.208/32,REJECT,no-resolve,pre-matching
 IP-CIDR,119.29.29.98/32,REJECT,no-resolve,pre-matching
 IP-CIDR,119.29.29.99/32,REJECT,no-resolve,pre-matching
 URL-REGEX,"^http:\/\/182\.254\.116\.116\/d",REJECT,extended-matching
-DOMAIN,httpdns.volcengineapi.com,REJECT,extended-matching,pre-matching
-DOMAIN,dig.bdurl.net,REJECT,extended-matching,pre-matching
-DOMAIN,dig.zjurl.cn,REJECT,extended-matching,pre-matching
 DOMAIN,dotserver.douyucdn.cn,REJECT,extended-matching,pre-matching
 DOMAIN,hdns.ksyun.com,REJECT,extended-matching,pre-matching
 URL-REGEX,"^http:\/\/162\.14\.3\.250\/v4",REJECT,extended-matching
