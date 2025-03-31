@@ -5,7 +5,7 @@
 #!category=广告
 
 [Rule]
-
+DOMAIN-SUFFIX,wxs.qq.com,REJECT,extended-matching,pre-matching
 
 [Map Local]
 
