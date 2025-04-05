@@ -172,7 +172,7 @@ DOMAIN,sdk-conf.getui.com,REJECT,extended-matching,pre-matching
 DOMAIN,sdk-open-phone.getui.com,REJECT,extended-matching,pre-matching
 DOMAIN,ido.gepush.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,mobileservice.cn,REJECT,extended-matching,pre-matching
-DOMAIN-SUFFIX,getui.com,REJECT,extended-matching,pre-matching
+#DOMAIN-SUFFIX,getui.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,igexin.com,REJECT,extended-matching,pre-matching
 DOMAIN,cnlogs.umeng.com,REJECT,extended-matching,pre-matching
 DOMAIN,errlog.umeng.com,REJECT,extended-matching,pre-matching
