@@ -1,5 +1,6 @@
 #!name=Bilibili Ad-Free Beta
 #!desc=干死阿姨，去NM的广告 注明出处原作者：@Nachonya
+#!time=2025年04月25日 08:54:58
 #!category=广告
 #!arguments=动态最常访问:auto,创作中心:0,过滤置顶评论广告:1,替换鉴权字段:#,Authorization:identify_v1 xxx
 #!arguments-desc=动态最常访问: [true, false, auto]\n- true: 始终显示\n- false: 始终隐藏\n- auto: 仅当列表中存在直播状态时显示\n\n创作中心: [1, 0]\n- 1: 显示\n- 0: 隐藏\n\n过滤置顶评论广告: [1, 0]\n- 1: 开启\n- 0: 关闭\n\n替换鉴权字段: 配置为"h"时开启，需填写Authorization
