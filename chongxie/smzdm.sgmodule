@@ -17,6 +17,8 @@ DOMAIN,adx-api.zdmimg.com,REJECT
 ^https:\/\/app-api\.smzdm\.com\/util\/loading data-type=text data="{}" status-code=200
 
 [Body Rewrite]
+http-response-jq ^https:\/\/article-api\.smzdm\.com\/shequ\/index_gen2\? ".data.banner_config = {} "
+
 http-response-jq ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags ".data.search_faxian = {} | .data.search_hot = {} | .data.show_search_word = {} | .data.hongbao = {} | .data.brand_list = {} | .data.bangdan = {}"
 
 http-response-jq ^https:\/\/s-api\.smzdm\.com\/sou\/search_suggestion\? ".data.rows |= map(select(.cell_type != "25064" and .cell_type != "25070" and .cell_type != "25071"))"
