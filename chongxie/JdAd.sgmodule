@@ -5,10 +5,10 @@
 #!date=Mon, 19 May 2025
 
 [Rule]
-URL-REGEX,"^http:\/\/\w{32}\.jddebug\.com\/diagnose\?",REJECT
+URL-REGEX,^http:\/\/\w{32}\.jddebug\.com\/diagnose\?,REJECT,extended-matching
 
 [Body Rewrite]
-http-response-jq ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketEstablishedAhead")) then setpath(["data","JDMessage","socketmonitor","isSocketEstablishedAhead"];0) else . end | if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketReport")) then setpath(["data","JDMessage","socketmonitor","isSocketReport"];0) else . end | if (getpath(["data","JDHttpToolKit","httpdns"]) | has("httpdns")) then setpath(["data","JDHttpToolKit","httpdns","httpdns"];0) else . end'
+http-response-jq ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketEstablishedAhead")) then setpath(["data","JDMessage","socketmonitor","isSocketEstablishedAhead"]; 0) else . end | if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketReport")) then setpath(["data","JDMessage","socketmonitor","isSocketReport"]; 0) else . end | if (getpath(["data","JDHttpToolKit","httpdns"]) | has("httpdns")) then setpath(["data","JDHttpToolKit","httpdns","httpdns"]; 0) else . end'
 
 [Map Local]
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) data-type=text data="{}" status-code=200 header="Content-Type:application/json"
