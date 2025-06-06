@@ -1,0 +1,17 @@
+#!name=云闪付
+#!desc=自用
+#!time=Fri, 06 Jun 2025
+#!category=广告
+
+
+[Rule]
+# 开屏广告
+DOMAIN,ads.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,switch.cup.com.cn,REJECT-NO-DROP,extended-matching,pre-matching
+DOMAIN,tysdk.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
+
+[Body Rewrite]
+http-response-jq ^https:\/\/search\.95516\.com\/yunshan-search-service\/api\/v1\/hot-search {}
+
+[URL Rewrite]
+^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
