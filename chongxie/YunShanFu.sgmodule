@@ -13,6 +13,12 @@ DOMAIN,tysdk.95516.com,REJECT-NO-DROP,extended-matching,pre-matching
 [Body Rewrite]
 http-response-jq ^https:\/\/search\.95516\.com\/yunshan-search-service\/api\/v1\/hot-search {}
 
+http-response-jq ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/groupkey_home_202310_home_template {}
+http-response-jq ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/groupkey_fortune_202301_home '.params.groups |= map(select(.groupId == "groupid_fortune_202301_text"))'
+http-response-jq ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/groupkey_cardmanage_202301_home 'del(.params.groups[] | select(.groupId == "groupid_cardmanage_202303_text" or .groupId == "groupid_cardmanage_202305_text" or .groupId == "groupid_cardmanage_202306_text"))'
+http-response-jq ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/groupkey_life_202104_home '.params.groups |= map(select(.groupId | in({"groupid_home_202004_search":null,"groupid_life_20230822_home_button":null,"groupid_life_202104_home_banner":null,"groupid_life_202104_home_comuse":null,"groupid_life_202204_home_good":null,"groupid_life_202104_home_hot":null,"groupid_life_202110_float":null,"groupid_life_20230822_home_dailydeal":null}) | not))'
+http-response-jq ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/groupkey_home_202104_home_normal '.params.groups |= map(.webShortcuts |= (map(select(.delayTime != "6000")) | map(.shortAndApps |= map(select(.app.appId | tostring | IN("7", "2023101601", "20210824", "62249", "911", "62988", "281988", "758", "10167", "9994", "62375", "10829", "1055", "6999") | not)))))'
+
 [URL Rewrite]
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
 
