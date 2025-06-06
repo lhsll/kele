@@ -15,3 +15,6 @@ http-response-jq ^https:\/\/search\.95516\.com\/yunshan-search-service\/api\/v1\
 
 [URL Rewrite]
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
+
+[MITM]
+hostname = %APPEND% account.95516.com, base.95516.com, content.95516.com, search.95516.com
