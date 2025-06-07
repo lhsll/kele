@@ -1,6 +1,6 @@
-#!name=云闪付
-#!desc=自用
-#!time=Fri, 06 Jun 2025
+#!name=云闪付净化
+#!desc=自用[卸载重装生效]@KeLe
+#!time=2025年06月07日 星期六
 #!category=广告
 
 
@@ -21,6 +21,9 @@ http-response-jq ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/gro
 
 [URL Rewrite]
 ^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
+
+[Map Local]
+https:\/\/(?:base|account|content)\.95516\.com(?:\/app\/inApp\/sys\/appShowGroup\/groupkey_home_202310_home_template|\/fortune\/inApp\/common\/(?:news|fundProduct)\.sjson\?|\/koala-pre\/koala\/right\/queryAllRights\?) data-type=text data="{}" status-code=200
 
 [MITM]
 hostname = %APPEND% account.95516.com, base.95516.com, content.95516.com, search.95516.com
