@@ -1,7 +1,10 @@
 #!name=云闪付净化
-#!desc=自用[云闪付 v10.1.4卸载重装生效]@KeLe
-#!time=2025年06月07日 星期六
-#!category=广告
+#!desc=云闪付页面净化自用版
+#!author=KeLe
+#!category=自用
+#!version=1.0.0
+#!updated=2025-06-07
+#!system=ios
 
 
 [Rule]
