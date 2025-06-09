@@ -25,7 +25,7 @@ DOMAIN,hudong.alicdn.com
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut.taobao.com
 # >字节跳动
-DOMAIN,ad.zijieapi.com
+#DOMAIN,ad.zijieapi.com
 DOMAIN-KEYWORD,-ad-sign.byteimg.com
 # >什么值得买
 DOMAIN,aaid.uyunad.com
