@@ -1,8 +1,8 @@
 # 手动规则: 以下规则优先级最高 不参与规则数量统计
 
 
-# 更新时间: 2025/6/27 22:35:22
-# 规则数量：当前共 144 条规则
+# 更新时间: 2025/7/2 06:29:43
+# 规则数量：当前共 160 条规则
 
 DOMAIN-SUFFIX,002599.xyz
 DOMAIN-SUFFIX,82flex.com
@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,hacx.org
 DOMAIN-SUFFIX,havoc.app
 DOMAIN-SUFFIX,hearse.lol
+DOMAIN-SUFFIX,herefor.top
 DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,html.zone
 DOMAIN-SUFFIX,iarrays.com
@@ -96,6 +97,7 @@ DOMAIN-SUFFIX,liam.page
 DOMAIN-SUFFIX,limneos.net
 DOMAIN-SUFFIX,luki120.xyz
 DOMAIN-SUFFIX,misty.moe
+DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,monica.im
 DOMAIN-SUFFIX,mrepo.org
 DOMAIN-SUFFIX,mtac.app
@@ -107,6 +109,7 @@ DOMAIN-SUFFIX,nicho1as.dev
 DOMAIN-SUFFIX,nijigem.by
 DOMAIN-SUFFIX,nixuge.me
 DOMAIN-SUFFIX,nsloon.com
+DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,p0358.net
 DOMAIN-SUFFIX,pawwalls.com
 DOMAIN-SUFFIX,picsart.com
@@ -135,6 +138,8 @@ DOMAIN-SUFFIX,thuthuatjb.com
 DOMAIN-SUFFIX,tigisoftware.com
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,tuoyifu.me
+DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,ucfake.com
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,us
@@ -142,9 +147,20 @@ DOMAIN-SUFFIX,vimeo.com
 DOMAIN-SUFFIX,vimeocdn.com
 DOMAIN-SUFFIX,wcpush.top
 DOMAIN-SUFFIX,wxhbts.com
+DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,yourepo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,yunti.online
+DOMAIN-SUFFIX,javday.app
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos-cdn.com
+DOMAIN-SUFFIX,91porn.com
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,javrate.com
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,media-imdb.com
+DOMAIN-SUFFIX,tmdb.org
 IP-CIDR,43.135.64.0/18
 IP-CIDR,5.28.192.0/18
