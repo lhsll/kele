@@ -2,7 +2,7 @@
 
 
 # 更新时间: 2025/7/2 06:29:43
-# 规则数量：当前共 160 条规则
+# 规则数量：当前共 169 条规则
 
 DOMAIN-SUFFIX,002599.xyz
 DOMAIN-SUFFIX,82flex.com
@@ -152,15 +152,22 @@ DOMAIN-SUFFIX,yourepo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,yunti.online
-DOMAIN-SUFFIX,javday.app
+DOMAIN-KEYWORD,javday
 DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,91porn.com
+DOMAIN-KEYWORD,btc620
+DOMAIN-KEYWORD,killcovid2021
+DOMAIN-KEYWORD,cdn77
 DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,mushroomtrack.com
 DOMAIN-SUFFIX,javrate.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,media-imdb.com
 DOMAIN-SUFFIX,tmdb.org
-IP-CIDR,43.135.64.0/18
-IP-CIDR,5.28.192.0/18
+DOMAIN-SUFFIX,heimuer.tv
+DOMAIN-SUFFIX,dytt8vip.com
+DOMAIN-SUFFIX,imgzy360.com
+DOMAIN-SUFFIX,iill.top
