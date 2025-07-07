@@ -1,8 +1,7 @@
 #!name=菜鸟去广告
-#!desc=过滤菜鸟广告
-#!author=RuCu6[https://github.com/RuCu6]
+#!desc=过滤菜鸟广告[TestFlight8.10.703]
 #!category=广告
-#!date=2025-05-13 15:17:08
+#!date=2025年07月07日 19:24:10
 
 [Rule]
 AND,((URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch",extended-matching),(USER-AGENT,"Cainiao4iPhone*")),REJECT
@@ -52,6 +51,8 @@ DOMAIN,youku-acs.m.taobao.com,REJECT,extended-matching,pre-matching
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
+cainiao = type=http-response,pattern=^https:\/\/e2e-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\/1\.0\?,requires-body=1,max-size=0,binary-body-mode=0,script-path=cainiao.js
+
 #移除新版我的页面推广 = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\.cn, script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true
 
 移除我的页面推广 = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn, script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true
@@ -65,4 +66,4 @@ DOMAIN,youku-acs.m.taobao.com,REJECT,extended-matching,pre-matching
 移除首页推广 = type=http-response, pattern=^https:\/\/(?:cn-acs\.m|netflow-mtop)\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn, script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% *-mtop.cainiao.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com
+hostname = %APPEND% *-mtop.cainiao.com, cn-acs.m.cainiao.com, guide-acs.m.taobao.com, e2e-mtop.cainiao.com
