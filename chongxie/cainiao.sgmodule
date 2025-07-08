@@ -1,5 +1,5 @@
 #!name=菜鸟去广告
-#!desc=过滤菜鸟广告[TestFlight8.10.703]
+#!desc=过滤菜鸟广告[TestFlight8.10.715]
 #!category=广告
 #!date=2025年07月07日 19:24:10
 
@@ -53,7 +53,7 @@ DOMAIN,youku-acs.m.taobao.com,REJECT,extended-matching,pre-matching
 [Script]
 cainiao = type=http-response,pattern=^https:\/\/e2e-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\/1\.0\?,requires-body=1,max-size=0,binary-body-mode=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/cainiao.js
 
-CainiaoMy = type=http-response,pattern=^https:\/\/e2e-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\.cn\/1\.0\?,requires-body=1,max-size=0,binary-body-mode=0,script-path=CainiaoMy.js
+CainiaoMy = type=http-response,pattern=^https:\/\/e2e-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\.cn\/1\.0\?,requires-body=1,max-size=0,binary-body-mode=0,script-path=https://raw.githubusercontent.com/lhsll/kele/main/chongxie/Script/CainiaoMy.js
 
 移除主页图标 = type=http-response, pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(?:pickup\.empty\.page|protocol\.homepage)\.get\.cn, script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true
 
