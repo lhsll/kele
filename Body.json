@@ -1,388 +1,372 @@
 {
-  "api" : "mtop.cainiao.app.e2e.engine.page.fetch",
-  "data" : {
-    "global" : {
-      "event" : {
-        "tid" : "215043ac17523148599903330e1b5d",
-        "abvs" : ""
-      }
-    },
-    "config" : {
-      "mode" : "SEPARATION"
-    },
-    "data" : {
-      "2247" : {
-        "event" : {
-          "click" : {
-            "et" : "clk",
-            "crid" : "1313",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1313",
-            "ciid" : "1313",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          },
-          "expose" : {
-            "et" : "exp",
-            "crid" : "1313",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1313",
-            "ciid" : "1313",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          }
-        },
-        "data" : {
-          "event" : {
-
-          },
-          "config" : {
-
-          },
-          "data" : {
-            "items" : [
-              {
-                "boothId" : "0",
-                "id" : "45774",
-                "adsPlanEndHhMm" : "0",
-                "adsPlanStartHhMm" : "0",
-                "endTimestamp" : "1932712957000",
-                "materialId" : "110967",
-                "newVer" : "0",
-                "pitId" : "2247",
-                "showPos" : "0",
-                "startTimestamp" : "1738399357000",
-                "currTimestamp" : "1752314859995",
-                "adUtArgs" : "2247#45774#110967#3f62a54e-87fe-4dae-b68b-776ea72ebe0d#0|-1|platformPrincipal#null#false#-1#-1#2#[45774]",
-                "materialContentMapperMD5" : "8df5df3d49545770b1f42b9eeec08d91",
-                "utLdArgs" : "2247#45774#110967#3f62a54e-87fe-4dae-b68b-776ea72ebe0d#0|-1|platformPrincipal#null#false#-1#-1#2#[45774]",
-                "reportId" : "def_ads:45774",
-                "materialContentMapper" : {
-                  "actionType" : "embed",
-                  "checkedIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i3\/O1CN016Mz8Sz1TAgc8LqnhB_!!6000000002342-2-tps-75-75.png",
-                  "action" : "https:\/\/page.cainiao.com\/mcn\/union-post\/index.html?source=app_bar_new#\/pages\/portal\/index",
-                  "tabKey" : "jijian",
-                  "title" : "寄件券",
-                  "normalIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i2\/O1CN01ZZ4vHn20jqKzIMUsb_!!6000000006886-2-tps-75-75.png",
-                  "type" : "h5",
-                  "advRecGmtModifiedTime" : "1740735789000"
-                },
-                "adsBizParameter" : ""
-              }
-            ]
-          }
-        },
-        "position" : "2"
-      },
-      "2249" : {
-        "event" : {
-          "click" : {
-            "et" : "clk",
-            "crid" : "1315",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1315",
-            "ciid" : "1315",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          },
-          "expose" : {
-            "et" : "exp",
-            "crid" : "1315",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1315",
-            "ciid" : "1315",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          }
-        },
-        "data" : {
-          "event" : {
-
-          },
-          "config" : {
-
-          },
-          "data" : {
-            "items" : [
-              {
-                "boothId" : "0",
-                "id" : "45780",
-                "adsPlanEndHhMm" : "0",
-                "adsPlanStartHhMm" : "0",
-                "endTimestamp" : "1932713120000",
-                "materialId" : "111900",
-                "newVer" : "0",
-                "pitId" : "2249",
-                "showPos" : "0",
-                "startTimestamp" : "1738399520000",
-                "currTimestamp" : "1752314859994",
-                "adUtArgs" : "2249#45780#111900#af238ad6-a958-44db-a8be-c44ebc669dbf#0|-1|platformPrincipal#null#false#-1#-1#2#[45780]",
-                "materialContentMapperMD5" : "417bc98a3cd673dc31bc8cdbcfae7383",
-                "utLdArgs" : "2249#45780#111900#af238ad6-a958-44db-a8be-c44ebc669dbf#0|-1|platformPrincipal#null#false#-1#-1#2#[45780]",
-                "reportId" : "def_ads:45780",
-                "materialContentMapper" : {
-                  "actionType" : "embed",
-                  "checkedIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i2\/O1CN01cCV1Eo1T1yy9N1DVr_!!6000000002323-2-tps-75-75.png",
-                  "action" : " https:\/\/page.cainiao.com\/cn-app-web\/profile\/index.html?hidesProgressBar=true&disableNav=YES&__webview_options__=fullScreenV2%3DYES%26fullscreen%3DYES%26showStateBar%3DYES#\/?source=tab4",
-                  "tabKey" : "personal_center_h5",
-                  "title" : "我的",
-                  "normalIcon" : " https:\/\/gw.alicdn.com\/imgextra\/i2\/O1CN01Xm257E1s2m2y2cXlR_!!6000000005709-2-tps-75-75.png",
-                  "type" : "h5",
-                  "advRecGmtModifiedTime" : "1741918403000"
-                },
-                "adsBizParameter" : ""
-              }
-            ]
-          }
-        },
-        "position" : "4"
-      },
-      "2248" : {
-        "event" : {
-          "click" : {
-            "et" : "clk",
-            "crid" : "1314",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1314",
-            "ciid" : "1314",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          },
-          "expose" : {
-            "et" : "exp",
-            "crid" : "1314",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1314",
-            "ciid" : "1314",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          }
-        },
-        "data" : {
-          "event" : {
-
-          },
-          "config" : {
-
-          },
-          "data" : {
-            "items" : [
-              {
-                "boothId" : "0",
-                "id" : "45776",
-                "adsPlanEndHhMm" : "0",
-                "adsPlanStartHhMm" : "0",
-                "endTimestamp" : "1932713066000",
-                "materialId" : "111027",
-                "newVer" : "0",
-                "pitId" : "2248",
-                "showPos" : "0",
-                "startTimestamp" : "1738399466000",
-                "currTimestamp" : "1752314859994",
-                "adUtArgs" : "2248#45776#111027#90b6a0b7-9b7e-43f8-8d60-db5d618a8643#0|-1|platformPrincipal#null#false#-1#-1#2#[45776]",
-                "materialContentMapperMD5" : "da4195309d23591a5935ed603c9a7230",
-                "utLdArgs" : "2248#45776#111027#90b6a0b7-9b7e-43f8-8d60-db5d618a8643#0|-1|platformPrincipal#null#false#-1#-1#2#[45776]",
-                "reportId" : "def_ads:45776",
-                "materialContentMapper" : {
-                  "actionType" : "embed",
-                  "checkedIcon" : " https:\/\/gw.alicdn.com\/imgextra\/i1\/O1CN011MXgqB1LLCfIkNXZ5_!!6000000001282-2-tps-75-75.png",
-                  "action" : "guoguo:\/\/go\/im_conversation?hideBack=true&supportImmersive=true&statusBar=gone",
-                  "tabKey" : "im",
-                  "title" : "消息",
-                  "normalIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i2\/O1CN01HVMeCk1H2Bl8dJXTn_!!6000000000699-2-tps-75-75.png",
-                  "type" : "native",
-                  "advRecGmtModifiedTime" : "1745458752000"
-                },
-                "adsBizParameter" : ""
-              }
-            ]
-          }
-        },
-        "position" : "3"
-      },
-      "2242" : {
-        "event" : {
-          "click" : {
-            "et" : "clk",
-            "crid" : "1312",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1312",
-            "ciid" : "1312",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          },
-          "expose" : {
-            "et" : "exp",
-            "crid" : "1312",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1312",
-            "ciid" : "1312",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          }
-        },
-        "data" : {
-          "event" : {
-
-          },
-          "config" : {
-
-          },
-          "data" : {
-            "items" : [
-              {
-                "boothId" : "0",
-                "id" : "45770",
-                "adsPlanEndHhMm" : "0",
-                "adsPlanStartHhMm" : "0",
-                "endTimestamp" : "1932692768000",
-                "materialId" : "111927",
-                "newVer" : "0",
-                "pitId" : "2242",
-                "showPos" : "0",
-                "startTimestamp" : "1738379168000",
-                "currTimestamp" : "1752314859994",
-                "adUtArgs" : "2242#45770#111927#e9fbfefd-4465-40ed-adb9-4f2a52a11551#0|-1|platformPrincipal#null#false#-1#-1#2#[45770]",
-                "materialContentMapperMD5" : "9125685510f429dfcdd35f208436180c",
-                "utLdArgs" : "2242#45770#111927#e9fbfefd-4465-40ed-adb9-4f2a52a11551#0|-1|platformPrincipal#null#false#-1#-1#2#[45770]",
-                "reportId" : "def_ads:45770",
-                "materialContentMapper" : {
-                  "actionType" : "embed",
-                  "checkedIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i1\/O1CN01jkop5m1ruWuvqH9Bg_!!6000000005691-2-tps-75-75.png",
-                  "action" : "https:\/\/page.cainiao.com\/mcn\/cainiao-score\/web\/index.html?__webview_options__=openPullRefresh%3DYES%26fullScreen%3DYES%26showStateBar%3DYES%26showStateBar%3DYES#\/?signIn=true&source=tab2",
-                  "tabKey" : "hudong",
-                  "title" : "发现",
-                  "normalIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i1\/O1CN01J6a74w1RILtNlBYax_!!6000000002088-2-tps-75-75.png",
-                  "type" : "h5",
-                  "advRecGmtModifiedTime" : "1741918397000"
-                },
-                "adsBizParameter" : ""
-              }
-            ]
-          }
-        },
-        "position" : "1"
-      },
-      "2240" : {
-        "event" : {
-          "click" : {
-            "et" : "clk",
-            "crid" : "1311",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1311",
-            "ciid" : "1311",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          },
-          "expose" : {
-            "et" : "exp",
-            "crid" : "1311",
-            "pciid" : "1300",
-            "dt" : "component",
-            "pgcrid" : "1300",
-            "pgciid" : "1300",
-            "cid" : "1311",
-            "ciid" : "1311",
-            "pcid" : "1300",
-            "pgcid" : "1300",
-            "pcrid" : "1300",
-            "pgid" : "1300"
-          }
-        },
-        "data" : {
-          "event" : {
-
-          },
-          "config" : {
-
-          },
-          "data" : {
-            "items" : [
-              {
-                "boothId" : "0",
-                "id" : "45766",
-                "adsPlanEndHhMm" : "0",
-                "adsPlanStartHhMm" : "0",
-                "endTimestamp" : "1995851033000",
-                "materialId" : "112596",
-                "newVer" : "0",
-                "pitId" : "2240",
-                "showPos" : "0",
-                "startTimestamp" : "1738379033000",
-                "currTimestamp" : "1752314859994",
-                "adUtArgs" : "2240#45766#112596#20157e0e-64e9-4146-ad3c-dbbe606c04b1#0|-1|platformPrincipal#null#false#-1#-1#2#[45766]",
-                "materialContentMapperMD5" : "624c5a6c3ed3f021f240e30eacc9a8b3",
-                "utLdArgs" : "2240#45766#112596#20157e0e-64e9-4146-ad3c-dbbe606c04b1#0|-1|platformPrincipal#null#false#-1#-1#2#[45766]",
-                "reportId" : "def_ads:45766",
-                "materialContentMapper" : {
-                  "actionType" : "embed",
-                  "checkedIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i1\/O1CN01LMkBVx1nr5TelmM7o_!!6000000005142-2-tps-75-75.png",
-                  "action" : "guoguo:\/\/go\/home_page",
-                  "tabKey" : "homepage",
-                  "title" : "首页",
-                  "normalIcon" : "https:\/\/gw.alicdn.com\/imgextra\/i1\/O1CN01X9cLoW1NFMqdbp6Wh_!!6000000001540-2-tps-75-75.png",
-                  "type" : "native",
-                  "advRecGmtModifiedTime" : "1742869694000"
-                },
-                "adsBizParameter" : ""
-              }
-            ]
-          }
-        },
-        "position" : "0"
-      }
-    },
-    "event" : {
-
-    }
+  "status" : {
+    "code" : 0,
+    "message" : "success",
+    "accessTokenState" : "keep",
+    "time" : "2025-07-12 23:04:48"
   },
-  "v" : "1.0",
-  "ret" : [
-    "SUCCESS::调用成功"
-  ]
+  "data" : {
+    "dataList" : [
+      {
+        "areaCode" : "A1",
+        "adDetail" : {
+          "2" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 155,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "开屏广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "18722701",
+            "matSdkId" : "18722701",
+            "advTitle" : "涡轮iOS - A1(开屏)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A2",
+        "adDetail" : {
+          "2" : {
+            "method" : "display",
+            "jumpType" : "url",
+            "resource" : "https:\/\/bucket-api.fengimg.com\/feng-bbs-att\/2025\/07\/02\/202619xqg6pqwo2ybb8vqo.JPG?imageMogr2\/format\/jpg\/interlace\/0\/quality\/100",
+            "advId" : 161,
+            "clientName" : "运营",
+            "sdkStyle" : "",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : "https:\/\/bucket-api.fengimg.com\/feng-bbs-att\/2025\/07\/02\/202619xqg6pqwo2ybb8vqo.JPG"
+            },
+            "isJump" : true,
+            "advType" : "image",
+            "jumpUrl" : "http:\/\/icloud.qsios.com\/yun\/#\/ilink\/wx22",
+            "matSdkId" : "",
+            "advTitle" : "appleiCloud",
+            "leagueId" : "0"
+          }
+        }
+      },
+      {
+        "areaCode" : "A18",
+        "adDetail" : {
+          "1" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A3",
+        "adDetail" : {
+          "3" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A12",
+        "adDetail" : {
+          "3" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A11",
+        "adDetail" : {
+          "1" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A5",
+        "adDetail" : {
+          "3" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A4",
+        "adDetail" : {
+          "6" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A6",
+        "adDetail" : {
+          "4" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A7",
+        "adDetail" : {
+          "3" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A8",
+        "adDetail" : {
+          "2" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A9",
+        "adDetail" : {
+          "4" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A10",
+        "adDetail" : {
+          "6" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A19",
+        "adDetail" : {
+          "3" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      },
+      {
+        "areaCode" : "A20",
+        "adDetail" : {
+          "1" : {
+            "method" : "",
+            "jumpType" : "",
+            "resource" : "",
+            "advId" : 157,
+            "clientName" : "涡轮 - iOS",
+            "sdkStyle" : "信息流广告",
+            "image" : {
+              "width" : 0,
+              "high" : 0,
+              "path" : ""
+            },
+            "isJump" : true,
+            "advType" : "sdk",
+            "jumpUrl" : "38722701",
+            "matSdkId" : "38722701",
+            "advTitle" : "涡轮iOS - A18(帖子详情页)",
+            "leagueId" : "87227"
+          }
+        }
+      }
+    ]
+  }
 }
