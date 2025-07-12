@@ -1,56 +1,82 @@
-function modifyJSON(json) {
-    // 1. 修改物换物的气泡提示
-    const kingkong = json?.data?.data?.data?.operationList?.find(op => op.type === "kingkong");
-    if (kingkong) {
-        const exchangeItem = kingkong?.bizData?.items?.find(item => item.key === "exchange_old_things");
-        if (exchangeItem) {
-            // 删除气泡文本和相关广告字段
-            delete exchangeItem.bubbleText;
-            delete exchangeItem.bubbleAdUtArgs;
-        }
-    }
+const url = $request.url;
+const body = $response.body;
+let modifiedBody = body;
 
-    // 2. 清空图标功能区
-    const icons = json?.data?.data?.data?.operationList?.find(op => op.type === "icons");
-    if (icons) {
-        icons.bizData.items = [];
-    }
-
-    // 3. 清空横幅广告区
-    const bannerArea = json?.data?.data?.data?.operationList?.find(op => op.type === "banner_area");
-    if (bannerArea) {
-        bannerArea.bizData.items = [];
-    }
-
-    // 4. 递归删除所有广告相关字段
-    const removeAds = (obj) => {
-        if (!obj || typeof obj !== "object") return;
-        
-        Object.keys(obj).forEach(key => {
-            // 删除广告监测相关字段
-            if (key.includes("ad") || key.includes("adv") || key.includes("ut") || key.includes("monitor")) {
-                delete obj[key];
-            } 
-            // 递归处理子对象
-            else if (typeof obj[key] === "object") {
-                removeAds(obj[key]);
-            }
-        });
-
-        // 特殊处理事件数组
-        ["exposureEvent", "tapEvent"].forEach(eventKey => {
-            if (Array.isArray(obj[eventKey])) {
-                obj[eventKey] = obj[eventKey].filter(event => 
-                    !["AD", "MONITOR", "UT"].includes(event?.actionType)
-                );
-            }
-        });
+// 统一处理配置接口
+if (url.includes("mtop.cainiao.app.e2e.engine.page.fetch")) {
+  try {
+    const obj = JSON.parse(modifiedBody);
+    const data = obj.data?.data;
+    
+    // 通过URL参数区分配置类型
+    const getUrlParam = (name) => {
+      const match = url.match(new RegExp(`[?&]${name}=([^&]*)`));
+      return match ? decodeURIComponent(match[1]) : null;
     };
-
-    removeAds(json);
-    return json;
+    
+    const pageId = getUrlParam("data") ? JSON.parse(getUrlParam("data"))?.pageId : null;
+    
+    // 标签页配置处理 (pageId=1300)
+    if (pageId == 1300 && data && typeof data === 'object') {
+      const positionsToKeep = ["0", "4"];
+      Object.keys(data).forEach(key => {
+        if (!positionsToKeep.includes(data[key]?.position)) {
+          delete data[key];
+        }
+      });
+      
+      if (obj.data?.global?.event) {
+        obj.data.global.event.tid = "modified_" + Date.now();
+      }
+      modifiedBody = JSON.stringify(obj);
+    } 
+    // 首页配置处理 (pageId=1100)
+    else if (pageId == 1100 && data?.data) {
+      const targetData = data.data;
+      
+      // 1. 清空搜索提示文案
+      targetData.mainSearch?.bizData?.searchContents?.forEach(item => {
+        item.hintText = "";
+      });
+      
+      // 2. 处理金刚区
+      const kingkongIndex = targetData.operationList?.findIndex(
+        op => op.type === "kingkong"
+      );
+      
+      if (kingkongIndex > -1) {
+        const kingkong = targetData.operationList[kingkongIndex];
+        
+        // 2.1 移除物换物功能
+        if (kingkong.bizData?.items) {
+          kingkong.bizData.items = kingkong.bizData.items.filter(
+            item => item.key !== "exchange_old_things"
+          );
+        }
+        
+        // 2.2 清理埋点参数
+        kingkong.bizData?.items?.forEach(item => {
+          ["adUtArgs", "utLdArgs", "tapEvent", "exposureEvent", "bubbleAdUtArgs"].forEach(
+            field => delete item[field]
+          );
+        });
+      }
+      
+      // 3. 移除图标功能区
+      targetData.operationList = targetData.operationList?.filter(
+        op => op.type !== "icons"
+      );
+      
+      // 4. 移除轮播图区域
+      targetData.operationList = targetData.operationList?.filter(
+        op => op.type !== "banner_area"
+      );
+      
+      modifiedBody = JSON.stringify(obj);
+    }
+  } catch (error) {
+    console.log(`配置处理错误: ${error.message}`);
+  }
 }
 
-// 示例使用（Surge环境）
-const modifiedBody = modifyJSON($response.body);
-$done({ body: JSON.stringify(modifiedBody) });
+$done({ body: modifiedBody });
