@@ -256,6 +256,7 @@ DOMAIN,adx.tuia.cn,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,66mobi.com,REJECT,extended-matching,pre-matching
 DOMAIN,rpe.xdplt.com,REJECT,extended-matching,pre-matching
 DOMAIN,open.e.kuaishou.cn,REJECT,extended-matching,pre-matching
+DOMAIN,adtracker.medproad.com,REJECT,extended-matching,pre-matching
 
 [URL Rewrite]
 ^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ - reject
