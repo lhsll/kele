@@ -258,6 +258,8 @@ DOMAIN,rpe.xdplt.com,REJECT,extended-matching,pre-matching
 DOMAIN,open.e.kuaishou.cn,REJECT,extended-matching,pre-matching
 DOMAIN,adtracker.medproad.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,zhangyuyidong.cn,REJECT,extended-matching,pre-matching
+DOMAIN,zlsdk.1rtb.net,REJECT,extended-matching,pre-matching
+
 
 [URL Rewrite]
 ^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ - reject
