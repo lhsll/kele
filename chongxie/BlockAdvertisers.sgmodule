@@ -1,7 +1,7 @@
 #!name=广告平台拦截器
 #!desc=此插件是所有去广告插件的基础
 #!category=广告
-#!Updatetime=2025-05-13 15:17:08
+#!Updatetime=2025-07-13 15:17:08
 
 [Rule]
 AND,((DOMAIN-KEYWORD,-ad-,extended-matching),(DOMAIN-SUFFIX,byteimg.com,extended-matching)),REJECT,pre-matching
@@ -255,6 +255,7 @@ DOMAIN,ad-evods.tianya.tv,REJECT,extended-matching,pre-matching
 DOMAIN,adx.tuia.cn,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,66mobi.com,REJECT,extended-matching,pre-matching
 DOMAIN,rpe.xdplt.com,REJECT,extended-matching,pre-matching
+DOMAIN,open.e.kuaishou.cn,REJECT,extended-matching,pre-matching
 
 [URL Rewrite]
 ^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ - reject
