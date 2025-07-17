@@ -1,7 +1,7 @@
 #!name=HTTPDNS拦截器
 #!desc=拦截常见的HTTPDNS服务
 #!category=广告
-#!Updatetime=2025-05-13 21:58:49
+#!Updatetime=2025-06-16 12:29:05
 
 [Rule]
 DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT,extended-matching,pre-matching
@@ -19,7 +19,6 @@ AND,((DOMAIN-KEYWORD,tnc,extended-matching),(AND,((OR,((DOMAIN-KEYWORD,-bjlgy,ex
 DOMAIN,dns.weixin.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,dns.weixin.qq.com.cn,REJECT,extended-matching,pre-matching
 DOMAIN,aedns.weixin.qq.com,REJECT,extended-matching,pre-matching
-DOMAIN,paydns.wechatpay.cn,REJECT,extended-matching,pre-matching
 IP-CIDR,39.156.140.30/32,REJECT,no-resolve,pre-matching
 IP-CIDR,39.156.140.47/32,REJECT,no-resolve,pre-matching
 IP-CIDR,39.156.140.245/32,REJECT,no-resolve,pre-matching
