@@ -1,12 +1,6 @@
 #!name=Uki去广告
 #!desc=移除开屏广告、应用内悬浮窗，各类横幅、信息流广告、搜索填充词、我的页面广告。
-#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Uki.png
 #!category=广告
-#!openUrl=https://apps.apple.com/app/id1298912284
-#!tag=去广告
-#!loon_version=3.2.1(749)
-#!homepage=https://github.com/luestr/ProxyResource/blob/main/README.md
 #!date=2025年07月17日
 
 [Body Rewrite]
@@ -17,12 +11,13 @@ http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/squareTopRecommend 
 http-response-jq ^https:\/\/api\.chenlongtech\.cn\/v1\/party\/getAmusementNav {}
 http-response-jq "^https:\/\/api\.chenlongtech\.cn\/v1\/party\/config\?page=amuse" {}
 http-response-jq ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed {}
-http-response-jq "^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo\?firstOpen=0" del(.data.blindBox)
 
 [Map Local]
 ^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs data-type=file data="Scripts/广告 & UKi/0C6A8C1A.json"
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/user\/userCenterProjects\? data-type=file data="Scripts/广告 & UKi/9506C66A.json"
+
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo\?firstOpen=0$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
