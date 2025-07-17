@@ -20,25 +20,19 @@ http-response-jq ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed {}
 http-response-jq "^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo\?firstOpen=0" del(.data.blindBox)
 
 [Map Local]
-# 其他
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/indexBanner$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/indexBanner$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/getPopup data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/getPopup data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/allPopUpConfig$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/allPopUpConfig$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/advConf$ data-type=text data="{}" status-code=200
+^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/advConf$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$ data-type=text data="{}" status-code=200
-
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs data-type=file data="Scripts/广告 & UKi/0C6A8C1A.json"
-
-^https:\/\/api\.chenlongtech\.cn\/v1\/user\/userCenterProjects\? data-type=file data="Scripts/广告 & UKi/9506C66A.json"
+^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-
 移除匹配卡横幅 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList, script-path=https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js, requires-body=true
 
 移除密友横幅 = type=http-response, pattern=^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home, script-path=https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js, requires-body=true
