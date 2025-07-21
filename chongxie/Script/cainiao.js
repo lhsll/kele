@@ -56,7 +56,7 @@ if (url.includes("mtop.cainiao.app.e2e.engine.page.fetch")) {
         
         // 2.2 清理埋点参数
         kingkong.bizData?.items?.forEach(item => {
-          ["adUtArgs", "utLdArgs", "tapEvent", "exposureEvent", "bubbleAdUtArgs"].forEach(
+          ["adUtArgs", "utLdArgs", "exposureEvent", "bubbleAdUtArgs"].forEach(
             field => delete item[field]
           );
         });
