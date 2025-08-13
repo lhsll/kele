@@ -30,7 +30,8 @@ http-response-jq ^https:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/
 http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? 'delpaths([["data","common_equip"]])'
 
 # >精简Tap栏
-http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\? '.data.tab |= map(select(.name == "直播" or .name == "推荐")) | .data.bottom |= map(select(.name == "首页" or .name == "动态" or .name == "我的"))'
+http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\? '.data.tab |= map(select(.name == "直播" or .name == "推荐")) | .data.top |= map(select(.name == "消息")) | .data.top_more |= map(select(.name == "搜索")) | .data.top_left |= {story_background_image, story_foreground_image, game_background_image, game_foreground_image, listen_background_image, listen_foreground_image, bubbles} | .data.bottom |= map(select(.name == "首页" or .name == "关注" or .name == "我的"))'
+
 
 # >直播页面横幅广告
 #http-response-jq ^https:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed\? '.data.card_list |= map(select(.card_type != "banner_v2"))'
