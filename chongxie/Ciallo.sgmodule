@@ -1,7 +1,7 @@
 #!name=杂七杂八
 #!desc=Ciallo～(∠・ω< )⌒☆
 #!author=柳贯一&Ame
-#!version=1.5
+#!version=6.6
 #!category=自用
 
 [Rule]
@@ -12,6 +12,9 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 
 
 [Map Local]
+# >京东开屏
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs data-type=text data=" " status-code=200
+
 # >淘宝
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
@@ -49,7 +52,9 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 [URL Rewrite]
 
 # >京东开屏
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs - reject
+^https:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/\d{5,6}\/\d{2}\/\d{5}\/\d{6}\/\w{17}\/\w{16}\.(jpg|png) - reject
+^https:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/97554\/21\/54779\/77048\/004e2c01F58e98eb3\/9130c908eb41c8b5\.gif - reject
+^https:\/\/m15\.360buyimg\.com\/mobilecms\/s1065x120_jfs\/[^\s]+\.(jpg|png) - reject
 
 # >掌上银行设置栏目内广告
 ^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
@@ -60,4 +65,4 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
 
 [MITM]
-hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, wallpaper.soutushenqi.com, api.flydigi.com,  m.360buyimg.com
+hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, wallpaper.soutushenqi.com, api.flydigi.com, m15.360buyimg.com, m.360buyimg.com
