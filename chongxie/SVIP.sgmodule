@@ -4,8 +4,8 @@
 
 [Script]
 
-# > 轻图解锁永久专业版（软件版本：3.5.10）
-PhotoVisionProCrack = type=http-response, pattern=^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PhotoVisionProCrack.js, requires-body=true, max-size=-1, timeout=60
+# > 轻图解锁永久专业版
+QingTu = type=http-request, pattern=^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info), script-path=Scripts/Super Member/QT.js, timeout=60
 
 [MITM]
-hostname = %APPEND% purchase-qingtu-api.b612kaji.com
+hostname = %APPEND% purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com
