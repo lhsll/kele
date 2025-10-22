@@ -7,7 +7,7 @@
 [Rule]
 
 DOMAIN-SUFFIX,wxs.qq.com,REJECT,extended-matching,pre-matching
-DOMAIN,heic.alicdn.com,REJECT,extended-matching,pre-matching
+#DOMAIN,heic.alicdn.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 
 
