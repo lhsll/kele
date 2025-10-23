@@ -69,4 +69,4 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
 
 [MITM]
-hostname = %APPEND% mbasecc.bas.cmbchina.com, mbasecc.bcs.cmbchina.com, intellicc.bas.cmbchina.com, intellicc.bcs.cmbchina.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, wallpaper.soutushenqi.com, api.flydigi.com, m15.360buyimg.com, m.360buyimg.com. heic.alicdn.com
+hostname = %APPEND% mbasecc.bas.cmbchina.com,mbasecc.bcs.cmbchina.com,intellicc.bas.cmbchina.com,intellicc.bcs.cmbchina.com,webappcfg.paas.cmbchina.com,mbmodule-openapi.paas.cmbchina.com,wallpaper.soutushenqi.com,api.flydigi.com,m15.360buyimg.com,m.360buyimg.com.heic.alicdn.com
