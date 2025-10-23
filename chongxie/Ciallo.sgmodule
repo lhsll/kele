@@ -11,11 +11,9 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 
 
 [Map Local]
-# >京东开屏
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs data-type=text data=" " status-code=200
 
 # >京东底部通栏
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=xview2Config$ data-type=text data="{}" status-code=200
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=xview2Config$ data-type=text data="{}" status-code=200
 
 # >招商银行开屏广告
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data-type=text data="{}" status-code=200
@@ -30,7 +28,7 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 ^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId data-type=text data="{}" status-code=200
 
 # >ChatGPT关联词提示
-#^https:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data-type=text data="{}" status-code=200
+#^https?:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data-type=text data="{}" status-code=200
 
 # >搜图神器
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/(dialog|banner)$ data-type=text data="{}" status-code=200
@@ -40,7 +38,7 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 #^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ data-type=text data="{}" status-code=200
 
 # >飞智游戏开屏
-^https:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}" status-code=200
+^https?:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}" status-code=200
 
 [Script]
 
@@ -48,14 +46,15 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 [URL Rewrite]
 
 # >淘宝开屏广告
-^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.(jpg|png)_\.heic - reject
-^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920|tps-1125-1950)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.(jpg|png)_\.heic - reject
-^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-(octopus|tps-[^\.]+)\.\w+.*$ - reject
+^https?:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.(jpg|png)_\.heic - reject
+^https?:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920|tps-1125-1950)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.(jpg|png)_\.heic - reject
+^https?:\/\/heic\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-(octopus|tps-[^\.]+)\.\w+.*$ - reject
 
 # >京东开屏
-^https:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/\d{5,6}\/\d{2}\/\d{5}\/\d{6}\/\w{17}\/\w{16}\.(jpg|png) - reject
-^https:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/97554\/21\/54779\/77048\/004e2c01F58e98eb3\/9130c908eb41c8b5\.gif - reject
-^https:\/\/m15\.360buyimg\.com\/mobilecms\/s1065x120_jfs\/[^\s]+\.(jpg|png) - reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs - reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/\d{5,6}\/\d{2}\/\d{5}\/\d{6}\/\w{17}\/\w{16}\.(jpg|png|gif) - reject
+^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/97554\/21\/54779\/77048\/004e2c01F58e98eb3\/9130c908eb41c8b5\.gif - reject
+^https?:\/\/m15\.360buyimg\.com\/mobilecms\/s1065x120_jfs\/[^\s]+\.(jpg|png) - reject
 
 # >掌上银行设置栏目内广告
 ^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
