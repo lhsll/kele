@@ -1,5 +1,5 @@
 #!name=杂七杂八的开屏广告
-#!desc=Ciallo～(∠・ω< )⌒☆ 1.0
+#!desc=Ciallo～(∠・ω< )⌒☆ 1.1
 #!author=柳贯一&Ame
 #!category=自用
 
@@ -66,4 +66,4 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog - reject
 
 [MITM]
-hostname = %APPEND% mbasecc.bas.cmbchina.com,mbasecc.bcs.cmbchina.com,intellicc.bas.cmbchina.com,intellicc.bcs.cmbchina.com,webappcfg.paas.cmbchina.com,mbmodule-openapi.paas.cmbchina.com,wallpaper.soutushenqi.com,api.flydigi.com,m15.360buyimg.com,m.360buyimg.com.heic.alicdn.com
+hostname = %APPEND% mbasecc.bas.cmbchina.com,mbasecc.bcs.cmbchina.com,intellicc.bas.cmbchina.com,intellicc.bcs.cmbchina.com,webappcfg.paas.cmbchina.com,mbmodule-openapi.paas.cmbchina.com,wallpaper.soutushenqi.com,api.flydigi.com,m15.360buyimg.com,m.360buyimg.com,heic.alicdn.com
