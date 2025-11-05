@@ -1,0 +1,23 @@
+#!name=搜图神器简化
+#!desc=这是一个示例 Surge 模块，用于展示模块结构
+#!author=XiaoYuanSama
+#!category=自用
+#!version=1.0.0
+#!APPdownload=https://apps.apple.com/us/app/id1576499990
+
+
+[URL Rewrite]
+# >开屏图片
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/dateSignature\/random\? - reject
+# >搜索页面热门搜索
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/search\/hotword - reject
+# >VIP广告弹窗
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/dialog - reject
+# >配置错误文件
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig$ - reject
+# >会员广告图片替换广告图片为 1x1 透明像素
+^http:\/\/gd-hbimg\.huaban\.com\/4301e675e02326ba9aca534e3ccdb56aae80e8c0e398e-LTiERc$ "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=" 302
+
+[Map Local]
+# >搜索页面横幅广告图片
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner data-type=text data="{}" status-code=200
