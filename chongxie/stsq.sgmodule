@@ -2,7 +2,7 @@
 #!desc=加入这光荣的净化吧
 #!author=XiaoYuanSama
 #!category=自用
-#!version=1.0.5
+#!version=1.0.8
 #!APPdownload=https://apps.apple.com/us/app/id1576499990
 
 
@@ -13,9 +13,10 @@
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/search\/hotword - reject
 # >VIP广告弹窗
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/dialog - reject
-# >配置错误文件会员推广
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig$ data-type=file data="Mock/stsq.json" status-code=200
-
-[Map Local]
+# >首页热门资源
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/shopping\/list - reject
+^http:\/\/wallpaper\.soutushenqi\.com\/v1\/article\/articleList - reject
 # >搜索页面横幅广告图片
-^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner data-type=text data="{}" status-code=200
+^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner - reject
+# >会员推广广告图重新定向
+^http:\/\/gd-hbimg.huaban.com\/4301e675e02326ba9aca534e3ccdb56aae80e8c0e398e-LTiERc https://gd-hbimg.huaban.com/7e5b83054c0280c5142b76352df43fa9c751172465897-WQ4bma_fw480 302
