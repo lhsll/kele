@@ -2,7 +2,7 @@
 #!desc=这是一个示例 Surge 模块，用于展示模块结构
 #!author=XiaoYuanSama
 #!category=自用
-#!version=1.0.0
+#!version=1.0.1
 #!APPdownload=https://apps.apple.com/us/app/id1576499990
 
 
@@ -14,9 +14,11 @@
 # >VIP广告弹窗
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/dialog - reject
 # >配置错误文件
-^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig$ - reject
+#^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig$ - reject
 # >会员广告图片替换广告图片为 1x1 透明像素
-^http:\/\/gd-hbimg\.huaban\.com\/4301e675e02326ba9aca534e3ccdb56aae80e8c0e398e-LTiERc$ "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=" 302
+#^http:\/\/gd-hbimg\.huaban\.com\/4301e675e02326ba9aca534e3ccdb56aae80e8c0e398e-LTiERc$ "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=" 302
+# >会员推广广告
+^http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/vip\/config$ - reject
 
 [Map Local]
 # >搜索页面横幅广告图片
