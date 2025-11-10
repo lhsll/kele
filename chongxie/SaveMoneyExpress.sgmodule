@@ -5,7 +5,6 @@
 [Map Local]
 # >开屏广告
 ^https:\/\/api\.17gwx\.com\/v2\/base\/app\/ad\? data-type=text data="{}" status-code=200
-
 # >首页面商品分流
 ^https:\/\/api\.17gwx\.com\/v2\/homepage\/goodFeed\/listbytab data-type=text data="{}" status-code=200
 # >返利页面商品分流
@@ -17,7 +16,7 @@
 
 [Body Rewrite]
 # >tap功能按钮（仅保留首页、返利、我的）
-http-response-jq https:\/\/api\.17gwx\.com\/v2\/base\/app\/initMainTab\? "(.data.main_tab |= map(select(.name == “home” or .name == “good_ticket” or .name == “center”)))"
+http-response-jq ^https:\/\/api\.17gwx\.com\/v2\/base\/app\/initMainTab\? '.data.main_tab |= map(select(.name == "home" or .name == "good_ticket" or .name == "center"))'
 # >去除所有的banner&搜索热门关键词广告
 http-response-jq ^https:\/\/api\.17gwx\.com\/operate\/elements\? "del(.data.home_mid_banner_multi_29010, .data.home_mid_many_29010, .data.search_new_user_hot_word, .data.search_hot_word, .data.main_rebate_banner_2022_09, .data.user_center_slide_show_pic_2022, .data.user_center_mid_2022)"
 # >首页面tap按钮
