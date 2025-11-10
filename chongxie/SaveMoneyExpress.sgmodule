@@ -1,5 +1,5 @@
 #!name=Save Money Express
-#!desc=净化省钱快报广告
+#!desc = 作者@kele 省钱快报去广告及界面优化模块：移除开屏广告、商品推荐、搜索热词广告、简化底部导航栏、去除首页和返利页面的横幅广告及多余按钮，优化用户体验。
 #!category=自用
 
 [Map Local]
