@@ -9,6 +9,8 @@
 
 
 [Body Rewrite]
+# >tap功能按钮（仅保留首页、返利、我的）
+http-response-jq ^https://api.17gwx.com/v2/base/app/initMainTab\? ‘(.data.main_tab |= map(select(.name == “home” or .name == “good_ticket” or .name == “center”)))’
 # >去除首页的banner
 http-response-jq ^https:\/\/api\.17gwx\.com\/operate\/elements\? "del(.data.home_mid_banner_multi_29010, .data.home_mid_many_29010)"
 
