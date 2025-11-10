@@ -16,7 +16,11 @@
 # >tap功能按钮（仅保留首页、返利、我的）
 http-response-jq ^https:\/\/api\.17gwx\.com\/v2\/base\/app\/initMainTab\? '.data.main_tab |= map(select(.name == "home" or .name == "good_ticket" or .name == "center"))'
 # >去除所有的banner&搜索热门关键词广告
-http-response-jq ^https:\/\/api\.17gwx\.com\/operate\/elements\? "del(.data.home_mid_banner_multi_29010, .data.home_mid_many_29010, .data.search_new_user_hot_word, .data.search_hot_word, .data.main_rebate_banner_2022_09, .data.user_center_slide_show_pic_2022, .data.user_center_mid_2022)"
+http-response-jq ^https:\/\/api\.17gwx\.com\/operate\/elements\? '
+.data |= with_entries(select(.key | test(
+  "home_mid_many|home_mid_banner_multi|user_center_slide_show_pic|newfeed_detail_oper_middle|main_rebate_banner|zhekou_coupon_detail_oper|zhekou_jdcoupon_detail_oper|zhekou_vipcoupon_detail_oper|zhekou_pddcoupon_detail_oper|search_new_user_hot_word|search_hot_word|user_center_mid_2022"
+) | not))
+'
 # >首页页面tap按钮
 http-response-jq ^https:\/\/api\.17gwx\.com\/v2\/homepage\/goodFeed\/tabList\? ".data.tab_list = []"
 # >返利页面tap按钮
