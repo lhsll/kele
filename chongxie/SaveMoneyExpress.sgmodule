@@ -1,1 +1,16 @@
-1
+#!name=Save Money Express
+#!desc=净化省钱快报广告
+
+[Map Local]
+# >开屏广告
+^https:\/\/api\.17gwx\.com\/v2\/base\/app\/ad\? data-type=text data="{}" status-code=200
+
+
+
+
+
+
+
+
+[MITM]
+hostname = %APPEND% api.17gwx.com
