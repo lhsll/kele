@@ -5,10 +5,6 @@
 [Map Local]
 # >开屏广告
 ^https:\/\/api\.17gwx\.com\/v2\/base\/app\/ad\? data-type=text data="{}" status-code=200
-# >首页页面商品分流
-#^https:\/\/api\.17gwx\.com\/v2\/homepage\/goodFeed\/listbytab data-type=text data="{}" status-code=200
-# >返利页面商品分流
-#^https:\/\/api\.17gwx\.com\/v2\/rebate\/channel\/list\? data-type=text data="{}" status-code=200
 # >我的页面商品分流
 ^https:\/\/api\.17gwx\.com\/v2\/recommend\/feed\/list\? data-type=text data="{}" status-code=200
 # >搜索热词
@@ -22,7 +18,7 @@ http-response-jq ^https:\/\/api\.17gwx\.com\/operate\/elements\? "del(.data.home
 # >首页页面tap按钮
 http-response-jq ^https:\/\/api\.17gwx\.com\/v2\/homepage\/goodFeed\/tabList\? ".data.tab_list = []"
 # >返利页面tap按钮
-http-response-jq https:\/\/api\.17gwx\.com\/v2\/rebate\/channel\/tabList\? ".data.tab_list = []"
+http-response-jq https:\/\/api\.17gwx\.com\/v2\/rebate\/channel\/tabList\? ".data |= (.insert_child_tab=0 | .search_word="" | .tab_list=[] | .insert_oper_tab=0)"
 
 [MITM]
 hostname = %APPEND% api.17gwx.com
