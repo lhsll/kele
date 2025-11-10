@@ -5,7 +5,7 @@
 [Map Local]
 # >开屏广告
 ^https:\/\/api\.17gwx\.com\/v2\/base\/app\/ad\? data-type=text data="{}" status-code=200
-# >首页分流
+# >首页商品分流
 https:\/\/api\.17gwx\.com\/v2\/homepage\/goodFeed\/listbytab data-type=text data="{}" status-code=200
 
 [Body Rewrite]
