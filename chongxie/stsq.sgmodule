@@ -5,6 +5,9 @@
 #!version=2.0.1
 #!APPdownload=https://apps.apple.com/us/app/id1576499990
 
+[Body Rewrite]
+# >首页VIP会员广告
+http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config "config_key=stsq_ios_home_vipl" "config_key="
 
 [URL Rewrite]
 # >开屏图片
@@ -18,7 +21,3 @@
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/article\/articleList - reject
 # >搜索页面横幅广告图片
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner - reject
-
-[Body Rewrite]
-# >首页VIP会员广告
-http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config "config_key=stsq_ios_home_vipl" "config_key="
