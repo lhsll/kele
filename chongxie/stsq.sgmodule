@@ -20,4 +20,4 @@
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner - reject
 [Body Rewrite]
 # >会员推广广告图重新定向
-http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig$ "config_key=stsq_ios_home_vipl" "config_key="
+http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config "config_key=stsq_ios_home_vipl" "config_key="
