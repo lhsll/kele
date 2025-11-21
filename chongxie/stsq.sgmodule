@@ -1,13 +1,15 @@
 #!name=搜图神器净化
-#!desc=屏蔽搜图神器广告与推广内容，清爽使用体验。
+#!desc=屏蔽搜图神器广告与推广内容，清爽使用体验(end)。
 #!author=XiaoYuanSama
 #!category=自用
-#!version=9.9.9
+#!version=9.9.9终极版
 #!APPdownload=https://apps.apple.com/us/app/id1576499990
 
 [Body Rewrite]
 # >去强制更新、启动页弹窗、买会员渠道配置、VIP 功能介绍、VIP 图片配置、App 更新提示
 http-request-jq ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfigs$ '.configKeys |= map(select(. as $x | [   "stsq_ios_force_to_update_v2",   "stsq_ios_app_update",   "stsq_ios_pay_channel_config_v2",   "stsq_ios_startup_popup",   "stsq_ios_home_vipImageUrlConfig",   "stsq_ios_vip_function_introduce" ] | index($x) | not))'
+http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig "config_key=stsq_ios_home_vipI" "config_key="
+
 [URL Rewrite]
 # >开屏图片
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/dateSignature\/random\? - reject
@@ -20,6 +22,3 @@ http-request-jq ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfigs$
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/article\/articleList - reject
 # >搜索页面横幅广告图片
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner - reject
-
-[Script]
-replaceBody = type=http-request,pattern=^http:\/\/wallpaper.soutushenqi.com\/v\d\/config,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js,requires-body=1,max-size=-1,timeout=30,argument=config_key%3Dstsq_ios_home_vipI-%3Econfig_key%3D,binary-body-mode=0,script-update-interval=-1
