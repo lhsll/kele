@@ -18,6 +18,7 @@
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/article\/articleList - reject
 # >搜索页面横幅广告图片
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner - reject
+
 [Body Rewrite]
-# >会员推广广告图重新定向
+# >首页VIP会员广告
 http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config "config_key=stsq_ios_home_vipl" "config_key="
