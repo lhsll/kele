@@ -20,3 +20,6 @@ http-request-jq ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfigs$
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/article\/articleList - reject
 # >搜索页面横幅广告图片
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner - reject
+
+[Script]
+replaceBody = type=http-request,pattern=^http:\/\/wallpaper.soutushenqi.com\/v\d\/config,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js,requires-body=1,max-size=-1,timeout=30,argument=config_key%3Dstsq_ios_home_vipI-%3Econfig_key%3D,binary-body-mode=0,script-update-interval=-1
