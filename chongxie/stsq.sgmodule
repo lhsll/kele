@@ -2,13 +2,12 @@
 #!desc=屏蔽搜图神器广告与推广内容，清爽使用体验。
 #!author=XiaoYuanSama
 #!category=自用
-#!version=2.0.1
+#!version=9.9.9
 #!APPdownload=https://apps.apple.com/us/app/id1576499990
 
 [Body Rewrite]
-# >首页VIP会员广告
-http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config "config_key=stsq_ios_home_vipl" "config_key="
-
+# >去强制更新、启动页弹窗、买会员渠道配置、VIP 功能介绍、VIP 图片配置、App 更新提示
+http-request-jq ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfigs$ '.configKeys |= map(select(. as $x | [   "stsq_ios_force_to_update_v2",   "stsq_ios_app_update",   "stsq_ios_pay_channel_config_v2",   "stsq_ios_startup_popup",   "stsq_ios_home_vipImageUrlConfig",   "stsq_ios_vip_function_introduce" ] | index($x) | not))'
 [URL Rewrite]
 # >开屏图片
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/dateSignature\/random\? - reject
