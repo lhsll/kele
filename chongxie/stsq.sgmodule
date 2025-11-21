@@ -18,5 +18,6 @@
 ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/article\/articleList - reject
 # >搜索页面横幅广告图片
 ^http:\/\/wallpaper\.soutushenqi\.com\/v2\/home\/banner - reject
+[Body Rewrite]
 # >会员推广广告图重新定向
-^http:\/\/gd-hbimg.huaban.com\/4301e675e02326ba9aca534e3ccdb56aae80e8c0e398e-LTiERc https://gd-hbimg.huaban.com/7e5b83054c0280c5142b76352df43fa9c751172465897-WQ4bma_fw480 302
+http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig$ "config_key=stsq_ios_home_vipl" "config_key="
