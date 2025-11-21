@@ -7,7 +7,7 @@
 
 [Body Rewrite]
 # >去强制更新、启动页弹窗、买会员渠道配置、VIP 功能介绍、VIP 图片配置、App 更新提示
-http-request-jq ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfigs$ '.configKeys |= map(select(. as $x | [   "stsq_ios_force_to_update_v2",   "stsq_ios_app_update",   "stsq_ios_pay_channel_config_v2",   "stsq_ios_startup_popup",   "stsq_ios_home_vipImageUrlConfig",   "stsq_ios_vip_function_introduce" ] | index($x) | not))'
+http-request-jq ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfigs$ '.configKeys |= map(select(. as $x | [   "stsq_ios_force_to_update_v2",   "stsq_ios_app_update",   "stsq_ios_pay_channel_config_v2",   "stsq_ios_startup_popup",   "stsq_wallpaper_sensitive_words_list",  "stsq_ios_home_vipImageUrlConfig",   "stsq_ios_vip_function_introduce" ] | index($x) | not))'
 http-request ^http:\/\/wallpaper\.soutushenqi\.com\/v1\/config\/queryConfig "config_key=stsq_ios_home_vipI" "config_key="
 
 [URL Rewrite]
