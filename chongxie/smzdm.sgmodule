@@ -4,7 +4,7 @@
 #!date=2025-06-26
 
 [Rule]
-DOMAIN,adx-api.zdmimg.com,REJECDOMAIN,adx-api.zdmimg.com,REJECT,extended-matching,pre-matching
+DOMAIN,adx-api.zdmimg.com,REJECT,extended-matching,pre-matching
 
 [URL Rewrite]
 ^https:\/\/h5\.smzdm\.com\/user\/coupon\/coupon_list\? - reject
