@@ -10,6 +10,7 @@ AND,((URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch"),(OR,((USER-AGENT,"%E9%97%B
 DOMAIN,amap-aos-info-nogw.amap.com,REJECT
 DOMAIN,free-aos-cdn-image.amap.com,REJECT
 DOMAIN-SUFFIX,v.smtcdns.com,REJECT
+DOMAIN,awaken.amap.com,REJECT
 
 [Rewrite]
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\? response-body-json-jq 'delpaths([["data","commonMaterial"]])'
