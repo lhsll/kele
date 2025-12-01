@@ -3,7 +3,7 @@
 #!author=RuCu6
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1020.png
 #!tag=广告
-#!date=2025-12-01
+#!date=2025-12-01 15:35
 
 [Rule]
 AND,((URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch"),(OR,((USER-AGENT,"%E9%97%B2%E9%B1%BC*"),(USER-AGENT,"%E6%B7%98%E5%AE%9D*"),(USER-AGENT,"Cainiao4iPhone*"),(USER-AGENT,"AMapiPhone*")))),REJECT
