@@ -3,7 +3,7 @@
 #!author=RuCu6
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1020.png
 #!tag=广告
-#!date=2025年08月10日 星期四
+#!date=2025-12-01
 
 [Rule]
 AND,((URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch"),(OR,((USER-AGENT,"%E9%97%B2%E9%B1%BC*"),(USER-AGENT,"%E6%B7%98%E5%AE%9D*"),(USER-AGENT,"Cainiao4iPhone*"),(USER-AGENT,"AMapiPhone*")))),REJECT
@@ -32,33 +32,33 @@ DOMAIN-SUFFIX,v.smtcdns.com,REJECT
 ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/pay\/web\/paySuccess\/info\/request mock-response-body data-type=text data="{}" status-code=200
 
 [Script]
-http-response ^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除路线规划推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除路线规划推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除路线规划、导航结束页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除路线规划、导航结束页推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/c3frontend\/(?:af-(?:hotel|launch)\/page\/main|af-nearby\/nearby) script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除导航详情页底部酒店、处理附近页
+http-response ^https:\/\/m5\.amap\.com\/ws\/c3frontend\/(?:af-(?:hotel|launch)\/page\/main|af-nearby\/nearby) script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除导航详情页底部酒店、处理附近页
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(?:routeInfo|routePlan) script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除路线规划推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(?:routeInfo|routePlan) script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除路线规划推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_bff\/hotword\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除搜索栏推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_bff\/hotword\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除搜索栏推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(?:mps|search\/sp|sug|tips_operation_location) script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除搜索详情页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(?:mps|search\/sp|sug|tips_operation_location) script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除搜索详情页推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:card-service-plan-home|main-page) script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:card-service-plan-home|main-page) script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除首页推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除首页推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除我的页面推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除我的页面推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除附近页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除附近页推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除开屏广告
 
-http-response ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:car\/order\/content_info|order_web\/friendly_information) script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除打车页推广卡片、弹窗
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:car\/order\/content_info|order_web\/friendly_information) script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除打车页推广卡片、弹窗
 
-http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除打车页红点角标、天气图标
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\? script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除打车页红点角标、天气图标
 
-http-response ^https:\/\/(?:info|m5)\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail) script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除导航详情页推广
+http-response ^https:\/\/(?:info|m5)\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail) script-path=https://github.com/lhsll/kele/blob/main/chongxie/Script/Amap_remove_ads.js, requires-body=true, tag=移除导航详情页推广
 
 [MITM]
 hostname = m5.amap.com, m5-zb.amap.com, oss.amap.com, sns.amap.com, ai.amap.com
