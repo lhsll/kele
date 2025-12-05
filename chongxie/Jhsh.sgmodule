@@ -15,6 +15,7 @@ DOMAIN,o2o-ad-log-gateway.alibaba.com,REJECT
 
 [Body Rewrite]
 http-response ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\? "TAG_AD_INFO" "kele"
+
 http-response ^https?:\/\/waimai-guide\.ele\.me\/\w+\/mtop\.venus\.shopresourceservice\.getshopresource posterList kele
 
 [Map Local]
