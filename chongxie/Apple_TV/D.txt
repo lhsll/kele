@@ -1,18 +1,20 @@
 # 手动规则: 以下规则优先级最高 不参与规则数量统计
 
 
-# 更新时间: 2025/11/11 16:10:23
-# 规则数量：当前共 430 条规则
+# 更新时间: 2025/12/24 22:55:02
+# 规则数量：当前共 450 条规则
 
 DOMAIN,clipmaster.huami.dev
 DOMAIN,dm.lxlad.com
 DOMAIN,emusica.91bp.dpdns.org
 DOMAIN,emusica.dhyy.eu.org
+DOMAIN,open.bigmodel.cn
 DOMAIN-SUFFIX,0kkkkkt.com
 DOMAIN-SUFFIX,123865.com
 DOMAIN-SUFFIX,123957.com
 DOMAIN-SUFFIX,123pan.com
 DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,17gwx.com
@@ -30,6 +32,7 @@ DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,adtrafficquality.google
 DOMAIN-SUFFIX,ahdohpiechei.com
 DOMAIN-SUFFIX,aicdn.com
+DOMAIN-SUFFIX,ali213.net
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabachengdun.com
@@ -51,6 +54,7 @@ DOMAIN-SUFFIX,anasit.com
 DOMAIN-SUFFIX,anticheatexpert.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,apptools.fun
 DOMAIN-SUFFIX,appvipshop.com
 DOMAIN-SUFFIX,autonavi.com
@@ -94,9 +98,9 @@ DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,cnzz.com
+DOMAIN-SUFFIX,code-abc.com
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,cpatrk.net
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,csdn.net
 DOMAIN-SUFFIX,cucloud.top
 DOMAIN-SUFFIX,cydia.pro
@@ -119,6 +123,7 @@ DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,dpfile.com
 DOMAIN-SUFFIX,duitang.com
 DOMAIN-SUFFIX,dumpapp.com
 DOMAIN-SUFFIX,easytomessage.com
@@ -128,7 +133,9 @@ DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,ele.me
 DOMAIN-SUFFIX,elemecdn.com
 DOMAIN-SUFFIX,extfans.com
+DOMAIN-SUFFIX,fanrr.sbs
 DOMAIN-SUFFIX,fengimg.com
+DOMAIN-SUFFIX,gamersky.com
 DOMAIN-SUFFIX,gaoding.com
 DOMAIN-SUFFIX,gcloudcs.com
 DOMAIN-SUFFIX,gcloudgbs.com
@@ -160,6 +167,8 @@ DOMAIN-SUFFIX,id6.me
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,ihsiao.com
 DOMAIN-SUFFIX,ilxdh.com
+DOMAIN-SUFFIX,immersity.ai
+DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,intsig.net
 DOMAIN-SUFFIX,iplcnetwork.com
 DOMAIN-SUFFIX,ithome.com
@@ -168,6 +177,7 @@ DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jin10.com
 DOMAIN-SUFFIX,kajicam.com
 DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,koukoutu.com
 DOMAIN-SUFFIX,ksord.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,lenglengyu.com
@@ -199,18 +209,24 @@ DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,niceios.com
+DOMAIN-SUFFIX,noncurious.com
+DOMAIN-SUFFIX,obgg.net
 DOMAIN-SUFFIX,oceanengine.com
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,qduoduo.xyz
 DOMAIN-SUFFIX,qhimgs1.com
 DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,qiubiaoqing.com
+DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qnqcdn.net
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qqan.com
 DOMAIN-SUFFIX,qsios.com
+DOMAIN-SUFFIX,qy96596.com
+DOMAIN-SUFFIX,salesmartly.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,sealaly.net
@@ -262,6 +278,7 @@ DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,vvebo.vip
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,wfdata.club
 DOMAIN-SUFFIX,wolai.com
@@ -284,14 +301,17 @@ DOMAIN-SUFFIX,yisou.com
 DOMAIN-SUFFIX,youbanenglish.com
 DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,youzan.com
 DOMAIN-SUFFIX,yttxcs.com
 DOMAIN-SUFFIX,yunzhanxinxi.com
+DOMAIN-SUFFIX,yushe.org
 DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-SUFFIX,zhezhi.tech
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhonshian.com
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,zj96596.com
 DOMAIN-SUFFIX,ztedevices.com
 DOMAIN-SUFFIX,ztems.com
 DOMAIN-SUFFIX,zztfly.com
