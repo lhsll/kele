@@ -13,9 +13,9 @@ http-response-jq "^https:\/\/api\.chenlongtech\.cn\/v1\/party\/config\?page=amus
 http-response-jq ^https:\/\/api\.chenlongtech\.cn\/uki\/v1\/chatPartyFeed {}
 
 [Map Local]
-^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs data-type=file data="Scripts/广告 & UKi/0C6A8C1A.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/homePageTabs data-type=file data="Scripts/UKi/0C6A8C1A.json"
 
-^https:\/\/api\.chenlongtech\.cn\/v1\/user\/userCenterProjects\? data-type=file data="Scripts/广告 & UKi/9506C66A.json"
+^https:\/\/api\.chenlongtech\.cn\/v1\/user\/userCenterProjects\? data-type=file data="Scripts/‸UKi/9506C66A.json"
 
 ^https:\/\/api\.chenlongtech\.cn\/v1\/friends\/startInfo\?firstOpen=0$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
