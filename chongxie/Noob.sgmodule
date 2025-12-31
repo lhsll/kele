@@ -1,8 +1,8 @@
 #!name=菜鸟去广告
-#!desc=过滤菜鸟广告
+#!desc=过滤菜鸟广告修改版
 #!author=小白脸
 #!category=广告
-#!date=2025-12-31 12:41:25
+#!date=2025-12-31 13:23:52
 
 [URL Rewrite]
 ^https:\/\/nbcps-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.nbcps\.presentation\.fetch\.cn - reject
