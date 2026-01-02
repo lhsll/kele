@@ -12,7 +12,7 @@
 
 [Body Rewrite]
 # >修改部分「顶部金刚区|底栏|我的页面」@kele
-http-response-jq ^https:\/\/e2e-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch 'del(..|.mainSearch?,.wallet?,.green?,.searchContents?) | (..|.items?|select(type=="array")) |= map(select(.title=="取包裹" or .title=="寄包裹" or .title=="出库码" or .title=="快递电话" or .materialContentMapper.title=="首页" or .materialContentMapper.title=="我的"))'
+http-response-jq ^https:\/\/(cn-acs\.m|e2e-mtop)\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch 'del(..|.mainSearch?,.wallet?,.green?,.searchContents?)|(..|.items?|select(type=="array"))|=map(select(.type!="vip3_horizontal_bar" and (.title=="取包裹" or .title=="寄包裹" or .title=="出库码" or .title=="快递电话" or .materialContentMapper.title=="首页" or .materialContentMapper.title=="我的")))'
 
 http-response-jq ^https:\/\/e2e-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\.cn 'del(.data.data.banner, .data.data.activity, .data.data.vip)'
 http-response-jq ^https:\/\/longquan-mtop\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn 'del(.data.result.placeContentMap["780001"].contentList)'
