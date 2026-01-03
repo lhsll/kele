@@ -2,7 +2,7 @@
 #!desc=自用部分做了修改
 #!author=小白脸
 #!category=广告
-#!date=2026-01-03 00:27
+#!date=2026-01-03 10:52
 
 [URL Rewrite]
 ^https:\/\/nbcps-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.nbcps\.presentation\.fetch\.cn - reject
