@@ -4,7 +4,7 @@
 
 [Body Rewrite]
 # > 全能扫描王
-http-response-jq https:\/\/(api|api-cs)-cn\.intsig\.net\/purchase\/cs\/query_property\? '{"data":{"psnl_vip_property":{"expiry":4102415999,"svip":1,"nxt_renew_tm":4102415999}}}'
+http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=Scripts/Super Member/CamScanner.js
 
 [MITM]
 hostname = %APPEND% ap*.intsig.net
