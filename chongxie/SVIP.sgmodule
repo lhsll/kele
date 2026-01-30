@@ -2,10 +2,9 @@
 #!desc=VIP Member
 #!category=Premium Member
 
-[Script]
-
-# > 轻图解锁永久专业版
-QingTu = type=http-request, pattern=^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info), script-path=Scripts/Super Member/QT.js, timeout=60
+[Body Rewrite]
+# > 全能扫描王
+http-response-jq https:\/\/(api|api-cs)-cn\.intsig\.net\/purchase\/cs\/query_property\? '{"data":{"psnl_vip_property":{"expiry":4102415999,"svip":1,"nxt_renew_tm":4102415999}}}'
 
 [MITM]
-hostname = %APPEND% purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com
+hostname = %APPEND% ap*.intsig.net
