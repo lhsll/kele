@@ -2,7 +2,7 @@
 #!desc=VIP Member
 #!category=Premium Member
 
-[Body Rewrite]
+[Script]
 # > 全能扫描王
 http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=Scripts/Super Member/CamScanner.js
 
