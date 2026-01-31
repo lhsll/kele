@@ -2,12 +2,14 @@
 #!desc=屏蔽酷安内所有广告、推广、追踪及日志上报
 #!category=广告
 #!author=RuCu6
-#!date=2025-07-28
+#!date=2026-01-31
 
 [Map Local]
 ^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data-type=text data="{}" status-code=200
 
 [Body Rewrite]
+http-response-jq "^https:\/\/api\.coolapk\.com\/v6\/feed\/detail\?fromApi=" del(.data.detailSponsorCard)
+
 http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\? "del(.data[] | select(.entityId == 14809 or .entityId == 1005 or .entityId == 1004 or .entityId == 1001))"
 
 http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/main\/indexV8\? 'if .data | length > 0 then .data |= map(select(.entityTemplate != "sponsorCard" and .entityId != 8639 and .entityId != 29349 and .entityId != 33006 and .entityId != 32557 and (.title | contains("值得买") | not) and (.title | contains("红包") | not) and .extraDataArr.cardPageName != "V8_APP_HEADLINE" and .extraDataArr.cardPageName != "V8_APP_HEADLINE_AD")) else . end'
