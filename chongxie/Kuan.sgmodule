@@ -8,7 +8,7 @@
 ^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data-type=text data="{}" status-code=200
 
 [Body Rewrite]
-http-response-jq "^https:\/\/api\.coolapk\.com\/v6\/feed\/detail\?fromApi=" del(.data.detailSponsorCard)
+http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/feed\/detail\?fromApi "del(.data.include_goods, .data.include_goods_ids, .data.is_include_goods, .data.goodsDisplayLimit, .data.detailSponsorCard)"
 
 http-response-jq ^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\? "del(.data[] | select(.entityId == 14809 or .entityId == 1005 or .entityId == 1004 or .entityId == 1001))"
 
