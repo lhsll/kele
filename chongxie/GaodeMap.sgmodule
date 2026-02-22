@@ -2,7 +2,7 @@
 #!desc=过滤高德地图开屏广告、各页面推广，精简我的页面。
 #!author=RuCu6|kelv1n1n
 #!category=广告
-#!date=20251205
+#!date=2026-02-22 11:26
 
 [Rule]
 DOMAIN,amap-aos-info-nogw.amap.com,REJECT,extended-matching,pre-matching
