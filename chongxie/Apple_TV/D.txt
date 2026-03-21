@@ -1,9 +1,10 @@
 # 手动规则: 以下规则优先级最高 不参与规则数量统计
 
 
-# 更新时间: 2025/12/24 22:55:02
-# 规则数量：当前共 450 条规则
+# 更新时间: 2026/3/20 16:09:10
+# 规则数量：当前共 515 条规则
 
+DOMAIN,api.siliconflow.cn
 DOMAIN,clipmaster.huami.dev
 DOMAIN,dm.lxlad.com
 DOMAIN,emusica.91bp.dpdns.org
@@ -24,6 +25,7 @@ DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,360doc.com
 DOMAIN-SUFFIX,360kan.com
+DOMAIN-SUFFIX,51.la
 DOMAIN-SUFFIX,59wanmei.com
 DOMAIN-SUFFIX,5tmovice.com
 DOMAIN-SUFFIX,72.chat
@@ -32,8 +34,11 @@ DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,adtrafficquality.google
 DOMAIN-SUFFIX,ahdohpiechei.com
 DOMAIN-SUFFIX,aicdn.com
+DOMAIN-SUFFIX,aigei.com
+DOMAIN-SUFFIX,ainfinit.com
 DOMAIN-SUFFIX,ali213.net
 DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,alibaba-inc.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabachengdun.com
 DOMAIN-SUFFIX,alibabausercontent.com
@@ -58,6 +63,7 @@ DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,apptools.fun
 DOMAIN-SUFFIX,appvipshop.com
 DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,b612kaji.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bcebos.com
@@ -69,14 +75,19 @@ DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,biyingniao.com
+DOMAIN-SUFFIX,bootcss.com
 DOMAIN-SUFFIX,bsbsb.top
+DOMAIN-SUFFIX,byteacctimg.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,bytednsdoc.com
 DOMAIN-SUFFIX,byteeffecttos.com
 DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytescm.com
 DOMAIN-SUFFIX,bytetos.com
 DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,caiyunapp.com
@@ -87,7 +98,9 @@ DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,ccbft.com
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cdnb.net
 DOMAIN-SUFFIX,cdntips.net
+DOMAIN-SUFFIX,cdsb.com
 DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,chu0.com
 DOMAIN-SUFFIX,cjjd14.com
@@ -97,6 +110,7 @@ DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,cnblogs.com
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,code-abc.com
 DOMAIN-SUFFIX,coolapk.com
@@ -110,12 +124,14 @@ DOMAIN-SUFFIX,cydiakk.com
 DOMAIN-SUFFIX,dancf.com
 DOMAIN-SUFFIX,deepinstall.com
 DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseeksvc.com
 DOMAIN-SUFFIX,diandian.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,douyin.com
@@ -130,11 +146,13 @@ DOMAIN-SUFFIX,easytomessage.com
 DOMAIN-SUFFIX,ecombdapi.com
 DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,effirst.com
+DOMAIN-SUFFIX,eidlink.com
 DOMAIN-SUFFIX,ele.me
 DOMAIN-SUFFIX,elemecdn.com
 DOMAIN-SUFFIX,extfans.com
 DOMAIN-SUFFIX,fanrr.sbs
 DOMAIN-SUFFIX,fengimg.com
+DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,gamersky.com
 DOMAIN-SUFFIX,gaoding.com
 DOMAIN-SUFFIX,gcloudcs.com
@@ -148,11 +166,15 @@ DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gimbalengine.com
+DOMAIN-SUFFIX,gitcode.com
+DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,gumingnc.com
 DOMAIN-SUFFIX,gylm2020.com
 DOMAIN-SUFFIX,gzmiyuan.com
 DOMAIN-SUFFIX,hdslb.com
@@ -163,18 +185,25 @@ DOMAIN-SUFFIX,huabanimg.com
 DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,hypergryph.com
 DOMAIN-SUFFIX,hzchengdun.com
+DOMAIN-SUFFIX,ibytedapm.com
+DOMAIN-SUFFIX,icc.link
 DOMAIN-SUFFIX,id6.me
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,ihsiao.com
 DOMAIN-SUFFIX,ilxdh.com
 DOMAIN-SUFFIX,immersity.ai
 DOMAIN-SUFFIX,immersivetranslate.com
+DOMAIN-SUFFIX,inch.red
 DOMAIN-SUFFIX,intsig.net
 DOMAIN-SUFFIX,iplcnetwork.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jdcloud-oss.com
 DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,jianshu.com
+DOMAIN-SUFFIX,jiaxiangxm.com
 DOMAIN-SUFFIX,jin10.com
+DOMAIN-SUFFIX,joying.com
 DOMAIN-SUFFIX,kajicam.com
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,koukoutu.com
@@ -183,6 +212,7 @@ DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,lenglengyu.com
 DOMAIN-SUFFIX,lizhi.shop
 DOMAIN-SUFFIX,lkcoffee.com
+DOMAIN-SUFFIX,loliapi.com
 DOMAIN-SUFFIX,luckincoffeecdn.com
 DOMAIN-SUFFIX,luckincoffeeshop.com
 DOMAIN-SUFFIX,lufff.com
@@ -199,6 +229,7 @@ DOMAIN-SUFFIX,mi-fds.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,mijia.tech
+DOMAIN-SUFFIX,mintimate.cc
 DOMAIN-SUFFIX,miot-spec.org
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,mknacg.top
@@ -207,33 +238,42 @@ DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mxbc.net
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,ndcpp.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,niceios.com
 DOMAIN-SUFFIX,noncurious.com
 DOMAIN-SUFFIX,obgg.net
 DOMAIN-SUFFIX,oceanengine.com
+DOMAIN-SUFFIX,oschina.net
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,qcloudimg.com
 DOMAIN-SUFFIX,qduoduo.xyz
 DOMAIN-SUFFIX,qhimgs1.com
 DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,qiubiaoqing.com
+DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qnqcdn.net
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qqan.com
 DOMAIN-SUFFIX,qsios.com
 DOMAIN-SUFFIX,qy96596.com
+DOMAIN-SUFFIX,rcuts.com
+DOMAIN-SUFFIX,ruaibeite.space
 DOMAIN-SUFFIX,salesmartly.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,sankuai.com
+DOMAIN-SUFFIX,scripting.fun
 DOMAIN-SUFFIX,sealaly.net
+DOMAIN-SUFFIX,searchpstatp.com
 DOMAIN-SUFFIX,secu100.net
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,shujupie.com
 DOMAIN-SUFFIX,shuqireader.com
+DOMAIN-SUFFIX,shyingt.asia
 DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snailovet.com
@@ -248,6 +288,7 @@ DOMAIN-SUFFIX,soogif.com
 DOMAIN-SUFFIX,soutushenqi.com
 DOMAIN-SUFFIX,sqkb.com
 DOMAIN-SUFFIX,ssdzg.com
+DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,staybrowser.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,taobao.com
@@ -273,8 +314,10 @@ DOMAIN-SUFFIX,upqzfile.com
 DOMAIN-SUFFIX,vegslb.com
 DOMAIN-SUFFIX,versa-ai.com
 DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volceapplog.com
 DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volcvod.com
 DOMAIN-SUFFIX,vvebo.vip
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
@@ -284,7 +327,11 @@ DOMAIN-SUFFIX,wfdata.club
 DOMAIN-SUFFIX,wolai.com
 DOMAIN-SUFFIX,wondershare.cc
 DOMAIN-SUFFIX,woozooo.com
+DOMAIN-SUFFIX,wsocket.xyz
+DOMAIN-SUFFIX,wulonglin.xyz
 DOMAIN-SUFFIX,wxcloudrun.com
+DOMAIN-SUFFIX,wxgateway.com
+DOMAIN-SUFFIX,wzrygcht.com
 DOMAIN-SUFFIX,xbase.cloud
 DOMAIN-SUFFIX,xhey.top
 DOMAIN-SUFFIX,xhscdn.com
@@ -297,6 +344,8 @@ DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,xmeye.net
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,yesha.icu
+DOMAIN-SUFFIX,yhgfb-cn-static.com
 DOMAIN-SUFFIX,yisou.com
 DOMAIN-SUFFIX,youbanenglish.com
 DOMAIN-SUFFIX,youdao.com
@@ -306,9 +355,11 @@ DOMAIN-SUFFIX,yttxcs.com
 DOMAIN-SUFFIX,yunzhanxinxi.com
 DOMAIN-SUFFIX,yushe.org
 DOMAIN-SUFFIX,zdmimg.com
+DOMAIN-SUFFIX,zetatechs.com
 DOMAIN-SUFFIX,zhezhi.tech
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zhonshian.com
 DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,zj96596.com
@@ -330,6 +381,7 @@ IP-CIDR,111.10.32.0/20
 IP-CIDR,111.19.240.0/21
 IP-CIDR,111.2.64.0/19
 IP-CIDR,111.3.80.0/20
+IP-CIDR,111.30.183.0/24
 IP-CIDR,111.30.187.0/24
 IP-CIDR,111.31.240.0/21
 IP-CIDR,111.31.96.0/20
@@ -340,6 +392,7 @@ IP-CIDR,111.6.164.0/22
 IP-CIDR,111.6.184.0/21
 IP-CIDR,111.62.167.0/24
 IP-CIDR,111.62.192.0/19
+IP-CIDR,112.13.210.0/24
 IP-CIDR,112.13.216.0/24
 IP-CIDR,112.13.92.0/24
 IP-CIDR,112.47.0.0/16
@@ -360,6 +413,7 @@ IP-CIDR,116.16.0.0/12
 IP-CIDR,116.63.32.0/19
 IP-CIDR,117.135.148.0/23
 IP-CIDR,117.135.155.0/24
+IP-CIDR,117.135.156.0/23
 IP-CIDR,117.144.228.0/23
 IP-CIDR,117.147.180.0/22
 IP-CIDR,117.147.184.0/22
@@ -368,7 +422,10 @@ IP-CIDR,117.147.208.0/22
 IP-CIDR,117.149.216.0/21
 IP-CIDR,117.162.0.0/19
 IP-CIDR,117.162.32.0/19
+IP-CIDR,117.169.96.0/24
 IP-CIDR,117.175.8.0/21
+IP-CIDR,117.185.24.0/23
+IP-CIDR,117.185.248.0/21
 IP-CIDR,117.60.0.0/14
 IP-CIDR,117.89.176.0/21
 IP-CIDR,118.212.0.0/16
@@ -376,6 +433,7 @@ IP-CIDR,119.144.0.0/14
 IP-CIDR,119.29.29.0/24
 IP-CIDR,120.192.80.0/21
 IP-CIDR,120.201.96.0/19
+IP-CIDR,120.204.0.0/20
 IP-CIDR,120.226.146.0/24
 IP-CIDR,120.232.130.0/24
 IP-CIDR,120.232.24.0/24
@@ -405,16 +463,22 @@ IP-CIDR,182.254.116.0/24
 IP-CIDR,182.254.127.255/32
 IP-CIDR,183.0.0.0/10
 IP-CIDR,183.128.0.0/11
+IP-CIDR,183.192.192.0/21
 IP-CIDR,183.194.184.0/21
+IP-CIDR,183.194.232.0/21
 IP-CIDR,183.216.160.0/22
 IP-CIDR,183.232.0.0/16
+IP-CIDR,183.242.6.0/24
 IP-CIDR,183.246.192.0/23
 IP-CIDR,183.249.96.0/20
+IP-CIDR,202.90.108.0/22
 IP-CIDR,203.119.192.0/19
 IP-CIDR,203.119.224.0/19
 IP-CIDR,203.76.216.0/22
 IP-CIDR,220.184.0.0/13
+IP-CIDR,221.178.12.0/22
 IP-CIDR,221.178.63.0/24
+IP-CIDR,221.181.98.0/23
 IP-CIDR,221.229.52.0/23
 IP-CIDR,222.189.172.0/23
 IP-CIDR,223.109.112.0/21
@@ -451,6 +515,7 @@ IP-CIDR,59.82.112.0/21
 IP-CIDR,59.82.12.0/22
 IP-CIDR,59.82.120.0/21
 IP-CIDR,59.82.32.0/21
+IP-CIDR,60.163.160.0/20
 IP-CIDR,61.147.0.0/16
 IP-CIDR,61.164.147.0/24
 IP-CIDR,61.174.42.0/23
