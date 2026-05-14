@@ -366,6 +366,15 @@ DOMAIN-SUFFIX,zj96596.com
 DOMAIN-SUFFIX,ztedevices.com
 DOMAIN-SUFFIX,ztems.com
 DOMAIN-SUFFIX,zztfly.com
+DOMAIN,api.1000gxf.com
+DOMAIN,api.rrmj.plus
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,api.xiaojizy.live
+DOMAIN,apiyutu.com
+DOMAIN,api.wujinapi.cc
+DOMAIN,hsckzy888.com
+DOMAIN,bfzyapi.com
+DOMAIN,shayuapi.com
 IP-CIDR,101.226.0.0/16
 IP-CIDR,101.50.8.0/22
 IP-CIDR,101.80.0.0/12
