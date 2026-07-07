@@ -7,7 +7,7 @@
 DOMAIN,danmuapi1.3096666.xyz
 DOMAIN,api.danmu.icu
 DOMAIN,api.dandanplay.net
-DOMAIN.dm.video.qq.com
+DOMAIN,dm.video.qq.com
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
 DOMAIN-SUFFIX,amemv.com
