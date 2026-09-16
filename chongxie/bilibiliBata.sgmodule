@@ -16,6 +16,7 @@
 ^https?:\/\/(grpc\.biliapi\.net|app\.biliapi\.net|app\.bilibili\.com|app\.biliapi\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ data-type=base64 data="AAAAAAA=" status-code=200 header="Content-Type:application/grpc|Content-Length:5"
 # 去除搜索中的大家都在搜
 ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words data-type=text data="{}" header="application/json"
+^https:\/\/app\.bilibili\.com\/x\/v2\/search\/recommend\? data-type=text data="{}" header="application/json"
 # 去除动态中的话题
 ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr data-type=text data="{}" header="application/json"
 # 去除动态中的最常访问
