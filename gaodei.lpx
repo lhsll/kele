@@ -15,6 +15,8 @@ DOMAIN,free-aos-cdn-image.amap.com,REJECT
 DOMAIN-SUFFIX,v.smtcdns.com,REJECT
 
 [Rewrite]
+response if ${url} ~= /^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?/ then response.json.jq(".data.cardList |= map(select(.dataKey == \"MineNewFootprintCard\" or .dataKey == \"MineNewVirtualAssetCardV3\" or .dataKey == \"MineNewBEntranceCardV4\" or .dataKey == \"MineNewBEntranceCardV3\" or .dataKey == \"MineUserEmblemCardV2\") | if .dataKey == \"MineNewVirtualAssetCardV3\" then .content.ownedList |= map(del(.bottomTips)) elif (.dataKey == \"MineNewBEntranceCardV4\" or .dataKey == \"MineNewBEntranceCardV3\") then .content.entranceList_1 |= map(select(.title == \"订单\" or .title == \"收藏\" or .title == \"待评价\" or .title == \"钱包卡券\")) | .content.entranceList_2 |= map(select(.title == \"高德运动\" or .title == \"高德代驾\" or .title == \"高德油耗\" or .title == \"工具箱\")) else . end)")
+
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\? response-body-json-del data.commonMaterial data.tipsOperationLocation data.resourcePlacement
 ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/homepage\? response-body-json-del history_tags
 ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\? response-body-json-del data.carTips.data.popupInfo
@@ -51,7 +53,7 @@ http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:card-servi
 
 http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除首页推广
 
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除我的页面推广
+#http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除我的页面推广
 
 http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\? script-path=https://kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js, requires-body=true, tag=移除附近页推广
 
