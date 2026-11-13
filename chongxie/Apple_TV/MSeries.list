@@ -1,0 +1,50 @@
+
+# ---------- [0. 矩阵通用服务与配置] ----------
+DOMAIN-SUFFIX,gdzhimou.com
+
+# ------- [1. B 站 / 哔哩哔哩 (MVision)] -----
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliimg.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,bsbsb.top
+
+# ---------- [2. 抖音 / 字节跳动 (MFlow)] ----------
+DOMAIN,lf3-static.bytednsdoc.com
+DOMAIN,v5-dy-o-abtest.zjcdn.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytevod.com
+DOMAIN-SUFFIX,bytetos.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,ixiguavideo.com
+
+# ---------- [3. 网易云音乐 (MMuse)] ----------
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,ydstatic.com
+
+# ---------- [4. 果果短剧 (MGuo)] ----------
+DOMAIN-SUFFIX,hongguoduanju.com
+DOMAIN-SUFFIX,fqnovel.com
