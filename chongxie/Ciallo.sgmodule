@@ -27,9 +27,6 @@ DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
 # >掌上银行首页随机弹窗
 ^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId data-type=text data="{}" status-code=200
 
-# >ChatGPT关联词提示
-#^https?:\/\/ios\.chat\.openai\.com\/backend-api\/prompt_library\/\?offset=0&limit=4  data-type=text data="{}" status-code=200
-
 # >飞智游戏开屏
 ^https?:\/\/api\.flydigi\.com\/ios\/appstore\/update data-type=text data="{}" status-code=200
 
