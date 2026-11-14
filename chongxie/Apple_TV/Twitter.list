@@ -1,0 +1,17 @@
+# 手动规则: 以下规则优先级最高 不参与规则数量统计
+
+
+# 更新时间: 2026/3/7 01:27:12
+# 规则数量：当前共 9 条规则
+
+# > Twitter
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com

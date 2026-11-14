@@ -1,0 +1,16 @@
+# App Store
+# Store content such as apps, books, and music
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
+DOMAIN,ppq.apple.com // Enterprise App validation
+# > App Store Connect
+DOMAIN,appstoreconnect.apple.com
+DOMAIN,iosapps-ssl.itunes.apple.com
+DOMAIN,itcmobile.itunes.apple.com
+DOMAIN,pancake.apple.com // Added for: pancake.apple.com:443
+DOMAIN,api.revenuecat.com
+DOMAIN-SUFFIX,apps.mzstatic.com

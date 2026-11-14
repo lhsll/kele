@@ -1,0 +1,118 @@
+# 手动规则: 以下规则优先级最高 不参与规则数量统计
+
+
+# 更新时间: 2026/3/7 01:27:12
+# 规则数量：当前共 90 条规则
+
+DOMAIN-KEYWORD,chatgpt-async-webps-prod-
+DOMAIN-SUFFIX,webpubsub.azure.com
+DOMAIN-KEYWORD,openaicom-api-
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,host.livekit.cloud
+DOMAIN,openai.com.cdn.cloudflare.net
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,turn.livekit.cloud
+DOMAIN,openaicom.imgix.net
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN,api.githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,sydney.bing.com
+DOMAIN,api.githubcopilot.com
+DOMAIN,models.inference.ai.azure.com
+DOMAIN,ai.google.dev
+DOMAIN,aida.googleapis.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,bard.google.com
+DOMAIN,deepmind.com
+DOMAIN,deepmind.google
+DOMAIN,geller-pa.googleapis.com
+DOMAIN,gemini.google
+DOMAIN,gemini.google.com
+DOMAIN,generativeai.google
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,makersuite.google.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,notebooklm.google
+DOMAIN,notebooklm.google.com
+DOMAIN,jules.google
+DOMAIN,jules.google.com
+DOMAIN,labs.google
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN,chat.mistral.ai
+DOMAIN,console.mistral.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN,api.x.ai
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,tokenflux.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN,api.hyperbolic.xyz
+DOMAIN-SUFFIX,hyperbolic.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,jina.ai
+DOMAIN-SUFFIX,voyageai.com
+DOMAIN,aiplatform.googleapis.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,cerebras.ai
+DOMAIN,ai-gateway.vercel.sh
+DOMAIN,router.huggingface.co
+DOMAIN,integrate.api.nvidia.com
+DOMAIN-SUFFIX,kiro.dev
+DOMAIN-SUFFIX,cerebras.ai
+DOMAIN-SUFFIX,minimax.io
+DOMAIN-SUFFIX,z.ai
+DOMAIN-KEYWORD,antigravity-auto-updater-
+DOMAIN-SUFFIX,run.app
+# >公益站
+DOMAIN-SUFFIX,xxworld.org
+DOMAIN-SUFFIX,siliconflow.com
+DOMAIN-SUFFIX,computetoken.ai
+DOMAIN-SUFFIX,wsocket.xyz
+DOMAIN,api.dabo.im // Added for: api.dabo.im:443
+DOMAIN,token.rose980.eu.cc // Added for: token.rose980.eu.cc:443
+DOMAIN,ai.dooo.ng // Added for: ai.dooo.ng:443
+DOMAIN,new.xem8k5.top
+DOMAIN,ai.xem8k5.top // Added for: ai.xem8k5.top:443
+DOMAIN,codex.ciii.club // Added for: codex.ciii.club:443
+DOMAIN,api.b.ai // Added for: api.b.ai:443
+DOMAIN,api.y-api.bestvirtualgoods.com // Added for: api.y-api.bestvirtualgoods.com:443
+DOMAIN-SUFFIX,agentrouter.org // agentrouter.org
+DOMAIN-SUFFIX,ingest.us.sentry.io,extended-matching
+DOMAIN,api.tokenjuice.ai // Added for: api.tokenjuice.ai:443

@@ -1,0 +1,11 @@
+# > Outlook
+DOMAIN,outlook.office365.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,smtp.office365.com
+
+# >Gmail
+DOMAIN,hero-sms.io
+DOMAIN,www.googleapis.com
+DOMAIN,smtp.gmail.com
+DOMAIN,imap.gmail.com
+DOMAIN,mail.seek.li
